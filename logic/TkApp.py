@@ -38,13 +38,13 @@ class TkApp:
         try:
             response = requests.get(f"{self.API_URL}", params={"": data1, "": data2})
             response.raise_for_status()
-            sales = response.json()
+            final_data = response.json()
 
             # Display results
             result_window = tk.Toplevel(self.master)
             result_window.title("Data")
-            for i, sale in enumerate(sales):
-                ttk.Label(result_window, text=str(sale)).grid(row=i, column=0, padx=10, pady=5)
+            for i, final_data in enumerate(final_data):
+                ttk.Label(result_window, text=str(final_data)).grid(row=i, column=0, padx=10, pady=5)
         except Exception as e:
             messagebox.showerror("Error", f"Failed to fetch data: {e}")
 
