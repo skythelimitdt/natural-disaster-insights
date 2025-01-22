@@ -1,0 +1,655 @@
+DisNo,ImpactID,Historic,Classification_Key,Disaster_Group,Disaster_Subgroup,Disaster_Type,Disaster_Subtype,Event_Name,OFDA_BHA_Response,Appeal,Declaration,Origin,Associated_Types,Magnitude,Magnitude_Scale,Start_Date,End_Date,duration
+2000-0021-USA,5cdf3bcf14b636dcea834bde8a1d89fa,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2000-01-02,2000-01-04,2
+2000-0067-USA,5370ecca580bd7737acae78e8d820169,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,249.0,Kph,2000-02-13,2000-02-14,1
+2000-0080-USA,aee9ba2fd62e6a9ad6c976d5503c5011,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,"Slide (land, mud, snow, rock)",55000.0,Km2,2000-02-18,2000-02-22,4
+2000-0128-USA,141de4c78e696b24e06af81baf193ea5,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,113.0,Km2,2000-02-26,2000-02-26,0
+2000-0175-USA,28e519b25fa779a2c599392458dfb094,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2000-03-28,2000-03-28,0
+2000-0232-USA,37a607d222456968f0bf6d2a3bb2b47c,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Brief torrential rain,,,Km2,2000-05-06,2000-05-09,3
+2000-0271-USA,56664d2838451fe35810469aa14359a7,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Brief torrential rain,,,Km2,2000-05-06,2000-05-09,3
+2000-0279-USA,a40eb3c39cb1593c5b80913b5dab151e,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,16.0,Km2,2000-05-14,2000-05-14,0
+2000-0296-USA,9ee6b3ab4918c1cde53a407907a96345,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,,,,Km2,2000-05-19,2000-05-19,0
+2000-0297-USA,a0c0197b167e4b78744a4acea0da2e7c,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,,,,Km2,2000-05-23,2000-05-23,0
+2000-0338-USA,842b74e4c99dae679b2be0190143e5f8,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2000-05-26,2000-05-26,0
+2000-0360-USA,f0b66b60095d2de3ff2e42767f770397,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,,Kph,2000-05-23,2000-05-23,0
+2000-0363-USA,4457e9cebfe65c450ebb1bdc823ddf23,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,85.0,Km2,2000-06-12,2000-06-12,0
+2000-0406-USA,ba414776194a5594cbfe0dfc31a24d19,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,607.0,Km2,2000-06-27,2000-06-27,0
+2000-0420-CAN,eb29f08135112418d0175280ae1e9cb2,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,300.0,Kph,2000-07-14,2000-07-14,0
+2000-0463-USA,a6f69db763c0932834083f5b96a6c30a,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2000-07-25,2000-07-25,0
+2000-0500-USA,2f0c9e34a82dba179c7670756ce274a1,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,"Slide (land, mud, snow, rock)",,Km2,2000-08-12,2000-08-14,2
+2000-0502-USA,a03fe066ee39153f16e3eabc6feefbea,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,,,,Km2,2000-07-30,2000-07-30,0
+2000-0598-USA,23f2d7e66b695bb64efbc5deb44261ea,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,No,,,4.9,Moment Magnitude,2000-09-03,2000-09-03,0
+2000-0614-USA,156de1c3a4edcf5fd67a8f0eced9d3c5,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2000-09-20,2000-09-20,0
+2000-0652-USA,b9af99a2ac300885c5a06081f9fa953f,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Leslie,No,No,No,,,,Kph,2000-10-04,2000-10-04,0
+2000-0756-USA,e4cb4a17286ed6ca4962f087e0c50ec5,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2000-11-20,2000-11-20,0
+2000-0838-USA,fee1fdbd02d5db12960efce4c627244b,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Transport accident,,Kph,2000-12-24,2000-12-24,0
+2000-0865-USA,7772db3054359660cbc0fcfa032d1434,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,86.0,Km2,2000-11-02,2000-11-02,0
+2000-0919-USA,06d8b2e60dc17538492e26853f317e0d,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Cold wave,,Kph,2000-01-22,2000-01-25,3
+2000-0937-USA,89b7ae3bbdc3119005b0670e66cd779f,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2000-12-16,2000-12-17,1
+2001-0052-CAN,f4dd3cb711526c7cb4470fa8b1fdd2f9,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,120.0,Kph,2001-02-10,2001-02-10,0
+2001-0099-USA,121ee3de0fc3d8ca66fb93988bfb3fb8,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,No,,,6.8,Moment Magnitude,2001-02-28,2001-02-28,0
+2001-0102-USA,8a08208b3e8bb01fde8975a733c8e3bb,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-02-24,2001-02-24,0
+2001-0106-USA,334ca07e3b5a4ed23f8de7b5af60d21f,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Transport accident,,Kph,2001-02-22,2001-02-22,0
+2001-0145-USA,e09edf3008823d00ae674a2b7989ca7c,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,,Kph,2001-04-10,2001-04-11,1
+2001-0194-USA,4b82b467ccc0cd858d42931e57eeeb0c,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-03-29,2001-03-29,0
+2001-0242-USA,72ffb616368e11dc8458ca747df77431,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Allison,No,No,Yes,,Flood,,Kph,2001-06-05,2001-06-17,12
+2001-0262-USA,1be48f8fe68f50d1e2a19f45c282efbf,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Ice jam/break,,24.0,Km2,2001-02-27,2001-03-01,2
+2001-0266-USA,1d834c835d9c01a6f04282fdf7ccc8fd,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Flood|Snow/ice,,Kph,2001-03-20,2001-03-20,0
+2001-0268-USA,eec338274210e6aed14e42ebb067c249,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Snowmelt,,63380.0,Km2,2001-04-15,2001-05-15,30
+2001-0270-USA,ebe3655caf5fd552e82497c9df70b2e4,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-04-21,2001-04-21,0
+2001-0340-CAN,1fffb45b57cc327b48059b9c73b4b2a5,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,,Km2,2001-05-28,2001-05-28,0
+2001-0351-USA,6e6dc9d81f6f18a6e9a8f58c778344bc,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-06-14,2001-06-14,0
+2001-0460-USA,007f2c6898cdedc5a323aebf75122289,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,"Slide (land, mud, snow, rock)",8530.0,Km2,2001-07-08,2001-07-09,1
+2001-0473-USA,ab645cbf565a8210f06a5bddde3d98df,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-06-18,2001-06-18,0
+2001-0474-USA,44b49f687f0eb0c2f0fa1b540f5eeb09,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-06-13,2001-06-13,0
+2001-0477-USA,19e53d1ecc794000de2b87d00b44a18e,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,,Kph,2001-06-21,2001-06-21,0
+2001-0564-USA,449dcbdfbddd0b81373417b23408b905,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-10-10,2001-10-10,0
+2001-0566-USA,3c8442836d68e40dfb277fbc5dcc8d90,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-09-24,2001-09-24,0
+2001-0601-USA,3de3f33fd441cd289658cc01ddfec078,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-10-11,2001-10-11,0
+2001-0602-USA,636bfab3c256edbbcba020df25afb7ba,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-10-12,2001-10-12,0
+2001-0722-USA,9926e217d87dc180a1fbe9f9cd3eb95f,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,283.0,Km2,2001-10-30,2001-10-30,0
+2001-0724-USA,240482092817af7a231994486853b71c,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,7730.0,Km2,2001-11-15,2001-11-19,4
+2001-0773-USA,58f4a5a0b3c51cb6d9e564c934c22d92,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2001-08-17,2001-08-17,0
+2002-0092-USA,fca0df58f1a9538ae9e4e9a8d6d3113a,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,23.0,Km2,2002-02-10,2002-02-10,0
+2002-0119-USA,70261210f1583efd0efaa11510ba89c8,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2002-01-30,2002-02-08,9
+2002-0165-USA,e25e4cb257bfda9f05616f111ae3d1e0,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,"Flood|Slide (land, mud, snow, rock)",,Kph,2002-03-19,2002-03-19,0
+2002-0183-USA,a8993afce32619df55191529c462e0de,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,35390.0,Km2,2002-03-17,2002-03-24,7
+2002-0266-USA,23786567fe464aaecdc7934cc001ca31,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,,Km2,2002-05-02,2002-05-08,6
+2002-0283-USA,e0964363ccf47fa648664b654c1454b0,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2002-05-05,2002-05-05,0
+2002-0287-USA,e8df16d9d9feab6d75648d1abdb4e171,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2002-04-21,2002-04-21,0
+2002-0310-USA,98f7a020dabac8d34e776c6ac50f21cc,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,290.0,Kph,2002-04-27,2002-05-03,6
+2002-0351-USA,923aca58ae7f656d80f961f19aebfe4a,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,770.0,Km2,2002-06-08,2002-06-08,0
+2002-0379-USA,3dfc10fc87be3d6526fb8a6e1d8eeb18,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,1320.0,Km2,2002-06-20,2002-06-20,0
+2002-0404-CAN,39c5fbfe9086151a55abda9e0c23a168,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,5530.0,Km2,2002-06-09,2002-06-12,3
+2002-0411-USA,ae72f74a3ac693a029b73d8fec716f16,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,108300.0,Km2,2002-06-30,2002-07-23,23
+2002-0502-USA,8fb09b06844dac8e1f94c328dedb89e6,No,nat-bio-epi-vir,Natural,Biological,Epidemic,Viral disease,West Nile Fever,No,No,No,,,,Vaccinated,2002-07-09,2002-11-26,140
+2002-0569-USA,08512b4aa4cddb721afaa9b4b9ce1e1d,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2002-09-05,2002-09-05,0
+2002-0600-USA,d591347d9b4fccb322848fb1d98fc40b,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,5460.0,Km2,2002-09-21,2002-09-24,3
+2002-0618-USA,9973efd85faa20731e9b24d4e916f7e1,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,93.0,Km2,2002-09-22,2002-09-22,0
+2002-0652-USA,0c0801708a595d021c0b75624ec52389,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Isidore,No,No,No,,,105.0,Kph,2002-09-26,2002-09-27,1
+2002-0667-USA,5462a31c348a921e06f1584d81c1a509,No,nat-bio-epi-dis,Natural,Biological,Epidemic,Infectious disease (General),,No,No,No,,,,Vaccinated,2002-10-16,2002-10-16,0
+2002-0700-USA,82b3b236b1538d588100b7ea30533261,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,200.0,Kph,2002-11-05,2002-11-10,5
+2002-0724-USA,1843a7e746bb7099166c93d459fe106e,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Lili,No,No,No,,Flood,,Kph,2002-10-03,2002-10-03,0
+2002-0751-USA,e4c7adf4666576c95be0b4601b8bdad7,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2002-12-04,2002-12-05,1
+2002-0793-USA,987591094f8e76b20d562c7c9863b343,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2002-12-19,2002-12-19,0
+2002-0802-USA,6ea78b84e68d5db245c69837118d8228,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2002-12-23,2002-12-23,0
+2002-0880-USA,a0030c42a6dcaeaed6f637d6f2c1254f,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2002-05-30,2002-06-01,2
+2003-0085-USA,c99c84f7ab42d91883d34b0648380718,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2003-02-14,2003-02-18,4
+2003-0087-CAN,0a10c3152fd7133547659a255fd36825,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Ice jams,,1000.0,Km2,2003-02-15,2003-02-21,6
+2003-0139-USA,141d9a9af260d0e79eb0520ba8aa651f,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,,Kph,2003-03-18,2003-03-20,2
+2003-0147-USA,3caa8683f3aae2c649ff78ffba232c33,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Transport accident,,Kph,2003-03-20,2003-03-20,0
+2003-0210-USA,bdeba8df0028a59609c6ef39f289bf3e,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,,Kph,2003-05-04,2003-05-10,6
+2003-0231-CAN,df3d8cc6ed041545a8814e5eb8d8c2fa,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,"Heavy rains, snow melt",,13530.0,Km2,2003-03-31,2003-04-03,3
+2003-0299-USA,ba3c1396a3471c675ee2af133ce2c74a,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,16.0,Km2,2003-06-17,2003-06-20,3
+2003-0334-USA,533c16c8e8ed5623b7ae9796aa9116b2,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,Rain,150500.0,Km2,2003-07-05,2003-07-21,16
+2003-0369-CAN,4fe2b7040aa428f40a556c080e0eb3ef,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,2500.0,Km2,2003-08-01,2003-09-14,44
+2003-0413-USA,b2273788f3e89a0963d4da38b2b97b60,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2003-08-08,2003-08-08,0
+2003-0417-CAN,9c22ee5fa4a62d7a273aed0738bd80da,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Brief torrential rain,,1990.0,Km2,2003-08-04,2003-08-05,1
+2003-0448-BMU,aa5cfe43423d2d02d84db4d4e2bf8929,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Fabian,No,No,No,,Rain,240.0,Kph,2003-09-05,2003-09-06,1
+2003-0468-CAN,7bf4903f62391239f486f3b57c5f4c47,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Isabel,No,No,No,,,,Kph,2003-09-18,2003-09-18,0
+2003-0468-USA,57aa7fdca9d0639ee38c4f756a99c1c1,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Isabel,No,No,Yes,,Flood,170.0,Kph,2003-09-18,2003-09-22,4
+2003-0487-CAN,61e561e71a36bf45f43c5bfe40b9b9f5,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Juan,No,No,Yes,,Flood,143.0,Kph,2003-09-28,2003-09-29,1
+2003-0511-CAN,00733c044008147bae3d7cf50330a416,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,,,Km2,2003-10-17,2003-10-26,9
+2003-0511-USA,41d6a6a0049ca68a156a808f666b1e68,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,,Km2,2003-10-17,2003-10-26,9
+2003-0518-USA,458c005c6b1ed49e2de74ea9755c5028,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,Yes,,,1133.0,Km2,2003-10-25,2003-11-04,10
+2003-0595-USA,b8e8e837477d429b13040acb8ef372eb,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,"Flood|Slide (land, mud, snow, rock)",,Kph,2003-11-20,2003-11-20,0
+2003-0618-USA,f76abf3c02043c890d3c823c10674780,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Transport accident,,Kph,2003-12-06,2003-12-07,1
+2003-0623-USA,53d0890532e662c689f78242e2bb7e14,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,Yes,,,6.5,Moment Magnitude,2003-12-22,2003-12-22,0
+2003-0633-USA,15e2dfc57f57a4206f95e1c003cf91d3,No,nat-hyd-mmw-mud,Natural,Hydrological,Mass movement (wet),Mudslide,,No,No,No,Heavy rains,,,,2003-12-25,2003-12-26,1
+2003-0663-USA,fb069eb74e40db79e3379523a0adb699,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,Brief torrential rain,,250.0,Km2,2003-11-12,2003-11-13,1
+2003-0741-USA,bd62bf7099a7ea1e69dc25d4f5f93354,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,Rain and snow,Flood,,Kph,2003-02-15,2003-02-23,8
+2003-0756-USA,6473e700110abe2e2f83c2949fbf20c1,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,272100.0,Km2,2003-05-06,2003-05-14,8
+2003-0780-USA,7988a7098c93878ed679298f17be0d9d,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2003-05-30,2003-05-30,0
+2003-0782-USA,a87a33eba417f9280dc89439e260a53b,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Bill,No,No,Yes,,Flood,95.0,Kph,2003-06-30,2003-06-30,0
+2003-0786-USA,972a9b86df0bcbda6390f1698aca0950,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,607.0,Km2,2003-10-21,2003-11-04,14
+2003-0827-USA,6002cd78e4ac894084a8137f1e36c1f3,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,Yes,,,,Kph,2003-12-15,2003-12-16,1
+2003-0829-USA,2422180166a24b685c0ca686d95f6f12,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail|Snow/ice,,Kph,2003-04-04,2003-04-08,4
+2003-0830-USA,246a7072626a000cb96bed1dabef3aea,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Transport accident,,Kph,2003-02-26,2003-02-26,0
+2004-0031-USA,cbca3133bb9d905b12f16d9e3bbd03bd,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Cold wave|Transport accident,,Kph,2004-01-15,2004-01-29,14
+2004-0074-CAN,d7de18a76b911bb69f08d52607dfb075,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,120.0,Kph,2004-02-19,2004-02-19,0
+2004-0121-USA,c7a249e72c01bcb58190a1d74dfa9323,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Transport accident,,Kph,2004-03-04,2004-03-07,3
+2004-0146-CAN,bad8357958ef95a3e92c4736fa46a5e1,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Rain and snowmelt,,,Km2,2004-03-28,2004-04-11,14
+2004-0146-USA,53d136a92dc7930fcf07c0122bbe5bd8,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,"Melting sow, heavy rain",,,Km2,2004-03-28,2004-04-11,14
+2004-0196-USA,fb4ab09c191d836029ba14e1a974a996,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,Heat wave,66.0,Km2,2004-05-02,2004-05-04,2
+2004-0245-USA,53e8f9a69406fc49018e057189c2c0ac,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,Flood|Hail,,Kph,2004-05-21,2004-05-27,6
+2004-0248-USA,2128d6d8b596c59cb279e4146a045504,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,,,,Km2,2004-05-28,2004-05-28,0
+2004-0249-USA,7262561d132bd40f5487bff673aef7af,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,Yes,,Flood|Hail,,Kph,2004-05-29,2004-06-02,4
+2004-0338-USA,8eb02a5b2d1c1e0af7be18169514a99c,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood,,Kph,2004-06-28,2004-06-28,0
+2004-0346-CAN,f83339bba39a51472409921bbde2c131,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,,Rain,,Km2,2004-07-13,2004-07-16,3
+2004-0348-USA,b4a5a49f4fa1c93ca88e854aca027499,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,Heat wave|Storm,68.0,Km2,2004-07-12,2004-07-16,4
+2004-0415-USA,7778c1f576a51eca021084e8ab7a89b4,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Charley,No,No,Yes,,Transport accident,230.0,Kph,2004-08-13,2004-08-13,0
+2004-0446-USA,af60fc622348345d51439f429d999096,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,4046.0,Km2,2004-08-13,2004-08-14,1
+2004-0448-USA,a470d847828f436a339b2937c083564d,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Gaston,No,No,Yes,,Flood,,Kph,2004-08-29,2004-08-30,1
+2004-0455-USA,2764ce718cb40a21b0437b221b09cdaf,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Frances,No,No,Yes,,Rain,,Kph,2004-09-05,2004-09-05,0
+2004-0462-USA,5e4bfc3f61be88ef19251d27e0d76180,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Ivan,No,No,Yes,,"Flood|Slide (land, mud, snow, rock)",,Kph,2004-09-15,2004-09-16,1
+2004-0473-USA,cfb3095aabecd8576f30fb845fc3222f,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Jeanne,No,No,Yes,,,,Kph,2004-09-25,2004-09-26,1
+2004-0502-USA,c585a29a866ea732857c122a82eb48c6,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2004-09-08,2004-09-08,0
+2004-0572-USA,cc3df082ef5206af44c004ff8a9e339b,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,,,Km2,2004-10-30,2004-10-30,0
+2004-0675-USA,4b88cc98ae82518230f91d85be2f1c7f,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,,,,Km2,2004-07-12,2004-07-14,2
+2004-0731-USA,59ea825a1194707a70e7407face6172f,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,Hail,,Kph,2004-03-20,2004-03-21,1
+2004-0740-USA,0eabc29261e5fdf2049682d9efbd41e3,No,nat-met-ext-col,Natural,Meteorological,Extreme temperature,Cold wave,,No,No,No,,,,°C,2004-01-09,2004-01-12,3
+2005-0015-USA,691d1cd24ee466ba125b3edd587fc4f8,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,"Heavy rain, heavy snow","Slide (land, mud, snow, rock)",560.0,Km2,2005-01-07,2005-01-11,4
+2005-0029-USA,dcb0a6fc21c0ab1f162e751e291f72f5,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2005-01-22,2005-01-24,2
+2005-0103-USA,fc0edaaa7b18ad7adb2dd085267248f5,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,"Rain|Slide (land, mud, snow, rock)",,Km2,2005-02-17,2005-02-23,6
+2005-0203-USA,0236c7553030484c52b27000aae2c375,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,"Heavy rains, snowmelt",,130500.0,Km2,2005-04-01,2005-04-06,5
+2005-0219-USA,8e5af6e9db32f012fabf521daf49b037,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,Yes,,Flood,,Kph,2005-04-06,2005-04-08,2
+2005-0286-USA,15a0e5299c44a440c32638c9a167fcbc,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,,Rain,,Km2,2005-05-06,2005-05-08,2
+2005-0351-USA,0a7364897d5af528b503a365740bb993,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,"Hurricane ""Dennis""",No,No,Yes,,,,Kph,2005-07-10,2005-07-10,0
+2005-0467-USA,2207abd0e2b40a03295078dbea23ff22,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Katrina,No,No,Yes,,Broken Dam/Burst bank|Flood,280.0,Kph,2005-08-29,2005-09-19,21
+2005-0530-USA,d0a737b9937595465c039bd4080dd166,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2005-08-18,2005-08-18,0
+2005-0547-USA,cbf4f30da5a1eef0e050fe616994286f,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Rita,No,No,Yes,,Flood,280.0,Kph,2005-09-23,2005-10-01,8
+2005-0553-CAN,be76161b49e7156b523e8a2f5e4f0c54,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2005-09-26,2005-09-29,3
+2005-0583-USA,53bd9a657e7aae52b45949e38bc7bc59,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,Rain,38290.0,Km2,2005-10-08,2005-10-16,8
+2005-0585-USA,119ffe85f59c1a771908b8266be6a62b,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,"Hurricane ""Wilma""",No,No,Yes,,Flood|Rain,165.0,Kph,2005-10-24,2005-10-24,0
+2005-0591-CAN,c39f93ba75266783cbb35beb189abab6,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,,330.0,Km2,2005-09-27,2005-09-29,2
+2005-0682-USA,1f2ebcb787151e13498dad6b873d3990,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2005-12-08,2005-12-09,1
+2005-0687-USA,67aa275921206de697c40dee5dfe042f,No,nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave,,No,No,No,,,47.0,°C,2005-07-04,2005-07-30,26
+2005-0716-USA,b71e5ceaa74478a42697b046ed419f63,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Storm,"Rain|Slide (land, mud, snow, rock)",140500.0,Km2,2005-12-31,2006-01-18,18
+2005-0724-USA,f1d1fd838d7d51c5e7c22cb31a134ec8,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,Yes,,,,Km2,2005-12-27,2006-01-04,8
+2005-0728-CAN,59796251f79c37c8c70f44a373527b6c,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,86680.0,Km2,2005-06-07,2005-07-01,24
+2006-0128-USA,6b3811396ebc251cd6ba3ff03b8087ab,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood,202.0,Kph,2006-03-11,2006-03-13,2
+2006-0161-USA,42649e0a153ebf81f03ffe0157f27ec3,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,Hail,,Kph,2006-04-02,2006-04-03,1
+2006-0171-USA,6eaa319ec0800ba0e2967ed1adb604f7,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,Hail,,Kph,2006-04-06,2006-04-08,2
+2006-0180-USA,73b6fe362359dd80cb5b5abbb15a7c0c,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,"Broken Dam/Burst bank|Slide (land, mud, snow, rock)",44110.0,Km2,2006-04-04,2006-04-17,13
+2006-0182-USA,f73a1bef9e6fbf90a23190dc659a0b05,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,"Broken Dam/Burst bank|Slide (land, mud, snow, rock)",585.0,Km2,2006-03-14,2006-03-23,9
+2006-0203-CAN,2087e3c13564a30b25d4cbb971a235ed,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rain,,730.0,Km2,2006-04-18,2006-04-24,6
+2006-0206-CAN,3d27b19d29516b23de5c26a1d0e8cc9f,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,63270.0,Km2,2006-04-12,2006-04-20,8
+2006-0224-CAN,f9ec77ad5000b238dddec7dbc6420c23,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Snowmelt,Broken Dam/Burst bank,7030.0,Km2,2006-04-22,2006-05-31,39
+2006-0257-USA,a7e13cc6d9cf46e2b50df89688f76455,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Hail,,Kph,2006-05-01,2006-05-07,6
+2006-0260-USA,d4e88f859caa7c4f9bf411ac2da05f6b,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,Rain,42910.0,Km2,2006-05-11,2006-05-22,11
+2006-0261-CAN,b20615e7cb820bb0ff1a18f5479a5f10,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Snowmelt,,3210.0,Km2,2006-05-26,2006-06-02,7
+2006-0269-CAN,add2955d86089b2a2447c2e14b82e1af,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Rains and snowmelt,,,Km2,2006-05-20,2006-05-28,8
+2006-0341-USA,51a1544eb1446b4c87dc98cfde26d622,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,"Heavy rain, thunderstoms","Slide (land, mud, snow, rock)",122600.0,Km2,2006-06-25,2006-07-01,6
+2006-0344-USA,ccd0a85487149aa6727abe86d24ecfce,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Severe storms,,6780.0,Km2,2006-06-22,2006-06-25,3
+2006-0374-USA,b4a3e30c4635d296949525fab62aa012,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,Yes,,,350.0,Km2,2006-07-09,2006-07-14,5
+2006-0387-USA,de6db375a29af985762e9e81adaf6c5b,No,nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave,,No,No,No,,,50.0,°C,2006-07-14,2006-08-15,32
+2006-0413-USA,fd7faaaa0d786d6b906c5b3a80e234cd,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,3610.0,Km2,2006-07-27,2006-08-07,11
+2006-0418-USA,f62df667a88ef9dc59b514c25ebc326c,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,4720.0,Km2,2006-07-27,2006-07-30,3
+2006-0427-USA,13f982e50f4435e7f70edfb0564f90f2,No,nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave,,No,No,Yes,,,44.0,°C,2006-07-30,2006-08-06,7
+2006-0461-USA,a88bbaa31f00bec391c51bb2398fe1a8,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,95940.0,Km2,2006-08-19,2006-08-24,5
+2006-0466-USA,3448ee7afe70827f63025fb41e1a4bdd,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Ernesto,No,No,No,,Flood,119.0,Kph,2006-08-02,2006-09-07,36
+2006-0546-USA,32e9ec1b01488719ea815339e40e82d8,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rain,Rain,146000.0,Km2,2006-09-22,2006-09-26,4
+2006-0566-USA,fb5a232b7f1a29316aee0bb91d67f9cc,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,51560.0,Km2,2006-10-09,2006-10-14,5
+2006-0576-USA,f61c7997cea9e160ee43f9ae7fbb13f3,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",,No,No,Yes,,,,Km2,2006-10-26,2006-10-27,1
+2006-0595-USA,2742d01fbf18e6ee51098f4e318164e6,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood,,Kph,2006-11-15,2006-11-16,1
+2006-0598-USA,cfdaa3b89254b0703bc2523ef8d1da0e,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,57890.0,Km2,2006-11-05,2006-11-10,5
+2006-0642-USA,09cbaf88f6c143f386a74c1b58e02a45,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Flood,,Kph,2006-10-12,2006-10-14,2
+2006-0662-USA,d0ffe9a7f18f2bf397c43ac188c2fd2f,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",,No,No,Yes,,,,Km2,2006-12-03,2006-12-06,3
+2006-0704-USA,7b0e6309b5e93b341fd8dcdbdd8b8cbd,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,No,,"Slide (land, mud, snow, rock)|Tsunami/Tidal wave",6.7,Moment Magnitude,2006-10-15,2006-10-15,0
+2006-0706-USA,7383989cd00f6d1ec18eba543780dbb6,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,193.0,Kph,2006-12-25,2006-12-25,0
+2006-0707-USA,101d4055d0c3e7e2bd1f06d82491d528,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2006-12-21,2006-12-21,0
+2006-0718-USA,debe41e41773eddf6930dd4bf8f9d044,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2006-12-27,2006-12-31,4
+2006-0743-USA,bd5acbff8b1de38fb56b7d822c912ca2,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Rain,,Kph,2006-11-30,2006-12-03,3
+2006-0744-USA,1f5d98a436d7e728f29af630d2405a63,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2006-12-14,2006-12-15,1
+2007-0026-USA,df00352ea983842e8f14c91076c073ef,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,Yes,,Cold wave|Rain,,Kph,2007-01-12,2007-01-17,5
+2007-0041-USA,91ccbd26b813ee84d08b1a5d0d045c96,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,434.4,Km2,2007-01-15,2007-01-25,10
+2007-0048-USA,4008a2bb1ce0f7d0e3378f6051c96a63,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,265.0,Kph,2007-02-02,2007-02-02,0
+2007-0066-CAN,6cac820861044e1c32a6aeb23001f47e,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2007-02-14,2007-02-15,1
+2007-0066-USA,fb263dcc7ef3ef46317c5f4fb770df6e,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,64.0,Kph,2007-02-14,2007-02-15,1
+2007-0083-USA,5d85facf84feb89e3e2aba6bf611a44a,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2007-03-01,2007-03-02,1
+2007-0156-USA,5b5e54b26d239e94b53e53f649d087ce,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood,240.0,Kph,2007-04-24,2007-04-26,2
+2007-0165-CAN,cee29cf0a7f09416a058ebdeed8ac89d,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Snowmelt,,205000.0,Km2,2007-06-06,2007-06-11,5
+2007-0173-USA,b0d8cb204a10af50f66a00ed43807085,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,341.3,Km2,2007-05-24,2007-05-29,5
+2007-0244-USA,b3074efb5023267f6952e5aecec4b8c6,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,Rain,507800.0,Km2,2007-06-26,2007-07-06,10
+2007-0251-USA,010d7b76b69ebcfedd3d7bd845872f73,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Brief torrential rain,Rain,6500.0,Km2,2007-06-19,2007-06-20,1
+2007-0254-USA,96781c9aa0fa886c7911fdfb065e1655,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rain,,34750.0,Km2,2007-06-17,2007-06-22,5
+2007-0351-USA,e3623bca0e7d39b33714f75d40e41259,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,,Km2,2007-06-24,2007-07-02,8
+2007-0359-USA,a356f2ea4762a926a7262dbff645f1b5,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Erin,No,No,No,,Flood,132.0,Kph,2007-08-16,2007-08-19,3
+2007-0383-USA,def7ab912fefada57dba7faaf63724db,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,"Rain|Slide (land, mud, snow, rock)",1217000.0,Km2,2007-08-16,2007-08-27,11
+2007-0519-USA,59d0559f78d93043b54ac9d0a9cfa75f,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",,No,No,Yes,,Storm,,Km2,2007-10-21,2007-10-24,3
+2007-0579-USA,37b4afb760fcfb1f53b9f854ca39b199,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,,Km2,2007-11-24,2007-11-27,3
+2007-0581-USA,f7e8dec458bf334683ea4b1eb494e455,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,Yes,,"Flood|Slide (land, mud, snow, rock)",160.0,Kph,2007-12-03,2007-12-07,4
+2007-0621-CAN,eebacf367e99ca236c60bd405893f6c7,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2007-12-23,2007-12-26,3
+2007-0621-USA,121195ddc4443ea46ab03ba01c381d68,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Transport accident,109.0,Kph,2007-12-23,2007-12-26,3
+2007-0641-USA,d54c9611f4e90c34bd73d16667c02379,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Transport accident,,Kph,2007-12-09,2007-12-11,2
+2007-0662-USA,5dbc95d81649d22180112622de7231ab,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,,Kph,2007-05-04,2007-05-08,4
+2007-0663-USA,ab5e04758c920f0c5d3375d47f9787a0,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Flood|Hail,,Kph,2007-04-13,2007-04-17,4
+2007-0689-USA,513dc1ee3f1746d920e7d4f0fe4a1388,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Cold wave,,Kph,2007-02-23,2007-02-25,2
+2007-0690-USA,3a0fa6bee4872a9f25931031c77f7363,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,128.0,Kph,2007-05-21,2007-05-25,4
+2008-0010-USA,54c82978bf99035807bad015e6686afb,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,Broken Dam/Burst bank|Rain,550.0,Km2,2008-01-05,2008-01-09,4
+2008-0039-USA,5a6b032099bec89c31d33db0daa39c82,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood|Hail,,Kph,2008-02-05,2008-02-06,1
+2008-0099-USA,02be3974bfd22336888c6c0523338e0e,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,No,,,5.9,Moment Magnitude,2008-02-21,2008-02-21,0
+2008-0115-USA,717b65aa303291e2e6c2389a15276114,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood|Hail,217.0,Kph,2008-03-14,2008-03-14,0
+2008-0131-USA,7da9b938aa0cdffb77e889404987aa6f,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Rain and snowmelt,Broken Dam/Burst bank,565200.0,Km2,2008-03-17,2008-04-20,34
+2008-0170-CAN,9aae745829c148025fd5726a212c120e,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Snowmelt,,22900.0,Km2,2008-04-10,2008-04-24,14
+2008-0194-USA,c78cfa8db331d1b63a89a61cfd9090d0,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,"Cold front meeting warm, moist air",Flood|Hail,280.0,Kph,2008-05-10,2008-05-12,2
+2008-0210-USA,c234e4082fcc2c7f07d8a8692d123520,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Broken Dam/Burst bank|Flood,,Kph,2008-05-22,2008-05-26,4
+2008-0253-USA,96b130cfff5bb3b68befd255a99240d4,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,Yes,"Lightening, drought, wind",,3500.0,Km2,2008-06-20,2008-07-09,19
+2008-0264-CAN,1958f16b862391ef4685244d77aca7f9,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,,Snow/ice,3180.0,Km2,2008-04-26,2008-05-01,5
+2008-0304-USA,de098fa2fc158fc21bbe61cc1ffcd1ce,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Dolly,No,No,Yes,,Flood|Transport accident,160.0,Kph,2008-07-23,2008-07-23,0
+2008-0338-USA,5338a235135878436375a757caec7cef,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,"Tropical Storm ""Fay""",No,No,Yes,,Flood,100.0,Kph,2008-08-20,2008-08-28,8
+2008-0352-USA,1cd57e48149b40940dadc2f1009c9e07,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,"Hurricane ""Gustav""",No,No,No,,,,Kph,2008-09-01,2008-09-01,0
+2008-0378-USA,de376fdcd4a2ec4c1eced63fb3307264,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Hanna',No,No,Yes,,,,Kph,2008-08-28,2008-08-28,0
+2008-0384-USA,9b79637463663f5136488f42d60b429d,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Ike,No,No,No,,Flood,200.0,Kph,2008-09-12,2008-09-16,4
+2008-0524-USA,962410770d00a1eacaecdf1a7fdc4075,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,Yes,,,,Km2,2008-11-13,2008-11-18,5
+2008-0563-USA,149e617fa030e127144ce40f4c2493a5,No,nat-met-ext-sev,Natural,Meteorological,Extreme temperature,Severe winter conditions,,No,No,Yes,,,,°C,2008-12-11,2008-12-14,3
+2008-0599-USA,9f104e2e852cfbc4e887402ca3951ec5,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2008-01-29,2008-01-30,1
+2008-0600-USA,0f8bba7ba05915c3416a2145c3d633fd,No,nat-met-sto-ext,Natural,Meteorological,Storm,Extra-tropical storm,,No,No,No,,,175.0,Kph,2008-01-04,2008-01-09,5
+2008-0601-USA,a841b8432160d3c6d7c12a3a43a4acb0,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2008-04-09,2008-04-11,2
+2008-0627-USA,a5c3f0f6abf63b502e2618b0a12a37dd,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,,Broken Dam/Burst bank,,Km2,2008-06-09,2008-06-30,21
+2008-0638-USA,d48d4a931d202b5677b2d5d23c870961,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,35110.0,Km2,2008-12-29,2009-01-16,18
+2008-0645-USA,8da7932d6cdb5b4000718db607bad3a6,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,240.0,Kph,2008-04-28,2008-04-28,0
+2008-0654-USA,7f8ef90a7222563fa08e6bdbeb2cfd52,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2008-12-11,2008-12-22,11
+2009-0056-USA,fe8abc41cfe9cb4ada94f6b62c3e422b,No,nat-met-ext-col,Natural,Meteorological,Extreme temperature,Cold wave,,No,No,No,,,,°C,2009-01-26,2009-01-28,2
+2009-0106-USA,c5a4bca02c92592fc0c02d074c937d17,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,"Snowmelt, hevay rain",,39740.0,Km2,2009-03-24,2009-04-20,27
+2009-0140-USA,0762f4addf3b5b4627d4f1c1426d48db,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Fire,,Kph,2009-04-09,2009-04-10,1
+2009-0178-USA,7e6d54461d7fd7cd60f5a4386c30eeed,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",,No,No,No,Record temperatures and strong winds,,,Km2,2009-05-05,2009-05-11,6
+2009-0184-USA,785d26663e6f3677905be252c4dc5390,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rain,"Slide (land, mud, snow, rock)",16460.0,Km2,2009-05-03,2009-05-10,7
+2009-0189-CAN,98a0b595f87835e888a214c98e841091,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Ice Jam/break-up,,20490.0,Km2,2009-04-01,2009-04-09,8
+2009-0190-USA,5e763eacd92e29effdc51d2a2ea03d53,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rain,,82060.0,Km2,2009-04-06,2009-04-09,3
+2009-0244-USA,735f71b8f457fe01ad1bb62a3f09b77b,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Hail,,Kph,2009-04-16,2009-04-18,2
+2009-0287-USA,edf3428d95b1d90d43a3b8552ba14fae,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Rain,146.0,Kph,2009-02-10,2009-02-13,3
+2009-0342-CAN,5f680a4f6b9a795f4c810417cefbebfd,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Bill,No,No,No,,,,Kph,2009-08-23,2009-08-23,0
+2009-0342-USA,3fcccbd417160ebb6f538e92ab1cc679,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Bill,No,No,No,,Surge,,Kph,2009-08-23,2009-08-23,0
+2009-0349-USA,caabe23780e8300c630320c28da45aab,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",,No,No,Yes,,,,Km2,2009-07-07,2009-10-27,112
+2009-0405-USA,549c711471baf3147c39c4bff158a967,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,,,Km2,2009-09-20,2009-09-21,1
+2009-0477-USA,380648fd208c4a48e515ed679bac1904,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,"Hurricane ""Ida""",No,No,Yes,,Flood,,Kph,2009-11-09,2009-11-10,1
+2009-0599-USA,d2b00f2940c8b1ac6962d06cf3d3ee80,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2009-12-23,2009-12-25,2
+2009-0601-USA,a77a85725019517e71a28a14213cb4ae,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,128.0,Kph,2009-06-10,2009-06-18,8
+2009-0603-USA,3b5400f6e958507b83d79bc89651550e,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,,Kph,2009-07-20,2009-07-21,1
+2009-0604-USA,eaaa270e63d0e2436ad2c0c5c2660066,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2009-05-07,2009-05-09,2
+2009-0619-CAN,39821bb2bbdc0cfb0c2ea7b323818ddc,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,,Kph,2009-08-01,2009-08-03,2
+2009-0644-USA,9b1a3dab2671ee21d6dae6b2e9950072,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Hail,,Kph,2009-03-26,2009-03-28,2
+2010-0027-USA,94b461b5ed53fe5587e0f72211a474b4,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,No,,,6.5,Moment Magnitude,2010-01-10,2010-01-10,0
+2010-0045-USA,b3a03a19c862082c01cf17115e3fbe79,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2010-02-05,2010-02-11,6
+2010-0089-USA,30f9eb9e2c2d24dcd239b10ae907cd49,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,151.0,Kph,2010-02-23,2010-02-28,5
+2010-0162-USA,eaad3bafb2789829e27ce513a7ad929e,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Hevay rains,,240301.0,Km2,2010-03-27,2010-03-31,4
+2010-0163-USA,841b84d0670be45a234c791d290e0ec1,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,241.0,Kph,2010-04-24,2010-04-24,0
+2010-0187-USA,047376e7a14fcf43f630f45bf9cab986,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,Heavy rains,Flood,320.0,Kph,2010-04-30,2010-05-03,3
+2010-0196-USA,dbd261874f49c30c05de4480ef477436,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,,Kph,2010-05-12,2010-05-16,4
+2010-0225-USA,af75a660dd904332382f73c952cea9c6,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,,Km2,2010-06-10,2010-06-11,1
+2010-0468-USA,5dbcd2ccfc266616bd3661d5e3daabae,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Earl,No,No,Yes,,Rain,,Kph,2010-09-03,2010-09-03,0
+2010-0522-USA,f93108e095c1b9931698ed65539c0527,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm Hermine,No,No,No,,Flood,,Kph,2010-09-07,2010-09-11,4
+2010-0612-USA,2f6bf83a1b55a5f7551e4bd0851a1055,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Flood,,Kph,2010-03-13,2010-03-15,2
+2010-0651-USA,e66d2434ed3c418a2f85aeea1b6b9b37,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,,355567.0,Km2,2010-12-19,2010-12-19,0
+2010-0655-CAN,268854540539ff92eef5fbd58d919baa,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2010-12-26,2010-12-28,2
+2010-0655-USA,f33187677f4786add38d7dfe3a1be946,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2010-12-26,2010-12-26,0
+2010-0663-USA,81a3b07afd8e18f065ad7163bae18aea,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2010-12-31,2011-01-01,1
+2010-0689-USA,e949e89534572b4b85555cd2393d74e7,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood,,Kph,2010-06-17,2010-06-20,3
+2010-0690-USA,04699ec4db7565b34fe59300cce4dc4c,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Hail,97.0,Kph,2010-05-10,2010-05-16,6
+2011-0029-USA,0d685e3e0037d81314e2f33ab25df01d,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2011-01-31,2011-02-02,2
+2011-0131-CAN,aea0f6042759963dbf9392eb271e98aa,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,,,,Km2,2011-04-04,2011-05-31,57
+2011-0134-USA,d37c20556a659c997057a38658f88e4a,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,260.0,Kph,2011-04-14,2011-04-16,2
+2011-0140-USA,f014aae1d42ab46c6021e25e2c7654a6,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",,No,No,No,,,,Km2,2011-04-09,2011-04-30,21
+2011-0145-USA,76a1974b95ca4a4fa10c417159f253ec,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood,,Kph,2011-04-22,2011-04-29,7
+2011-0166-USA,a4da5c9663ee3cbf24af4096e523fed7,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains and melting snow,,239421.0,Km2,2011-05-01,2011-05-24,23
+2011-0172-USA,edf9aa7139b0682f793113920412d311,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,320.0,Kph,2011-05-20,2011-05-25,5
+2011-0189-USA,16afdac2a509f1a54c222ca8ce412f84,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2011-05-24,2011-05-24,0
+2011-0195-USA,07174c765b7c698cde24e904b6e15103,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood|Hail,260.0,Kph,2011-05-29,2011-06-01,3
+2011-0264-USA,b0cd446e14c2b82a2df1d43ea4fb52d4,No,nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave,,No,No,No,,,50.0,°C,2011-07-19,2011-07-22,3
+2011-0323-CAN,60dc6330b384a27a7f45fc02169a3e4b,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,300.0,Kph,2011-08-21,2011-08-24,3
+2011-0328-CAN,900baf3c9fd2019527153d8871a6ba9b,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Irene,No,No,No,,Flood,130.0,Kph,2011-08-28,2011-08-29,1
+2011-0328-USA,b61f2a1e1bee4a92e82f151ea3528871,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Irene,No,No,No,,Flood,,Kph,2011-08-27,2011-09-13,17
+2011-0349-USA,16c0ed1545c375a9d14415a5dec168c8,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,"Drought, high temperatures and strong winds",,,Km2,2011-09-04,2011-09-09,5
+2011-0425-USA,0235c085499ec7bf8e2b625bc9ba2228,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Torrential rains,,26044.0,Km2,2011-08-06,2011-08-09,3
+2011-0444-USA,f88695899d63c5d16652cadfbada127a,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2011-10-29,2011-10-31,2
+2011-0456-USA,d0929e43ad73a0c93bba62a45d6fce91,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical Storm Lee,No,No,Yes,,Flood,75.0,Kph,2011-09-04,2011-09-09,5
+2011-0527-USA,072f1b7c216f9494c1d2327c86a86471,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2011-12-20,2011-12-20,0
+2011-0607-USA,74a4a56158e8d11ed06ca240e6c65300,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2011-01-07,2011-01-12,5
+2011-0608-USA,18fb40946488ad6c258cf66018f3d3a8,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2011-01-17,2011-01-24,7
+2011-0609-USA,c0a5e0906980ddf846e5c5f7588f63a1,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2011-04-03,2011-04-05,2
+2011-0610-USA,2f4b0439020742cf0d867fd65f5144bd,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Torrentail rains,Rain,,Km2,2011-04-18,2011-05-23,35
+2011-0611-USA,67168ef6d2cb4f454a27db1f49dd164b,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2011-08-13,2011-08-14,1
+2011-0630-CAN,61dca09a0474c4ef2d8ce7569fd5a695,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,"Dry conditions, strong winds",,,Km2,2011-05-14,2011-05-16,2
+2011-0639-USA,d90eeda261d198bda29c620ee920e411,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,Drought conditions and strong winds,,,Km2,2011-05-29,2011-06-23,25
+2011-0646-USA,f2deb6896dbd0891b50a5bdf641543e8,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy snowmelt and rains,,,Km2,2011-05-15,2011-06-30,46
+2012-0010-USA,9329d05b15c8416168902d065f9459a6,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,240.0,Kph,2012-01-22,2012-01-23,1
+2012-0055-USA,a4109711ab602392b72da56cb83a994f,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,270.0,Kph,2012-02-28,2012-02-29,1
+2012-0060-USA,bb67908bc727c4cbd5e54d6aa3786160,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood|Hail,112.0,Kph,2012-03-02,2012-03-04,2
+2012-0068-CAN,170daca94cfbe6b110cb21c299b07c3c,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Snowmelt and heavy rains,,544053.0,Km2,2012-03-25,2012-03-30,5
+2012-0122-USA,270272101811d5934ffe106ed3c4da27,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2012-04-02,2012-04-03,1
+2012-0156-USA,511887b00ab316512bd49ca15cea22d9,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,,Kph,2012-04-14,2012-04-15,1
+2012-0176-USA,d9e7757af50f212e9df58cd7025505a3,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm Debby,No,No,No,,,,Kph,2012-06-22,2012-06-27,5
+2012-0177-USA,8327ddf02080975f2b9d482404aebfdb,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Torrential rain,,20116.0,Km2,2012-06-09,2012-06-12,3
+2012-0214-USA,6c3f739c572a25bdbf2069f250c1f74b,No,nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave,,No,No,No,,,40.0,°C,2012-06-30,2012-07-19,19
+2012-0232-USA,2124ab8281a730644f634b2b53665d53,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Waldo Canyon Fire,No,No,Yes,,,,Km2,2012-06-23,2012-07-10,17
+2012-0234-USA,8f7557d27c911610130d35dd44ddba6c,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,Yes,,,,Kph,2012-06-30,2012-06-30,0
+2012-0313-USA,4207a95d359d253152bda12de71b29cf,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Isaac,No,No,Yes,,Flood,,Kph,2012-08-28,2012-08-29,1
+2012-0410-USA,893f5687e035e17749f8924d884d51fe,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Sandy,No,No,Yes,,Fire|Flood,,Kph,2012-10-28,2012-10-28,0
+2012-0486-USA,c0a97b8837a6f2d8dffa1792af44731a,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,100.0,Kph,2012-12-19,2012-12-21,2
+2012-0493-CAN,e947d02bb689a289228a0c7cb752cccd,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2012-12-24,2012-12-27,3
+2012-0493-USA,d2bfdf79df1907c2662f1d7e9c193809,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2012-12-25,2012-12-27,2
+2012-0503-USA,0e19bcd448397a58fb3e9b5f052c138d,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,146.0,Kph,2012-06-28,2012-07-02,4
+2012-0542-USA,50061edefafa01c43e9cc984fa88c632,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,No,,,,Km2,2012-08-03,2012-08-08,5
+2012-0601-USA,778231b184dbf375d29c35b7077bf240,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,,Kph,2012-04-28,2012-04-29,1
+2012-0611-USA,7d76c2f3069c5d19998a80e3b8eb1349,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2012-01-18,2012-01-23,5
+2012-0612-USA,fb5058ba5ad5ae9daeb46bec299da1ca,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,,Kph,2012-05-25,2012-05-30,5
+2012-0613-USA,ac3e5420ae2a49048cdcb0ac958ba094,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,,Kph,2012-06-06,2012-06-07,1
+2012-0614-USA,517f909af4ac3ed4ddb3c269fb0da3e5,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,,Kph,2012-06-11,2012-06-13,2
+2012-0615-USA,5fc9bf275de795492a33544dc7e37a4f,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,,Kph,2012-07-02,2012-07-04,2
+2012-0616-USA,88f7a0c9393d5c7ac962ceab3d7fbedc,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,95.0,Kph,2012-09-07,2012-09-09,2
+2012-0626-CAN,bc9d44d667275a5db13888a3cd195d4f,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,,Kph,2012-08-12,2012-08-12,0
+2013-0013-USA,b3b90f12f647ce60bd3f896f31115244,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2013-01-29,2013-01-30,1
+2013-0054-USA,3cb21d8740f743b11f5c75ea268703ac,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Flood,,Kph,2013-02-08,2013-02-09,1
+2013-0055-USA,6fb5b0320b2429dfe75611f3046ef031,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2013-02-09,2013-02-11,2
+2013-0117-USA,efc51e7badfe2eb492e6d1d6fb23b861,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,,Kph,2013-04-07,2013-04-11,4
+2013-0118-USA,e77b7f0d08ad0e3c0abbda9bbe50a4ee,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood,,Kph,2013-04-17,2013-04-19,2
+2013-0142-USA,b79442bdfe58a2bc87fe867eddac49a5,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Hail,,Kph,2013-05-18,2013-05-22,4
+2013-0183-USA,684be4d285eef07011fdfc13df9ba3f7,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,285.0,Kph,2013-05-15,2013-05-17,2
+2013-0184-USA,2ecf55a80bc5339b3a4eb66ac74edd6f,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2013-05-26,2013-06-06,11
+2013-0190-CAN,90007a2888e7407aa88e4aac1721ca17,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,,,307926.0,Km2,2013-06-20,2013-06-27,7
+2013-0209-USA,a6f05d834baff195028fadcc53bfd333,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,"Hot temperatures, gusty winds, dry forest conditions",,,Km2,2013-05-30,2013-06-08,9
+2013-0210-USA,17c2bdfa74dae559507802997fe3a8e7,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,,Km2,2013-06-06,2013-06-20,14
+2013-0211-USA,44a018c2bfd8f6fbbed29cc8ab13ae39,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,,Kph,2013-06-12,2013-06-13,1
+2013-0212-USA,36d234c5ae2f5e04e86cba7bbd50fc19,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,,Km2,2013-06-28,2013-07-12,14
+2013-0254-USA,97100c88389ab47537d30284df028994,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Slow moving storm system,,,Km2,2013-07-27,2013-07-28,1
+2013-0277-USA,f68b8795e4e5ea23cbfecad3d28132a4,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Torrential rains,,123143.44,Km2,2013-08-05,2013-08-12,7
+2013-0286-USA,c7fcf25f333eaba05ee99d602fd69402,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,33907.85,Km2,2013-05-25,2013-05-28,3
+2013-0291-USA,cb1a7c73e398471b6f8820f14e183fc6,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,493136.77,Km2,2013-04-22,2013-04-29,7
+2013-0315-USA,4c8b2190973931fb2c34c3ee531e75b5,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,Yes,,,,Km2,2013-08-03,2013-09-01,29
+2013-0334-USA,0bbb50b1a2179aa5edb1178dd6f05074,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,,Kph,2013-08-02,2013-08-03,1
+2013-0354-USA,ce1d217199cd5ae515758a9e4c07e581,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,,"Slide (land, mud, snow, rock)",100404.0,Km2,2013-09-12,2013-09-19,7
+2013-0404-USA,54a7bda90766f22f96e597190a53b2e1,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,No,,,,Km2,2013-09-09,2013-09-15,6
+2013-0439-USA,9f63a7525fd8d2fdc7cb9aef54feafa2,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Hail,305.0,Kph,2013-11-16,2013-11-18,2
+2013-0472-USA,5c90eec60636ed5f497bf0e02f84c766,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Flood,,Kph,2013-11-24,2013-11-24,0
+2013-0510-USA,0edf28661736743c8a1e8a58c8afb520,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Torrentiak rain,,38936.0,Km2,2013-10-31,2013-11-10,10
+2013-0528-CAN,2cba8d11f304faa322101b11c25afe60,No,nat-met-ext-sev,Natural,Meteorological,Extreme temperature,Severe winter conditions,,No,No,No,,,,°C,2013-12-21,2013-12-22,1
+2013-0528-USA,a3af53993a750938a47be7c6775efc51,No,nat-met-ext-sev,Natural,Meteorological,Extreme temperature,Severe winter conditions,,No,No,No,,,,°C,2013-12-19,2013-12-22,3
+2013-0548-USA,ece905efa688f41a260399863732aefd,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,,Kph,2013-03-18,2013-03-19,1
+2013-0550-USA,418834fbf4a5b767a9fab4b81927ef71,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,Cleon and Dion,No,No,No,,,,Kph,2013-12-01,2013-12-09,8
+2013-0558-USA,c35ced69ed8595b12ff407796db43e09,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,,16069.91,Km2,2013-12-22,2013-12-31,9
+2013-0579-USA,0486319196180b1adeb39d6898554251,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Hail,,Kph,2013-02-24,2013-02-25,1
+2013-0580-CAN,fd8c0b4a3e92c59303547ebccc594af3,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood,,Kph,2013-07-08,2013-07-09,1
+2014-0009-CAN,6ac46e5ebdbabfcdb9e116c7e790b70c,No,nat-met-ext-col,Natural,Meteorological,Extreme temperature,Cold wave,,No,No,No,,,-48.0,°C,2014-01-01,2014-01-09,8
+2014-0009-USA,1ff4bec4d8e662b52b6336a4dd892c9e,No,nat-met-ext-col,Natural,Meteorological,Extreme temperature,Cold wave,,No,No,Yes,,,-37.0,°C,2014-01-05,2014-01-08,3
+2014-0048-USA,b49bea4d135475df6270ebeb37455580,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Cold wave,,Kph,2014-02-02,2014-02-06,4
+2014-0052-USA,dc45cd128b2a16f576286ffe7c92c9bb,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2014-01-01,2014-01-05,4
+2014-0053-USA,4f14cdfbe90b8f1c37e6086bd1e6dc9f,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2014-01-26,2014-01-29,3
+2014-0072-USA,c21540149c8de93a02a26fe19588b313,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Cold wave,,Kph,2014-02-11,2014-02-14,3
+2014-0095-USA,27bf83a32478721a94b1c300b077183e,No,nat-hyd-mmw-lan,Natural,Hydrological,Mass movement (wet),Landslide (wet),,No,No,No,Heavy rains and small earthquake,,,,2014-03-22,2014-03-22,0
+2014-0100-USA,6f33fba30cc0fb5afdc5cc8af8ef4a69,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2014-02-28,2014-03-04,4
+2014-0126-USA,1924274af92777d57ec71f19cb83a551,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Hail,,Kph,2014-04-27,2014-05-01,4
+2014-0165-USA,433d35dbd6f7401e04280d5ceed1b640,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,"Excessive heat, drougth and winds",,,Km2,2014-05-11,2014-05-20,9
+2014-0192-USA,60a033e91b34ab6387ccc57748b99537,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Hail,110.0,Kph,2014-05-18,2014-05-23,5
+2014-0263-USA,f8b81c4a26389c29518deecc316a69f9,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,60.0,Kph,2014-07-26,2014-07-27,1
+2014-0310-USA,b2ce4840f065088992f1db623e92aed0,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Iselle,No,No,No,,,95.0,Kph,2014-08-08,2014-08-10,2
+2014-0317-USA,4c76000edf627d0561b10f93dc539662,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Excessive rainfall,,,Km2,2014-08-11,2014-08-13,2
+2014-0318-USA,4138b201f852c97feaa20ebc35074e8e,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,No,,Fire,6.02,Moment Magnitude,2014-08-24,2014-08-24,0
+2014-0319-CAN,0216e613baaee59db391273a4fff4a2c,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,,Lightening,,Km2,2014-08-04,2014-08-04,0
+2014-0444-USA,f9e89f76d74b67eefbdba5771e08d77e,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,Yes,,Hail|Lightening,160.0,Kph,2014-10-12,2014-10-14,2
+2014-0459-USA,c94c8f3b622748555653e5b38660286b,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2014-11-15,2014-11-19,4
+2014-0482-USA,af2ffc432c6ccc2e37e6646a6a8ba31a,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,"Flood|Slide (land, mud, snow, rock)",230.0,Kph,2014-12-10,2014-12-17,7
+2014-0491-USA,74c41534b171fb1d7ff2f636fafaa25a,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,"Heavy rains, strong storm system","Slide (land, mud, snow, rock)",,Km2,2014-12-02,2014-12-05,3
+2014-0540-USA,f8fc3d57f44f5f21688f27e60a91ff2e,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Hail,128.0,Kph,2014-06-03,2014-06-06,3
+2015-0025-USA,e1dc7bb757936d86470b2c86405224a4,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2015-01-06,2015-01-11,5
+2015-0026-USA,14b6fe550d378d81746ce1a26fa8f061,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Snow/ice,104.0,Kph,2015-01-26,2015-01-28,2
+2015-0046-USA,98a2413628738f1aaa1359539a568b9a,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,Storm Octavia,No,No,Yes,,Cold wave,,Kph,2015-02-16,2015-02-22,6
+2015-0072-USA,83ecc35e8b392c5ec4b0b38d832ff7a1,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2015-01-31,2015-02-04,4
+2015-0073-USA,42ee844e55520cd7a69fa4cbe73f8546,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2015-02-16,2015-02-22,6
+2015-0122-USA,82fb25127b0cc69b0c943597ac190596,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2015-03-03,2015-03-05,2
+2015-0123-USA,d8465188b55bd580d537ba772fd3ef82,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,110.0,Kph,2015-03-25,2015-03-26,1
+2015-0138-USA,c1cdc7cdac590cdc7b65629b79a7b04d,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,,Kph,2015-04-07,2015-04-10,3
+2015-0155-USA,475a11bd3d3a0d2992559fbb37083de9,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,,Kph,2015-04-24,2015-04-28,4
+2015-0177-USA,6e545f75199ed7f3e1b77fcd5d9c248d,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2015-05-06,2015-05-13,7
+2015-0180-USA,9f11493b179ca834736b913e1eb94363,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,,Kph,2015-05-03,2015-05-05,2
+2015-0186-USA,4efc61fbca5179613750fa8caf57994d,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Torrential rains,,,Km2,2015-05-24,2015-05-24,0
+2015-0211-USA,57b620e28553772285cdc485504288cf,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,130.0,Kph,2015-05-06,2015-05-13,7
+2015-0212-USA,2fffe87a4260ee3c850942e107dae5bf,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Heavy rain,Lightening,849464.6,Km2,2015-05-23,2015-05-30,7
+2015-0245-USA,b28b5316ece25d11a6ad0c1ff5f4b23b,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,,Kph,2015-06-03,2015-06-08,5
+2015-0275-CAN,0b6d47a84baddb61dc32dc9525d8029f,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,"Hot, dry and windy conditions",,,Km2,2015-07-01,2015-07-10,9
+2015-0312-USA,8dda9a46d2d17e271ae9c9388f088c78,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,Yes,"Drought conditions, gusty winds, warm temperatures, lightening",,,Km2,2015-07-22,2015-08-13,22
+2015-0326-USA,61e06c34f55aae4d3475f5c5f2985e21,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Lightening,,Kph,2015-07-12,2015-07-14,2
+2015-0399-USA,d8de001bcaade4e0cbf51401db0c2812,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,,,,Km2,2015-07-24,2015-08-05,12
+2015-0400-USA,e740ae8ab0030e865a2ce76ce71b894b,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,95.0,Kph,2015-08-02,2015-08-04,2
+2015-0401-USA,c592e3669c174e02ffb7e5daa510233b,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Valley Fire,No,No,No,"High temperature, Ligthning",Pollution,,Km2,2015-08-13,2015-08-31,18
+2015-0421-USA,291538bc335d2f522603e8a6d9c2a056,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",,No,No,Yes,"High tempertaures, gusty winds, dry soil, vast swathes of dried vegetation and brush",,,Km2,2015-09-13,2015-09-20,7
+2015-0431-USA,2e9de337d05556b13e2f76eddd5f3228,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Torrentila rains,,,Km2,2015-09-14,2015-09-14,0
+2015-0459-USA,4d2b5da126a94a0e640736e65c2e2423,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Joaquin,No,No,No,,Flood,,Kph,2015-10-01,2015-10-13,12
+2015-0488-USA,9ba25b07fef19c89333d0a6617342d20,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,,Kph,2015-10-29,2015-11-03,5
+2015-0531-USA,df3630cb5ab8488bce13bce2ecb439b4,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,Heavy rain,Flood,,Kph,2015-11-25,2015-12-04,9
+2015-0558-USA,0230c7c34fff82f6bddeeacc0f229f89,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood,,Kph,2015-12-26,2015-12-30,4
+2015-0565-USA,b144a0dabd0a26e65509a0c992552b3e,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Heavy rains,Storm,,Km2,2015-12-15,2016-01-06,22
+2015-0613-USA,356ae48cdc6033c05b85ac981ae46611,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",Butte fire,No,No,No,,,,Km2,2015-09-09,2015-09-14,5
+2016-0010-USA,25fd72534368b3ba7457f54364ed5908,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,Storm Jonas (Snowzilla),No,No,Yes,,Snow/ice,,Kph,2016-01-23,2016-01-26,3
+2016-0012-USA,b808220f16a0a699c35e6b7a775f6e58,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,Pacific storm systems fueled by El Nino,"Flood|Slide (land, mud, snow, rock)",,Kph,2016-01-04,2016-01-08,4
+2016-0051-USA,19a726817dc1e6d583ad8453d61bcc2f,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Lightening,,Kph,2016-02-22,2016-02-25,3
+2016-0085-USA,aae82698ac2cbb2f3901417ac3f6d921,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,Yes,,Flood,,Kph,2016-03-04,2016-03-12,8
+2016-0086-USA,2fc71fc5f6e7c98f58de9593a31ae76b,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,Yes,,Hail,,Kph,2016-03-17,2016-03-18,1
+2016-0087-USA,29b530350dd38c589d966858eb85202f,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,,Kph,2016-03-22,2016-03-25,3
+2016-0123-USA,0e85852e4d3ed9b5ebb89124eb682bc2,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Hail,,Kph,2016-04-10,2016-04-15,5
+2016-0124-USA,6fd952fdfaaa50035a79fdaad116bc18,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,Torrential rrains,Storm,,Km2,2016-04-16,2016-04-19,3
+2016-0125-USA,b55a7505cdc9afb5bcf09bdddc340590,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,,Kph,2016-04-25,2016-05-04,9
+2016-0150-USA,13eb40861d1eca800b09f79864ac84ea,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,,Kph,2016-05-08,2016-05-11,3
+2016-0170-USA,a12946d410a223f4941b7107b3107604,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,,,,Km2,2016-04-30,2016-04-30,0
+2016-0172-CAN,42c8ab3598e96674da52b38b5e5a7f16,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Fort McMurray wildfires,Yes,No,No,,Explosion,6000.0,Km2,2016-05-01,2016-07-04,64
+2016-0181-USA,540fd5061d78444eb905a0e47e322fd4,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,Flood,,Kph,2016-05-21,2016-05-28,7
+2016-0183-USA,5dcab1e11887b961437c84133ef1d0e8,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rain,Storm,,Km2,2016-05-27,2016-06-02,6
+2016-0203-USA,d2a65d3e22caebb3b41ffb97ba58dc09,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,Yes,Torrential rain,"Flood|Slide (land, mud, snow, rock)",,Kph,2016-06-22,2016-06-24,2
+2016-0206-USA,742c7e791b25790c5ea8845a72d38739,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,Yes,"Combination of heat, extented drought and gusty winds",,,Km2,2016-06-25,2016-06-26,1
+2016-0243-CAN,79ce18ed318c2537eea43f53bb76ae4c,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rain,,176099.51,Km2,2016-06-14,2016-06-21,7
+2016-0264-USA,925c16a7fbc32c5f445e7332643a9581,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Sand Fire,No,No,No,Drought,,,Km2,2016-07-24,2016-08-01,8
+2016-0292-USA,a644825b478d1989e5c80a1c3e3fc40e,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,,19554.02,Km2,2016-08-09,2016-08-16,7
+2016-0297-USA,57f9b6a5d04ea523672781f47077051f,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Clayton Fire,No,No,No,,,,Km2,2016-08-13,2016-08-16,3
+2016-0322-USA,f983c08a6a3be1caadca3477b4e8baeb,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Hermine,No,No,No,,Flood|Surge,85.0,Kph,2016-09-01,2016-09-06,5
+2016-0331-USA,7f57728f91da259792880e6549b96c8a,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Excessive rains and thunderstorms,"Slide (land, mud, snow, rock)",,Km2,2016-09-19,2016-09-23,4
+2016-0355-USA,13873dc5df87944447473d6372baf43d,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Matthew',No,No,No,,Flood,,Kph,2016-10-08,2016-10-12,4
+2016-0477-USA,a2229c963c674d7f5ec97384fd951f14,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Hail,,Kph,2016-11-26,2016-12-01,5
+2016-0493-USA,672d9207926ad3ce52a32f4d5fe573b9,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,No,,,5.0,Moment Magnitude,2016-11-07,2016-11-07,0
+2016-0521-USA,2e74f5d583efcd93e4f7f2a7643c3be2,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2016-12-13,2016-12-19,6
+2016-0550-USA,7085dfd45915391ccf86586862f8a69a,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,,Kph,2016-04-24,2017-04-28,369
+2016-0552-USA,e06e04bb222ccdc55aca860689a2e860,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,,,,Km2,2016-03-08,2016-03-13,5
+2017-0022-USA,ef7d90d8e476c3dcb7e82823c0fa4f0d,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,Yes,,,,Kph,2017-01-18,2017-01-23,5
+2017-0039-USA,dc2674fc8a73882a8f3bb2d4c1a27d6e,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,"Flood|Slide (land, mud, snow, rock)",,Kph,2017-01-06,2017-01-13,7
+2017-0058-USA,be163e749744e3d857c18c33071e29d0,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Heavy rains,,,Km2,2017-02-22,2017-02-22,0
+2017-0062-USA,bd614c758a99485511c162f2395c920a,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,"Flood|Slide (land, mud, snow, rock)",,Kph,2017-02-08,2017-02-21,13
+2017-0070-USA,b311bbef7bd6e4d1e9135b5d0cbd8f23,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail|Lightening,,Kph,2017-02-27,2017-03-02,3
+2017-0108-USA,6e21ac2d03806ef42e57ba151076b423,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2017-03-13,2017-03-15,2
+2017-0126-CAN,027d94c81aef10eba7cb57e9e94ba8ba,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,Yes,No,Yes,Snowmelt and Heavy Rain,,79149.2,Km2,2017-05-05,2017-05-20,15
+2017-0136-USA,780221095d38683df151ddb5bdb452c2,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,,Hail|Storm,,Km2,2017-04-28,2017-05-01,3
+2017-0203-USA,5ce16fc5b6a70dbb7bf3e0479173acb7,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,Hail,130.0,Kph,2017-05-09,2017-05-11,2
+2017-0234-USA,cac713df7984523d4e74ce684c48c5e2,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,170.0,Kph,2017-06-25,2017-06-29,4
+2017-0252-USA,cb9c6f09289246fcf519055a0d93d0bf,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Wall Fire  Alamo Fire  Whittier Fire,No,No,Yes,Weather,,190.0,Km2,2017-07-06,2017-07-10,4
+2017-0253-USA,6f3d225e0767cf89a21586736d0763ee,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Hail,135.0,Kph,2017-06-09,2017-06-12,3
+2017-0271-CAN,438bf8d9bbd1e703b7aeb632a9c8c9ff,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Gustafsen  Wildwood  Elephant Hill Fires,No,Yes,Yes,Weather,Heat wave,500.0,Km2,2017-07-07,2017-09-15,70
+2017-0282-USA,eb0d5daef0a22fa81aa4b0ba020b4119,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Thunderstorm,,,Km2,2017-07-15,2017-07-15,0
+2017-0336-USA,7bfe484eebaa682c1bde9e2a2b6cd869,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,,Kph,2017-08-05,2017-08-08,3
+2017-0362-USA,5caa65f0254ebb50989cbce2b5e31026,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Harvey,No,No,Yes,,Flood|Oil spill,215.0,Kph,2017-08-25,2017-08-29,4
+2017-0381-USA,2b100119214110fc01d511ab2e741315,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Irma',No,No,No,,Flood,300.0,Kph,2017-09-10,2017-09-28,18
+2017-0383-USA,6ce1e2a38bb8c4dfe24fd685bf3d053d,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Maria',No,No,No,,,,Kph,2017-09-26,2017-09-27,1
+2017-0410-USA,f73e84c33b301a291251a22e0056bcd8,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical depression'16/Hurricane 'Nate',No,No,No,,,140.0,Kph,2017-10-07,2017-10-08,1
+2017-0434-USA,28c91048ff0d96cf179c58f87af414ef,No,nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",Tubbs  Atlas  Nuns Fires,No,No,No,,,,Km2,2017-06-01,2017-12-31,213
+2017-0471-CAN,051f0c3b71a40da2c2212ec06f1a194d,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Heavy rains,,,Km2,2017-08-28,2017-08-29,1
+2017-0511-USA,183ccd4ef4927dbb03d21a3195e44001,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),'Thomas',No,No,Yes,"Droght, winds",,1101.5,Km2,2017-12-04,2017-12-31,27
+2017-0512-USA,0dc50107edeb39853e5cb93bd108fd0f,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,Yes,,Hail,,Kph,2017-11-05,2017-11-06,1
+2017-0542-USA,ac9f2ca42dbb00c63062c2b843ed94ca,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Cold wave|Transport accident,,Kph,2017-12-31,2018-01-05,5
+2017-0563-USA,de9a9f930b7b2e1d82b8e10ea9635dbc,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,Hail,130.0,Kph,2017-03-06,2017-03-09,3
+2017-0564-USA,43ade195e407a0f5d4b4f612f5ed9d53,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,175.0,Kph,2017-03-25,2017-03-28,3
+2017-9550-USA,1196bbeedff6d48402a209b33e38b806,No,nat-cli-dro-dro,Natural,Climatological,Drought,Drought,,No,No,No,,,,Km2,2017-03-01,2017-12-31,305
+2018-0010-USA,bff9ba5090604c29149a05983c1ea4cb,No,nat-hyd-mmw-mud,Natural,Hydrological,Mass movement (wet),Mudslide,,No,No,No,Heavy rains,Flood,,,2018-01-08,2018-01-14,6
+2018-0045-USA,10ecffa04ec939559b3a81931f554f9d,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2018-01-03,2018-01-05,2
+2018-0046-USA,9944487494f2a8e797a5e804118ef286,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,,,Kph,2018-01-21,2018-01-24,3
+2018-0111-USA,2d3de2de8e78f603c5815b8c61fc8152,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Flood|Surge,110.0,Kph,2018-03-01,2018-03-03,2
+2018-0129-USA,6ef3ed89b6bb50214118543e7651b74f,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,,Kph,2018-04-13,2018-04-15,2
+2018-0130-USA,38c34d088f3dc140bc5e92d67310bbcf,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Torrential rains,"Slide (land, mud, snow, rock)",,Km2,2018-04-14,2018-04-15,1
+2018-0146-USA,bac1e7da3aa5462d775a96f640e680b3,No,nat-geo-vol-lav,Natural,Geophysical,Volcanic activity,Lava flow,Kilauea,No,No,No,,Earthquake,,,2018-05-03,2018-05-30,27
+2018-0160-CAN,87c6a2714c70474dfc18dfea088ac6be,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Heavy Rain and Snowmelt,,78669.36,Km2,2018-05-10,2018-05-14,4
+2018-0170-USA,a0a80ecb5a98596b61feb06cca6cf98a,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm 'Alberto',No,No,No,,,,Kph,2018-05-27,2018-05-30,3
+2018-0195-CAN,77b74f825cb8b180b01880e037ccfefd,No,nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave,,No,No,No,,,37.2,°C,2018-06-29,2018-07-05,6
+2018-0206-USA,d27ab4ca32a287b3807306a4cf02d4e5,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,110.0,Kph,2018-05-13,2018-05-15,2
+2018-0258-USA,731ac94bb447b59fbda419e808f8c384,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Carr and Mendocino Complex fires,No,No,No,,Pollution,,Km2,2018-07-27,2018-08-31,35
+2018-0279-USA,5df94dd394855d226440a868ef2f41df,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Lightening,,Kph,2018-07-19,2018-07-22,3
+2018-0331-USA,983626bdb310746ff4c9e27b6fdb72c5,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,Tropical Storm Gordon,,,Km2,2018-09-03,2018-09-11,8
+2018-0342-USA,075b6e189397b5f655cb04b245e51665,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Florence,No,No,Yes,,Flood,,Kph,2018-09-12,2018-09-18,6
+2018-0344-USA,7f2eddfd434919f34261bb4377bb5dd4,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Hail,,Kph,2018-08-06,2018-08-07,1
+2018-0366-CAN,272ef96eb13f0d0e1aa1e5df16990de7,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,250.0,Kph,2018-09-21,2018-09-21,0
+2018-0373-USA,cba97325a0312677b92c0d5f7786b48b,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane Michael,No,No,No,,Surge,250.0,Kph,2018-10-10,2018-10-11,1
+2018-0409-USA,2a703ac72d5ab95a79ef7bc4a7038150,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Camp Fire,No,No,Yes,,,,Km2,2018-06-01,2018-12-31,213
+2018-0419-USA,eec45ee6df9227c27762b33944596e91,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,Storm,,Km2,2018-10-15,2018-10-20,5
+2018-0457-USA,3a702141d24af0ebbd418bddc93f0ad4,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Flood,,Kph,2018-12-26,2018-12-28,2
+2018-0468-USA,cccc81b0a819673e6c3ffa53e3cdcc8f,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Woolsey Fire,No,No,No,,,,Km2,2018-11-08,2018-11-21,13
+2019-0007-USA,139fb921e46b598fd2c3d559135011f7,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Snow/ice,,Kph,2019-01-11,2019-01-15,4
+2019-0045-USA,ee3676d590417443c4bb2a9214caa930,No,nat-met-sto-san,Natural,Meteorological,Storm,Sand/Dust storm,,No,No,No,,Lightening|Snow/ice,,Kph,2019-01-18,2019-01-21,3
+2019-0046-USA,35c8072cb18eab36c4cd0bd0e639b7fa,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2019-01-29,2019-01-31,2
+2019-0081-USA,f9c6574b58d6661093f44861e93968c5,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2019-03-03,2019-03-04,1
+2019-0086-USA,78956f793bf7467255247b56c1dfd5fc,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rain,"Slide (land, mud, snow, rock)|Storm",,Km2,2019-02-25,2019-03-01,4
+2019-0089-USA,933cbcc40d27b06d834af439a8137341,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,,Kph,2019-02-23,2019-02-25,2
+2019-0090-USA,9194135692ea265cc42518900db9eef4,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,,"Slide (land, mud, snow, rock)",,Km2,2019-02-26,2019-03-04,6
+2019-0116-USA,dddda0f3500f5a1961106b85c7c944f6,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Fast snowmelt,Storm,,Km2,2019-03-14,2019-03-31,17
+2019-0160-USA,68b031386dc78a5a4007cc2606553923,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,160.0,Kph,2019-04-13,2019-04-14,1
+2019-0171-CAN,d4cc548ae41f7d440db354195c53a97d,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Incresaing temperatures and heavy rains,Broken Dam/Burst bank,,Km2,2019-04-27,2019-05-05,8
+2019-0184-USA,40bdc17e24c42655451c94c4f6e55f0e,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,Yes,,Flood,,Kph,2019-04-24,2019-04-26,2
+2019-0250-USA,da2324deacc9bc74f357646d4929da78,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,150.0,Kph,2019-05-23,2019-05-31,8
+2019-0306-USA,3bee7822da487a066921d10ccc3f1566,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,Yes,,,7.1,Moment Magnitude,2019-07-05,2019-07-05,0
+2019-0307-USA,e13fb1e6fa71b726eda8c5e1f20330ff,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,,,Km2,2019-06-06,2019-06-09,3
+2019-0335-USA,c796c9ebddec2b11ed1fa3631135e1ef,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical cylone 'Barry',No,No,No,,,,Kph,2019-07-13,2019-07-15,2
+2019-0412-USA,f39a6ab397aa28ba0fb4387910e45dfd,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical cyclone 'Dorian',No,No,No,,Flood,150.0,Kph,2019-08-28,2019-09-06,9
+2019-0417-USA,458be1709fd9e9a88fb12f9ee3f5c607,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm ' Imelda',No,No,No,,Flood,65.0,Kph,2019-09-17,2019-09-21,4
+2019-0484-USA,7b31655f759866993c62f32c4695e9f0,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,Yes,,,220.0,Kph,2019-10-20,2019-10-21,1
+2019-0513-USA,bd01817458a4739d35cb53e2053cf0a5,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Saddleridge fire & Sandalwood fire,No,No,No,,,,Km2,2019-10-10,2019-10-17,7
+2019-0517-USA,a39b8141b98cc114882d3c42313922f7,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Kincade Fire,No,No,Yes,,,,Km2,2019-10-26,2019-10-31,5
+2019-0532-CAN,8089eabf9abf30e2c4443d5ab16762d7,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood,100.0,Kph,2019-10-31,2019-11-02,2
+2019-0593-USA,e2ee60e62f15375a8d80b0d97edbbe48,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,,Cold wave,,Kph,2019-11-27,2019-12-03,6
+2019-0624-USA,e96430a88c8fc0a3be803b935d85485a,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,260.0,Kph,2019-12-16,2019-12-18,2
+2020-0011-USA,2bdb47f96b1829f389a3799117aef6a9,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood,,Kph,2020-01-10,2020-01-12,2
+2020-0082-USA,23c7c2ac15e4e07c64367004d7dbe70f,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,,Kph,2020-03-02,2020-03-05,3
+2020-0089-USA,17462ce01e7085e23c3714661fbf4f7b,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rains,,,Km2,2020-02-10,2020-02-17,7
+2020-0148-USA,2583f68364cf3fa27a011aad873609b2,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood,160.0,Kph,2020-04-10,2020-04-14,4
+2020-0167-USA,1f64ac3df0e724fa501681d19f536bff,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood,,Kph,2020-04-21,2020-04-24,3
+2020-0190-USA,16eba42d99c59bb5d6dab21147f27e7a,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,,Kph,2020-04-06,2020-04-09,3
+2020-0191-CAN,671e7abe7fddde842f3802201dcfaf29,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,No,Rising temperatures and subsequent ice jamming,,,Km2,2020-04-26,2020-04-30,4
+2020-0212-USA,9decca4c4bafab802f4142e8a76a1996,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,Broken Dam/Burst bank,,Km2,2020-05-17,2020-05-20,3
+2020-0219-USA,ebd727c32920f6c4d1c1c0218acca2a0,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm 'Cristobal',No,No,Yes,,,85.0,Kph,2020-06-07,2020-06-07,0
+2020-0238-USA,e6fe9486f92bed00a9b63ae606c1bdde,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,130.0,Kph,2020-05-02,2020-05-03,1
+2020-0266-CAN,0057db8dbffd10eecd063a2b88e58521,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,,Kph,2020-06-13,2020-06-14,1
+2020-0312-USA,dfafec29982cb24f85fa866566fc421f,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Isaias',No,No,No,,,,Kph,2020-07-31,2020-08-02,2
+2020-0316-USA,9c0a453ff3e1a8f72046c3d33985c8fc,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Hanna',No,No,No,,Flood,150.0,Kph,2020-07-25,2020-07-25,0
+2020-0376-USA,fd21bfa2a44c07e7565077b20220b116,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Laura',No,No,No,,Industrial accidents,240.0,Kph,2020-08-27,2020-08-28,1
+2020-0412-USA,9803a6611462ef6169f8c7446c1114ea,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Delta',No,No,No,,Flood,195.0,Kph,2020-10-07,2020-10-11,4
+2020-0438-USA,c324f2ea5620e0463d8df88bb8f0c934,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Sally',No,No,Yes,,Flood,165.0,Kph,2020-09-11,2020-09-18,7
+2020-0441-USA,9d8415b933407941a46768ed1171b9fc,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,August Complex fire,No,No,No,,,,Km2,2020-08-16,2020-10-01,46
+2020-0474-USA,aef585fb9e23c2a2e82659d65ce111e6,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Eta',No,No,No,,Flood|Surge,100.0,Kph,2020-11-08,2020-11-12,4
+2020-0483-USA,57983e24d1994d6d7d339220266ad37c,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Zeta',No,No,No,,Surge,175.0,Kph,2020-10-24,2020-10-30,6
+2020-0538-USA,172eace24609dcaa5eee6bae077644b0,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,Flood|Hail,110.0,Kph,2020-11-10,2020-11-10,0
+2020-0580-USA,cef5c801ac53f40d001753b6e5f0bb72,No,nat-met-sto-der,Natural,Meteorological,Storm,Derecho,,No,No,No,,,,Kph,2020-08-08,2020-08-12,4
+2020-0582-USA,a96a0ba30936591312c73c3db9eb16a3,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,,Kph,2020-03-27,2020-03-28,1
+2020-0583-USA,f7ef8a2a7cadeb3f10ac38f14e28bcbb,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail|Lightening,,Kph,2020-05-20,2020-05-23,3
+2020-0584-USA,b267d690ad0e7aff0646996d20e65947,No,nat-met-sto-hai,Natural,Meteorological,Storm,Hail,,No,No,No,,,,Kph,2020-05-27,2020-05-27,0
+2021-0011-USA,bd132065d5280e42931b7c9217140a4d,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,"Flood|Slide (land, mud, snow, rock)",,Kph,2021-01-13,2021-01-15,2
+2021-0037-USA,dda0821ff1e03c0be976439f5bfe1100,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Snow/ice,,Kph,2021-01-24,2021-01-27,3
+2021-0043-USA,f8155b47eb7178b273dafe3d90714339,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,"Flood|Slide (land, mud, snow, rock)",,Kph,2021-01-24,2021-01-29,5
+2021-0059-USA,aa8ffef38a3e03689bb675eb2e067fca,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,,,Kph,2021-01-30,2021-02-02,3
+2021-0096-USA,9218a031471a34c7a135706c65be29d2,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,No,Polar Vortex,Cold wave,,Kph,2021-02-10,2021-02-20,10
+2021-0117-USA,09a907061444f92b0d96060608848f95,No,nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood,,No,No,Yes,Heavy rain and thunderstorm,"Slide (land, mud, snow, rock)",,Km2,2021-02-25,2021-03-01,4
+2021-0150-USA,c877f983550254ac098a2817d5d9056d,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,,,Km2,2021-03-08,2021-03-10,2
+2021-0166-USA,2e36c7b06d9176a32e6b77be61e6d13a,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,,Kph,2021-03-16,2021-03-18,2
+2021-0178-USA,a80cb9e285416daa29bb9f722245a145,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood,,Kph,2021-03-24,2021-03-26,2
+2021-0193-USA,00b1f0a87dc80b8c91335a0caff9b0f5,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Heavy rains,,,Km2,2021-03-27,2021-03-28,1
+2021-0199-USA,e695372fdfb0d08327b58036a500f462,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,,Kph,2021-04-09,2021-04-11,2
+2021-0211-USA,fb5df605948637b6511464f4ffeedb4a,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Transport accident,,Kph,2021-04-13,2021-04-15,2
+2021-0250-USA,2e53f568c522407c46c4ad0cb4b31848,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,,Kph,2021-04-15,2021-04-16,1
+2021-0251-USA,0756ad6b3b07f6448ad529c4a37fd100,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Hail,,Kph,2021-04-27,2021-05-02,5
+2021-0266-USA,9106a6ef3e25bc1e306ce41ab7a40386,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,,Kph,2021-05-02,2021-05-04,2
+2021-0273-USA,37ed4b523f598ea87706783386c53fbe,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood,,Kph,2021-05-14,2021-05-19,5
+2021-0305-USA,be61fd599178a80c961c96584551e20c,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),Storm 'Claudette',No,No,No,,Flood|Transport accident,,Kph,2021-06-18,2021-06-21,3
+2021-0335-USA,fb3ace671ee8ed75e9e0fbb3a7ff273a,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Heavy rains,,,Km2,2021-06-07,2021-06-10,3
+2021-0356-CAN,9fa35247b33f9234ac60d170dc0c7414,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2021-06-21,2021-06-22,1
+2021-0357-USA,8f55f16b43f6d21ae2be3945aa01586a,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Telegraph and Mescal Fires,No,No,No,,,,Km2,2021-06-06,2021-07-04,28
+2021-0367-CAN,3295b44b4fc7c22e8985a8bedbbc9538,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,No,,Heat wave,,Km2,2021-06-30,2021-07-02,2
+2021-0373-USA,6e717dce9167f6f2e112576a3d181a10,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Elsa',No,No,Yes,,Flood,100.0,Kph,2021-07-02,2021-07-09,7
+2021-0390-USA,8939844d009869aa1979a5b4fd9e19ce,No,nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave,,No,No,No,,,46.8,°C,2021-06-26,2021-06-30,4
+2021-0410-USA,72a69da3e24d800b4e9cd7d4621d6530,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Bootleg Fire,No,No,No,,,,Km2,2021-07-06,2021-07-31,25
+2021-0433-USA,947abd4b879b3a4a3d928d759e08bda5,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Dixie fire,No,No,No,"Heat, drought and winds",,,Km2,2021-07-13,2021-08-11,29
+2021-0442-USA,ebf7410d7778036e4ae9c21d5006c3a4,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,"Slide (land, mud, snow, rock)",,Km2,2021-07-16,2021-07-21,5
+2021-0487-USA,03f694c74a4fc2f6227599a48decbe7d,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Hail,,Kph,2021-07-08,2021-07-11,3
+2021-0488-USA,1dba6ea47d070ed0760b0b98777ca7bd,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,Active monsoonal rainfall,Storm,,Km2,2021-07-22,2021-07-28,6
+2021-0526-USA,0dabe5262761e1545064610cf6fc7f37,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,Caldor fire,No,No,No,,,,Km2,2021-08-13,2021-08-31,18
+2021-0531-USA,d29aa1fbcdeef76780885a4df1b09f8a,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical depression 'Henri',No,No,Yes,,Flood,120.0,Kph,2021-08-20,2021-08-25,5
+2021-0532-USA,5644901bcac7f3aa8f101583ee5cbb1c,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm 'Fred',No,No,Yes,"Heavy rains, remnants of tropical storm Fred",Flood,,Kph,2021-08-17,2021-08-22,5
+2021-0533-USA,febe12391eed9a0a09d2050e05f51fdc,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Heavy rains,,,Km2,2021-08-21,2021-08-22,1
+2021-0551-USA,ce05a7b199770f07d5370318ea7ef928,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm 'Ida',No,No,Yes,,Flood,240.0,Kph,2021-08-28,2021-09-02,5
+2021-0562-USA,4a1a149fb12f11b3c90e61f2a5b03e97,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,,,,Km2,2021-07-30,2021-08-02,3
+2021-0565-USA,83ce5362ece13e2c88a0e6831a0177e2,No,nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms,,No,No,No,,,,Kph,2021-08-10,2021-08-13,3
+2021-0566-USA,e80fb5a5ad597ff36c007ca625d9fc72,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,,Lightening,,Km2,2021-08-10,2021-08-16,6
+2021-0583-USA,238e7c2f35daa052cc23fc59c5650279,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical storm 'Nicholas',No,No,No,,Flood,,Kph,2021-09-12,2021-09-17,5
+2021-0626-USA,e24dc532ce347b5e962d5ef572852398,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Fawn fire,No,No,No,,,,Km2,2021-09-22,2021-09-30,8
+2021-0733-USA,a9ea667e6441155213ff5aa5b0f4b91d,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,,,,Km2,2021-10-04,2021-10-07,3
+2021-0741-CAN,04ae3aef7796dc8f8f378ec150995038,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,"Slide (land, mud, snow, rock)",,Km2,2021-11-13,2021-11-16,3
+2021-0741-USA,a942c4bbcb24adf64829b8de3037a088,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,,,Km2,2021-11-13,2021-11-15,2
+2021-0784-USA,e809a4c261da66505ebe3e622baac051,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains and strong winds,Storm,,Km2,2021-12-03,2021-12-08,5
+2021-0797-USA,b67e6816dc3b2e2a1a7c463224165e1a,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,310.0,Kph,2021-12-10,2021-12-11,1
+2021-0815-USA,ecbb44ae916d7d30f5a61925fc91b5db,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,,160.0,Kph,2021-12-15,2021-12-16,1
+2021-0832-USA,7031701304d6fb7f78ec7a177859d99f,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Middle Fork and the Marshall wildfires,No,No,Yes,,,,Km2,2021-12-30,2022-01-01,2
+2021-9846-USA,75bf8de4f0fca9f13400e40cb25e4a5b,No,nat-cli-dro-dro,Natural,Climatological,Drought,Drought,,No,No,No,,,,Km2,2021-01-01,2021-12-31,364
+2022-0007-USA,8e9d1b69ea4a52bd7a8a2690caf713c8,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Cold wave,,Kph,2022-01-02,2022-01-03,1
+2022-0080-USA,f8e28d4a503a23ee9162e6d31c404d7e,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2022-02-01,2022-02-05,4
+2022-0126-USA,84bed47d4718f552bc05e953e3f3ba80,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Hail,275.0,Kph,2022-03-05,2022-03-07,2
+2022-0132-USA,9772dbd7a127dbd39ebab14a9f8e20fa,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Adkins Ave Fire and Bertha Swamp Road Fires; Cottonwood Complex Fires,No,No,No,"Prolonged period of dry conditions, steady winds, and abundant fuels",,,Km2,2022-03-04,2022-03-09,5
+2022-0157-USA,d9ab533c20424c369896afa378bd2b08,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Hail,,Kph,2022-03-21,2022-03-23,2
+2022-0185-USA,8e18e96e20962d7ecad076aa62fe07c8,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Hail,177.0,Kph,2022-03-29,2022-04-01,3
+2022-0193-USA,1d3471fbb4a60156597055e75f0198f8,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2022-04-04,2022-04-07,3
+2022-0212-USA,4235272786fe1c3b724f3909817b2178,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Flood|Hail,265.0,Kph,2022-04-11,2022-04-14,3
+2022-0227-USA,e67845f0d0969068bb6a6b0f4ff89eb5,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,,Kph,2022-04-15,2022-04-18,3
+2022-0244-CAN,654321c9784235d24116904d1ec1dc5b,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,Yes,Yes,,Flood,,Kph,2022-04-21,2022-04-24,3
+2022-0244-USA,27667daef18f6f31b9388f32ec30c1a6,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,130.0,Kph,2022-04-21,2022-04-24,3
+2022-0246-USA,e47f4b2a0649248c39f55f4279fd10f3,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Calf Canyon and Hermits Peak Fires,No,No,Yes,"Hot and dry conditions, severe drought, and very high winds",,,Km2,2022-04-06,2022-06-14,69
+2022-0261-USA,0794a4782d047e255c666bb9f7e925a8,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,,Kph,2022-04-26,2022-05-05,9
+2022-0266-CAN,776f370afd89131262ceed9673d568a1,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavi rains,,,Km2,2022-04-22,2022-04-25,3
+2022-0284-USA,1177e4673c84b51af8a472bab557cb61,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,Yes,,Flood|Hail,,Kph,2022-05-05,2022-05-11,6
+2022-0304-CAN,e1935f4b1151ab88380a1975b91c997a,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,"Ice jams, rain and melting snow",,,Km2,2022-05-30,2022-05-31,1
+2022-0325-CAN,a06d0f5c9446df543fa26b0b7e4afcfa,No,nat-met-sto-der,Natural,Meteorological,Storm,Derecho,,No,No,No,,,,Kph,2022-05-19,2022-05-26,7
+2022-0325-USA,844863f6eac74b0f3074b2dae3276bfc,No,nat-met-sto-der,Natural,Meteorological,Storm,Derecho,,No,No,No,,,,Kph,2022-05-19,2022-05-26,7
+2022-0361-USA,18c9369618aca0d33ccbac83572b33e7,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Heavy rain combined with glacier melt,"Slide (land, mud, snow, rock)",,Km2,2022-06-11,2022-06-14,3
+2022-0480-USA,f590c69b4f726e744cbd6d88c8f881ee,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,,,Km2,2022-07-26,2022-07-31,5
+2022-0486-USA,e9c6a75300320ecf95d76a8628911750,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),McKinney & Yeti Complex fires,No,No,No,"Vague de chaleur, de forts vents et des orages",Heat wave,,Km2,2022-07-29,2022-08-01,3
+2022-0603-CAN,fa6f4c052ed71f888fb0765e824842e2,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Fiona',No,No,No,,,,Kph,2022-09-24,2022-09-25,1
+2022-0614-USA,b922576e6fe72b3de0a7935f65628cce,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Ian',No,No,Yes,,Flood,240.0,Kph,2022-09-28,2022-10-02,4
+2022-0734-USA,00fc984be9fe09eeface3c7cbcbdc6b1,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Nicole',No,No,Yes,,,120.0,Kph,2022-11-10,2022-11-11,1
+2022-0735-USA,46423fe95a76a1052ab70b59276bc9dc,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood,,Kph,2022-11-04,2022-11-05,1
+2022-0808-USA,5500ce9c807d81db8b93888eb222b96b,No,nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement,,No,No,Yes,,,6.4,Moment Magnitude,2022-12-20,2022-12-20,0
+2022-0811-USA,2ce8c35b879cc2d557ed2314b15d6373,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2022-12-12,2022-12-15,3
+2022-0818-CAN,c9b74fc1f7c713a2f24c22caa182968e,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,Storm 'Elliott',No,No,No,,,,Kph,2022-12-21,2022-12-26,5
+2022-0818-USA,5b85f7f38b8b1c9600615c6527efe4c9,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,Storm 'Elliott',No,No,Yes,Heavy snowfall and very low temperatures,Cold wave|Flood,120.0,Kph,2022-12-19,2022-12-29,10
+2022-0863-USA,dce736ef7c17c704f93da26cbe0372a8,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,Yes,,"Flood|Slide (land, mud, snow, rock)",,Kph,2022-12-26,2023-03-26,90
+2023-0032-USA,616071764371783e1d476d22929cf70c,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,145.0,Kph,2023-01-12,2023-01-12,0
+2023-0052-CAN,0f11de0a2f335cfb081f64b8565e38e0,No,nat-met-ext-sev,Natural,Meteorological,Extreme temperature,Severe winter conditions,,No,No,No,,,-50.0,°C,2023-01-30,2023-02-05,6
+2023-0052-USA,446c1c4e611d9cc4345a291f0208ccd4,No,nat-met-ext-sev,Natural,Meteorological,Extreme temperature,Severe winter conditions,,No,No,No,,Cold wave|Transport accident,-50.0,°C,2023-01-30,2023-02-01,2
+2023-0122-USA,77724f99162bddc5af04bc834eec7988,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,,,Kph,2023-03-01,2023-03-03,2
+2023-0135-USA,113afcd59803bbccaf9a5ff8452ed6d5,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,Yes,,Flood|Snow/ice,,Kph,2023-03-09,2023-03-12,3
+2023-0176-USA,13c2ff9f471ec26419bea8becbdacd47,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2023-03-22,2023-03-27,5
+2023-0192-USA,976dfbcb727a08b152ed094744e465e5,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2023-03-30,2023-04-03,4
+2023-0206-USA,2c7991763ab95dd84d36210eec06a1e9,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,,,Kph,2023-04-03,2023-04-07,4
+2023-0225-USA,cb9eb3aa6446a9aa3a6634d6c710cdfe,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,No,Heavy rains,,,Km2,2023-04-12,2023-04-14,2
+2023-0239-USA,c2c574aa5bf5edbfff81f7e4fd3afe80,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,,Kph,2023-04-15,2023-04-22,7
+2023-0253-USA,f63756d026e6b250edb90b881ba8cd55,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,,Kph,2023-04-23,2023-04-27,4
+2023-0272-CAN,192765020da179eeb950ab8eb5e2d20c,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains,Storm,,Km2,2023-05-01,2023-05-04,3
+2023-0288-USA,3220cd2abb508f6eca400b7318f6ecea,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,,Kph,2023-05-06,2023-05-08,2
+2023-0324-USA,10af6f2d3469907c56f0a03dc54ceca9,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail|Lightening,,Kph,2023-06-15,2023-06-22,7
+2023-0332-USA,084ced863bb0c80b9c33cbfb1faa2e38,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,,Kph,2023-06-10,2023-06-17,7
+2023-0370-USA,532247c67b4207f77e806f2869337939,No,nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General),,No,No,No,,Hail,,Kph,2023-06-23,2023-06-29,6
+2023-0426-USA,c3bc11192c038fa1b57e11a51fc9ebff,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Severe storms,,,Km2,2023-07-09,2023-07-18,9
+2023-0465-CAN,e1d9605b73df52d019a0b06a5db581df,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Heavy rains,,,Km2,2023-07-21,2023-07-22,1
+2023-0524-USA,9b25771c28dd59f161dfc671603ff3d3,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),'Lahaina' wildfire,No,No,Yes,,,,Km2,2023-08-09,2023-08-10,1
+2023-0565-USA,a5c0cbb3b6927c1eb1a791df136d582c,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Idalia',No,No,No,,Flood,150.0,Kph,2023-08-28,2023-08-29,1
+2023-0651-USA,57a5401cef8e9a5a19910f5b7641ef9a,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,Heavy rains and storms,Storm,,Km2,2023-09-29,2023-10-04,5
+2023-0656-USA,0dcbe732ac540388cd5cf957af743b15,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail|Transport accident,,Kph,2023-09-21,2023-09-27,6
+2023-0785-USA,862180e1258c91be842efad0a2d510f0,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,No,Heavy rains and snow,,,Km2,2023-12-04,2023-12-06,2
+2023-0826-USA,63a65b0dcca5ef87a46df95448d5ccd5,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Lightening,,Kph,2023-12-09,2023-12-11,2
+2023-0843-USA,7e275a737304906eac2669ed494eed92,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood,,Kph,2023-12-16,2023-12-19,3
+2023-9868-USA,96aa5735fbf4a226d4a3a40259b21a94,No,nat-cli-dro-dro,Natural,Climatological,Drought,Drought,,No,No,No,,Heat wave,,Km2,2023-04-01,2023-09-30,182
+2024-0004-USA,fb9fa53a1087df41ec3ba19756bfa00e,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,Two powerful storm systems,Flood|Severe winter conditions,,Kph,2024-01-08,2024-01-10,2
+2024-0005-USA,0534ee321c14fdfe73c9b22718191506,No,nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm,,No,No,Yes,,Cold wave|Flood|Snow/ice|Transport accident,,Kph,2024-01-09,2024-01-22,13
+2024-0062-USA,fa5fd58e2595f2cf4dc66d4db0da7ede,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,Yes,,"Flood|Slide (land, mud, snow, rock)|Snow/ice|Storm",160.0,Kph,2024-02-04,2024-02-08,4
+2024-0079-USA,300ff8d9970f11fe3f62a6c15e70ab19,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,Two storms systems,Flood|Snow/ice,,Kph,2024-02-08,2024-02-13,5
+2024-0126-USA,ef710ae48d8091e8a42545c176dddb31,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Smokehouse Creek  Windy Deuce and Grape Vine Creek fires,No,No,Yes,Hot and windy conditions,,,Km2,2024-02-26,2024-03-07,10
+2024-0173-USA,7d47cc1d04fef9200354f13153afac6c,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,No,,Hail,,Kph,2024-03-12,2024-03-16,4
+2024-0193-USA,38e3e52c9508bee2b253854fe16b38b7,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,"Long-lasting, multi-hazard weather system","Avalanche (Snow, Debris)|Flood",,Kph,2024-03-29,2024-04-05,7
+2024-0205-USA,12babdfa7820da13a5bf601b9bad3d4c,No,nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General),,No,No,Yes,,Storm,,Km2,2024-04-06,2024-04-11,5
+2024-0266-USA,378a982ca0b3169f7aa739f481fec21f,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,Flood,,Kph,2024-04-25,2024-05-08,13
+2024-0288-CAN,d2da589bcc26bf445c38002f62c9510b,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,,No,No,No,,,,Km2,2024-05-12,2024-05-13,1
+2024-0307-USA,05acdf3b5cb5918136c2bf059663d869,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood,160.0,Kph,2024-05-16,2024-05-22,6
+2024-0314-USA,c6ef4f62680f9da52ffc9f3ed7e927fb,No,nat-met-sto-tor,Natural,Meteorological,Storm,Tornado,,No,No,Yes,,,,Kph,2024-05-22,2024-05-22,0
+2024-0340-USA,0a6e1b2b208d1cf541debc8677ce4658,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Flood|Hail|Lightening,,Kph,2024-05-23,2024-05-30,7
+2024-0351-USA,e95010061042509eb85f206f738c7168,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,No,,Hail,,Kph,2024-05-30,2024-06-05,6
+2024-0403-USA,a69294584778cfc2af081b9529afa12b,No,nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire,' South Fork' and 'Salt' fires,No,No,Yes,,,,Km2,2024-06-17,2024-07-15,28
+2024-0422-CAN,d25f2ea5a3fe84d23d76a67a3f5dd640,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Beryl',No,No,No,,Flood,,Kph,2024-07-12,2024-07-12,0
+2024-0422-USA,fc759201f69f5fdda292f31c9f82479c,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Beryl',No,No,Yes,,Flood,130.0,Kph,2024-07-08,2024-07-09,1
+2024-0463-CAN,4952fc712dedc4c3e9076b518b6a5a1d,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),,No,No,Yes,,,,Km2,2024-06-21,2024-06-25,4
+2024-0524-CAN,b055f2a63283eb1cabb4ee6144ec4b71,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),Jasper Complex Fire,No,No,Yes,"Warm temperatures, dry conditions, and strong winds, lightenings",,,Km2,2024-07-22,2024-08-07,16
+2024-0573-CAN,c8fd0cd342ae327d7f1c4c409997b002,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical cyclone 'Debby',No,No,No,,Flood,,Kph,2024-08-08,2024-08-10,2
+2024-0573-USA,297e6ef57e21258c14063684d1ff8b4d,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical cyclone 'Debby',No,No,Yes,,Flood,120.0,Kph,2024-08-05,2024-08-06,1
+2024-0669-USA,072441b48287a9b92d44031647f54d4a,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),'Brige fire'  'Airport fire',No,No,Yes,,Heat wave,,Km2,2024-09-04,2024-09-19,15
+2024-0693-USA,80234918f59f6380f3f88aa0eaa736e5,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Tropical cyclone 'Helene',No,No,No,,Flood|Surge,225.0,Kph,2024-09-25,2024-09-28,3
+2024-0722-USA,e93fa5d59a214bbde2de70b1e82901df,No,nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone,Hurricane 'Milton',No,No,Yes,,Flood|Surge,205.0,Kph,2024-10-09,2024-10-10,1
+2024-0788-USA,6e26acc38a6baf7d2b9d070a28480ddf,No,nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood,,No,No,Yes,Heavy rains,,,Km2,2024-10-18,2024-10-20,2
+2024-0814-USA,4b2fb0aaabe0142bbc75a4177a6cb4c5,No,nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather,,No,No,Yes,,Flood|Lightening,,Kph,2024-11-02,2024-11-05,3
+2024-0827-USA,a773856c77508c4e2f26f0ccf97b1268,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),'Mountain fire',No,No,Yes,,,,Km2,2024-11-06,2024-11-08,2
+2024-0897-USA,59c01404aca16dce496c70b73f650dd1,No,nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General),'Franklin',No,No,No,,,,Km2,2024-12-09,2024-12-11,2

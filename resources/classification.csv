@@ -1,0 +1,27 @@
+Classification_Key,Disaster_Group,Disaster_Subgroup,Disaster_Type,Disaster_Subtype
+nat-met-sto-tor,Natural,Meteorological,Storm,Tornado
+nat-hyd-flo-riv,Natural,Hydrological,Flood,Riverine flood
+nat-cli-wil-for,Natural,Climatological,Wildfire,Forest fire
+nat-hyd-flo-fla,Natural,Hydrological,Flood,Flash flood
+nat-hyd-flo-flo,Natural,Hydrological,Flood,Flood (General)
+nat-met-sto-sev,Natural,Meteorological,Storm,Severe weather
+nat-geo-ear-gro,Natural,Geophysical,Earthquake,Ground movement
+nat-met-sto-tro,Natural,Meteorological,Storm,Tropical cyclone
+nat-met-sto-bli,Natural,Meteorological,Storm,Blizzard/Winter storm
+nat-met-sto-sto,Natural,Meteorological,Storm,Storm (General)
+nat-bio-epi-vir,Natural,Biological,Epidemic,Viral disease
+nat-bio-epi-dis,Natural,Biological,Epidemic,Infectious disease (General)
+nat-hyd-mmw-mud,Natural,Hydrological,Mass movement (wet),Mudslide
+nat-met-sto-hai,Natural,Meteorological,Storm,Hail
+nat-met-sto-lig,Natural,Meteorological,Storm,Lightning/Thunderstorms
+nat-met-ext-col,Natural,Meteorological,Extreme temperature,Cold wave
+nat-met-ext-hea,Natural,Meteorological,Extreme temperature,Heat wave
+nat-cli-wil-wil,Natural,Climatological,Wildfire,Wildfire (General)
+nat-cli-wil-lan,Natural,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)"
+nat-met-ext-sev,Natural,Meteorological,Extreme temperature,Severe winter conditions
+nat-met-sto-ext,Natural,Meteorological,Storm,Extra-tropical storm
+nat-hyd-mmw-lan,Natural,Hydrological,Mass movement (wet),Landslide (wet)
+nat-cli-dro-dro,Natural,Climatological,Drought,Drought
+nat-geo-vol-lav,Natural,Geophysical,Volcanic activity,Lava flow
+nat-met-sto-san,Natural,Meteorological,Storm,Sand/Dust storm
+nat-met-sto-der,Natural,Meteorological,Storm,Derecho
