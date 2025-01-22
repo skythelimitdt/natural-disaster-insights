@@ -94,6 +94,8 @@ CREATE TABLE "Classification" (
      )
 );
 
+SELECT * FROM "Affected";
+
 ALTER TABLE "Damage" ADD CONSTRAINT "fk_Damage_Classification_Key" FOREIGN KEY("Classification_Key")
 REFERENCES "Classification" ("Classification_Key");
 
