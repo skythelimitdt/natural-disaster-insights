@@ -1,4 +1,4 @@
-ImpactID,DisNo,Classification_Key,LocationID,ISO,Start_Year,Total_Damage(USD),Total_Damage_Adj(USD)
+ImpactID,DisNo,Classification_Key,LocationID,ISO,Start_Year,Total_Damage_USD,Total_Damage_Adj_USD
 5cdf3bcf14b636dcea834bde8a1d89fa,2000-0021-USA,nat-met-sto-tor,fdf4015cbad28df1537d0de94c0af34f,USA,2000,210000.0,371587.0
 5370ecca580bd7737acae78e8d820169,2000-0067-USA,nat-met-sto-tor,018f2d7f660af07db0c732dde694aa53,USA,2000,,
 aee9ba2fd62e6a9ad6c976d5503c5011,2000-0080-USA,nat-hyd-flo-riv,47dbeba351610a968c5871a5f626e8d5,USA,2000,,

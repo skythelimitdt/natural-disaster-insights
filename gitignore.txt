@@ -3,6 +3,7 @@ api_keys.py
 
 # Custom Ignore
 .DS_Store
+queries.sql
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
