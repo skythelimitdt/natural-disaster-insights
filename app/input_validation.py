@@ -8,11 +8,12 @@ def valid_date_range(from_date, to_date):
     except ValueError:
         return False
 
-
 def is_valid_date(from_date, to_date):
     if not valid_date_range(from_date, to_date):
         return False, "From date must be before or equal to the To date."
     return True, "Dates are valid."
 
-def is_valid_data():
-    pass
+def is_valid_millenium_year(year):
+    if int(year) < 2000:
+        return False, "We only care about the 2000s, Choose a year between 2000 and 2010."
+    return True, None

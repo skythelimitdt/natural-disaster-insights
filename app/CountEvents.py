@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
+from Database import Database
 
-class CountData:
+class CountEvents:
     def __init__(self, master, controller):
         self.master = master
         self.controller = controller
@@ -33,7 +34,8 @@ class CountData:
 
     def load_locations(self):
         try:
-            locations = self.db.fetch_all_locations("disasters")  # Replace "disasters" with your table name
+            # Call fetch_all_locations without arguments
+            locations = self.db.fetch_all_locations()  
             self.location_dropdown['values'] = locations
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load locations: {e}")
@@ -45,7 +47,7 @@ class CountData:
             return
 
         try:
-            count = self.db.count_events_by_location("disasters", location)  # Replace "disasters" with your table name
+            count = self.db.count_events_by_location(location)  # Location is passed directly
             messagebox.showinfo("Event Count", f"Number of events in {location}: {count}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to fetch event count: {e}")

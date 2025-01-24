@@ -19,26 +19,26 @@ class Menu:
         # Radio buttons for selecting options
         self.selected_option = tk.StringVar(value="none")
         ttk.Radiobutton(
-            self.main_frame, text="Filter Data", variable=self.selected_option, value="filter"
-        ).grid(row=1, column=0, sticky="w", padx=10, pady=5)
+            self.main_frame, text="Search For Disasters by Year", variable=self.selected_option, value="search"
+        ).grid(row=2, column=0, sticky="w", padx=10, pady=5)
 
         ttk.Radiobutton(
-            self.main_frame, text="Count Data", variable=self.selected_option, value="count"
-        ).grid(row=2, column=0, sticky="w", padx=10, pady=5)
+            self.main_frame, text="Generate Disaster Count by Location", variable=self.selected_option, value="count"
+        ).grid(row=3, column=0, sticky="w", padx=10, pady=5)
 
         # Buttons
         ttk.Button(self.main_frame, text="Go", command=self.go).grid(
-            row=2, column=0, pady=10
+            row=4, column=0, pady=10
         )
         ttk.Button(self.main_frame, text="Exit", command=self.exit).grid(
-            row=2, column=1, pady=10
+            row=4, column=1, pady=10
         )
 
     def go(self):
         selected_option = self.selected_option.get()
 
-        if selected_option == "filter":
-            self.controller.switch_to_filter()
+        if selected_option == "search":
+            self.controller.switch_to_search()
         elif selected_option == "count":
             self.controller.switch_to_count()
         else:
