@@ -10,16 +10,16 @@
 ImpactID VARCHAR(255) PK \
 DisNo VARCHAR(255) FK \
 Classification_Key VARCHAR(100) FK >- c.Classification_Key\
-LocationID VARCHAR(255) FK >- l.LocationID\
+Location VARCHAR(3000) NULL\
 ISO VARCHAR(3)\
 Start_Year INTEGER \
 Total_Damage_USD FLOAT NULL \
 Total_Damage_Adj_USD  FLOAT NULL \
 \
+\
 affected as a\
 -\
 ImpactID VARCHAR(255) PK \
-LocationID VARCHAR(255) FK >- l.LocationID\
 Classification_Key VARCHAR(100) FK >- c.Classification_Key\
 DisNo VARCHAR(255) FK >- e.DisNo\
 ISO VARCHAR(3)\
@@ -28,6 +28,7 @@ No_Injured FLOAT NULL \
 No_Affected FLOAT NULL \
 No_Homeless FLOAT NULL \
 Total_Affected FLOAT NULL \
+Location VARCHAR(3000) NULL\
 \
 events as e\
 -\
@@ -45,15 +46,8 @@ Magnitude_Scale VARCHAR(255) NULL\
 Start_Date DATE\
 End_Date DATE\
 duration INTEGER\
-\
-locations as l\
--\
-LocationID VARCHAR(255) PK\
-DisNo VARCHAR(255) UNIQUE FK \
-Classification_Key VARCHAR(100) \
-ISO VARCHAR(3)\
 Location VARCHAR(3000) NULL\
-River_Basin VARCHAR(500) NULL\
+\
 \
 classification as c\
 -\
@@ -67,7 +61,7 @@ tropicalcyclone as tc\
 -\
 DisNo VARCHAR(255) UNIQUE FK >- e.DisNo\
 ImpactID VARCHAR(255) PK \
-LocationID VARCHAR(255) FK >- l.LocationID\
+Location VARCHAR(3000) NULL\
 Classification_Key VARCHAR(100) \
 Event_Name VARCHAR(255)\
 ISO VARCHAR(3)\
@@ -77,6 +71,7 @@ Start_Date DATE\
 Total_Damage_USD FLOAT NULL \
 Total_Damage_Adj_USD  FLOAT NULL \
 duration INTEGER\
+\
 \
 \
 \
