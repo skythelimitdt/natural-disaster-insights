@@ -37,13 +37,13 @@ To clean and organize the data we created an ETL Workflow and stored the clean d
 **For this track, your group will follow data engineering processes. Here are the specific requirements:**
 - Data must be stored in a SQL or NoSQL database (PostgreSQL, MongoDB, SQLite, etc) and the database must include at least two tables (SQL) or collections (NoSQL).
 - The database must contain at least 100 records.
+- Your project must use ETL workflows to ingest data into the database (i.e. the data should not be exactly the same as the original source; it should have been transformed in some way).
+- Your project must include a method for reading data from the database and displaying it for future use, such as:
+    - Pandas DataFrame
+    - Flask API with JSON output   
 
-**Your project must use ETL workflows to ingest data into the database (i.e. the data should not be exactly the same as the original source; it should have been transformed in some way).**
+*Your project must use one additional library not covered in class related to data engineering. Consider libraries for data streaming, cloud, data pipelines, or data validation.*
 
-**Your project must include a method for reading data from the database and displaying it for future use, such as:**
-- Pandas DataFrame
-- Flask API with JSON output
-__Your project must use one additional library not covered in class related to data engineering. Consider libraries for data streaming, cloud, data pipelines, or data validation.__
 
 
 **Your GitHub repo must include a README.md with an outline of the project including:**
@@ -56,9 +56,9 @@ __Your project must use one additional library not covered in class related to d
 - References for any code used that is not your own
 
 
-__OPTIONAL: add user-driven interaction, either before or after the ETL process. e.g.:__
-- BEFORE: provide a menu of options for the user to narrow the range of data being extracted from a data source (e.g. API or CSV file, where fields are known in advance).
-- AFTER: Once the data is stored in the database, add user capability to extract filtered data from the database prior to loading it in a Pandas DataFrame or a JSON output from a Flask API.
+*OPTIONAL: add user-driven interaction, either before or after the ETL process. e.g.:*
+*- BEFORE: provide a menu of options for the user to narrow the range of data being extracted from a data source (e.g. API or CSV file, where fields are known in advance).*
+*- AFTER: Once the data is stored in the database, add user capability to extract filtered data from the database prior to loading it in a Pandas DataFrame or a JSON output from a Flask API.*
 
 
 
