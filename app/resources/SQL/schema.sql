@@ -1,17 +1,15 @@
-﻿DROP TABLE damage CASCADE;
+﻿
+DROP TABLE damage CASCADE;
 DROP TABLE classification CASCADE;
-DROP TABLE locations CASCADE;
 DROP TABLE events CASCADE;
 DROP TABLE affected CASCADE;
 DROP TABLE tropicalcyclone CASCADE;
-
-
 
 CREATE TABLE "damage" (
     "ImpactID" VARCHAR(255)   NOT NULL,
     "DisNo" VARCHAR(255)   NOT NULL,
     "Classification_Key" VARCHAR(100)   NOT NULL,
-    "LocationID" VARCHAR(255)   NOT NULL,
+    "Location" VARCHAR(3000)   NULL,
     "ISO" VARCHAR(3)   NOT NULL,
     "Start_Year" INTEGER   NOT NULL,
     "Total_Damage_USD" FLOAT   NULL,
@@ -23,7 +21,6 @@ CREATE TABLE "damage" (
 
 CREATE TABLE "affected" (
     "ImpactID" VARCHAR(255)   NOT NULL,
-    "LocationID" VARCHAR(255)   NOT NULL,
     "Classification_Key" VARCHAR(100)   NOT NULL,
     "DisNo" VARCHAR(255)   NOT NULL,
     "ISO" VARCHAR(3)   NOT NULL,
@@ -32,6 +29,7 @@ CREATE TABLE "affected" (
     "No_Affected" FLOAT   NULL,
     "No_Homeless" FLOAT   NULL,
     "Total_Affected" FLOAT   NULL,
+    "Location" VARCHAR(3000)   NULL,
     CONSTRAINT "pk_affected" PRIMARY KEY (
         "ImpactID"
      )
@@ -52,24 +50,10 @@ CREATE TABLE "events" (
     "Start_Date" DATE   NOT NULL,
     "End_Date" DATE   NOT NULL,
     "duration" INTEGER   NOT NULL,
+    "Location" VARCHAR(3000)   NULL,
     CONSTRAINT "pk_events" PRIMARY KEY (
         "DisNo"
      )
-);
-
-CREATE TABLE "locations" (
-    "LocationID" VARCHAR(255)   NOT NULL,
-    "DisNo" VARCHAR(255)   NOT NULL,
-    "Classification_Key" VARCHAR(100)   NOT NULL,
-    "ISO" VARCHAR(3)   NOT NULL,
-    "Location" VARCHAR(3000)   NULL,
-    "River_Basin" VARCHAR(500)   NULL,
-    CONSTRAINT "pk_locations" PRIMARY KEY (
-        "LocationID"
-     ),
-    CONSTRAINT "uc_locations_DisNo" UNIQUE (
-        "DisNo"
-    )
 );
 
 CREATE TABLE "classification" (
@@ -86,7 +70,7 @@ CREATE TABLE "classification" (
 CREATE TABLE "tropicalcyclone" (
     "DisNo" VARCHAR(255)   NOT NULL,
     "ImpactID" VARCHAR(255)   NOT NULL,
-    "LocationID" VARCHAR(255)   NOT NULL,
+    "Location" VARCHAR(3000)   NULL,
     "Classification_Key" VARCHAR(100)   NOT NULL,
     "Event_Name" VARCHAR(255)   NOT NULL,
     "ISO" VARCHAR(3)   NOT NULL,
@@ -107,12 +91,6 @@ CREATE TABLE "tropicalcyclone" (
 ALTER TABLE "damage" ADD CONSTRAINT "fk_damage_Classification_Key" FOREIGN KEY("Classification_Key")
 REFERENCES "classification" ("Classification_Key");
 
-ALTER TABLE "damage" ADD CONSTRAINT "fk_damage_LocationID" FOREIGN KEY("LocationID")
-REFERENCES "locations" ("LocationID");
-
-ALTER TABLE "affected" ADD CONSTRAINT "fk_affected_LocationID" FOREIGN KEY("LocationID")
-REFERENCES "locations" ("LocationID");
-
 ALTER TABLE "affected" ADD CONSTRAINT "fk_affected_Classification_Key" FOREIGN KEY("Classification_Key")
 REFERENCES "classification" ("Classification_Key");
 
@@ -127,7 +105,4 @@ REFERENCES "classification" ("Classification_Key");
 
 ALTER TABLE "tropicalcyclone" ADD CONSTRAINT "fk_tropicalcyclone_DisNo" FOREIGN KEY("DisNo")
 REFERENCES "events" ("DisNo");
-
-ALTER TABLE "tropicalcyclone" ADD CONSTRAINT "fk_tropicalcyclone_LocationID" FOREIGN KEY("LocationID")
-REFERENCES "locations" ("LocationID");
 
