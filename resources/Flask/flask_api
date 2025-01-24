@@ -1,0 +1,85 @@
+import numpy as np
+
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, func
+
+from flask import Flask, jsonify
+
+
+#################################################
+# Database Setup
+#################################################
+engine = create_engine()
+
+# reflect an existing database into a new model
+Base = automap_base()
+# reflect the tables
+Base.prepare(autoload_with=engine)
+
+# Save reference to the table
+Disaster = Base.classes.disasters
+
+#################################################
+# Flask Setup
+#################################################
+app = Flask(__name__)
+
+
+#################################################
+# Flask Routes
+#################################################
+
+@app.route("/")
+def welcome():
+    """List all available api routes."""
+    return (
+        f"Available Routes:<br/>"
+        f"/api/v1.0/Disasters<br/>"
+        f"/api/v1.0/Info"
+    )
+
+
+@app.route("/api/v1.0/Disasters")
+def disasters():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    """Return a list of all disasters"""
+    # Query all 
+    results = session.query(Disaster.name).all()
+
+    session.close()
+
+    # Convert list of tuples into normal list
+    all_names = list(np.ravel(results))
+
+    return jsonify(all_names)
+
+
+@app.route("/api/v1.0/Info")
+def info():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    """Return a list of disaster data"""
+    # Query all disasters
+    results = session.query(Disaster.area, Disaster.type, Disaster.deaths).all()
+
+    session.close()
+
+    # Create a dictionary from the row data and append to a list of all_disasters
+    all_disasters = []
+    for classification, rating, deaths in results:
+        disaster_dict = {}
+        disaster_dict["area"] = area
+        disaster_dict["classification"] = classification
+        disaster_dict["deaths"] = deaths
+        all_disasters.append(disaster_dict)
+
+    return jsonify(all_disasters)
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
