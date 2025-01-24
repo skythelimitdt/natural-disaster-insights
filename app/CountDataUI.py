@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from data import Database
 
 class CountData:
     def __init__(self, master, controller):
