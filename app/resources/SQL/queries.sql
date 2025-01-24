@@ -2,14 +2,14 @@
 SELECT 
 	"Start_Year",
 	SUM("Total_Damage_USD") AS total_damage
-FROM "Damage"
+FROM damage
 GROUP BY "Start_Year"
 ORDER BY "Start_Year" DESC;
 
 --Count the rows on each table
 SELECT 
 	COUNT("Classification_Key") AS row_count
-FROM "Classification";
+FROM classification;
 
 -- Perform an INNER JOIN on Damage and Classification tables
 SELECT 
@@ -18,8 +18,8 @@ SELECT
     c."Disaster_Subgroup",
 	d."Total_Damage_USD"
 FROM 
-    "Classification" AS c
+    classification AS c
 INNER JOIN 
-    "Damage" AS d 
+    damage AS d 
 ON 
     d."Classification_Key" = c."Classification_Key";
