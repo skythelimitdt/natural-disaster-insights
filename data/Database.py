@@ -1,31 +1,53 @@
-from flask import Flask, jsonify, request
 from sqlalchemy import create_engine, MetaData, Table
 from sqlalchemy.orm import sessionmaker
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
+class Database:
+    def __init__(self, database_url):
+        self.engine = create_engine(database_url)
+        self.metadata = MetaData(bind=self.engine)
+        self.Session = sessionmaker(bind=self.engine)
+        self.session = self.Session()
+
+    def fetch_all(self, table_name):
+        table = Table(table_name, self.metadata, autoload_with=self.engine)
+        with self.engine.connect() as conn:
+            result = conn.execute(table.select()).fetchall()
+        return [dict(row) for row in result]
+
+    def filter_data(self, table_name, column, value):
+        table = Table(table_name, self.metadata, autoload_with=self.engine)
+        with self.engine.connect() as conn:
+            query = table.select().where(table.c[column] == value)
+            result = conn.execute(query).fetchall()
+        return [dict(row) for row in result]
+
 # Database configuration
-DATABASE_URL = ""
-engine = create_engine(DATABASE_URL)
-metadata = MetaData(bind=engine)
-Session = sessionmaker(bind=engine)
-session = Session()
+DATABASE_URL = "postgresql+psycopg2://username:password@localhost:5432/NaturalDisaster"
+db_helper = Database(DATABASE_URL)
 
-# Load table metadata
-table1 = Table('one', metadata, autoload_with=engine)
-table2 = Table('two', metadata, autoload_with=engine)
+@app.route('/data/<table_name>', methods=['GET'])
+def get_data(table_name):
+    try:
+        data = db_helper.fetch_all(table_name)
+        return jsonify(data), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
-@app.route('/users', methods=['GET'])
-def get_table1():
-    with engine.connect() as conn:
-        result = conn.execute(table1.select()).fetchall()
-    return jsonify([dict(row) for row in result])
+@app.route('/filter/<table_name>', methods=['GET'])
+def filter_data(table_name):
+    column = request.args.get('column')
+    value = request.args.get('value')
+    if not column or not value:
+        return jsonify({'error': 'Missing value parameter'}), 400
 
-@app.route('/users', methods=['GET'])
-def get_table2():
-    with engine.connect() as conn:
-        result = conn.execute(table2.select()).fetchall()
-    return jsonify([dict(row) for row in result])
+    try:
+        data = db_helper.filter_data(table_name, column, value)
+        return jsonify(data), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)

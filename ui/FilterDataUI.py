@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import input_validation as V
+import requests
 
 
 class FilterData:
@@ -64,6 +65,19 @@ class FilterData:
             return
 
         messagebox.showinfo("Success", "Data filtered successfully!")
+
+        try:
+            response = requests.get(
+                f"http://127.0.0.1:5000/filter/one",
+                params={"column": data1, "value": data2},
+            )
+            if response.status_code == 200:
+                results = response.json()
+                messagebox.showinfo("Filtered Results", str(results))
+            else:
+                messagebox.showerror("Error", response.json().get('error', 'Unknown error'))
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to connect to the server: {e}")
 
     def back_to_menu(self):
         self.controller.switch_to_menu()
