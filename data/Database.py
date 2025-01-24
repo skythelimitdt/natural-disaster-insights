@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, MetaData, Table, select
 from sqlalchemy.orm import sessionmaker
 import psycopg2
 
-DATABASE_URL = "postgresql://postgres:xxx@localhost/NaturalDisaster"
+DATABASE_URL = "postgresql://postgres:postgres@localhost/NaturalDisaster"
 
 class Database:
     def __init__(self):
