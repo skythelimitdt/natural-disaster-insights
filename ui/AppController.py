@@ -1,5 +1,6 @@
 from MenuUI import Menu
 from FilterDataUI import FilterData
+from CountDataUI import CountData
 
 
 class AppController:
@@ -17,6 +18,10 @@ class AppController:
     def switch_to_filter(self):
         self.destroy()
         self.current_app = FilterData(self.master, self)
+
+    def switch_to_count(self):
+        self.destroy()
+        self.current_app = CountData(self.master, self)
 
     def destroy(self):
         if self.current_app:

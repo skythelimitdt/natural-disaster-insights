@@ -1,11 +1,13 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-import requests
+from data import Database
+
 
 class CountData:
     def __init__(self, master, controller):
         self.master = master
         self.controller = controller
+        self.db = Database()
 
         # Create main frame
         self.main_frame = ttk.Frame(master)
@@ -23,7 +25,7 @@ class CountData:
         self.location_dropdown = ttk.Combobox(self.main_frame, textvariable=self.location_var)
         self.location_dropdown.grid(row=1, column=1, padx=10, pady=5)
 
-        # Load locations (example placeholder)
+        # Load locations from database
         self.load_locations()
 
         # Buttons
@@ -33,9 +35,8 @@ class CountData:
 
     def load_locations(self):
         try:
-            response = requests.get()
-            locations = response.json()
-            self.location_dropdown['values'] = [loc['name'] for loc in locations]
+            locations = self.db.fetch_all_locations("disasters")  # Replace "disasters" with your table name
+            self.location_dropdown['values'] = locations
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load locations: {e}")
 
@@ -46,9 +47,7 @@ class CountData:
             return
 
         try:
-            response = requests.get()
-            data = response.json()
-            count = data.get("count", 0)
+            count = self.db.count_events_by_location("disasters", location)  # Replace "disasters" with your table name
             messagebox.showinfo("Event Count", f"Number of events in {location}: {count}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to fetch event count: {e}")

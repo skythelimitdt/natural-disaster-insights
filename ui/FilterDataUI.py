@@ -1,13 +1,13 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-import input_validation as V
-import requests
+from data import Database
 
 
 class FilterData:
     def __init__(self, master, controller):
         self.master = master
         self.controller = controller
+        self.db = Database()
 
         # Create main frame
         self.main_frame = ttk.Frame(master)
@@ -20,64 +20,37 @@ class FilterData:
         self.title_label.grid(row=0, column=0, columnspan=3, pady=(0, 20))
 
         # Parameter 1 input
-        ttk.Label(self.main_frame, text="Parameter #1:").grid(
-            row=1, column=0, padx=10, pady=5, sticky="e"
-        )
-        self.data1 = ttk.Entry(self.main_frame)
-        self.data1.grid(row=1, column=1, padx=10, pady=5, sticky="w")
+        ttk.Label(self.main_frame, text="Column:").grid(row=1, column=0, padx=10, pady=5, sticky="e")
+        self.column_entry = ttk.Entry(self.main_frame)
+        self.column_entry.grid(row=1, column=1, padx=10, pady=5, sticky="w")
 
         # Parameter 2 input
-        ttk.Label(self.main_frame, text="Parameter #2:").grid(
-            row=2, column=0, padx=10, pady=5, sticky="e"
-        )
-        self.data2 = ttk.Entry(self.main_frame)
-        self.data2.grid(row=2, column=1, padx=10, pady=5, sticky="w")
+        ttk.Label(self.main_frame, text="Value:").grid(row=2, column=0, padx=10, pady=5, sticky="e")
+        self.value_entry = ttk.Entry(self.main_frame)
+        self.value_entry.grid(row=2, column=1, padx=10, pady=5, sticky="w")
 
         # Buttons
-        ttk.Button(self.main_frame, text="Clear", command=self.clear_ui).grid(
-            row=3, column=0, pady=10
-        )
-        ttk.Button(self.main_frame, text="Filter", command=self.filter).grid(
-            row=3, column=1, pady=10
-        )
-        ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(
-            row=3, column=2, pady=10
-        )
+        ttk.Button(self.main_frame, text="Clear", command=self.clear_ui).grid(row=3, column=0, pady=10)
+        ttk.Button(self.main_frame, text="Filter", command=self.filter_data).grid(row=3, column=1, pady=10)
+        ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=3, column=2, pady=10)
 
     def clear_ui(self):
-        self.data1.delete(0, tk.END)
-        self.data2.delete(0, tk.END)
+        self.column_entry.delete(0, tk.END)
+        self.value_entry.delete(0, tk.END)
 
-    def filter(self):
-        data1 = self.data1.get()
-        data2 = self.data2.get()
+    def filter_data(self):
+        column = self.column_entry.get()
+        value = self.value_entry.get()
 
-        # Validate inputs
-        data1_valid, data1_message = V.is_valid_data(data1)
-        data2_valid, data2_message = V.is_valid_data(data2)
-
-        if not data1_valid:
-            messagebox.showerror("Error", data1_message)
+        if not column or not value:
+            messagebox.showerror("Error", "Please provide both column and value")
             return
-
-        if not data2_valid:
-            messagebox.showerror("Error", data2_message)
-            return
-
-        messagebox.showinfo("Success", "Data filtered successfully!")
 
         try:
-            response = requests.get(
-                f"http://127.0.0.1:5000/filter/one",
-                params={"column": data1, "value": data2},
-            )
-            if response.status_code == 200:
-                results = response.json()
-                messagebox.showinfo("Filtered Results", str(results))
-            else:
-                messagebox.showerror("Error", response.json().get('error', 'Unknown error'))
+            results = self.db.filter_data("disasters", column, value)  # Replace "disasters" with your table name
+            messagebox.showinfo("Filtered Results", str(results))
         except Exception as e:
-            messagebox.showerror("Error", f"Failed to connect to the server: {e}")
+            messagebox.showerror("Error", f"Failed to filter data: {e}")
 
     def back_to_menu(self):
         self.controller.switch_to_menu()
