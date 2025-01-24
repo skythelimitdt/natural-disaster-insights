@@ -26,12 +26,12 @@ class Database:
 
 # Database configuration
 DATABASE_URL = "postgresql+psycopg2://username:password@localhost:5432/NaturalDisaster"
-db_helper = Database(DATABASE_URL)
+db = Database(DATABASE_URL)
 
 @app.route('/data/<table_name>', methods=['GET'])
 def get_data(table_name):
     try:
-        data = db_helper.fetch_all(table_name)
+        data = db.fetch_all(table_name)
         return jsonify(data), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -44,7 +44,7 @@ def filter_data(table_name):
         return jsonify({'error': 'Missing value parameter'}), 400
 
     try:
-        data = db_helper.filter_data(table_name, column, value)
+        data = db.filter_data(table_name, column, value)
         return jsonify(data), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
