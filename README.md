@@ -34,8 +34,6 @@ To clean and organize the data we created an ETL Workflow and stored the clean d
 
 
 ## Data Engineering Track
-
-# Data Engineering Track
 **For this track, your group will follow data engineering processes. Here are the specific requirements:**
 - Data must be stored in a SQL or NoSQL database (PostgreSQL, MongoDB, SQLite, etc) and the database must include at least two tables (SQL) or collections (NoSQL).
 - The database must contain at least 100 records.
