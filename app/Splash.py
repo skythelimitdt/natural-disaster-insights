@@ -24,15 +24,20 @@ class Splash:
             font=("Arial", 10),
         ).grid(row=1, column=0, columnspan=2, pady=(0, 15))
 
+        # Load and display the image
+        self.image = self.image = tk.PhotoImage(file=r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\app\resources\splash.png")
+        self.image_label = tk.Label(self.main_frame, image=self.image)
+        self.image_label.grid(row=2, column=0, columnspan=2, pady=(0, 20))
+
         # "Main Menu" button
         ttk.Button(
             self.main_frame, text="Learn More", command=self.menu
-        ).grid(row=2, column=0, pady=10)
+        ).grid(row=3, column=0, pady=10)
 
         # "Exit" button
         ttk.Button(
             self.main_frame, text="Exit", command=self.exit
-        ).grid(row=2, column=1, pady=10)
+        ).grid(row=3, column=1, pady=10)
 
     def menu(self):
         # Switch to the main menu
