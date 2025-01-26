@@ -1,0 +1,655 @@
+ImpactID,DisNo,Classification_Key,Location,ISO,Start_Year,Total_Damage_USD,Total_Damage_Adj_USD
+5cdf3bcf14b636dcea834bde8a1d89fa,2000-0021-USA,nat-met-sto-tor,"Crittenden, Daviess, Webster districts (Kentucky province)",USA,2000,210000.0,371587.0
+5370ecca580bd7737acae78e8d820169,2000-0067-USA,nat-met-sto-tor,"Bullock, Montgomery districts (Alabama province), Colquitt, Grady, Mitchell, Thomas, Tift districts (Georgia province), Washington district (Floride province), Lonoke, Prairie, Saline districts (Arkansas province)",USA,2000,,
+aee9ba2fd62e6a9ad6c976d5503c5011,2000-0080-USA,nat-hyd-flo-riv,"Kentucky, Ohio provinces",USA,2000,,
+141de4c78e696b24e06af81baf193ea5,2000-0128-USA,nat-cli-wil-for,"Gainesville, Alachua areas (Alachua district, Florida province), Lafayette, Gulf districts (Florida province)",USA,2000,,
+28e519b25fa779a2c599392458dfb094,2000-0175-USA,nat-met-sto-tor,"Fort Worth Texas city (Tarrant district, Texas province), Reagan, Burleson districts (Texas province)",USA,2000,450000.0,796259.0
+37a607d222456968f0bf6d2a3bb2b47c,2000-0232-USA,nat-hyd-flo-fla,"Franklin, Jefferson districts (Missouri province)",USA,2000,,
+56664d2838451fe35810469aa14359a7,2000-0271-USA,nat-hyd-flo-fla,Oklahoma province,USA,2000,,
+a40eb3c39cb1593c5b80913b5dab151e,2000-0279-USA,nat-cli-wil-for,Sarasota district (Florida province),USA,2000,,
+9ee6b3ab4918c1cde53a407907a96345,2000-0296-USA,nat-hyd-flo-flo,Liberty district (Texas province),USA,2000,,
+a0c0197b167e4b78744a4acea0da2e7c,2000-0297-USA,nat-hyd-flo-flo,"Franklin, Jefferson, Gasconade districts (Missouri province)",USA,2000,100000.0,176946.0
+842b74e4c99dae679b2be0190143e5f8,2000-0338-USA,nat-met-sto-tor,"Adams, Columbia, Crawford, Dane, Dodge, Grant, Green, Iowa, Juneau, La crosse, Lafayette, Monroe, Richland, Rock, Sauk, Vernon districts (Wisconsin province)",USA,2000,28500.0,50430.0
+f0b66b60095d2de3ff2e42767f770397,2000-0360-USA,nat-met-sto-sev,"Anderson, Benton, Cheatham, Davidson, Henry, Hickman, Houston, Jackson, Knox, Lake, Obion, Perry, Pickett, Stewart districts (Tennessee province)",USA,2000,,
+4457e9cebfe65c450ebb1bdc823ddf23,2000-0363-USA,nat-cli-wil-for,"Park, Jefferson, Larimer districts (Colorado province)",USA,2000,,
+ba414776194a5594cbfe0dfc31a24d19,2000-0406-USA,nat-cli-wil-for,"Hanford area (Benton district, Washington province)",USA,2000,,
+eb29f08135112418d0175280ae1e9cb2,2000-0420-CAN,nat-met-sto-tor,"Pine Lake area (Division No. 8 district, Alberta province)",CAN,2000,13000.0,23003.0
+a6f69db763c0932834083f5b96a6c30a,2000-0463-USA,nat-met-sto-tor,"Granite Falls city (Yellow Medicine, Minnesota province)",USA,2000,8100.0,14333.0
+2f0c9e34a82dba179c7670756ce274a1,2000-0500-USA,nat-hyd-flo-riv,"Morris, Sussex districts (New Jersey province)",USA,2000,166000.0,293731.0
+a03fe066ee39153f16e3eabc6feefbea,2000-0502-USA,nat-hyd-flo-flo,Pennsylvania province,USA,2000,,
+23f2d7e66b695bb64efbc5deb44261ea,2000-0598-USA,nat-geo-ear-gro,"Near Yountville city (Napa district, California province)",USA,2000,50000.0,88473.0
+156de1c3a4edcf5fd67a8f0eced9d3c5,2000-0614-USA,nat-met-sto-tor,"Xenia city (Greene district, Ohio province)",USA,2000,90000.0,159252.0
+b9af99a2ac300885c5a06081f9fa953f,2000-0652-USA,nat-met-sto-tro,"Miami-Dade, Monroe, Broward, Collier districts (Florida province)",USA,2000,219000.0,387513.0
+e4cb4a17286ed6ca4962f087e0c50ec5,2000-0756-USA,nat-met-sto-bli,"Buffalo city (Erie district, New York province)",USA,2000,,
+fee1fdbd02d5db12960efce4c627244b,2000-0838-USA,nat-met-sto-bli,"Texas, Oklahoma, New Mexico, Arkansas, Missouri, Minnesota provinces",USA,2000,,
+7772db3054359660cbc0fcfa032d1434,2000-0865-USA,nat-hyd-flo-riv,Maui district (Hawaii province),USA,2000,20000.0,35389.0
+06d8b2e60dc17538492e26853f317e0d,2000-0919-USA,nat-met-sto-sto,"Alabama, Georgia, Louisiana, North Carolina, South Carolina, Tennessee, Virginia, New York, Pennsylvania, Massachussetts provinces",USA,2000,350000.0,619312.0
+89b7ae3bbdc3119005b0670e66cd779f,2000-0937-USA,nat-met-sto-sto,"Tuscaloosa district (Alabama province), Connecticut, Florida, Georgia, Massachusetts, Mississippi, Norh Carolina, New Jersey, New York, Pennsylvania, Rhode Island provinces",USA,2000,500000.0,884732.0
+f4dd3cb711526c7cb4470fa8b1fdd2f9,2001-0052-CAN,nat-met-sto-sto,Quebec province,CAN,2001,,
+121ee3de0fc3d8ca66fb93988bfb3fb8,2001-0099-USA,nat-geo-ear-gro,"Seattle city (King district), Tacoma city (Pierce district), Olympia city (Thurston district) (Washington province)",USA,2001,2000000.0,3441661.0
+8a08208b3e8bb01fde8975a733c8e3bb,2001-0102-USA,nat-met-sto-tor,"Calhoun, Lee, Pontotoc, Prentiss, Union districts (Mississippi province)",USA,2001,250000.0,430208.0
+334ca07e3b5a4ed23f8de7b5af60d21f,2001-0106-USA,nat-met-sto-bli,"Virginia, New Jersey, Pennsylvania, North Carolina, West Virginia, Maryland provinces",USA,2001,,
+e09edf3008823d00ae674a2b7989ca7c,2001-0145-USA,nat-met-sto-tor,"Kearny, Trego, Ellis, Rooks, Ford, Osborne, Smith, Jewell, Edwards, Republic, Washington districts (Kansas province), Union city (Franklin district, Missouri province), Johnson, Pettis, Cooper, Callaway, St Charles, Gentry, Worth, Clark, Madison districts (Missouri), Beaver, Pontotoc, Coal, Johnston, Atoka, Haskell, Pottawatomie districts (Oklahoma province), Wichita, Cooke, Carson, Hutchinson, Hansford, Wheeler districts (Texas province), Thayer, Gage, Sarpy, Webster, Nuckolls districts (Nebraska province), Mills, Pottawattamie, Guthrie, Boone, Hamilton, Wapello, Johnson, Black Hawk, Benton, Fayette, Webster, Ringgold districts (Iowa province), Madison district (Illinois province)",USA,2001,23000.0,39579.0
+4b82b467ccc0cd858d42931e57eeeb0c,2001-0194-USA,nat-met-sto-tor,"Marion, Clay districts (Florida province)",USA,2001,1800.0,3097.0
+72ffb616368e11dc8458ca747df77431,2001-0242-USA,nat-met-sto-tro,"Texas, Mississippi, Louisiana, Florida, Pennsylvania, South Carolina, North Carolina, Georgia, Pensylvania, New Jersey, Virginia, Iowa provinces",USA,2001,6000000.0,10324983.0
+1be48f8fe68f50d1e2a19f45c282efbf,2001-0262-USA,nat-hyd-flo-riv,"Cleveland area (Henry district, Illinois province), Barstow, Osborn areas (Rock Island district, Illinois province)",USA,2001,,
+1d834c835d9c01a6f04282fdf7ccc8fd,2001-0266-USA,nat-met-sto-sto,"New Hampshire, Vermont, Maine, Massachusetts, Rhode Island provinces",USA,2001,,
+eec338274210e6aed14e42ebb067c249,2001-0268-USA,nat-hyd-flo-riv,"Minnesota, Iowa, Wisconsin, Illinois provinces",USA,2001,13000.0,22371.0
+ebe3655caf5fd552e82497c9df70b2e4,2001-0270-USA,nat-met-sto-tor,"Hoisington city (Barton district, Kansas province)",USA,2001,,
+1fffb45b57cc327b48059b9c73b4b2a5,2001-0340-CAN,nat-cli-wil-for,Alberta province,CAN,2001,,
+6e6dc9d81f6f18a6e9a8f58c778344bc,2001-0351-USA,nat-met-sto-tor,"Blue Grass, Bettendorf cities (Scott district, Iowa province), Leon city (Decatur district, Iowa province)",USA,2001,,
+007f2c6898cdedc5a323aebf75122289,2001-0460-USA,nat-hyd-flo-riv,Virginia province,USA,2001,20000.0,34417.0
+ab645cbf565a8210f06a5bddde3d98df,2001-0473-USA,nat-met-sto-tor,"Siren city (Burnett district, Wisconsin province)",USA,2001,10000.0,17208.0
+44b49f687f0eb0c2f0fa1b540f5eeb09,2001-0474-USA,nat-met-sto-tor,"Brainerd city (Crow King district, Minnesota province)",USA,2001,,
+19e53d1ecc794000de2b87d00b44a18e,2001-0477-USA,nat-met-sto-sto,"Watkins area (Adams district, Colorado province)",USA,2001,,
+449dcbdfbddd0b81373417b23408b905,2001-0564-USA,nat-met-sto-tor,"Cordell city (Washita district, Oklahoma province), Polk, Merrick, Hamilton districts (Nebraska province)",USA,2001,,
+3c8442836d68e40dfb277fbc5dcc8d90,2001-0566-USA,nat-met-sto-tor,"Howard, Prince George's districts (Maryland province)",USA,2001,30000.0,51625.0
+3de3f33fd441cd289658cc01ddfec078,2001-0601-USA,nat-met-sto-tor,"Pasadena city (Harris district, Texas province)",USA,2001,4000.0,6883.0
+636bfab3c256edbbcba020df25afb7ba,2001-0602-USA,nat-met-sto-tor,"Hondo city (Medina district, Texas province)",USA,2001,7000.0,12046.0
+9926e217d87dc180a1fbe9f9cd3eb95f,2001-0722-USA,nat-cli-wil-for,"Tennessee, Kentucky, West Virginia, Virginia, Georgia provinces",USA,2001,,
+240482092817af7a231994486853b71c,2001-0724-USA,nat-hyd-flo-riv,Texas province,USA,2001,,
+58f4a5a0b3c51cb6d9e564c934c22d92,2001-0773-USA,nat-met-sto-tor,"Jakson town (Dakota district, Nebraska province)",USA,2001,3000.0,5162.0
+fca0df58f1a9538ae9e4e9a8d6d3113a,2002-0092-USA,nat-cli-wil-for,"Fallbrok area (San Diego district, Californie province)",USA,2002,6600.0,11180.0
+70261210f1583efd0efaa11510ba89c8,2002-0119-USA,nat-met-sto-sto,"Cleveland, Comanche, Creek, Garvin, Grady, Greer, Harmon, Jackson, Kiowa, Lincoln, McClain, Nowata, Pottawatomie, Rogers, Stephens, Tillman, Tulsa, Alfalfa, Beaver, Beckham, Blaine, Caddo, Canadian, Cimarron, Custer, Dewey, Ellis, Garfield, Grant, Harper, Kay, Kingfisher, Logan, Major, Noble, Oklahoma, Osage, Pawnee, Payne, Roger Mills, Texas, Washington, Washita, Woods, Woodward districts (Oklahoma province), Missouri, Kansas, New York, Indiana, Ohio provinces",USA,2002,400000.0,677585.0
+e25e4cb257bfda9f05616f111ae3d1e0,2002-0165-USA,nat-met-sto-sto,"Sevier, Blount, Knox, Hawkins districts (Tennessee province), Cumberland, Bell districts (Kentucky province), Wise, Smyth, Washington districts (Virginia province), Cabell district (West Virginia province), North Carolina, Mississippi, Arkansas, Texas provinces",USA,2002,200500.0,339640.0
+a8993afce32619df55191529c462e0de,2002-0183-USA,nat-hyd-flo-riv,"Tennessee, Virginia, Kentucky, Ohio, Arkansas, Oklahoma, Texas provinces",USA,2002,76000.0,128741.0
+23786567fe464aaecdc7934cc001ca31,2002-0266-USA,nat-hyd-flo-riv,"Pike district (Kentucky province), Virginia province",USA,2002,13000.0,22022.0
+e0964363ccf47fa648664b654c1454b0,2002-0283-USA,nat-met-sto-tor,"Happy town (Randall, Swisher districts, Texas province)",USA,2002,,
+e8df16d9d9feab6d75648d1abdb4e171,2002-0287-USA,nat-met-sto-tor,"Wayne, Jefferson districts (Illinois province)",USA,2002,4000.0,6776.0
+98f7a020dabac8d34e776c6ac50f21cc,2002-0310-USA,nat-met-sto-tor,"Breckinridge, Meade, Crittenden, Webster, Hopkins, Ohio, Hardin, Edmonson districts (Kentucky province), Bollinger, Howell districts (Missouri province), Charles, Calvert, Dorchester, Wicomico, Cecil districts (Maryland province), Illinois (Clay,Union, Johnson,Pope, Moultrie, Saline, Bond), Gordon district (Georgia province), Atchison district (Kansas province), Erie, Allegany districts (New York province), Stark district (Ohio province), Indiana, Mercer, Venango, Butler, Armstrong, Columbia, Lebanon, Allegheny districts (Pennsylvania province), Rutherford, Lake, Henry, Carter districts (Tennessee province), Virginia (Shenandoah, Greensville, Bedford, (Campbell, Nottoway, Prince George), Marshall district (West Virginia province), Pontotoc, Chickasaw districts (Mississippi province), Perry district (Indiana province)",USA,2002,2200000.0,3726720.0
+923aca58ae7f656d80f961f19aebfe4a,2002-0351-USA,nat-cli-wil-for,Colorado province,USA,2002,20000.0,33879.0
+3dfc10fc87be3d6526fb8a6e1d8eeb18,2002-0379-USA,nat-cli-wil-for,Arizona province,USA,2002,200500.0,339640.0
+39c5fbfe9086151a55abda9e0c23a168,2002-0404-CAN,nat-hyd-flo-riv,"Fort Frances, Rainy River, Alberton, Atikokan, Chapple, Dawson, Emo, La Vallee cities (Kenora district, Ontario province), Ignace, Lake of the Woods, Nestor Falls, Sioux Narrows, Machin cities (Rainy river district, Ontario province)",CAN,2002,,
+ae72f74a3ac693a029b73d8fec716f16,2002-0411-USA,nat-hyd-flo-riv,"Comal, Guadalupe, Bandera, Uvalde, McMullen, Taylor districts (Texas province)",USA,2002,1000000.0,1693964.0
+8fb09b06844dac8e1f94c328dedb89e6,2002-0502-USA,nat-bio-epi-vir,"Alabama, district of Columbia, Illinois, Indiana, Louisiana, Mississippi, Texas, Florida, Massachusetts, Missouri, New York City, Ohio, Georgia, Kentucky, Maryland, Michigan, Nebraska, South Dacota, Tennessee, Texas, Virginia, Wisconsin",USA,2002,,
+08512b4aa4cddb721afaa9b4b9ce1e1d,2002-0569-USA,nat-met-sto-tor,"Ladysmith city (Rusk district, Wisconsin province)",USA,2002,20000.0,33879.0
+d591347d9b4fccb322848fb1d98fc40b,2002-0600-USA,nat-hyd-flo-riv,Georgia province,USA,2002,,
+9973efd85faa20731e9b24d4e916f7e1,2002-0618-USA,nat-cli-wil-for,"Claremont, Glendora, La Verne areas (Los Angeles district, California province))",USA,2002,,
+0c0801708a595d021c0b75624ec52389,2002-0652-USA,nat-met-sto-tro,"Louisiane, Mississippi, Alabama, Tennessee provinces",USA,2002,300000.0,508189.0
+5462a31c348a921e06f1584d81c1a509,2002-0667-USA,nat-bio-epi-dis,,USA,2002,,
+82b3b236b1538d588100b7ea30533261,2002-0700-USA,nat-met-sto-tor,"Tipton, Carroll, Montgomery, Sumner, Bedford, Coffee, Morgan, Cumberland, Anderson districts (Tennessee province), Henry, Dale, Fayette, Walker, Winston, Lamar, Cullman, Tuscaloosa, Jefferson, Cherokee districts (Alabama province), Van Wert, Paulding, Putnam, Defiance, Athens, Logan, Union, Seneca, Ottawa districts (Ohio province), Allen district (Kentucky province), Cross, Crittenden, Mississippi districts (Arkansas province), Appling, Cherokee, Pickens, Dawson, Atkinson, Coffee districts (Georgia province), Blackford district (Indiana province), Lowndes, Winston, Noxubee, Oktibbeha districts (Mississippi province), Mercer district (Pennsylvania province), McCormick district (South Carolina province)",USA,2002,700000.0,1185775.0
+1843a7e746bb7099166c93d459fe106e,2002-0724-USA,nat-met-sto-tro,"St. Tammany, Terrebonne, Lafayette, Acadia, Evangeline, Rapides districts (Louisiana province)",USA,2002,2000000.0,3387927.0
+e4c7adf4666576c95be0b4601b8bdad7,2002-0751-USA,nat-met-sto-bli,"Washington DC (District of Columbia district, District of Columbia province), North Carolina, South Carolina, Virginia, New York, Pennsylvania, Kentucky, New Jersey, Maryland, Missouri, Tennesse provinces",USA,2002,450500.0,763131.0
+987591094f8e76b20d562c7c9863b343,2002-0793-USA,nat-met-sto-sto,"Marin, Los Angeles, Santa Cruz districts (California province), Oregon, Nevada provinces",USA,2002,,
+6ea78b84e68d5db245c69837118d8228,2002-0802-USA,nat-met-sto-bli,"Oklahoma, Massachusetts, New York, Arkansas, Missouri, New Mexico, Louisiana, Texas provinces",USA,2002,,
+a0030c42a6dcaeaed6f637d6f2c1254f,2002-0880-USA,nat-met-sto-sto,"Fulton, Tioga, Broome, Oswego, Delaware, Dutchess districts (New York province), Wayne district (Pennsylvania province), Connecticut, Massachusetts, Michigan, New Hampshire, New Jersey, Ohio, Wisconsin provinces",USA,2002,,
+c99c84f7ab42d91883d34b0648380718,2003-0085-USA,nat-met-sto-bli,"Delaware, Kentucky, Massachusetts, Maryland, North Carolina, New Hampshire, New Jersey, New York, District of Columbia, Ohio, Pennsylvania, Rhode Island, Tennessee, Virginia, Vermont, West Virginia, Illinois, Missouri, Iowa, Nebraska, Connecticut provinces",USA,2003,200000.0,331273.0
+0a10c3152fd7133547659a255fd36825,2003-0087-CAN,nat-hyd-flo-riv,"Badger town (Division No. 6 district, Newfoundland and Labrador province)",CAN,2003,,
+141d9a9af260d0e79eb0520ba8aa651f,2003-0139-USA,nat-met-sto-tor,"Mitchell, Worth districts (Georgia province), Jackson district (Alabama province) North Carolina, South Carolina, Tennessee provinces",USA,2003,5000000.0,8281813.0
+3caa8683f3aae2c649ff78ffba232c33,2003-0147-USA,nat-met-sto-bli,"Denver, Boulder districts (Colorado province), Wyoming province",USA,2003,25000.0,41409.0
+bdeba8df0028a59609c6ef39f289bf3e,2003-0210-USA,nat-met-sto-tor,"Colbert, Lauderdale, Limestone, Madison, Jackson, Dekalb, Lamar, Walker,St Clair, Talladega, Shelby, Clay districts (Alabama province), Mississippi, Craighead, White, Woodruff, Cross districts (Arkansas province), Adams, Weld, Morgan districts (Colorado province), Cherokee, Franklin, Madison, Elbert, Hart, Heard, Coweta districts (Georgia province), Marion, Mahaska, Lee, Van Buren, Jefferson, Henry, Louisa districts (Iowa province), Adams, Hancock, Mc Donough, Bureau, Henry, Brown, Mason, Fulton, Pope, Schuyler, Sangamon, Pulaski, Massac, Alexander, Jasper, Mercer, Warren, Tazewell districts (Illinois province), Perry, Kosciuscko, Putnam districts (Indiana province), Crawford, Wyandotte, Leavenworth, Neosho, Labette, Cherokee, Butler, Greenwood, Osage, Woodson, Allen, Douglas, Anderson, Linn, Marion districts (Kansas province), Calloway, Webster,Daviess, Mason, Lewis, Union, Henderson, Pulaski districts (Kentucky province), Lawrence, Cass, Platte, Clay, Jackson- Kansas city, Greene, Christian, Camden, Lewis, Barton, Cedar, Polk, Hickory, Dallas, Jasper, Johnson, Newton, Dade, Pettis, Dunklin, Pemiscot, Putnam, Scott, Knox, Scotland, Clark, Macon, Shelby, Mercer, Lafayette, Saline, Cape Girardeau, Bollinger, Pulaski districts (Missouri province), Marshall, Benton, Tippah, Alcorn, Newton, Scott, Chickasaw, Monroe, Lee, Itawamba, Madison, Sunflower districts (Mississippi province), Washington, Vance, Chowan, Bertie, Hertford, Northamton districts (North Carolina province), Saunders district (Nebraska province), Okhlaoma, Moore-Cleveland, Ottawa, Stephens, Creek, Lincoln, Canadian, Caddo, Osage, Noble, Le Flore, Marshall, Love, Jefferson districts (Okhahoma province), Aiken, Abbeville, Williamsburg districts (South Carolina province), Perkins, Todd didstricts (South Dakota province), Dyer, Madison, Hamilton-Chattanooga, Gibson, Weakley, Henry, Stewart, Henderson, Carroll, Montgomery, Robertson, Williamson, Davidson, Cannon, Lincoln, Lawrence, Hardin, McNairy districts (Tennessee province), ood, Upshur, Harrison, Marion districts (Texas province)",USA,2003,4000000.0,6625451.0
+df3d8cc6ed041545a8814e5eb8d8c2fa,2003-0231-CAN,nat-hyd-flo-riv,"Colchester, Cumberland districts (Nova Scotia/Nouvelle Ecosse province)",CAN,2003,10000.0,16564.0
+ba3c1396a3471c675ee2af133ce2c74a,2003-0299-USA,nat-cli-wil-for,"Summerhaven area (Pima district, Arizona province), Lemmon mount (Pima district, Arizona province)",USA,2003,,
+533c16c8e8ed5623b7ae9796aa9116b2,2003-0334-USA,nat-hyd-flo-riv,"Allen, Carroll, Adams, Cass, Howard, Tipton, Wells, Miami, Boone, Jennings, Clay, Tippecanoe, Huntington, Decatur districts (Indiana province), Allen, Auglaize, Van Wert, Darke, Mercer, Miami districts (Ohio province), Mercer, Shelby, Logan, Hamilton, Winnebago districts (Illinois province)",USA,2003,106000.0,175574.0
+4fe2b7040aa428f40a556c080e0eb3ef,2003-0369-CAN,nat-cli-wil-for,"British Columbia, Alberta, Saskatchewan, Manitoba provinces",CAN,2003,545000.0,902718.0
+b2273788f3e89a0963d4da38b2b97b60,2003-0413-USA,nat-met-sto-tor,Palm Beach district (Florida province),USA,2003,,
+9c22ee5fa4a62d7a273aed0738bd80da,2003-0417-CAN,nat-hyd-flo-fla,"Bois-Franc municipality (La Vallée-de-la-Gatineau district, Quebec province)",CAN,2003,10000.0,16564.0
+aa5cfe43423d2d02d84db4d4e2bf8929,2003-0448-BMU,nat-met-sto-tro,,BMU,2003,300000.0,496909.0
+7bf4903f62391239f486f3b57c5f4c47,2003-0468-CAN,nat-met-sto-tro,Ontario province,CAN,2003,,
+57aa7fdca9d0639ee38c4f756a99c1c1,2003-0468-USA,nat-met-sto-tro,"North Carolina, Maryland, Virginia, West Virginia, Delaware, Pennsylvania, New Jersey, District of Columbia provinces",USA,2003,3370000.0,5581942.0
+61e561e71a36bf45f43c5bfe40b9b9f5,2003-0487-CAN,nat-met-sto-tro,"Nova Scotia, Prince Edward Island provinces",CAN,2003,110000.0,182200.0
+00733c044008147bae3d7cf50330a416,2003-0511-CAN,nat-hyd-flo-riv,"Squamish, Pemberton, Whistler, Mount Currie cities (Squamish-Lillooet district, Bristish Columbia province), Fraser Valley city (Fraser Valley district, British Columbia province), Capital district (Bristish Columbia province)",CAN,2003,15000.0,24845.0
+41d6a6a0049ca68a156a808f666b1e68,2003-0511-USA,nat-hyd-flo-riv,"Snohomish, Mason, Grays Harbor, Jefferson, Clallam, Skagit, Whatcom districts (Washington province)",USA,2003,,
+458c005c6b1ed49e2de74ea9755c5028,2003-0518-USA,nat-cli-wil-for,"Fontana, Rancho Cucamonga areas (San Bernardino district, California province)",USA,2003,,
+b8e8e837477d429b13040acb8ef372eb,2003-0595-USA,nat-met-sto-sto,"West Virginia, Tennessee, Kentucky, Pennsylvania, North Carolina, Virginia provinces",USA,2003,,
+f76abf3c02043c890d3c823c10674780,2003-0618-USA,nat-met-sto-bli,"Pennsylvania, Connecticut, New York, New Jersey, Vermont, Virginia, Massachusetts, Rhode Island provinces",USA,2003,,
+53d0890532e662c689f78242e2bb7e14,2003-0623-USA,nat-geo-ear-gro,"Paso Robles, Templeton, Atascadero, Cambria, Morro Bay, Oceano villages (San Luis Obispo district, California province)",USA,2003,200000.0,331273.0
+15e2dfc57f57a4206f95e1c003cf91d3,2003-0633-USA,nat-hyd-mmw-mud,San Bernardino district (California province),USA,2003,,
+fb069eb74e40db79e3379523a0adb699,2003-0663-USA,nat-hyd-flo-fla,Los Angeles district (California province),USA,2003,,
+bd62bf7099a7ea1e69dc25d4f5f93354,2003-0741-USA,nat-met-sto-sto,"Morgan, Leslie, Breathitt, Menifee districts (Kentucky province), Wayne, Cabell, Kanawha, Lincoln, Mingo districts (West Virginia province), Dickenson, Tazewell, Wise, Buchanan districts (Virginia province), Alabama, Connecticut, Delaware, Florida, Georgia, Massachusetts, Maryland, North Carolina, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, South Carolina, Tennessee, Vermont provinces",USA,2003,400000.0,662545.0
+6473e700110abe2e2f83c2949fbf20c1,2003-0756-USA,nat-hyd-flo-riv,"Tennessee, Alabama, Georgia provinces",USA,2003,17000.0,28158.0
+7988a7098c93878ed679298f17be0d9d,2003-0780-USA,nat-met-sto-tor,"Mason, Tazewell, Logan, Will, De Witt districts (Illinois province)",USA,2003,,
+a87a33eba417f9280dc89439e260a53b,2003-0782-USA,nat-met-sto-tro,"Orleans, St. John the Baptist, Terrebonne, St. Tammany, Tangipahoa districts (Louisiana province), Hancock, Harrison, Jackson, Pike, Walthall districts (Mississippi province), Bay district (Florida province), Mobile, Baldwin, Lee districts (Alabama province), Sumter, Bulloch, Fulton, DeKalb, Cobb, Clayton, Gwinnett districts (Georgia province), Wake district (North Carolina province)",USA,2003,50000.0,82818.0
+972a9b86df0bcbda6390f1698aca0950,2003-0786-USA,nat-cli-wil-for,San Bernardino district (California province),USA,2003,3500000.0,5797269.0
+6002cd78e4ac894084a8137f1e36c1f3,2003-0827-USA,nat-met-sto-sto,"Beaumont, Port Arthur areas (Jefferson district, Texas province), Sugar Land area (Fort Bend district, Texas province), Smith district (Mississipi province), Dallas, Harris districts (Texas province), Los Angeles district (California province), Alabama, Arkansas, Florida, Georgia, Louisiana, Maryland, Missouri, North Carolina, Oklahoma, South Carolina, Tennesse, Virginia, West Virginia provinces",USA,2003,,
+2422180166a24b685c0ca686d95f6f12,2003-0829-USA,nat-met-sto-sto,"Alabama, Illinois, Indiana, Louisiana, Michigan, Missouri, Mississippi, New York, Tennessee,Texas, Pennsylvania, Nebraska, Wisconsin provinces",USA,2003,2100000.0,3478362.0
+246a7072626a000cb96bed1dabef3aea,2003-0830-USA,nat-met-sto-bli,"Arkansas, Texas provinces",USA,2003,,
+cbca3133bb9d905b12f16d9e3bbd03bd,2004-0031-USA,nat-met-sto-bli,"North Carolina, South Carolina, Iowa, Missouri, Ohio, Maryland, Nebraska, New York, Virginia, Minnesota, Indiana, Illinois, Pennsylvania, Oklahoma, Georgia, Kansas, New Jersey, West Virginia, Maine provinces",USA,2004,60000.0,96790.0
+d7de18a76b911bb69f08d52607dfb075,2004-0074-CAN,nat-met-sto-bli,"Nova Scotia, New Brunswick, Prince Edward Island provinces",CAN,2004,,
+c7a249e72c01bcb58190a1d74dfa9323,2004-0121-USA,nat-met-sto-tor,"Arkansas, Louisiana, North Carolina, Oklahoma, South Carolina, Texas, Virginia, Kansas, Missouri, Mississippi provinces",USA,2004,300000.0,483952.0
+bad8357958ef95a3e92c4736fa46a5e1,2004-0146-CAN,nat-hyd-flo-riv,"Winnipeg (Division No. 11 district, Manitoba province) Selkirk, St Clements, Breezy Point (Division No.13 district, Manitoba province)",CAN,2004,,
+53d136a92dc7930fcf07c0122bbe5bd8,2004-0146-USA,nat-hyd-flo-riv,"Antigo area (Langlade district, Wisconsin province), Pembina, Walsh districts (North Dakota province)",USA,2004,4500.0,7259.0
+fb4ab09c191d836029ba14e1a974a996,2004-0196-USA,nat-cli-wil-for,"Los Angeles, Riverside, San Diego, Santa Barbara districts (California province)",USA,2004,,
+53e8f9a69406fc49018e057189c2c0ac,2004-0245-USA,nat-met-sto-hai,"Morgan, Sangamon, Scott districts (Illinois province), Clark, Floyd, Washington districts (Indiana province), Adair, Appanoose, Benton, Clay, Dallas, Grundy, Humboldt, Jones, Linn, Marshall, Pocahontas, Story, Warren districts (Iowa province), Jackson, Linn, Shawnee, Republic districts (Kansas province), Estill, Fayette, Henderson, Henry, Magoffin, Martin, Powell, Pulaski districts (Kentucky province), Washington district (Maryland province), Sanilac, St. Clair, Tuscola districts (Michigan province), Gentry, Holt, Linn, Livingston, Macon, St. Clair districts (Missouri province), Adams, Cass, Clay, Custer, Franklin, Fillmore, Furnas, Gage, Harlan, Jefferson, Lancaster, Nuckolls, Otoe, Saline, Thayer, Webster, York districts (Nebraska province), Broome, Delaware districts (New York province), Athens, Brown, Fayette, Perry, Ross districts (Ohio province), Caddo, Noble, Osage, Pawnee, Tillman districts (Oklahoma province), Crawford district (Pennsylvania province), Hawkins district (Tennessee province), Nolan, Taylor, Val Verde districts (Texas province), Lancaster, Lee, Loudoun, Scott districts (Virginia province), Berkeley district (West Virginia province), Manitowoc, Dane, Columbia districts (Wisconsin province), North Carolina, South Carolina provinces",USA,2004,1100000.0,1774492.0
+2128d6d8b596c59cb279e4146a045504,2004-0248-USA,nat-hyd-flo-riv,"Wayne, Oakland, Macomb, Livingston districts (Michigan province)",USA,2004,,
+7262561d132bd40f5487bff673aef7af,2004-0249-USA,nat-met-sto-lig,"Geneva, Jefferson, Lauderdale, Limestone, Madison districts (Alabama province), Cross, Mississippi, Nevada districts (Arkansas province), Crawford, Jefferson, Logan, Perry, Washington districts (Illinois province), Clark, Crawford, Hamilton, Hancock, Hendricks, Jackson, Madison, Marion, Monroe, Morgan, Miami, Owen, Tippecanoe, Vanderburgh, Warrick, Washington districts (Indiana province), Buchanan, Lee, Iowa districts (Iowa province), Cloud, Harper, Marshall, Republic, Sumner districts (Kansas province), Henry, Hopkins, Jefferson, Knox, Muhlenberg, McCracken, Webster districts (Kentucky province), St. Clair district (Michigan province), Tippah district (Mississippi province), Buchanan, Clinton, DeKalb, Daviess, Harrison, Laclede, Platte, St. Louis districts (Missouri province), Holt, Lincoln districts (Nebraska province), Adams district (Ohio province), Blaine, Canadian, Creek, Custer, Kingfisher, Mayes, Oklahoma, Tulsa, Wagoner districts (Oklahoma province), Brown, Edmunds, Clay districts (South Dakota province), Bedford, Bradley, Lincoln, Franklin, Giles, Grundy, Hardin, Moore districts (Tennessee province), Cottle, Houston, Tarrant districts (Texas province), Boone, Braxton, Cabell, Jackson, Kanawha, Lewis, Logan, Mason, Morgan, Mingo, Putnam, Upshur, Wayne, Wood, Wyoming districts (West Virginia province), Louisiana province",USA,2004,700000.0,1129222.0
+8eb02a5b2d1c1e0af7be18169514a99c,2004-0338-USA,nat-met-sto-lig,"Milam, Guadalupe, Bexar districts (Texas province), Eagle district (Colorado province), Mississippi province, Richland district (South Carolina province), Franklinton city (Washington district, Louisiana province), Bufford city (Gwinnett district, Georgia province)",USA,2004,170.0,274.0
+f83339bba39a51472409921bbde2c131,2004-0346-CAN,nat-hyd-flo-fla,"Ontario, Alberta, Quebec provinces",CAN,2004,200000.0,322635.0
+b4a5a49f4fa1c93ca88e854aca027499,2004-0348-USA,nat-cli-wil-for,"Carson City district (Nevada province), Los Angeles district (California province)",USA,2004,,
+7778c1f576a51eca021084e8ab7a89b4,2004-0415-USA,nat-met-sto-tro,"Bay, Calhoun, Escambia, Franklin, Gadsden, Gulf, Holmes, Jackson, Jefferson, Leon, Liberty, Madison, Okaloosa, Santa Rosa, Taylor, Wakulla, Walton, Washington districts (Florida province), South Carolina, North Carolina provinces",USA,2004,16000000.0,25810787.0
+af60fc622348345d51439f429d999096,2004-0446-USA,nat-cli-wil-for,"Shasta Lake area (Shasta districts, California province)",USA,2004,,
+a470d847828f436a339b2937c083564d,2004-0448-USA,nat-met-sto-tro,"Richmond, Lynchburg, Chesterfield districts (Virginia province), South Carolina, North Carolina provinces",USA,2004,62500.0,100823.0
+2764ce718cb40a21b0437b221b09cdaf,2004-0455-USA,nat-met-sto-tro,"Martin, Palm Beach districts (Florida province), North Carolina, South Carolina, Ohio provinces",USA,2004,11000000.0,17744916.0
+5e4bfc3f61be88ef19251d27e0d76180,2004-0462-USA,nat-met-sto-tro,"Alabama, Louisiana, Mississippi, Florida, Pennsylvania, Maryland, New Jersey, Ohio, North Carolina, West Virginia, Georgia, Tennessee provinces",USA,2004,18000000.0,29037135.0
+cfb3095aabecd8576f30fb845fc3222f,2004-0473-USA,nat-met-sto-tro,Florida province,USA,2004,8000000.0,12905394.0
+c585a29a866ea732857c122a82eb48c6,2004-0502-USA,nat-met-sto-tor,Caroline district (Virginia province),USA,2004,2100.0,3388.0
+cc3df082ef5206af44c004ff8a9e339b,2004-0572-USA,nat-hyd-flo-riv,"Manoa Valley area (Honolulu district, Hawaii province)",USA,2004,1000.0,1613.0
+4b88cc98ae82518230f91d85be2f1c7f,2004-0675-USA,nat-hyd-flo-riv,"Pennsylvania, New Jersey provinces",USA,2004,500000.0,806587.0
+59ea825a1194707a70e7407face6172f,2004-0731-USA,nat-met-sto-hai,"Arkansas, Illinois, Iowa, Indiana, Missouri, Oklahoma provinces",USA,2004,,
+0eabc29261e5fdf2049682d9efbd41e3,2004-0740-USA,nat-met-ext-col,"Connecticut, Delaware, Maryland, Maine, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont provinces",USA,2004,,
+691d1cd24ee466ba125b3edd587fc4f8,2005-0015-USA,nat-hyd-flo-riv,"La Conchita area (Ventura district, California province), Malibu area (Los Angeles district, California province), Sacramento district (California province), Arizona, Ohio provinces",USA,2005,200000.0,312048.0
+dcb0a6fc21c0ab1f162e751e291f72f5,2005-0029-USA,nat-met-sto-bli,"New York, Connecticut, Wisconsin, Ohio, Maryland, Massachusetts, Iowa provinces",USA,2005,350000.0,546084.0
+fc0edaaa7b18ad7adb2dd085267248f5,2005-0103-USA,nat-hyd-flo-riv,Los Angeles district (California province),USA,2005,250000.0,390060.0
+0236c7553030484c52b27000aae2c375,2005-0203-USA,nat-hyd-flo-riv,"New Jersey, Pennsylvania, New York, Maine provinces",USA,2005,30000.0,46807.0
+8e5af6e9db32f012fabf521daf49b037,2005-0219-USA,nat-met-sto-lig,Rankin district (Mississippi province),USA,2005,350000.0,546084.0
+15a0e5299c44a440c32638c9a167fcbc,2005-0286-USA,nat-hyd-flo-fla,Idaho province,USA,2005,5330.0,8316.0
+0a7364897d5af528b503a365740bb993,2005-0351-USA,nat-met-sto-tro,"Florida, Georgia provinces",USA,2005,2230000.0,3479333.0
+2207abd0e2b40a03295078dbea23ff22,2005-0467-USA,nat-met-sto-tro,"Mobile, Bayou La Batre, Dauphin Island, Coden areas (Mobile district, Alabama province), New Orleans city (Orleans district, Louisiana province), Slidell area (St. Tammany district, Louisiana province), St. Bernard district (Louisiana province), Biloxi, Gulfport cities (Harrison district, Mississippi province), Pascagoula city (Jackson district, Mississippi province), Waveland, Bay St. Louis cities (Hancock district, Mississippi province), Georgia, Florida provinces",USA,2005,125000000.0,195029889.0
+d0a737b9937595465c039bd4080dd166,2005-0530-USA,nat-met-sto-tor,Wisconsin province,USA,2005,,
+cbf4f30da5a1eef0e050fe616994286f,2005-0547-USA,nat-met-sto-tro,"Louisiana, Texas, Mississippi provinces",USA,2005,16000000.0,24963826.0
+be76161b49e7156b523e8a2f5e4f0c54,2005-0553-CAN,nat-met-sto-sto,"Montreal, Acton, Beauharnois-Salaberry, Brome-Missisquoi, La Haute-Yamaska, Marguerite-D'Youville, La Vallée-du-Richelieu, Pierre-De Saurel, Le Haut-Richelieu, Le Haut-Saint-Laurent, Les Jardins-de-Napierville, Les Maskoutains, Roussillon, Rouville, Vaudreuil-Soulanges, Longueuil, Coaticook, Le Granit, Le Haut-Saint-Francois, Les Sources, Le Val-Saint-François, Memphrémagog, Sherbrooke districts",CAN,2005,,
+53bd9a657e7aae52b45949e38bc7bc59,2005-0583-USA,nat-hyd-flo-riv,"Keene, Alstead, Stoddard, Unity, Hinsdale, Walpole areas (Cheshire district, New Hampshire), Brattleboro, Guilford areas (Windham district, Vermont province), Pittsfield area (Berkshire district, Massachusetts province), Greenfield area (Franklin district, Massachusetts province), Northbridge, Worcester, Southbridge areas (Worcester district, Massachusetts), Spring Lake area (Monmouth district, New Jersey province), Wayne, Little Falls, Pompton Lakes areas (Passaic district, New Jersey province), Oakland, Lodi, Westwood areas (Bergen district, New Jersey province), Bound Brook area (Somerset district, New Jersey province), Tolland, Windham, Hartford districts (Connecticut province)",USA,2005,,
+119ffe85f59c1a771908b8266be6a62b,2005-0585-USA,nat-met-sto-tro,"Florida Keys, Naples areas (Collier district, Florida province)",USA,2005,14300000.0,22311419.0
+c39f93ba75266783cbb35beb189abab6,2005-0591-CAN,nat-hyd-flo-riv,"Stephenville & Kippens towns (Division No. 4 district, Newfoundland and Labrador province), Reidville town (Division No. 5 district, Newfoundland and Labrador province)",CAN,2005,,
+1f2ebcb787151e13498dad6b873d3990,2005-0682-USA,nat-met-sto-bli,"Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Idaho, Michigan, Minnesota, Montana, North Dakota, Oregon, South Dakota, Washington, Wisconsin, Wyoming provinces",USA,2005,,
+67aa275921206de697c40dee5dfe042f,2005-0687-USA,nat-met-ext-hea,"Arizona, Nevada, Oklahoma, Utah, Missouri, Kentucky, Ohio, Mississippi provinces",USA,2005,,
+b71e5ceaa74478a42697b046ed419f63,2005-0716-USA,nat-hyd-flo-riv,"Reno area (Washoe district, Nevada province), Truckee area (Nevada district, California province), Napa, Sonoma, Mendocino, Marin, Solano, Los Angeles districts (California), Carson City district (Nevada province)",USA,2005,245000.0,382259.0
+f1d1fd838d7d51c5e7c22cb31a134ec8,2005-0724-USA,nat-cli-wil-for,"Texas, Oklahoma provinces",USA,2005,100000.0,156024.0
+59796251f79c37c8c70f44a373527b6c,2005-0728-CAN,nat-hyd-flo-riv,"Black Diamond, High River, Otokoks, Turner Valley towns (Division No. 6 district, Alberta province), Pincher Creek city (Division No. 3 district, Alberta province), Lethbridge city (Division No. 2 district, Alberta province), Siksika Reserve, Drumheller cities (Division No. 5 district, Alberta province), Red Deer city (Division No. 8 district, Alberta province)",CAN,2005,357000.0,557005.0
+6b3811396ebc251cd6ba3ff03b8087ab,2006-0128-USA,nat-met-sto-tor,"Missouri, Arkansas, Illinois, Indiana, Kansas, Oklahoma provinces",USA,2006,1200000.0,1813776.0
+42649e0a153ebf81f03ffe0157f27ec3,2006-0161-USA,nat-met-sto-hai,"Tennessee, Illinois, Arkansas, Indiana, Oklahoma, Missouri, Kentucky, Iowa provinces",USA,2006,600000.0,906888.0
+6eaa319ec0800ba0e2967ed1adb604f7,2006-0171-USA,nat-met-sto-hai,"Sumner, Warren districts (Tennessee province), Alabama, Georgia, Indiana, Kansas, Kentucky, Ohio provinces",USA,2006,1600000.0,2418368.0
+73b6fe362359dd80cb5b5abbb15a7c0c,2006-0180-USA,nat-hyd-flo-riv,"Amador, Calaveras, Fresno, Merced, San Joaquin, San Mateo, Stanislau districts (California province)",USA,2006,259000.0,391473.0
+f73a1bef9e6fbf90a23190dc659a0b05,2006-0182-USA,nat-hyd-flo-riv,Kauai district (Hawaii province),USA,2006,12000.0,18138.0
+2087e3c13564a30b25d4cbb971a235ed,2006-0203-CAN,nat-hyd-flo-riv,"Baie Verte, Middle Arm, Smith's Harbour, Burlington cities (Division No.8 district, Newfoundland and Labrador province)",CAN,2006,,
+3d27b19d29516b23de5c26a1d0e8cc9f,2006-0206-CAN,nat-hyd-flo-riv,"Red Earth First Nation, Porcupine Plain cities (Division No.14 district, Saskatchewan province), Fishing Lake (Division No.10 district, Saskatchewan province)",CAN,2006,,
+f9ec77ad5000b238dddec7dbc6420c23,2006-0224-CAN,nat-hyd-flo-riv,"Fort Albany city (Cochrane district, Ontario province)",CAN,2006,,
+a7e13cc6d9cf46e2b50df89688f76455,2006-0257-USA,nat-met-sto-lig,"Tarrant, Bexar districts (Texas province)",USA,2006,450000.0,680166.0
+d4e88f859caa7c4f9bf411ac2da05f6b,2006-0260-USA,nat-hyd-flo-riv,"New Hampshire, Maine, Massachusetts provinces",USA,2006,85000.0,128476.0
+b20615e7cb820bb0ff1a18f5479a5f10,2006-0261-CAN,nat-hyd-flo-riv,"Aklavik city (Region 1 district, Northwest Territories province)",CAN,2006,,
+add2955d86089b2a2447c2e14b82e1af,2006-0269-CAN,nat-hyd-flo-riv,"Grand Forks city (Kootenay Boundary district, British Columbia province), Nelson city (Central Kootenay district, British Columbia province), Penticton city (Okanagan-Similkameen district, British Columbia province)",CAN,2006,,
+51a1544eb1446b4c87dc98cfde26d622,2006-0341-USA,nat-hyd-flo-riv,"Maryland, Pennsylvania, New York, Delaware, Virginia, New Jersey provinces",USA,2006,1000000.0,1511480.0
+ccd0a85487149aa6727abe86d24ecfce,2006-0344-USA,nat-hyd-flo-riv,"Huron, Erie, Crawford, Lucas, Sandusky districts (Ohio province)",USA,2006,7000.0,10580.0
+b4a3e30c4635d296949525fab62aa012,2006-0374-USA,nat-cli-wil-wil,California province,USA,2006,16000.0,24184.0
+de6db375a29af985762e9e81adaf6c5b,2006-0387-USA,nat-met-ext-hea,"Modesto city (Stanislaus district, California province)",USA,2006,,
+fd7faaaa0d786d6b906c5b3a80e234cd,2006-0413-USA,nat-hyd-flo-riv,El Paso district (Texas province),USA,2006,100000.0,151148.0
+f62df667a88ef9dc59b514c25ebc326c,2006-0418-USA,nat-hyd-flo-riv,Lake district (Ohio province),USA,2006,,
+13f982e50f4435e7f70edfb0564f90f2,2006-0427-USA,nat-met-ext-hea,New York province,USA,2006,,
+a88bbaa31f00bec391c51bb2398fe1a8,2006-0461-USA,nat-hyd-flo-riv,Alaska province,USA,2006,15500.0,23428.0
+3448ee7afe70827f63025fb41e1a4bdd,2006-0466-USA,nat-met-sto-tro,"South Carolina, North Carolina, Virginia provinces",USA,2006,32860.0,49667.0
+32e9ec1b01488719ea815339e40e82d8,2006-0546-USA,nat-hyd-flo-riv,"Mercer, Jessamine, Franklin, Calloway, Montgomery districts (Kentucky province), Sharp, Clay, Fulton, Randolph, Lawrence districts (Arkansas province), Obion district (Tennessee province), Missouri, Indiana, Illinois provinces",USA,2006,,
+fb5a232b7f1a29316aee0bb91d67f9cc,2006-0566-USA,nat-hyd-flo-riv,"Prince William Sound area (Valdez-Cordova district, Alaska province)",USA,2006,,
+f61c7997cea9e160ee43f9ae7fbb13f3,2006-0576-USA,nat-cli-wil-lan,"Riverside, Palm Springs cities (Riverside district, California province), San Diego district (California province)",USA,2006,25000.0,37787.0
+2742d01fbf18e6ee51098f4e318164e6,2006-0595-USA,nat-met-sto-tor,"North Carolina, Alabama, Arizona, Arkansas, Louisiana, Maryland, Mississippi, Pennsylvania, South Dakota, Texas provinces",USA,2006,95000.0,143591.0
+cfdaa3b89254b0703bc2523ef8d1da0e,2006-0598-USA,nat-hyd-flo-riv,"Washington, Oregon provinces",USA,2006,,
+09cbaf88f6c143f386a74c1b58e02a45,2006-0642-USA,nat-met-sto-bli,"Erie, Niagara, Genesee, Orleans districts (New York province)",USA,2006,300000.0,453444.0
+d0ffe9a7f18f2bf397c43ac188c2fd2f,2006-0662-USA,nat-cli-wil-lan,Ventura district (California province),USA,2006,25000.0,37787.0
+7b0e6309b5e93b341fd8dcdbdd8b8cbd,2006-0704-USA,nat-geo-ear-gro,Hawai province,USA,2006,150000.0,226722.0
+7383989cd00f6d1ec18eba543780dbb6,2006-0706-USA,nat-met-sto-tor,"Daytona beach (Volusia district, Florida province)",USA,2006,90000.0,136033.0
+101d4055d0c3e7e2bd1f06d82491d528,2006-0707-USA,nat-met-sto-bli,Colorado provinces,USA,2006,,
+debe41e41773eddf6930dd4bf8f9d044,2006-0718-USA,nat-met-sto-bli,Kansas province,USA,2006,360000.0,544133.0
+bd5acbff8b1de38fb56b7d822c912ca2,2006-0743-USA,nat-met-sto-sto,"Illinois, Indiana, Kentucky, Missouri, New York, Ohio, Pennsylvania, Tennessee provinces",USA,2006,,
+1f5d98a436d7e728f29af630d2405a63,2006-0744-USA,nat-met-sto-sto,"Oregon, Washington provinces",USA,2006,,
+df00352ea983842e8f14c91076c073ef,2007-0026-USA,nat-met-sto-sto,"California, Texas, Georgia, South Carolina, Oklahoma, Missouri, Iowa, Michigan, New York, Maine, Kansas, Illinois provinces",USA,2007,500000.0,734779.0
+91ccbd26b813ee84d08b1a5d0d045c96,2007-0041-USA,nat-hyd-flo-riv,"Indiana, Arkansas, Texas, Ohio, Missouri provinces",USA,2007,,
+4008a2bb1ce0f7d0e3378f6051c96a63,2007-0048-USA,nat-met-sto-tor,"Volusia, Lake, Sumter, Seminole districts (Florida province)",USA,2007,130000.0,191043.0
+6cac820861044e1c32a6aeb23001f47e,2007-0066-CAN,nat-met-sto-bli,"Ontario, Quebec provinces",CAN,2007,,
+fb263dcc7ef3ef46317c5f4fb770df6e,2007-0066-USA,nat-met-sto-bli,"New York, Vermont, New Jersey, Ohio, Pennsylvania provinces",USA,2007,140000.0,205738.0
+5d85facf84feb89e3e2aba6bf611a44a,2007-0083-USA,nat-met-sto-tor,"Alabama, Missouri, Georgia, Minnesota provinces",USA,2007,600000.0,881735.0
+5b5e54b26d239e94b53e53f649d087ce,2007-0156-USA,nat-met-sto-tor,Texas province,USA,2007,,
+cee29cf0a7f09416a058ebdeed8ac89d,2007-0165-CAN,nat-hyd-flo-riv,"Terrace city (Kitimat-Stikine district, British-Columbia province), Smithers city, Telkwa village (Bulkley-Nechako district, British-Columbia province), Prince George city, McBride village (Fraser-Fort George district, British Columbia province)",CAN,2007,,
+b0d8cb204a10af50f66a00ed43807085,2007-0173-USA,nat-hyd-flo-riv,"Texas, Kansas, Oklahoma provinces",USA,2007,,
+b3074efb5023267f6952e5aecec4b8c6,2007-0244-USA,nat-hyd-flo-riv,"Wichita Falls area (Wichita district, Texas province), Georgetown areas (Williamson district, Texas province), Burnet, Marble Falls, Granite Shoals areas (Burnet district, Texas province), Granbury area (Hood district, Texas province), Lampasas, Parker, Eastland districts (Texas province), Miami, Commerce areas (Ottawa district, Oklahoma province), Shawnee, Tecumseh, Maud areas (Pottawatomie district, Oklahoma province), Oklahoma city (Oklahoma district, Oklahoma province), Waurika area (Jefferson district, Oklahoma province), Bartlesville, Dewey areas (Washington district, Oklahoma province), Love, Lincoln districts (Oklahoma province), Coffeyville area (Montgomery district, Kansas province), Osawatomie area (Miami district, Kansas province), Allen, Labette, Neosho, Wilson, Woodson districts (Kansas province), Rockville, Papinville areas (Bates district, Missouri province), Vernon district (Missouri province)",USA,2007,,
+010d7b76b69ebcfedd3d7bd845872f73,2007-0251-USA,nat-hyd-flo-fla,New York province,USA,2007,,
+96781c9aa0fa886c7911fdfb065e1655,2007-0254-USA,nat-hyd-flo-riv,"North Texas, Oklahoma provinces",USA,2007,28000.0,41148.0
+e3623bca0e7d39b33714f75d40e41259,2007-0351-USA,nat-cli-wil-for,"Alpine, Amador, Calaveras, El Dorado, Mono, Placer, Tuolumne districts (California province)",USA,2007,,
+a356f2ea4762a926a7262dbff645f1b5,2007-0359-USA,nat-met-sto-tro,"Texas, Oklahoma, Missouri provinces",USA,2007,,
+def7ab912fefada57dba7faaf63724db,2007-0383-USA,nat-hyd-flo-riv,"Illinois, Colorado, Michigan, Minnesota, Wisconsin, Ohio, Oklahoma, North Dakota provinces",USA,2007,700000.0,1028691.0
+59d0559f78d93043b54ac9d0a9cfa75f,2007-0519-USA,nat-cli-wil-lan,"Los Angeles, Orange, Riverside, San Bernardino, San Diego, Santa Barbara, Ventura districts (California province)",USA,2007,2500000.0,3673895.0
+37b4afb760fcfb1f53b9f854ca39b199,2007-0579-USA,nat-cli-wil-for,"Malibu area (Los Angeles district, California province)",USA,2007,315000.0,462911.0
+f7e8dec458bf334683ea4b1eb494e455,2007-0581-USA,nat-met-sto-sto,"Washington, Oregon provinces",USA,2007,1000000.0,1469558.0
+eebacf367e99ca236c60bd405893f6c7,2007-0621-CAN,nat-met-sto-sto,"Toronto, Ottawa districts (Ontario province), Montreal district (Quebec province)",CAN,2007,,
+121195ddc4443ea46ab03ba01c381d68,2007-0621-USA,nat-met-sto-sto,"Illinois, Iowa, Missouri, Minnesota, Kansas, Nebraska, Colorado, Michigan, Wisconsin, Wyoming provinces",USA,2007,,
+d54c9611f4e90c34bd73d16667c02379,2007-0641-USA,nat-met-sto-sto,"Oklahoma, Missouri, Iowa, Illinois, Kansas, Nebraska, Connecticut, Michigan, New York, New Jersey, Pennsylvania, Rhode Island provinces",USA,2007,500000.0,734779.0
+5dbc95d81649d22180112622de7231ab,2007-0662-USA,nat-met-sto-tor,"Colorado, Iowa, Kansas, Minnesota, Missouri, Nebraska, Oklahoma, South Dakota provinces",USA,2007,350000.0,514345.0
+ab5e04758c920f0c5d3375d47f9787a0,2007-0663-USA,nat-met-sto-sto,"Texas, Delaware, Connecticut, Georgia, Louisiana, Massachusetts, Maine, Maryland, Mississippi, New Hampshire, New Jersey, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, Vermont, Virginia provinces",USA,2007,2000000.0,2939116.0
+513dc1ee3f1746d920e7d4f0fe4a1388,2007-0689-USA,nat-met-sto-sto,"Arkansas, Iowa, Texas",USA,2007,300000.0,440867.0
+3a0fa6bee4872a9f25931031c77f7363,2007-0690-USA,nat-met-sto-sto,"Iowa, Kansas, Minnesota, Texas, Wisconsin provinces",USA,2007,300000.0,440867.0
+54c82978bf99035807bad015e6686afb,2008-0010-USA,nat-hyd-flo-riv,"California, Nevada, Oregon provinces",USA,2008,,
+5a6b032099bec89c31d33db0daa39c82,2008-0039-USA,nat-met-sto-tor,"Tennessee, Arkansas, Kentucky, Mississippi, Alabama, Indiana, Texas, Illinois, Ohio, Missouri provinces",USA,2008,1300000.0,1839794.0
+02be3974bfd22336888c6c0523338e0e,2008-0099-USA,nat-geo-ear-gro,"Wells city (Elko district, Nevada province)",USA,2008,,
+717b65aa303291e2e6c2389a15276114,2008-0115-USA,nat-met-sto-tor,"Fulton, DeKalb, Cobb, Clayton, Gwinnett districts (Georgia province)",USA,2008,450000.0,636852.0
+7da9b938aa0cdffb77e889404987aa6f,2008-0131-USA,nat-hyd-flo-riv,"Missouri, Mississippi, Arkansas, Indiana, Illinois, Ohio, Kentucky, Oklahoma, Iowa, Wisconsin, Texas provinces",USA,2008,2000.0,2830.0
+9aae745829c148025fd5726a212c120e,2008-0170-CAN,nat-hyd-flo-riv,"Belleville city, Foxboro community, Tweed village (Hastings district, Ontario province), Campbellford, Trent Hills municipality (Northumberland district, Ontario province), Ottawa city (Ottawa province, Ontario province)",CAN,2008,,
+c78cfa8db331d1b63a89a61cfd9090d0,2008-0194-USA,nat-met-sto-tor,"Kansas, Maryland, Missouri, North Carolina, Virginia, Texas, Oklahoma, Georgia, Arkansas provinces",USA,2008,700000.0,990658.0
+c234e4082fcc2c7f07d8a8692d123520,2008-0210-USA,nat-met-sto-tor,"Dunkerton city (Black Hawk district, Iowa province), Parkesburg, New Hartford cities (Butler district, Iowa province), Cedar Rapids city (Linn district, Iowa province), Minnesota, Indiana, Illinois, Kansas, Michigan, Montana, Missouri, Nebraska, Wisconsin provinces",USA,2008,1600000.0,2264362.0
+96b130cfff5bb3b68befd255a99240d4,2008-0253-USA,nat-cli-wil-for,California province,USA,2008,102000.0,144353.0
+1958f16b862391ef4685244d77aca7f9,2008-0264-CAN,nat-hyd-flo-riv,"James Bay area (Cochrane, Kenora districts, North Ontario province)",CAN,2008,,
+de098fa2fc158fc21bbe61cc1ffcd1ce,2008-0304-USA,nat-met-sto-tro,"Panama city beach (Bay district, Florida province), Aransas, Bexar, Brooks, Calhoun, Cameron, Hidalgo, Jim Wells, Kenedy, Kleberg, Nueces, Refugio, San Patricio, Starr, Victoria, Willacy districts (Texas province)",USA,2008,1200000.0,1698271.0
+5338a235135878436375a757caec7cef,2008-0338-USA,nat-met-sto-tro,"Florida, Georgia, Alabama, Mississippi provinces",USA,2008,180000.0,254741.0
+1cd57e48149b40940dadc2f1009c9e07,2008-0352-USA,nat-met-sto-tro,"Louisiana, Mississippi, Texas, Alabama provinces",USA,2008,7000000.0,9906582.0
+de376fdcd4a2ec4c1eced63fb3307264,2008-0378-USA,nat-met-sto-tro,"Florida, North Carolina, Maryland provinces",USA,2008,160000.0,226436.0
+9b79637463663f5136488f42d60b429d,2008-0384-USA,nat-met-sto-tro,"Galveston, Brazoria, Harris, Chambers, Jefferson districts (Texas province), Louisiana, Tennessee, Arkansas, Ohio, Indiana, Illinois, Missouri, Kentucky, Pennsylvania, Michigan provinces",USA,2008,30000000.0,42456782.0
+962410770d00a1eacaecdf1a7fdc4075,2008-0524-USA,nat-cli-wil-wil,"Los Angeles, Orange, Riverside, Santa Barbara districts (California province)",USA,2008,2000000.0,2830452.0
+149e617fa030e127144ce40f4c2493a5,2008-0563-USA,nat-met-ext-sev,"Maine, Massachusetts, New Hampshire, New York, Vermont provinces",USA,2008,,
+9f104e2e852cfbc4e887402ca3951ec5,2008-0599-USA,nat-met-sto-tor,"Arkansas, Illinois, Indiana, Kentucky, Missouri, New York, Ohio, Tennessee, Alabama, Mississippi provinces",USA,2008,600000.0,849136.0
+0f8bba7ba05915c3416a2145c3d633fd,2008-0600-USA,nat-met-sto-ext,"Arkansas, California, Colorado, Illinois, Indiana, Kansas, Michigan, Missouri, New York, Ohio, Oklahoma, Oregon, Washington, Wisconsin provinces",USA,2008,1000000.0,1415226.0
+a841b8432160d3c6d7c12a3a43a4acb0,2008-0601-USA,nat-met-sto-tor,"Arkansas, Oklahoma, Texas provinces",USA,2008,1100000.0,1556749.0
+a5c3f0f6abf63b502e2618b0a12a37dd,2008-0627-USA,nat-hyd-flo-riv,"Illinois, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, Wisconsin provinces",USA,2008,10000000.0,14152261.0
+d48d4a931d202b5677b2d5d23c870961,2008-0638-USA,nat-hyd-flo-riv,"Orting town (Pierce district, Washington province), Chehalus town (Lewis district, Washington), Oregon province",USA,2008,,
+8da7932d6cdb5b4000718db607bad3a6,2008-0645-USA,nat-met-sto-tor,Suffolk district (Virginia province),USA,2008,110000.0,155675.0
+7f8ef90a7222563fa08e6bdbeb2cfd52,2008-0654-USA,nat-met-sto-bli,"Massachusetts, New York, Maine, New Hampshire, Vermont provinces",USA,2008,360000.0,509481.0
+fe8abc41cfe9cb4ada94f6b62c3e422b,2009-0056-USA,nat-met-ext-col,"Texas, Pennsylvania, Oklahoma, Kentucky, Missouri, Arkansas, District of Columbia provinces",USA,2009,1100000.0,1562303.0
+c5a4bca02c92592fc0c02d074c937d17,2009-0106-USA,nat-hyd-flo-riv,"North Dakota, Minnesota provinces",USA,2009,166000.0,235766.0
+0762f4addf3b5b4627d4f1c1426d48db,2009-0140-USA,nat-met-sto-tor,"Texas, Oklahoma, Arkansas, Alabama, Georgia, Kentucky, Louisiana, Missouri, South Carolina, Tennessee provinces",USA,2009,1700000.0,2414469.0
+7e6d54461d7fd7cd60f5a4386c30eeed,2009-0178-USA,nat-cli-wil-lan,Santa Barbara district (California province),USA,2009,100000.0,142028.0
+785d26663e6f3677905be252c4dc5390,2009-0184-USA,nat-hyd-flo-riv,"Virginia, Kentucky provinces",USA,2009,,
+98a0b595f87835e888a214c98e841091,2009-0189-CAN,nat-hyd-flo-riv,New Brunswick / Nouveau-Brunswick province,CAN,2009,,
+5e763eacd92e29effdc51d2a2ea03d53,2009-0190-USA,nat-hyd-flo-riv,Florida province,USA,2009,,
+735f71b8f457fe01ad1bb62a3f09b77b,2009-0244-USA,nat-met-sto-sev,"Dallas, Tarrant, Harris, Galveston, Swisher districts (Texas province)",USA,2009,240000.0,340866.0
+edf3428d95b1d90d43a3b8552ba14fae,2009-0287-USA,nat-met-sto-tor,"Ohio, Oklahoma, Kentucky, Texas, Tennessee, Pennsylvania, West Virginia, Maryland, Washington provinces",USA,2009,2500000.0,3550689.0
+5f680a4f6b9a795f4c810417cefbebfd,2009-0342-CAN,nat-met-sto-tro,"Nova Scotia, Newfoundland and Labrador provinces",CAN,2009,,
+3fcccbd417160ebb6f538e92ab1cc679,2009-0342-USA,nat-met-sto-tro,Maine province,USA,2009,,
+caabe23780e8300c630320c28da45aab,2009-0349-USA,nat-cli-wil-lan,"Los Angeles, Monterey districts (California province)",USA,2009,,
+549c711471baf3147c39c4bff158a967,2009-0405-USA,nat-hyd-flo-riv,"Douglas, Floyd, Carroll, Fulton, DeKalb, Cobb, Clayton, Gwinnett districts (Georgia province), Alabama, North Carolina,Tennessee provinces",USA,2009,500000.0,710138.0
+380648fd208c4a48e515ed679bac1904,2009-0477-USA,nat-met-sto-tro,"Kent, Sussex districts (Delaware province), Atlantic, Burlington, Cape May, Cumberland, Monmouth, Ocean districts (New Jersey province), Virginia, New York, North Carolina, Pennsylvannia provinces",USA,2009,600000.0,852165.0
+d2b00f2940c8b1ac6962d06cf3d3ee80,2009-0599-USA,nat-met-sto-bli,"Alabama, North Carolina, South Dakota, Pennsylvania, Texas, Oklahoma provinces",USA,2009,,
+a77a85725019517e71a28a14213cb4ae,2009-0601-USA,nat-met-sto-tor,"Texas, Nebraska, Oklahoma, Kansas, North Carolina, Alabama, Missouri, Arkansas, Pennsylvania, Tennessee, Mississippi, South Carolina, Kentucky provinces",USA,2009,2000000.0,2840552.0
+3b5400f6e958507b83d79bc89651550e,2009-0603-USA,nat-met-sto-sev,"Denver, Wheat Ridge, Lakewood, Arvada areas (Denver district, Colorado province)",USA,2009,1000000.0,1420276.0
+eaaa270e63d0e2436ad2c0c5c2660066,2009-0604-USA,nat-met-sto-tor,"Illinois, Missouri provinces",USA,2009,850000.0,1207234.0
+39821bb2bbdc0cfb0c2ea7b323818ddc,2009-0619-CAN,nat-met-sto-sev,New Brunswick province,CAN,2009,500000.0,710138.0
+9b1a3dab2671ee21d6dae6b2e9950072,2009-0644-USA,nat-met-sto-lig,"Texas, Missouri, Louisiana provinces",USA,2009,1500000.0,2130414.0
+94b461b5ed53fe5587e0f72211a474b4,2010-0027-USA,nat-geo-ear-gro,"Ferndale, Eureka cities (Humboldt district, California province)",USA,2010,12500.0,17467.0
+b3a03a19c862082c01cf17115e3fbe79,2010-0045-USA,nat-met-sto-bli,"New Jersey, Pennsylvania, Maryland, North Carolina, Delaware, District of Columbia, Virginia provinces",USA,2010,2000000.0,2794717.0
+30f9eb9e2c2d24dcd239b10ae907cd49,2010-0089-USA,nat-met-sto-bli,"New York, District of Columbia, New Jersey, Pennsylvania, New Hampshire, Massachusetts, Maine, Connecticut, Rhode Island, Vermont provinces",USA,2010,500000.0,698679.0
+eaad3bafb2789829e27ce513a7ad929e,2010-0162-USA,nat-hyd-flo-riv,Rhode Island province,USA,2010,,
+841b84d0670be45a234c791d290e0ec1,2010-0163-USA,nat-met-sto-tor,"Yazoo district (Mississippi province), Alabama, Louisiana, Arkansas, Georgia, Tennessee provinces",USA,2010,,
+047376e7a14fcf43f630f45bf9cab986,2010-0187-USA,nat-met-sto-sev,"Alabama, Arkansas, Mississippi, Kentucky, Tennessee provinces",USA,2010,2350000.0,3283793.0
+dbd261874f49c30c05de4480ef477436,2010-0196-USA,nat-met-sto-tor,Oklahoma province,USA,2010,2700000.0,3772868.0
+af75a660dd904332382f73c952cea9c6,2010-0225-USA,nat-hyd-flo-riv,"Arkansas, Oklahoma provinces",USA,2010,,
+5dbcd2ccfc266616bd3661d5e3daabae,2010-0468-USA,nat-met-sto-tro,"North Carolina, Virginia, Maryland, Massachusetts, Rhode Island provinces",USA,2010,100000.0,139736.0
+f93108e095c1b9931698ed65539c0527,2010-0522-USA,nat-met-sto-tro,Texas province,USA,2010,,
+2f6bf83a1b55a5f7551e4bd0851a1055,2010-0612-USA,nat-met-sto-sto,"Connecticut, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island provinces",USA,2010,1500000.0,2096038.0
+e66d2434ed3c418a2f85aeea1b6b9b37,2010-0651-USA,nat-hyd-flo-riv,"Kern, Orange, Riverside, San Bernardino, San Luis Obispo, Tulare districts (California province), Utah, Nevada, Arizona provinces",USA,2010,,
+268854540539ff92eef5fbd58d919baa,2010-0655-CAN,nat-met-sto-bli,"New Brunswick, Nova Scotia, Newfoundland and Labrador provinces",CAN,2010,,
+f33187677f4786add38d7dfe3a1be946,2010-0655-USA,nat-met-sto-bli,"Boston city (Suffolk district, Massachusetts province), Philadelphia district (Pennsylvania province), Fulton, DeKalb, Cobb, Clayton, Gwinnett districts (Georgia province), New York, North Carolina, Delaware, Maryland, Rhode Island, Virginia provinces",USA,2010,,
+81a3b07afd8e18f065ad7163bae18aea,2010-0663-USA,nat-met-sto-tor,"Arkansas, Missouri, Illinois provinces",USA,2010,,
+e949e89534572b4b85555cd2393d74e7,2010-0689-USA,nat-met-sto-lig,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Montana, Nebraska provinces",USA,2010,,
+04699ec4db7565b34fe59300cce4dc4c,2010-0690-USA,nat-met-sto-sev,"Colorado, Georgia, Illinois, Kansas, North Carolina, New Mexico, Oklahoma, South Carolina provinces",USA,2010,,
+0d685e3e0037d81314e2f33ab25df01d,2011-0029-USA,nat-met-sto-bli,"Oklahoma, Texas, Missouri, Wisconsin, Minnesota, Colorado, Wyoming, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia, New York, New Jersey, Pennsylvania provinces",USA,2011,1900000.0,2573732.0
+aea0f6042759963dbf9392eb271e98aa,2011-0131-CAN,nat-hyd-flo-riv,"Manitoba, Saskatchewan, Quebec, Alberta provinces",CAN,2011,800000.0,1083677.0
+d37c20556a659c997057a38658f88e4a,2011-0134-USA,nat-met-sto-tor,"Mississippi, Alabama, Oklahoma, Texas, North Carolina, Kansas provinces",USA,2011,2000000.0,2709192.0
+f014aae1d42ab46c6021e25e2c7654a6,2011-0140-USA,nat-cli-wil-lan,Texas province,USA,2011,183000.0,247891.0
+76a1974b95ca4a4fa10c417159f253ec,2011-0145-USA,nat-met-sto-tor,"Alabama, Arkansas, Kentucky, Mississippi, Missouri, Tennessee, Oklahoma provinces",USA,2011,11000000.0,14900556.0
+a4da5c9663ee3cbf24af4096e523fed7,2011-0166-USA,nat-hyd-flo-riv,"Illinois, Missouri, Kentucky, Tennessee, Mississppi provinces",USA,2011,,
+edf9aa7139b0682f793113920412d311,2011-0172-USA,nat-met-sto-tor,"Jasper, Newton districts (Missouri province)",USA,2011,14000000.0,18964343.0
+16afdac2a509f1a54c222ca8ce412f84,2011-0189-USA,nat-met-sto-tor,"Missouri, Kansas, Texas provinces",USA,2011,,
+07174c765b7c698cde24e904b6e15103,2011-0195-USA,nat-met-sto-tor,"Illinois, Massachusetts, Michigan, Minnesota, North Dakota provinces",USA,2011,,
+b0cd446e14c2b82a2df1d43ea4fb52d4,2011-0264-USA,nat-met-ext-hea,"New York, Washington, Texas, Ohio, Maine, Iowa, Illinois, Minnesota, Nebraska, Wisconsin, South Dakota provinces",USA,2011,,
+60dc6330b384a27a7f45fc02169a3e4b,2011-0323-CAN,nat-met-sto-tor,"Goderich town (Huron district, Ontario province)",CAN,2011,,
+900baf3c9fd2019527153d8871a6ba9b,2011-0328-CAN,nat-met-sto-tro,"New Brunswick,Nova Scotia, Prince Edward Island provinces",CAN,2011,,
+b61f2a1e1bee4a92e82f151ea3528871,2011-0328-USA,nat-met-sto-tro,"New York, New Jersey, Pennsylvania, North Carolina, Virginia, Maryland, District of Columbia, Connecticut, Florida provinces",USA,2011,7300000.0,9888551.0
+16c0ed1545c375a9d14415a5dec168c8,2011-0349-USA,nat-cli-wil-for,Bastrop district (Texas province),USA,2011,1000000.0,1354596.0
+0235c085499ec7bf8e2b625bc9ba2228,2011-0425-USA,nat-hyd-flo-riv,"Charlotte town (Mecklenburg district, North Carolina province)",USA,2011,,
+f88695899d63c5d16652cadfbada127a,2011-0444-USA,nat-met-sto-bli,"New York, New Jersey, Connecticut, Massachusetts provinces",USA,2011,3000000.0,4063788.0
+d0929e43ad73a0c93bba62a45d6fce91,2011-0456-USA,nat-met-sto-tro,"Louisiana, Mississippi, Alabama, Texas, New York, Pennsylvania, District of Columbia, Georgia, Maryland, Tennessee, Virginia provinces",USA,2011,750000.0,1015947.0
+072f1b7c216f9494c1d2327c86a86471,2011-0527-USA,nat-met-sto-bli,"Colorado, New Mexico provinces",USA,2011,,
+74a4a56158e8d11ed06ca240e6c65300,2011-0607-USA,nat-met-sto-bli,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania provinces",USA,2011,,
+18fb40946488ad6c258cf66018f3d3a8,2011-0608-USA,nat-met-sto-bli,"Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Illinois, Indiana, Iowa, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Tennessee provinces",USA,2011,,
+c0a5e0906980ddf846e5c5f7588f63a1,2011-0609-USA,nat-met-sto-sto,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia, Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming provinces",USA,2011,3500000.0,4741086.0
+2f4b0439020742cf0d867fd65f5144bd,2011-0610-USA,nat-hyd-flo-riv,"Mississippi, Ohio provinces",USA,2011,4600000.0,6231141.0
+67168ef6d2cb4f454a27db1f49dd164b,2011-0611-USA,nat-met-sto-sto,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, New York, New Jersey, Pennsylvania provinces",USA,2011,,
+61dca09a0474c4ef2d8ce7569fd5a695,2011-0630-CAN,nat-cli-wil-for,"Slave Lake area (Division No. 17 district, Alberta province)",CAN,2011,1500000.0,2031894.0
+d90eeda261d198bda29c620ee920e411,2011-0639-USA,nat-cli-wil-for,"Arizona, Minnesota, Texas, Florida provinces",USA,2011,200000.0,270919.0
+f2deb6896dbd0891b50a5bdf641543e8,2011-0646-USA,nat-hyd-flo-riv,"Montana, North Dakota, South Dakota, Iowa, Missouri provinces",USA,2011,2000000.0,2709192.0
+9329d05b15c8416168902d065f9459a6,2012-0010-USA,nat-met-sto-tor,"Jefferson, Chilton districts (Alabama province)",USA,2012,175000.0,232248.0
+a4109711ab602392b72da56cb83a994f,2012-0055-USA,nat-met-sto-tor,"Nebraska, Kansas, Missouri, Illinois, Indiana, Kentucky provinces",USA,2012,500000.0,663567.0
+bb67908bc727c4cbd5e54d6aa3786160,2012-0060-USA,nat-met-sto-tor,"Alabama, Tennessee, Illinois, Kentucky, Indiana, Ohio, Georgia, Florida, Mississippi, North Carolina, Virginia provinces",USA,2012,5000000.0,6635666.0
+170daca94cfbe6b110cb21c299b07c3c,2012-0068-CAN,nat-hyd-flo-riv,"Perth-Andover village (Victoria district, New Brunswick province)",CAN,2012,34000.0,45123.0
+270272101811d5934ffe106ed3c4da27,2012-0122-USA,nat-met-sto-tor,"Dallas, Tarrant districts (Texas province)",USA,2012,1550000.0,2057056.0
+511887b00ab316512bd49ca15cea22d9,2012-0156-USA,nat-met-sto-tor,"Oklahoma, Kansas, Iowa, Nebraska, South Dakota, Minnesota provinces",USA,2012,1800000.0,2388840.0
+d9e7757af50f212e9df58cd7025505a3,2012-0176-USA,nat-met-sto-tro,"Bay, Calhoun, Escambia, Franklin, Gadsden, Gulf, Holmes, Jackson, Jefferson, Leon, Liberty, Madison, Okaloosa, Santa Rosa, Taylor, Wakulla, Walton, Washington, Brevard, Citrus, Hardee, Hernando, Hillsborough, Indian River, Lake, Manatee, Marion, Orange, Osceola, Pasco, Pinellas, Polk, Seminole, Sumter, Volusia districts",USA,2012,210000.0,278698.0
+8327ddf02080975f2b9d482404aebfdb,2012-0177-USA,nat-hyd-flo-riv,"Bay, Calhoun, Escambia, Franklin, Gadsden, Gulf, Holmes, Jackson, Jefferson, Leon, Liberty, Madison, Okaloosa, Santa Rosa, Taylor, Wakulla, Walton, Washington districts (Florida province), Alabama, Mississippi, Louisiana provinces",USA,2012,174000.0,230921.0
+6c3f739c572a25bdbf2069f250c1f74b,2012-0214-USA,nat-met-ext-hea,"District of Columbia, Iowa, Virginia, North Carolina provinces",USA,2012,,
+2124ab8281a730644f634b2b53665d53,2012-0232-USA,nat-cli-wil-wil,"Colorado Springs city (El Paso district, Colorado province)",USA,2012,600000.0,796280.0
+8f7557d27c911610130d35dd44ddba6c,2012-0234-USA,nat-met-sto-lig,District of Columbia province,USA,2012,,
+4207a95d359d253152bda12de71b29cf,2012-0313-USA,nat-met-sto-tro,"Mississippi, Louisiana provinces",USA,2012,2000000.0,2654266.0
+893f5687e035e17749f8924d884d51fe,2012-0410-USA,nat-met-sto-tro,"New York, New Jersey, Pennsylvania, Connecticut, Ohio, Delaware, Rhode Island, Maryland, Massachusetts, Maine, New Hampshire, North Carolina, Vermont, Virginia, District of Columbia, West Virginia provinces",USA,2012,50000000.0,66356661.0
+c0a97b8837a6f2d8dffa1792af44731a,2012-0486-USA,nat-met-sto-bli,"Wisconsin, Iowa, Nebraska, Kansas provinces",USA,2012,2000.0,2654.0
+e947d02bb689a289228a0c7cb752cccd,2012-0493-CAN,nat-met-sto-bli,"Quebec, Ontario, Nova Scotia provinces",CAN,2012,,
+d2bfdf79df1907c2662f1d7e9c193809,2012-0493-USA,nat-met-sto-bli,"Texas, Louisiana, Alabama, Mississippi, Arkansas, Indiana, Pennsylvania, Virginia, New York, New Jersey provinces",USA,2012,100000.0,132713.0
+0e19bcd448397a58fb3e9b5f052c138d,2012-0503-USA,nat-met-sto-sev,"Ohio, Virginia, Maryland, West Virginia, District of Columbia, Illinois, Indiana, Kentucky, New Jersey, North Carolina, South Carolina provinces",USA,2012,4000000.0,5308533.0
+50061edefafa01c43e9cc984fa88c632,2012-0542-USA,nat-cli-wil-wil,"Cleveland, Creek, Oklahoma, Payne districts (Oklahoma province)",USA,2012,200000.0,265427.0
+778231b184dbf375d29c35b7077bf240,2012-0601-USA,nat-met-sto-sev,"Missouri, Illinois, Kentucky, Texas, Indiana provinces",USA,2012,4500000.0,5972099.0
+7d76c2f3069c5d19998a80e3b8eb1349,2012-0611-USA,nat-met-sto-bli,"Oregon, Washington provinces",USA,2012,100000.0,132713.0
+fb5058ba5ad5ae9daeb46bec299da1ca,2012-0612-USA,nat-met-sto-lig,"Oklahoma, Kansas, Minnesota, Texas, Pennsylvania, New York provinces",USA,2012,3400000.0,4512253.0
+ac3e5420ae2a49048cdcb0ac958ba094,2012-0613-USA,nat-met-sto-lig,"Colorado, Wyoming provinces",USA,2012,1400000.0,1857987.0
+517f909af4ac3ed4ddb3c269fb0da3e5,2012-0614-USA,nat-met-sto-lig,"Texas, New Mexico provinces",USA,2012,1900000.0,2521553.0
+5fc9bf275de795492a33544dc7e37a4f,2012-0615-USA,nat-met-sto-lig,"Ohio, Minnesota, Pennsylvania, Michigan, Wisconsin provinces",USA,2012,700000.0,928993.0
+88f7a0c9393d5c7ac962ceab3d7fbedc,2012-0616-USA,nat-met-sto-lig,"Missouri, Pennsylvania, Virginia, Arkansas, Oklahoma, Maryland, New York provinces",USA,2012,210000.0,278698.0
+bc9d44d667275a5db13888a3cd195d4f,2012-0626-CAN,nat-met-sto-sev,"Calgary town (Division No. 6 district, Alberta province)",CAN,2012,1050000.0,1393490.0
+b3b90f12f647ce60bd3f896f31115244,2013-0013-USA,nat-met-sto-tor,"Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia, Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Colorado, Kansas, Montana, New Mexico, Oklahoma, Texas, Wyoming provinces",USA,2013,300000.0,392392.0
+3cb21d8740f743b11f5c75ea268703ac,2013-0054-USA,nat-met-sto-bli,"Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania provinces",USA,2013,100000.0,130797.0
+6fb5b0320b2429dfe75611f3046ef031,2013-0055-USA,nat-met-sto-bli,"South Dakota, North Dakota, Nebraska, Minnesota, Alabama, Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia provinces",USA,2013,100000.0,130797.0
+efc51e7badfe2eb492e6d1d6fb23b861,2013-0117-USA,nat-met-sto-sev,"California, Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia provinces",USA,2013,1600000.0,2092758.0
+e77b7f0d08ad0e3c0abbda9bbe50a4ee,2013-0118-USA,nat-met-sto-sev,"Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Illinois, Indiana, Iowa, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin provinces",USA,2013,1100000.0,1438771.0
+b79442bdfe58a2bc87fe867eddac49a5,2013-0142-USA,nat-met-sto-tor,"Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia, New York, New Jersey, Pennsylvania provinces",USA,2013,3100000.0,4054718.0
+684be4d285eef07011fdfc13df9ba3f7,2013-0183-USA,nat-met-sto-tor,"Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia provinces",USA,2013,300000.0,392392.0
+2ecf55a80bc5339b3a4eb66ac74edd6f,2013-0184-USA,nat-met-sto-tor,"Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania provinces",USA,2013,2100000.0,2746744.0
+90007a2888e7407aa88e4aac1721ca17,2013-0190-CAN,nat-hyd-flo-riv,"Calgary city (Division No. 6 district, Southern Alberta province)",CAN,2013,5700000.0,7455449.0
+a6f05d834baff195028fadcc53bfd333,2013-0209-USA,nat-cli-wil-for,Los Angeles district (California province),USA,2013,21400.0,27991.0
+17c2bdfa74dae559507802997fe3a8e7,2013-0210-USA,nat-cli-wil-for,"Black Forest area (El Paso district, Colorado province)",USA,2013,500000.0,653987.0
+44a018c2bfd8f6fbbed29cc8ab13ae39,2013-0211-USA,nat-met-sto-lig,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, New York, New Jersey, Pennsylvania, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia provinces",USA,2013,900000.0,1177176.0
+36d234c5ae2f5e04e86cba7bbd50fc19,2013-0212-USA,nat-cli-wil-for,"Yarnell area (Yavapai district, Arizona province)",USA,2013,2000.0,2616.0
+97100c88389ab47537d30284df028994,2013-0254-USA,nat-hyd-flo-riv,"Cleveland, Lincoln, Catawba districts (North Carolina province), Pennsylvania province",USA,2013,25000.0,32699.0
+f68b8795e4e5ea23cbfecad3d28132a4,2013-0277-USA,nat-hyd-flo-riv,"Missouri, Kansas, Tennessee, Arkansas, Oklahoma provinces",USA,2013,25000.0,32699.0
+c7fcf25f333eaba05ee99d602fd69402,2013-0286-USA,nat-hyd-flo-riv,"San Antonio town (Bexar district, Texas province)",USA,2013,2000.0,2616.0
+cb1a7c73e398471b6f8820f14e183fc6,2013-0291-USA,nat-hyd-flo-riv,"Iowa, Michigan, Minnesota, Wisconsin provinces",USA,2013,325000.0,425091.0
+4c8b2190973931fb2c34c3ee531e75b5,2013-0315-USA,nat-cli-wil-wil,"Yosemite valley (Mariposa district, California province)",USA,2013,175000.0,228895.0
+0bbb50b1a2179aa5edb1178dd6f05074,2013-0334-USA,nat-met-sto-lig,"Colorado, Wyoming, Montana provinces",USA,2013,300000.0,392392.0
+ce1d217199cd5ae515758a9e4c07e581,2013-0354-USA,nat-hyd-flo-riv,"Lafayette, Lyons, Longmont towns (Boulder district, Colorado province), Larimer, El Paso, Broomfield districts (Colorado province), New Mexico province",USA,2013,1900000.0,2485150.0
+54a7bda90766f22f96e597190a53b2e1,2013-0404-USA,nat-cli-wil-wil,Shasta district (California province),USA,2013,10000.0,13080.0
+9f63a7525fd8d2fdc7cb9aef54feafa2,2013-0439-USA,nat-met-sto-tor,"Illinois, Indiana, Kentucky, Ohio, Michigan, Wisconsin, Missouri provinces",USA,2013,1300000.0,1700366.0
+5c90eec60636ed5f497bf0e02f84c766,2013-0472-USA,nat-met-sto-bli,"Oklahoma, Texas, California, New Mexico, Arizona provinces",USA,2013,2000.0,2616.0
+0edf28661736743c8a1e8a58c8afb520,2013-0510-USA,nat-hyd-flo-riv,Austin district (Texas province),USA,2013,,
+2cba8d11f304faa322101b11c25afe60,2013-0528-CAN,nat-met-ext-sev,"Ontario, Quebec provinces",CAN,2013,200000.0,261595.0
+a3af53993a750938a47be7c6775efc51,2013-0528-USA,nat-met-ext-sev,"Michigan, Ohio, New York, Vermont, Maine, Kansas, Iowa, Texas, Wisconsin, Illinois, Minnesota, Arkansas, Louisiana, Mississippi, Kentucky provinces",USA,2013,200000.0,261595.0
+ece905efa688f41a260399863732aefd,2013-0548-USA,nat-met-sto-sev,"Louisiana, South Carolina, Mississippi provinces",USA,2013,2200000.0,2877542.0
+418834fbf4a5b767a9fab4b81927ef71,2013-0550-USA,nat-met-sto-bli,"Alabama, Arkansas, Connecticut, Delaware, Florida, Georgia, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Mississippi, New Hampshire, New Jersey, New York, North Carolina, Oklahoma, Pennsylvania, Rhode Island, South Carolina, Tennessee, Texas, Vermont, Virginia, West Virginia provinces",USA,2013,100000.0,130797.0
+c35ced69ed8595b12ff407796db43e09,2013-0558-USA,nat-hyd-flo-riv,"Nelson, Carroll districts (Kentucky province)",USA,2013,,
+0486319196180b1adeb39d6898554251,2013-0579-USA,nat-met-sto-bli,"Texas, Oklahoma, Louisiana provinces",USA,2013,1100000.0,1438771.0
+fd8c0b4a3e92c59303547ebccc594af3,2013-0580-CAN,nat-met-sto-lig,Toronto district (Ontario province),CAN,2013,1410000.0,1844243.0
+6ac46e5ebdbabfcdb9e116c7e790b70c,2014-0009-CAN,nat-met-ext-col,"Ontario, Manitoba, Saskatchewan provinces",CAN,2014,,
+1ff4bec4d8e662b52b6336a4dd892c9e,2014-0009-USA,nat-met-ext-col,"New York, Minnesota, Georgia, Maryland, Alaska, Alabama, Mississippi, Louisiana, North Carolina, South Carolina, Ohio, Indiana, Illinois, Pennsylvania, Michigan, New Jersey, Virginia, Kentucky, Missouri provinces",USA,2014,2500000.0,3217735.0
+b49bea4d135475df6270ebeb37455580,2014-0048-USA,nat-met-sto-bli,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania provinces",USA,2014,250000.0,321773.0
+dc45cd128b2a16f576286ffe7c92c9bb,2014-0052-USA,nat-met-sto-bli,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Maine, Massachusetts, New Hampshire, Vermont, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Maryland provinces",USA,2014,210000.0,270290.0
+4f14cdfbe90b8f1c37e6086bd1e6dc9f,2014-0053-USA,nat-met-sto-bli,"Georgia, Alabama, Mississippi, Louisiana, North Carolina, South Carolina provinces",USA,2014,250000.0,321773.0
+c21540149c8de93a02a26fe19588b313,2014-0072-USA,nat-met-sto-bli,"District of Columbia, New York, Georgia, South Carolina, North Carolina, Pennsylvania provinces",USA,2014,750000.0,965320.0
+27bf83a32478721a94b1c300b077183e,2014-0095-USA,nat-hyd-mmw-lan,"Oso village (Snohomish district, Washington province)",USA,2014,20000.0,25742.0
+6f33fba30cc0fb5afdc5cc8af8ef4a69,2014-0100-USA,nat-met-sto-bli,"California, Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Tennessee, New York, New Jersey, Pennsylvania provinces",USA,2014,2000.0,2574.0
+1924274af92777d57ec71f19cb83a551,2014-0126-USA,nat-met-sto-sev,"Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Mississippi, Alabama, Arkansas, Delaware, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia, Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Florida, Alabama, New York, New Jersey, Pennsylvania provinces",USA,2014,2000000.0,2574188.0
+433d35dbd6f7401e04280d5ceed1b640,2014-0165-USA,nat-cli-wil-for,"Hutchinson district (Texas province), San Diego district (California province)",USA,2014,100000.0,128709.0
+60a033e91b34ab6387ccc57748b99537,2014-0192-USA,nat-met-sto-lig,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, North Dakota, Ohio, South Dakota, Wisconsin, Kansas, Nebraska, New Mexico, North Dakota, Oklahoma, South Dakota, Texas, Wyoming, Arizona, Idaho, Montana, Nevada, New Mexico, Utah, Wyoming, New York, New Jersey, Pennsylvania, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut provinces",USA,2014,3900000.0,5019666.0
+f8b81c4a26389c29518deecc316a69f9,2014-0263-USA,nat-met-sto-lig,"Colorado, Kansas, Montana, Nebraska, New Mexico, North Dakota, Oklahoma, Texas, Wyoming, Illinois, Indiana, Iowa, Michigan, Minnesota, Missouri, Ohio, South Dakota, Wisconsin, New York, New Jersey, Pennsylvania, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, Tennessee provinces",USA,2014,270000.0,347515.0
+b2ce4840f065088992f1db623e92aed0,2014-0310-USA,nat-met-sto-tro,Hawaii province,USA,2014,66000.0,84948.0
+4c76000edf627d0561b10f93dc539662,2014-0317-USA,nat-hyd-flo-riv,"Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin, Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvanie, Maryland provinces",USA,2014,1600000.0,2059350.0
+4138b201f852c97feaa20ebc35074e8e,2014-0318-USA,nat-geo-ear-gro,"San Francisco Bay (San Francisco district) , Napa Valley (Napa district) ; Sonoma, Solano district (California province) ; Vallejo, Mare Island cities (Solano district, California province)",USA,2014,700000.0,900966.0
+0216e613baaee59db391273a4fff4a2c,2014-0319-CAN,nat-hyd-flo-fla,"Burlington city (Halton district, Ontario province)",CAN,2014,129000.0,166035.0
+f9e89f76d74b67eefbdba5771e08d77e,2014-0444-USA,nat-met-sto-lig,"Arkansas, Louisiana, Alabama, Mississippi, Kentucky, Illinois, Texas provinces",USA,2014,170000.0,218806.0
+c94c8f3b622748555653e5b38660286b,2014-0459-USA,nat-met-sto-bli,"New York, New Hampshire, Michigan provinces",USA,2014,100000.0,128709.0
+af2ffc432c6ccc2e37e6646a6a8ba31a,2014-0482-USA,nat-met-sto-bli,"Los Angeles, San Diego districts (California province), Oregon province",USA,2014,,
+74c41534b171fb1d7ff2f636fafaa25a,2014-0491-USA,nat-hyd-flo-fla,"Orange, Mariposa, Tuolumne, Los Angeles, San Francisco, Sacaramento districts (California province)",USA,2014,90000.0,115838.0
+f8fc3d57f44f5f21688f27e60a91ff2e,2014-0540-USA,nat-met-sto-lig,"Blair area (Washington district, Nebraska province), Iowa, Kansas, Arkansas, Wyoming provinces",USA,2014,1600000.0,2059350.0
+e1dc7bb757936d86470b2c86405224a4,2015-0025-USA,nat-met-sto-bli,"Illinois, Wisconsin, Pennsylvania provinces",USA,2015,100000.0,128557.0
+14b6fe550d378d81746ce1a26fa8f061,2015-0026-USA,nat-met-sto-bli,"Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Rhode Island",USA,2015,80000.0,102846.0
+98a2413628738f1aaa1359539a568b9a,2015-0046-USA,nat-met-sto-bli,"Tennessee, Kansas, District of Columbia, Boston, Ohio, Virginia, Georgia, North Carolina, South Carolina provinces",USA,2015,100000.0,128557.0
+83ecc35e8b392c5ec4b0b38d832ff7a1,2015-0072-USA,nat-met-sto-bli,"Illinois, Michigan, Massachusetts, New York, Connecticut, Indiana provinces",USA,2015,150000.0,192835.0
+42ee844e55520cd7a69fa4cbe73f8546,2015-0073-USA,nat-met-sto-bli,"Massachusetts, New York, Tennessee, Maryland, Virginia, Pennsylvania, Kentucky, North Carolina, Michigan, Rhode Island, New Hampshire, Ohio, South Carolina, Illinois, District of Columbia, Maine, Vermont provinces",USA,2015,3000000.0,3856707.0
+82fb25127b0cc69b0c943597ac190596,2015-0122-USA,nat-met-sto-bli,"New York, Pennsylvania, Kentucky, West Virginia, Arkansas provinces",USA,2015,170000.0,218547.0
+d8465188b55bd580d537ba772fd3ef82,2015-0123-USA,nat-met-sto-tor,"Moore area (Cleveland district, Oklahoma province), Osage, Tulsa districts (Oklahoma province), Kansas, Missouri, Arkansas provinces",USA,2015,500000.0,642784.0
+c1cdc7cdac590cdc7b65629b79a7b04d,2015-0138-USA,nat-met-sto-tor,"Fairdale area (DeKalb district, Illinois province), Rochelle town (Ogle district, Illinois province), Missouri, North Carolina, Indiana, Ohio, Kentucky, Texas, Iowa, Arkansas, Michigan, West Virginia, Wisconsin, Pennsylvania, Oklahoma, Kansas, Tennessee provinces",USA,2015,1400000.0,1799797.0
+475a11bd3d3a0d2992559fbb37083de9,2015-0155-USA,nat-met-sto-tor,"Texas, Louisiana, Alabama, Mississippi, Kentucky, Georgia, Florida provinces",USA,2015,950000.0,1221291.0
+6e545f75199ed7f3e1b77fcd5d9c248d,2015-0177-USA,nat-met-sto-tor,"Nashville town (Howard district, Arkansas province); Van town (Van Zandt district, Texas province), Delmond town (Douglas district, South Dakota province), Colorado, Oklahoma, Kansas, Iowa provinces",USA,2015,1000000.0,1285569.0
+9f11493b179ca834736b913e1eb94363,2015-0180-USA,nat-met-sto-tor,"Kansas, Nebraska, Texas, Oklahoma, Minnesota, Iowa, Wisconsin provinces",USA,2015,160000.0,205691.0
+4efc61fbca5179613750fa8caf57994d,2015-0186-USA,nat-hyd-flo-fla,"San Marcos area (Hays district, Texas province), Claremore area (Hays district, Oklahoma province)",USA,2015,,
+57b620e28553772285cdc485504288cf,2015-0211-USA,nat-met-sto-lig,"Texas, Oklahoma, Kansas, Nebraska, Missouri, Colorado, Minnesota, South Dakota provinces",USA,2015,1400000.0,1799797.0
+2fffe87a4260ee3c850942e107dae5bf,2015-0212-USA,nat-hyd-flo-fla,"Texas, Oklahoma, Colorado, Arkansas, Kansas, Louisiana, Georgia, Ohio, South Carolina",USA,2015,2700000.0,3471036.0
+b28b5316ece25d11a6ad0c1ff5f4b23b,2015-0245-USA,nat-met-sto-lig,"Colorado, Illinois provinces",USA,2015,650000.0,835620.0
+0b6d47a84baddb61dc32dc9525d8029f,2015-0275-CAN,nat-cli-wil-for,"Saskatchewan, Alberta, British Columbia provinces",CAN,2015,,
+8dda9a46d2d17e271ae9c9388f088c78,2015-0312-USA,nat-cli-wil-wil,"Lake, Napa, Solano, Yolo, Modoc, Colusa districts (California province)",USA,2015,2000.0,2571.0
+61e06c34f55aae4d3475f5c5f2985e21,2015-0326-USA,nat-met-sto-sev,"Illinois, Indiana, Wisconsin, Minnesota, Ohio, Iowa, Kentucky, Tennessee, Missouri, South Carolina, North Carolina",USA,2015,700000.0,899898.0
+d8de001bcaade4e0cbf51401db0c2812,2015-0399-USA,nat-hyd-flo-flo,"Hillsborough, Pasco, Pinellas, Dixie, Taylor districts (Florida province)",USA,2015,100000.0,128557.0
+e740ae8ab0030e865a2ce76ce71b894b,2015-0400-USA,nat-met-sto-sev,"Chicago, Lincolnwood towns (Cook district, Illinois province), Wood Dale town (DuPage district, Illinois province), Lancaster town (Coos district, New Hampshire province), Indiana, Ohio, Connecticut, Michigan, Massachusetts, Wisconsin, Rhode Island, Maine, New York provinces",USA,2015,950000.0,1221291.0
+c592e3669c174e02ffb7e5daa510233b,2015-0401-USA,nat-cli-wil-wil,"California, Idaho, Montana, Oregon, Washington provinces",USA,2015,150000.0,192835.0
+291538bc335d2f522603e8a6d9c2a056,2015-0421-USA,nat-cli-wil-lan,"Lake, Napa, Sonoma, Butte districts (California province)",USA,2015,1400000.0,1799797.0
+2e9de337d05556b13e2f76eddd5f3228,2015-0431-USA,nat-hyd-flo-fla,"Hildale town (Washington district, Utah province), Las Vegas town (Clark district, Nevada province)",USA,2015,2000.0,2571.0
+4d2b5da126a94a0e640736e65c2e2423,2015-0459-USA,nat-met-sto-tro,"South Carolina, North Carolina",USA,2015,2000000.0,2571138.0
+9ba25b07fef19c89333d0a6617342d20,2015-0488-USA,nat-met-sto-lig,"Austin, Houston districts (Texas province), Lousiana province",USA,2015,270000.0,347104.0
+df3630cb5ab8488bce13bce2ecb439b4,2015-0531-USA,nat-met-sto-bli,"Texas, Kansas, Oklahoma provinces",USA,2015,140000.0,179980.0
+0230c7c34fff82f6bddeeacc0f229f89,2015-0558-USA,nat-met-sto-tor,"Dallas, Ellis, Collin districts (Texas province), Mississippi, Tennessee, Arkansas, Alabama, Georgia, New Mexico, Missouri, Kentucky, Indiana, Oklahoma, Illinois provinces",USA,2015,2000000.0,2571138.0
+b144a0dabd0a26e65509a0c992552b3e,2015-0565-USA,nat-hyd-flo-flo,"Mississippi, Missouri, Kentucky, Tennessee, Arkansas, Alabama, Illinois, Indiana, Louisiana provinces",USA,2015,600000.0,771341.0
+356ae48cdc6033c05b85ac981ae46611,2015-0613-USA,nat-cli-wil-lan,"Amador, Calaveras (California)",USA,2015,400000.0,514228.0
+25fd72534368b3ba7457f54364ed5908,2016-0010-USA,nat-met-sto-bli,"Washington D.C. (District of Columbia district, District of Columbia province), New York, New Jersey, Pennsylvania, Maryland, Virginia, Tennessee, Kentucky, Delaware, West Virginia, Georgia, North Carolina provinces",USA,2016,550000.0,698254.0
+b808220f16a0a699c35e6b7a775f6e58,2016-0012-USA,nat-met-sto-sev,"Ventura, Orange, San Diego, Los Angles districts (California province)",USA,2016,125000.0,158694.0
+19a726817dc1e6d583ad8453d61bcc2f,2016-0051-USA,nat-met-sto-bli,"Alabama, Mississippi, Virginia, Connecticut, Florida, Georgia, Louisiana, Massachusetts, Maryland, North Carolina, New Jersey, New York, Pennsylvania, South Carolina, Texas",USA,2016,1200000.0,1523463.0
+aae82698ac2cbb2f3901417ac3f6d921,2016-0085-USA,nat-met-sto-sev,"California, Lousiana, Texas, Arkansas, Tennessee, Mississippi, Alabama, Oklahoma, Kentucky, Ohio provinces",USA,2016,1600000.0,2031284.0
+2fc71fc5f6e7c98f58de9593a31ae76b,2016-0086-USA,nat-met-sto-sev,"Texas, Mississippi, Louisiana, Florida provinces",USA,2016,1200000.0,1523463.0
+29b530350dd38c589d966858eb85202f,2016-0087-USA,nat-met-sto-sev,"Texas, Oklahoma, Louisiana, Arkansas, Mississippi, Alabama, Florida provinces",USA,2016,2300000.0,2919970.0
+0e85852e4d3ed9b5ebb89124eb682bc2,2016-0123-USA,nat-met-sto-lig,"Dallas-Fort Worth (Dallas, Wise, Tarrant, Denton, Parker), Wylie, Plano, Little Elm, Rockwall, Bettie, Emory in Collin, Denton, Upshur, Rockwall, Rains, San Antonio metro regions, Helotes, Alamo Heights, Kirby, Hollywood Park, Carrizo Springs, Terrel Hills (Bexar, Dimmit) (Texas), Oklahoma, Kansas, Missouri, Arkansas, Mississippi, Louisiana",USA,2016,3900000.0,4951254.0
+6fd952fdfaaa50035a79fdaad116bc18,2016-0124-USA,nat-hyd-flo-fla,"Fayette, Grimes, Harris, Parker counties, Houston districts (Texas province)",USA,2016,2000000.0,2539105.0
+b55a7505cdc9afb5bcf09bdddc340590,2016-0125-USA,nat-met-sto-lig,"Texas, Oklahoma, Arkansas, Louisiana, Mississippi, Kansas, Virginia, North Carolina, Georgia, Missouri, Illinois, West Virginia provinces",USA,2016,2400000.0,3046926.0
+13eb40861d1eca800b09f79864ac84ea,2016-0150-USA,nat-met-sto-tor,"Oklahoma, Colorado, Nebraska, Kansas, Iowa, Missouri, Arkansas, Illinois, Kentucky, Texas,Tennessee states",USA,2016,1700000.0,2158239.0
+a12946d410a223f4941b7107b3107604,2016-0170-USA,nat-hyd-flo-flo,"Palestine city (Anderson district, Texas province), Houston district (Texas province)",USA,2016,,
+42c8ab3598e96674da52b38b5e5a7f16,2016-0172-CAN,nat-cli-wil-for,"Fort McMurray city (Wood Buffalo area, Division No. 16 district, Alberta province)",CAN,2016,4000000.0,5078209.0
+540fd5061d78444eb905a0e47e322fd4,2016-0181-USA,nat-met-sto-hai,"Houston district (Texas province), Brenham city (Washington district, Texas province); Montana, Kansas, Missouri, Colorado",USA,2016,1100000.0,1396508.0
+5dcab1e11887b961437c84133ef1d0e8,2016-0183-USA,nat-hyd-flo-flo,"Texas, Oklahoma, Arkansas, Kansas, Nebraska provinces",USA,2016,300000.0,380866.0
+d2a65d3e22caebb3b41ffb97ba58dc09,2016-0203-USA,nat-met-sto-sto,"Greenbier district (West Virginia province); Ohio, Indiana, Illinois, Wisconsin, Virginia",USA,2016,1000000.0,1269552.0
+742c7e791b25790c5ea8845a72d38739,2016-0206-USA,nat-cli-wil-for,California province,USA,2016,150000.0,190433.0
+79ce18ed318c2537eea43f53bb76ae4c,2016-0243-CAN,nat-hyd-flo-flo,"Chetwynd, Lemoray, Dawson Creek, Link Creek, Braden Road, Mackenzie, Fort St. John cities (Peace River district, British Columbia/Colombie-Britannique province)",CAN,2016,,
+925c16a7fbc32c5f445e7332643a9581,2016-0264-USA,nat-cli-wil-for,"Los Angeles, San Francisco districts (California province)",USA,2016,50000.0,63478.0
+a644825b478d1989e5c80a1c3e3fc40e,2016-0292-USA,nat-hyd-flo-flo,"Louisiana, Mississippi, Missouri, Illinois, Indiana; Allamakee, Clayton, Fayette, Howard, Winneshiek counties (Iowa)",USA,2016,10000000.0,12695523.0
+57f9b6a5d04ea523672781f47077051f,2016-0297-USA,nat-cli-wil-for,"Lower Lake, Clearlake (Lake district, California province)",USA,2016,100000.0,126955.0
+f983c08a6a3be1caadca3477b4e8baeb,2016-0322-USA,nat-met-sto-tro,"Georgia, Florida, South Carolina, New York, New Jersey; Cedar Key, Florida, Aurora (North Carolina); Virginia Tidewater region",USA,2016,600000.0,761731.0
+7f57728f91da259792880e6549b96c8a,2016-0331-USA,nat-hyd-flo-riv,"Minnesota; Buffalo, Chippewa, Clark, Columbia, Crawford, Eau Claire, Jackson, La Crosse, Monroe, Richland, Sauk, Trempealeau, and Vernon (Wisconsin); Allamakee, Benton, Black Hawk, Bremer, Buchanan, Butler, Cedar, Chickasaw, Delaware, Floyd, Franklin, Linn, Wright (Iowa)",USA,2016,550000.0,698254.0
+13873dc5df87944447473d6372baf43d,2016-0355-USA,nat-met-sto-tro,"Florida, Georgia, South Carolina, North Carolina, Virginia provinces",USA,2016,10000000.0,12695523.0
+a2229c963c674d7f5ec97384fd951f14,2016-0477-USA,nat-met-sto-bli,"Alabama, Mississippi, Tennessee, Georgia, South Carolina, Louisiana, North Carolina provinces",USA,2016,275000.0,349127.0
+672d9207926ad3ce52a32f4d5fe573b9,2016-0493-USA,nat-geo-ear-gro,Cushing (Oklahoma),USA,2016,20000.0,25391.0
+2e74f5d583efcd93e4f7f2a7643c3be2,2016-0521-USA,nat-met-sto-bli,"Northern (Missouri, Maryland, Oklahoma, Indiana, Michigan, New Mexico, Ohio, Virginia)",USA,2016,100000.0,126955.0
+7085dfd45915391ccf86586862f8a69a,2016-0550-USA,nat-met-sto-lig,"Texas, Oklahoma, Kansas, Missouri, Nebraska, Illinois, Indiana, Kentucky, Ohio",USA,2016,,
+e06e04bb222ccdc55aca860689a2e860,2016-0552-USA,nat-hyd-flo-flo,"Texas, Louisiana (Shreveport, Haugton), Arkansas, Mississipi",USA,2016,2300000.0,2919970.0
+ef7d90d8e476c3dcb7e82823c0fa4f0d,2017-0022-USA,nat-met-sto-sev,"Georgia (cook), Mississippi, Alabama, Louisiana, Florida states",USA,2017,1100000.0,1367381.0
+dc2674fc8a73882a8f3bb2d4c1a27d6e,2017-0039-USA,nat-met-sto-bli,"California, Nevada, Idaho, Colorado, Utah, Oregon states",USA,2017,400000.0,497229.0
+be163e749744e3d857c18c33071e29d0,2017-0058-USA,nat-hyd-flo-riv,San Jose (North California),USA,2017,,
+bd614c758a99485511c162f2395c920a,2017-0062-USA,nat-met-sto-sto,"Center and south of California (San Diego, Los Angeles, San Francisco, Sacramento)",USA,2017,1500000.0,1864610.0
+b311bbef7bd6e4d1e9135b5d0cbd8f23,2017-0070-USA,nat-met-sto-tor,"Illinois, Missouri, Indiana, Arkansas, Kentucky, Tennessee, Ohio , Georgia, Iowa, North Carolina, Virginia, Alabama, South Carolina, West Virginia, Michigan states",USA,2017,1900000.0,2361839.0
+6e21ac2d03806ef42e57ba151076b423,2017-0108-USA,nat-met-sto-bli,"South Carolina, Georgia, North Carolina, Tennessee, Alabama, Mssissippi, Florida, Kentucky , Virginia",USA,2017,1000000.0,1243073.0
+027d94c81aef10eba7cb57e9e94ba8ba,2017-0126-CAN,nat-hyd-flo-flo,"Ottawa (Cumberland, Constance Bay,Fitzroy Harbour, Dunrobin, Britannia, West Carleton-March, MacLarens Landing), Champlain Township (Prescott and Russell), Lanark (Ontario); Montreal, Gatineau, Laval (Quebec); Thompson Nicola (Cache Creek, Lower Nicola Indian Band) Columbia Shushwap (Tappen), Central Okanagan (Kelowna, West Kelowna, Lake country, Fintry Delta),North Okanogan (Lumby), Okanagan Similkameen (Garnett Valley,Summerland), Kootenay Boundary (Grand Forks) (British Colombia); Canadian Maritimes; York, Sunburry (Fredericton, Maugerville), Queens (Jemseg) (New Brunswick) ; Cape Breton Island (Nova Scotia)",CAN,2017,200000.0,248615.0
+780221095d38683df151ddb5bdb452c2,2017-0136-USA,nat-hyd-flo-flo,"East and West Canton (Van Zandt county) (Texas); Kampville (St Charles) (Missouri); Logan, Marion, Miles Station (Macoupin), Sumner (Lawrence), Pawnee (Sangamon) (Illinois); Natural Dam (Crawford), Mississipi, Clay (Arkansas); Oak ridge (Morehouse) (Louisiana) ; Labette (Kansas); Cameron (Le Flore) (Oklahoma); Goshen (Oldham) (Kentucky) ; Ohio; Pennsylvania; West Virginia ; Mississipi ; Alabama ; Tennesse ; Indiana",USA,2017,1700000.0,2113225.0
+5ce16fc5b6a70dbb7bf3e0479173acb7,2017-0203-USA,nat-met-sto-hai,"Colorado, New Mexico, Texas, Oklahoma, Missouri",USA,2017,3100000.0,3853527.0
+cac713df7984523d4e74ce684c48c5e2,2017-0234-USA,nat-met-sto-lig,"Colorado, Kansas, Illinois, Indiana, Texas (Gregg County, Tenneryville, Easton, Longview City), Oklahoma (Okfuskee), Missouri (Bates, Carthage, Laclede, Pulaski, Phelps, Dent, Texas Counties, Crawfordsville, Phillipsburg, Edgar Springs, Salem, Evening Shade, Palace, Big Piney), Arkansas, Ohio, Kentucky, Tennessee (Millington, Memphis, Knoxville), Virginia, Louisiana (Natchitoches, DeSoto, Caddo, Caldwell, Franklin, LaSalle, Winn, Rapides, Catahoula, Concordia Parishes, Goldonna), North Dakota, South Dakota, Minnesota, Iowa, Ohio, Pennsylvania, New York, North Carolina (Sampson County, Salemburg, Clinton), South Carolina, Georgia, New Mexico",USA,2017,1400000.0,1740303.0
+cb9c6f09289246fcf519055a0d93d0bf,2017-0252-USA,nat-cli-wil-for,"Butte (Oroville), San Luis Obispo, Santa Barbara (California)",USA,2017,,
+6f3d225e0767cf89a21586736d0763ee,2017-0253-USA,nat-met-sto-lig,"Minnesota (Minneapolis – St. Paul, MN metro region-Twin Cities, Lac Qui Parle County, Montevideo (Chippewa), Slayton (Murray), St. Cloud (Stearns), Monticello (Wright), Coon Rapids (Anoka)), Wisconsin (St. Croix), Upper Peninsula (Michigan), North Dakota (Richardson, Stark County, Morton County, Milton and Langdon in Cavalier County), South Dakota (Deuel, Jerauld, Beadle, and Clark Counties)",USA,2017,2000000.0,2486147.0
+438bf8d9bbd1e703b7aeb632a9c8c9ff,2017-0271-CAN,nat-cli-wil-wil,"Cache Creek , Ashcroft, Boston flats (Thompson Nicola), 100 Mile House , Williams Lake (Cariboo) (British Columbia)",CAN,2017,,
+eb0d5daef0a22fa81aa4b0ba020b4119,2017-0282-USA,nat-hyd-flo-fla,"Ellison Creek (Water wheel) Tonto National Forest (Gila, Arizona)",USA,2017,,
+7bfe484eebaa682c1bde9e2a2b6cd869,2017-0336-USA,nat-met-sto-tor,"Tulsa (Oklahoma); Texas, Louisiana, Kansas, Missouri",USA,2017,200000.0,248615.0
+5caa65f0254ebb50989cbce2b5e31026,2017-0362-USA,nat-met-sto-tro,"Eastern Texas (Rockport, Corpus Chrsti, Port Lavaca, Cypress area of Houston, Houston metro area, Beaumont, Port Arthur, Angelina, Aransas, Atascosa, Austin, Bastrop, Bee, Bexar, Brazoria, Brazos, Burleson, Caldwell, Calhoun, Cameron, Chambers, Colorado, Comal, DeWitt, Fayette, Fort Bend, Galveston, Goliad, Gonzales, Grimes, Guadalupe, Hardin, Harris, Jackson, Jasper, Jefferson, Jim Wells, Karnes, Kerr, Kleberg, Lavaca, Lee, Leon, Liberty, Live Oak, Madison, Matagorda, Montgomery, Newton, Nueces, Orange, Polk, Refugio, Sabine, San Jacinto, San Patricio, Trinity, Tyler, Victoria, Walker, Waller, Washington, Wharton, Willacy, Wilson, San Augustine), Southwestern Louisiana (Acadia, Forrest, Iberia, Lafayette, Vernon, Beauregard, Calcasieu, Cameron (Hackberry), Jefferson Davis, Vermillion, Allen, Natchitoches, Rapides, Sabine)",USA,2017,95000000.0,118091963.0
+2b100119214110fc01d511ab2e741315,2017-0381-USA,nat-met-sto-tro,"Keys islands, Monroe, South Florida, Jacksonville (Duval), Marco Island, Naples (Collier), Fort Lauderdale (Broward), Lakeland (Polk), Orlando (Orange), Clay (Florida), Savannah, Tybee Island (Chatham), Brunswick, St. Simons Island (Glynn), McIntosh, Camden (Georgia), Charleston, Folly Beach, the Isle of Palms, Sullivan’s Island (Charleston) Hilton Head, Beaufort, Edisto Beach (Colleton) (South Carolina)",USA,2017,57000000.0,70855178.0
+6ce1e2a38bb8c4dfe24fd685bf3d053d,2017-0383-USA,nat-met-sto-tro,"Jersey shore, Seaside Park, Point Pleasant Beach (Ocean), Long Branch (Monmouth) (New Jersey), Fernandina beach (Nassau-Florida)",USA,2017,,
+f73e84c33b301a291251a22e0056bcd8,2017-0410-USA,nat-met-sto-tro,"Mexico Gulf, Louisiania, Mississippi (coastal areas, Biloxi), Alabama (Dauphin Island, Autauga, Chilton, Lowndes Counties), Florida, South Carolina (Pickens, Laurens, Spartanburg, Newberry, Greenville, Union), North Carolina (Polk, Wilkes, Ashe )",USA,2017,250000.0,310768.0
+28c91048ff0d96cf179c58f87af414ef,2017-0434-USA,nat-cli-wil-lan,"Napa, Sonoma, Mendocino, Lake, Solano, Butte, Yuba, Nevada, Humboldt, Calavaras, Orange counties (California)",USA,2017,13000000.0,16159953.0
+051f0c3b71a40da2c2212ec06f1a194d,2017-0471-CAN,nat-hyd-flo-flo,"Windsor, Tecumseh, Essex (Ontario)",CAN,2017,,
+183ccd4ef4927dbb03d21a3195e44001,2017-0511-USA,nat-cli-wil-wil,"Ventura, Santa Barbara, Los Angeles, San Diego, Riverside counties (California)",USA,2017,2200000.0,2734761.0
+0dc50107edeb39853e5cb93bd108fd0f,2017-0512-USA,nat-met-sto-lig,"Missouri, Indiana (Bedford in Lawrence, Muncie in Delaware, Salem in Washington, Blackford, Jay), Ohio (Celina in Mercer, Williamsfield in Ashtabula, Clyde in Sandusky, Bloomingville in Erie , Republic, West Lodi in Seneca, Galion in Crawford, Steuben, Norwalk, Fitchville, Wakeman in Huron, Nova and Hayesville in Ashland, South Vienna in Wayne, Calcutta in Columbiana, Clark), Pennsylvania (Erie in Erie), Illinois (Noble in Richland)",USA,2017,260000.0,323199.0
+ac9f2ca42dbb00c63062c2b843ed94ca,2017-0542-USA,nat-met-sto-bli,"Georgia, North Carolina, Maryland, Virginia, New York, New Jersey, Massachusetts, Michigan, Texas, Mississippi, Missouri",USA,2017,1100000.0,1367381.0
+de9a9f930b7b2e1d82b8e10ea9635dbc,2017-0563-USA,nat-met-sto-hai,"Missouri (Oak Grove in Jackson County, Clay and Clinton (Trimble, Plattsburg, Lathrop) counties), Iowa (Centerville in Appanoose county, Muscatine), Minnesota (Sherburne, Freeborn counties, Lake Ann in Carver county), Kansas (Wabaunsee, Pottawatomie and Butler counties), Wisconsin, Arkansas, Oklahoma, Illinois, Mississipi, Michigan, New-York, Pennsylvania, Massachussets, Ohio, Nebraska, Indiana",USA,2017,2200000.0,2734761.0
+43ade195e407a0f5d4b4f612f5ed9d53,2017-0564-USA,nat-met-sto-tor,"Texas (Justin in Denton, Collin, Rockwall, Lubbock counties, Seymour in Baylor, Dallas – Fort Worth metro area, Houston metro area), Oklahoma (El Reno in Canadian, Oklahoma city metro region, Caddo in Bryan, Cleveland South and East), Kansas (south), Kentucky, Tennessee, Mississippi, Alabama, Georgia, Indianapolis (Marion-IN)",USA,2017,2700000.0,3356298.0
+1196bbeedff6d48402a209b33e38b806,2017-9550-USA,nat-cli-dro-dro,"Upper Midwest, Northern Rockies and parts of the West; North Dakota, South Dakota and Montana.",USA,2017,2500000.0,3107683.0
+bff9ba5090604c29149a05983c1ea4cb,2018-0010-USA,nat-hyd-mmw-mud,"Santa Barbara County (Montecito and Carpinteria), Los Angeles County (Burbank), Ventura (California)",USA,2018,900000.0,1092092.0
+10ecffa04ec939559b3a81931f554f9d,2018-0045-USA,nat-met-sto-bli,"Massachusetts , New Jersey, New York, Connecticut, Maine, New Hampshire, Pennsylvania, Maryland, Rhode Island , South Carolina, Tennessee, Virginia, North Carolina, Georgia",USA,2018,1000000.0,1213435.0
+9944487494f2a8e797a5e804118ef286,2018-0046-USA,nat-met-sto-bli,"Colorado, PLains and Midwest",USA,2018,50000.0,60672.0
+2d3de2de8e78f603c5815b8c61fc8152,2018-0111-USA,nat-met-sto-bli,"Massachusetts, New York, Virginia, Maryland, New Hampshire, New Jersey, Pennsylvania, Connecticut, Delaware",USA,2018,2300000.0,2790901.0
+6ef3ed89b6bb50214118543e7651b74f,2018-0129-USA,nat-met-sto-sto,"Louisiana, Mississippi, North Carolina, Virginia, Arkansas, Florida, Georgia, Maryland, Michigan , Missouri , New Jersey, New York,Pennsylvania , South Carolina, Texas",USA,2018,1300000.0,1577466.0
+38c34d088f3dc140bc5e92d67310bbcf,2018-0130-USA,nat-hyd-flo-flo,Kauai Isl. (Hawai),USA,2018,125000.0,151679.0
+bac1e7da3aa5462d775a96f640e680b3,2018-0146-USA,nat-geo-vol-lav,Hawaï,USA,2018,500000.0,606718.0
+87c6a2714c70474dfc18dfea088ac6be,2018-0160-CAN,nat-hyd-flo-flo,British Columbia,CAN,2018,,
+a0a80ecb5a98596b61feb06cca6cf98a,2018-0170-USA,nat-met-sto-tro,Southeast,USA,2018,125000.0,151679.0
+77b74f825cb8b180b01880e037ccfefd,2018-0195-CAN,nat-met-ext-hea,"Gatineau, Montréal, Joliette, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Drummondville, Sherbrooke ,Outaouais, Laurentides, Lanaudière, Victoriaville Trois-Rivières, Québec, La Malbaie, Kamouraska, l’Abitibi-Témiscamingue, Saguenay—Lac-Saint-Jean (Quebec)",CAN,2018,,
+d27ab4ca32a287b3807306a4cf02d4e5,2018-0206-USA,nat-met-sto-sto,"New York City, Washington DC, Baltimore, Maryland, Texas, Kansas, Colorado, Oklahoma, Missouri, Illinois, Indiana, Iowa, New Jesey, Pennsylvania, Virginia, West Virginia, Massachusetts, Connecticut",USA,2018,1450000.0,1759481.0
+731ac94bb447b59fbda419e808f8c384,2018-0258-USA,nat-cli-wil-for,"Shasta, Trinity, Mendocino, Lake, Colusa, and Glenn counties (California)",USA,2018,1000000.0,1213435.0
+5df94dd394855d226440a868ef2f41df,2018-0279-USA,nat-met-sto-tor,"Pella, Marshalltown (Iowa); Missouri , Illinois, Indiana, Kansas, Kentucky, Alabama, Arkansas, Georgia, Tennessee, North Carolina, South Carolina, Viriginia, Maryland , Pennsylvania",USA,2018,1500000.0,1820153.0
+983626bdb310746ff4c9e27b6fdb72c5,2018-0331-USA,nat-hyd-flo-fla,"Wisconsin, Iowa, Minnesota, Missouri, Illinois, Kentucky, Pennsylvania, Arkansas, Ohio, Indiana",USA,2018,250000.0,303359.0
+075b6e189397b5f655cb04b245e51665,2018-0342-USA,nat-met-sto-tro,"South and North Carolina, Virginia",USA,2018,14000000.0,16988092.0
+7f2eddfd434919f34261bb4377bb5dd4,2018-0344-USA,nat-met-sto-lig,"Colorado, Nebraska, Wyoming",USA,2018,1000000.0,1213435.0
+272ef96eb13f0d0e1aa1e5df16990de7,2018-0366-CAN,nat-met-sto-tor,Ottawa; Quebec province,CAN,2018,325000.0,394366.0
+cba97325a0312677b92c0d5f7786b48b,2018-0373-USA,nat-met-sto-tro,"Florida, Georgia, Alabama, North Carolina, Virginia, Maryland",USA,2018,16000000.0,19414962.0
+2a703ac72d5ab95a79ef7bc4a7038150,2018-0409-USA,nat-cli-wil-for,Butte county (North California),USA,2018,16500000.0,20021680.0
+eec45ee6df9227c27762b33944596e91,2018-0419-USA,nat-hyd-flo-riv,"Bastrop, Burnet, Colorado, Fayette, Hood, Jim Wells, Kerr, Kimble, La Salle, Live Oak, Llano, Mason, McMullen, Nueces, Real, San Patricio, Travis, and Williamson counties",USA,2018,400000.0,485374.0
+3a702141d24af0ebbd418bddc93f0ad4,2018-0457-USA,nat-met-sto-bli,"New Mexico, Texas, Iowa, Minnesota, Kansas, Louisiana, Tennessee",USA,2018,150000.0,182015.0
+cccc81b0a819673e6c3ffa53e3cdcc8f,2018-0468-USA,nat-cli-wil-wil,"Thousand Oaks, Oak Park, Westlake Village, Agoura Hills, West Hills, Simi Valley, Chatsworth, Bell Canyon, Hidden Hills, Malibu and Calabasas (California)",USA,2018,5200000.0,6309863.0
+139fb921e46b598fd2c3d559135011f7,2019-0007-USA,nat-met-sto-bli,"Missouri, Illinois, Iowa, Kansas, Nebraska, Washington DC, Virginia, Colorado, North, South Carolina",USA,2019,,
+ee3676d590417443c4bb2a9214caa930,2019-0045-USA,nat-met-sto-san,Midwest and Northeast,USA,2019,100000.0,119184.0
+35c8072cb18eab36c4cd0bd0e639b7fa,2019-0046-USA,nat-met-sto-bli,Upper midwest,USA,2019,,
+f9c6574b58d6661093f44861e93968c5,2019-0081-USA,nat-met-sto-tor,"Alabama, Georgia, South Carolina, Florida, Mississippi,",USA,2019,190000.0,226449.0
+78956f793bf7467255247b56c1dfd5fc,2019-0086-USA,nat-hyd-flo-flo,"Amador, Glenn, Lake, Mendocino, Sonoma, Humboldt counties (California)",USA,2019,,
+933cbcc40d27b06d834af439a8137341,2019-0089-USA,nat-met-sto-lig,"Tennessee, Mississippi, Alabama, Illinois, Indiana, Ohio, Connecticut, Maryland, Massachusetts, New Jersey, New-York, Pennsylvania, Virginia, West Virginia states",USA,2019,1200000.0,1430203.0
+9194135692ea265cc42518900db9eef4,2019-0090-USA,nat-hyd-flo-flo,Northern California,USA,2019,,
+dddda0f3500f5a1961106b85c7c944f6,2019-0116-USA,nat-hyd-flo-riv,"Nebraska, Iowa, Wisconsin, Missouri, Kansas, Illinois, Minnesota, South Dakota, North Dakota, Michigan",USA,2019,10000000.0,11918359.0
+68b031386dc78a5a4007cc2606553923,2019-0160-USA,nat-met-sto-tor,"Robertson, Angelina, Houston and Cherokee Counties (Texas); Louisiana, Arkansas, Mississippi, Alabama, Georgia, North Carolina, Ohio, Pennyslvania",USA,2019,1300000.0,1549387.0
+d4cc548ae41f7d440db354195c53a97d,2019-0171-CAN,nat-hyd-flo-flo,"Ontario, Nouveau-Brunswick, Quebec",CAN,2019,800000.0,953469.0
+40bdc17e24c42655451c94c4f6e55f0e,2019-0184-USA,nat-met-sto-lig,"Texas, Lousiana states",USA,2019,,
+da2324deacc9bc74f357646d4929da78,2019-0250-USA,nat-met-sto-tor,"Jefferson city, Golden (Barry county), Carl Junction (Jasper county), Missouri state",USA,2019,,
+3bee7822da487a066921d10ccc3f1566,2019-0306-USA,nat-geo-ear-gro,Ridgecrest (Califronia),USA,2019,200000.0,238367.0
+e13fb1e6fa71b726eda8c5e1f20330ff,2019-0307-USA,nat-hyd-flo-flo,"Lincolnton region (Lincoln County, North Carolina)",USA,2019,,
+c796c9ebddec2b11ed1fa3631135e1ef,2019-0335-USA,nat-met-sto-tro,"Louisiana, Mississippi, Arkansas, Oklahoma, Great Lakes region",USA,2019,600000.0,715102.0
+f39a6ab397aa28ba0fb4387910e45dfd,2019-0412-USA,nat-met-sto-tro,"Florida, Georgia, South Carolina, North Carolina, Virginia",USA,2019,1600000.0,1906937.0
+458be1709fd9e9a88fb12f9ee3f5c607,2019-0417-USA,nat-met-sto-tro,Texas,USA,2019,3500000.0,4171426.0
+7b31655f759866993c62f32c4695e9f0,2019-0484-USA,nat-met-sto-sev,"Texas, Arkansas, Oklahoma, Missouri, Louisiana,Tennessee.",USA,2019,2600000.0,3098773.0
+bd01817458a4739d35cb53e2053cf0a5,2019-0513-USA,nat-cli-wil-for,Los Angeles and Riverside counties (California),USA,2019,325000.0,387347.0
+a39b8141b98cc114882d3c42313922f7,2019-0517-USA,nat-cli-wil-for,"Los Angeles, San Bernardino, Ventura, Sonoma Counties (California)",USA,2019,1300000.0,1549387.0
+8089eabf9abf30e2c4443d5ab16762d7,2019-0532-CAN,nat-met-sto-sev,"Bromont, Sherbrooke (Quebec); Ontario",CAN,2019,275000.0,327755.0
+e2ee60e62f15375a8d80b0d97edbbe48,2019-0593-USA,nat-met-sto-bli,"Pacific Northwest, Rockies, Northern Plains, Upper Midwest, and the Northeast",USA,2019,,
+e96430a88c8fc0a3be803b935d85485a,2019-0624-USA,nat-met-sto-sev,"Missouri, Nebraska, Indiana, Kansas, Louisiana, Mississippi, Alabama, Florida, Georgia",USA,2019,235000.0,280081.0
+2bdb47f96b1829f389a3799117aef6a9,2020-0011-USA,nat-met-sto-sev,"Texas, Oklahoma, Missouri, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Georgia states",USA,2020,1200000.0,1412775.0
+23c7c2ac15e4e07c64367004d7dbe70f,2020-0082-USA,nat-met-sto-tor,"Nashville (Tennessee), Kentucky, Missouri, Mississippi, Georgia, Texas Oklahoma, Illinois, Indiana, Ohio, Arkansas, West Virginia, Pennsylvania",USA,2020,2500000.0,2943282.0
+17462ce01e7085e23c3714661fbf4f7b,2020-0089-USA,nat-hyd-flo-riv,"Mississippi, Tennessee",USA,2020,175000.0,206030.0
+2583f68364cf3fa27a011aad873609b2,2020-0148-USA,nat-met-sto-tor,"Louisiana, Texas, Mississippi, South Carolina, Georgia, Tennessee, Arkansas, North Carolina, Alabama",USA,2020,3500000.0,4120595.0
+1f64ac3df0e724fa501681d19f536bff,2020-0167-USA,nat-met-sto-tor,"Texas, Oklahoma, Louisiana, Mississippi, Alabama, Georgia, Florida, Virginia",USA,2020,1400000.0,1648238.0
+16eba42d99c59bb5d6dab21147f27e7a,2020-0190-USA,nat-met-sto-tor,"Illinois, Iowa, Wisconsin, Michigan, Indiana, Ohio, Kentucky, Arkansas, Tennessee, Missouri",USA,2020,2900000.0,3414207.0
+671e7abe7fddde842f3802201dcfaf29,2020-0191-CAN,nat-hyd-flo-riv,Alberta,CAN,2020,1300000.0,1530507.0
+9decca4c4bafab802f4142e8a76a1996,2020-0212-USA,nat-hyd-flo-flo,"Midland Country, Edenville, Sanford (Central Michigan State)",USA,2020,2100000.0,2472357.0
+ebd727c32920f6c4d1c1c0218acca2a0,2020-0219-USA,nat-met-sto-tro,"errebonne, Plaquemines, Lafourche Parishes (Louisiana)",USA,2020,325000.0,382627.0
+e6fe9486f92bed00a9b63ae606c1bdde,2020-0238-USA,nat-met-sto-sev,"Oklahoma, Missouri, Arkansas, Tennessee; Kansas, South Carolina",USA,2020,850000.0,1000716.0
+0057db8dbffd10eecd063a2b88e58521,2020-0266-CAN,nat-met-sto-sev,Calgary (Alberta),CAN,2020,1200000.0,1412775.0
+dfafec29982cb24f85fa866566fc421f,2020-0312-USA,nat-met-sto-tro,"North Carolina, South Carolina, New York, Maryland, Delaware, New Jersey, Connecticut, Florida, Virginia, Pennsylvania, New Hampshire",USA,2020,4800000.0,5651101.0
+9c0a453ff3e1a8f72046c3d33985c8fc,2020-0316-USA,nat-met-sto-tro,Texas,USA,2020,1100000.0,1295044.0
+fd21bfa2a44c07e7565077b20220b116,2020-0376-USA,nat-met-sto-tro,"Louisiana, Texas, Arkansas, Mississippi",USA,2020,13000000.0,15305066.0
+9803a6611462ef6169f8c7446c1114ea,2020-0412-USA,nat-met-sto-tro,"Louisiana, Texas, Mississippi, Georgia, North and South Carolina",USA,2020,2900000.0,3414207.0
+c324f2ea5620e0463d8df88bb8f0c934,2020-0438-USA,nat-met-sto-tro,"Alabama, Florida",USA,2020,6300000.0,7417070.0
+9d8415b933407941a46768ed1171b9fc,2020-0441-USA,nat-cli-wil-for,"Californie, Washington, Oregon, Colorado",USA,2020,11000000.0,12950440.0
+aef585fb9e23c2a2e82659d65ce111e6,2020-0474-USA,nat-met-sto-tro,"Florida, North Carolina, Virginia",USA,2020,1500000.0,1765969.0
+57983e24d1994d6d7d339220266ad37c,2020-0483-USA,nat-met-sto-tro,"Louisiana, Mississippi, Alabama, northern Georgia, south and North Carolinas",USA,2020,3500000.0,4120595.0
+172eace24609dcaa5eee6bae077644b0,2020-0538-USA,nat-met-sto-lig,"Illinois, Wisconsin, North Carolina, Virginia, Maryland",USA,2020,350000.0,412059.0
+cef5c801ac53f40d001753b6e5f0bb72,2020-0580-USA,nat-met-sto-der,"Iowa, Illinois, Minnesota, Indiana and Ohio",USA,2020,6800000.0,8005727.0
+a96a0ba30936591312c73c3db9eb16a3,2020-0582-USA,nat-met-sto-sev,"Missouri, Oklahoma, Texas, Illinois, Indiana, Ohio, Arkansas, Kentucky, Tennessee, West Virginia, Pennnsylvania",USA,2020,2900000.0,3414207.0
+f7ef8a2a7cadeb3f10ac38f14e28bcbb,2020-0583-USA,nat-met-sto-sev,"Oklahoma, Arkansas, Indiana, Tennessee, Alabama, Georgia, Florida, South Carolina, Texas, Illinois, North Carolina",USA,2020,1600000.0,1883700.0
+b267d690ad0e7aff0646996d20e65947,2020-0584-USA,nat-met-sto-hai,South Texas,USA,2020,1400000.0,1648238.0
+bd132065d5280e42931b7c9217140a4d,2021-0011-USA,nat-met-sto-sev,Oregon and Washington States,USA,2021,675000.0,759028.0
+dda0821ff1e03c0be976439f5bfe1100,2021-0037-USA,nat-met-sto-tor,Jefferson county (Alabama),USA,2021,120000.0,134938.0
+f8155b47eb7178b273dafe3d90714339,2021-0043-USA,nat-met-sto-sev,"San Mateo, Santa Cruz and Monterey Counties (California)",USA,2021,1100000.0,1236935.0
+aa8ffef38a3e03689bb675eb2e067fca,2021-0059-USA,nat-met-sto-bli,"New York, New Jersey, Pennsylvania, Virginia, Maine, Washington, Boston (Suffolk, Massachusetts)",USA,2021,100000.0,112449.0
+9218a031471a34c7a135706c65be29d2,2021-0096-USA,nat-met-sto-bli,"North Carolina, Oklahoma, Arkansas, Missouri, Illinois, Kentucky, Tennessee, Louisiana, Mississippi, Colorado, Oregon, Washington, Nebraska, Texas",USA,2021,30000000.0,33734590.0
+09a907061444f92b0d96060608848f95,2021-0117-USA,nat-hyd-flo-riv,"Todd, Christian, Breathitt, Lee and Magoffin Counties (Kentucky); Tennessee, West Virginia, Arkansas, Ohio, and Maryland",USA,2021,150000.0,168673.0
+c877f983550254ac098a2817d5d9056d,2021-0150-USA,nat-hyd-flo-flo,"Hawai‘i, Maui, Kalawao, Kaua‘i, Honolulu (Oahu Island, Hawaii)",USA,2021,50000.0,56224.0
+2e36c7b06d9176a32e6b77be61e6d13a,2021-0166-USA,nat-met-sto-tor,"Louisiana, Alabama,Mississippi",USA,2021,500000.0,562243.0
+a80cb9e285416daa29bb9f722245a145,2021-0178-USA,nat-met-sto-tor,"Calhoun, Bibb, Jefferson, Shelby and Calhoun Counties (Alabama); Mississippi; Coweta and Fayette Counties (Georgia); Tennessee; Kentucky",USA,2021,1700000.0,1911627.0
+00b1f0a87dc80b8c91335a0caff9b0f5,2021-0193-USA,nat-hyd-flo-flo,"Davidson, Rutherford, Sullivan, Wilson counties; Nashville Metropolitan Region, Lower Mississippi and Tennessee Valley (Tennessee); Arkansas, Alabama, Georgia, Mississippi, South Carolina, North Carolina, Virginia, Pennsylvania, Maryland, New Jersey",USA,2021,1300000.0,1461832.0
+e695372fdfb0d08327b58036a500f462,2021-0199-USA,nat-met-sto-sev,"Louisiana, Florida, Mississippi, Alabama",USA,2021,945000.0,1062640.0
+fb5df605948637b6511464f4ffeedb4a,2021-0211-USA,nat-met-sto-sev,Southern Louisiana and the Gulf Coast,USA,2021,215000.0,241765.0
+2e53f568c522407c46c4ad0cb4b31848,2021-0250-USA,nat-met-sto-sev,"Burnet, Williamson, Travis Counties (Texas)",USA,2021,1500000.0,1686729.0
+0756ad6b3b07f6448ad529c4a37fd100,2021-0251-USA,nat-met-sto-sev,"Texas, Oklahoma",USA,2021,3100000.0,3485908.0
+9106a6ef3e25bc1e306ce41ab7a40386,2021-0266-USA,nat-met-sto-tor,"Alabama, Louisiana, Mississippi, Tennessee, Georgia, Texas, Virginia, Arkansas, South Carolina, North Carolina",USA,2021,1300000.0,1461832.0
+37ed4b523f598ea87706783386c53fbe,2021-0273-USA,nat-met-sto-sev,East Baton Rouge Parish (eastern Louisiana); Lake Charles City (south-western Louisiana),USA,2021,1300000.0,1461832.0
+be61fd599178a80c961c96584551e20c,2021-0305-USA,nat-met-sto-sto,"Near Greenville, Butler county (Alabama); Louisiane, Mississippi, Floride",USA,2021,375000.0,421682.0
+fb3ace671ee8ed75e9e0fbb3a7ff273a,2021-0335-USA,nat-hyd-flo-fla,"Bolivar, Sunflower, Panola, and Tallahatchie Counties (Mississippi State); Arkansas, Texas",USA,2021,950000.0,1068262.0
+9fa35247b33f9234ac60d170dc0c7414,2021-0356-CAN,nat-met-sto-tor,Montreal City area (Quebec),CAN,2021,25000.0,28112.0
+8f55f16b43f6d21ae2be3945aa01586a,2021-0357-USA,nat-cli-wil-wil,"Pinas and Gila counties (Arizona); Montana, Utah",USA,2021,10000.0,11245.0
+3295b44b4fc7c22e8985a8bedbbc9538,2021-0367-CAN,nat-cli-wil-wil,Lytton (British Columbia),CAN,2021,80912.0,90984.0
+6e717dce9167f6f2e112576a3d181a10,2021-0373-USA,nat-met-sto-tro,"California, Georgia, Florida, North Carolina, South Carolina",USA,2021,1200000.0,1349384.0
+8939844d009869aa1979a5b4fd9e19ce,2021-0390-USA,nat-met-ext-hea,"Oregon, Washington, Northern California, Idaho, Western Nevada",USA,2021,,
+72a69da3e24d800b4e9cd7d4621d6530,2021-0410-USA,nat-cli-wil-wil,"Arizona, California, Oregon",USA,2021,325000.0,365458.0
+947abd4b879b3a4a3d928d759e08bda5,2021-0433-USA,nat-cli-wil-for,Plumas County (California),USA,2021,3000000.0,3373459.0
+ebf7410d7778036e4ae9c21d5006c3a4,2021-0442-USA,nat-hyd-flo-flo,Albuquerque (New Mexico); Larimer County (Colorado); Arizona,USA,2021,50000.0,56224.0
+03f694c74a4fc2f6227599a48decbe7d,2021-0487-USA,nat-met-sto-sev,"Arizona, Missouri, Nebraska, Iowa, South Dakota, North Dakota, New Mexico, Texas",USA,2021,1200000.0,1349384.0
+1dba6ea47d070ed0760b0b98777ca7bd,2021-0488-USA,nat-hyd-flo-fla,"Utah, Nevada, Arizona, New Mexico",USA,2021,300000.0,337346.0
+0dabe5262761e1545064610cf6fc7f37,2021-0526-USA,nat-cli-wil-for,El Dorado County (California),USA,2021,1500000.0,1686729.0
+d29aa1fbcdeef76780885a4df1b09f8a,2021-0531-USA,nat-met-sto-tro,"Rhode Isl., Connecticut, Vermont, New York, New Jersey states",USA,2021,550000.0,618467.0
+5644901bcac7f3aa8f101583ee5cbb1c,2021-0532-USA,nat-met-sto-tro,"Transylvania, Haywood, Swain counties (North Carolina); Florida",USA,2021,1300000.0,1461832.0
+febe12391eed9a0a09d2050e05f51fdc,2021-0533-USA,nat-hyd-flo-fla,"Dickson, Humphrey, and Hickman Counties (Tennessee)",USA,2021,150000.0,168673.0
+ce05a7b199770f07d5370318ea7ef928,2021-0551-USA,nat-met-sto-tro,"Louisiana, New York, New Jersey, Maryland, Connecticut, Virginia, Pennsylvania, Delaware",USA,2021,65000000.0,73091612.0
+4a1a149fb12f11b3c90e61f2a5b03e97,2021-0562-USA,nat-hyd-flo-fla,Utah and Colorado,USA,2021,25000.0,28112.0
+83ce5362ece13e2c88a0e6831a0177e2,2021-0565-USA,nat-met-sto-lig,"Wisconsin, Illinois, Indiana, Michigan, Ohio, Missouri",USA,2021,1300000.0,1461832.0
+e80fb5a5ad597ff36c007ca625d9fc72,2021-0566-USA,nat-hyd-flo-flo,El Paso (Texas); Gila Bend (Arizona),USA,2021,225000.0,253009.0
+238e7c2f35daa052cc23fc59c5650279,2021-0583-USA,nat-met-sto-tro,"Texas, Louisiana",USA,2021,1000000.0,1124486.0
+e24dc532ce347b5e962d5ef572852398,2021-0626-USA,nat-cli-wil-wil,Shasta County (north California State),USA,2021,,
+a9ea667e6441155213ff5aa5b0f4b91d,2021-0733-USA,nat-hyd-flo-fla,"Jefferson, Shelby, Marshall, Escambia, Baldwin counties (Alabama)",USA,2021,325000.0,365458.0
+04ae3aef7796dc8f8f378ec150995038,2021-0741-CAN,nat-hyd-flo-flo,"Fraser Valley, Okanagan-Similkameen, Thompson-Nicola,Vancouver (British Columbia)",CAN,2021,2000000.0,2248973.0
+a942c4bbcb24adf64829b8de3037a088,2021-0741-USA,nat-hyd-flo-flo,Whatcom County (northern Washington State),USA,2021,200000.0,224897.0
+e809a4c261da66505ebe3e622baac051,2021-0784-USA,nat-hyd-flo-flo,"Big Island, Maui, Molokai, Oahu Island (Hawai)",USA,2021,75000.0,84336.0
+b67e6816dc3b2e2a1a7c463224165e1a,2021-0797-USA,nat-met-sto-tor,"Graves County, Caldwell, Hopkins, Muhlenberg, Ohio, Warren, Taylor (Kentucky); Saint Charles (Missouri); Obion (Tennessee); (Mississippi); Craighead, Poinsett, Mississippi (Arkansas); Madison (Illinois)",USA,2021,5200000.0,5847329.0
+ecbb44ae916d7d30f5a61925fc91b5db,2021-0815-USA,nat-met-sto-sev,"Russell, Ellis, Lyon (Kansas); Floyd (Iowa); Missouri; Prowers, El Paso (Colorado); Nebraska; Freeborn (Minnesota); Wisconsin; Taos (New Mexico)",USA,2021,1900000.0,2136524.0
+7031701304d6fb7f78ec7a177859d99f,2021-0832-USA,nat-cli-wil-wil,"Louisville, Superior (Boulder county, Colorado)",USA,2021,3300000.0,3710805.0
+75bf8de4f0fca9f13400e40cb25e4a5b,2021-9846-USA,nat-cli-dro-dro,Nationwide,USA,2021,9000000.0,10120377.0
+8e9d1b69ea4a52bd7a8a2690caf713c8,2022-0007-USA,nat-met-sto-bli,"Maryland, Virginia, New Jersey, Washington D.C., Missouri, Tennessee, Georgia",USA,2022,525000.0,546611.0
+f8e28d4a503a23ee9162e6d31c404d7e,2022-0080-USA,nat-met-sto-tor,"Hale, Sumter, Elmore Counties (central Alabama); Rockies, Plains, Mid-Atlantic, Northeasr",USA,2022,526000.0,547652.0
+84bed47d4718f552bc05e953e3f3ba80,2022-0126-USA,nat-met-sto-tor,"Madison county (Iowa state); Illinois, Indiana, Ohio, Arkansas, Kentucky, New Hampshire, Pennsylvania, Maryland, New York, New Jersey, New England",USA,2022,820000.0,853755.0
+9772dbd7a127dbd39ebab14a9f8e20fa,2022-0132-USA,nat-cli-wil-wil,"Calhoun and Gulf Counties (Florida); Reno, Harvey Counties (Kansas)",USA,2022,,
+d9ab533c20424c369896afa378bd2b08,2022-0157-USA,nat-met-sto-tor,"Bastrop, Cass, Cooke, Grayson, Guadalupe, Houston, Jack, Madison, Marion, Montague, Nacogdoches, Panola, Rusk, Upshur, Williamson, and Wise counties (Texas); Oklahoma, Louisiana; Adams, Attala, Clay, Copiah, George, Hinds, Holmes, Jefferson, Kemper, Lauderdale, Madison, Smith, Warren, Oktibbehaand Yazoo Counties (Mississippi); Perry, Chilton, Bibb, Shelby, and Talladega Counties (Alabama); Ohio, South and North Carolina",USA,2022,3000000.0,3123492.0
+8e18e96e20962d7ecad076aa62fe07c8,2022-0185-USA,nat-met-sto-sev,"Washington County (Arkansas); Shelby, Chilton, Bibb Counties (Alabama); Iowa, Kansas, Missouri; Newton county (Texas); Lousiana; Bolivar, Calhoun, Hinds, Warren, Yazoo Counties (Mississippi); Trigg County (Kentucky); Washington County (Florida); Armstrong County (Pennsylvania)",USA,2022,1300000.0,1353513.0
+1d3471fbb4a60156597055e75f0198f8,2022-0193-USA,nat-met-sto-tor,"Dallas Fort, Johnson, Collin, Smith counties (Texas); Marengo County (Alabama); Lee, Houston, Berkeley Counties (Georgia); Allendale county (South Carolina); Covington, Jefferson Davis, Lauderdale, Newton, Wayne Counties (Mississippi); Florida",USA,2022,3200000.0,3331725.0
+4235272786fe1c3b724f3909817b2178,2022-0212-USA,nat-met-sto-tor,"Williamson and Bell Counties (Texas); Pocahontas County (Iowa); Atoka and Coal counties (Oklahoma); Faulkner, Franklin, Logan, Prairie, Sebastian, and White Counties (Arkansas); Mower County (Minnesota); Jefferson, Shelby, Hardin Counties (Kentucky); Louisiana, Mississippi, Alabama, Tennessee, Indiana",USA,2022,2800000.0,2915259.0
+e67845f0d0969068bb6a6b0f4ff89eb5,2022-0227-USA,nat-met-sto-sto,"Alabama, Arkansas, Florida, Mississippi,Oklahoma, and Texas",USA,2022,882000.0,918307.0
+654321c9784235d24116904d1ec1dc5b,2022-0244-CAN,nat-met-sto-sto,"Ontario, Manitoba",CAN,2022,,
+27667daef18f6f31b9388f32ec30c1a6,2022-0244-USA,nat-met-sto-sto,"Nebraska, Kansas, Missouri, Dakota, Virginia, North Carolina, Texas, Montana, Minnesota",USA,2022,624000.0,649686.0
+e47f4b2a0649248c39f55f4279fd10f3,2022-0246-USA,nat-cli-wil-wil,"Mora, Colfax, Lincoln, San Miguel, Valencia Counties (New Mexico); Colorado, Nebraska",USA,2022,,
+0794a4782d047e255c666bb9f7e925a8,2022-0261-USA,nat-met-sto-tor,Andover Town (Butler County); Wichita City (Sedgwick County) - Kansas; Texas; Oklahoma,USA,2022,583000.0,606999.0
+776f370afd89131262ceed9673d568a1,2022-0266-CAN,nat-hyd-flo-flo,Southern Manitoba Province,CAN,2022,,
+1177e4673c84b51af8a472bab557cb61,2022-0284-USA,nat-met-sto-sto,"Texas, North Carolina, West Virginia, Minnesota, Wisconsin, Oklahoma, Ohio, Pennsylvania",USA,2022,1200000.0,1249397.0
+e1935f4b1151ab88380a1975b91c997a,2022-0304-CAN,nat-hyd-flo-flo,"Manitoba, northern Alberta and Northwest Territories",CAN,2022,36000.0,37482.0
+a06d0f5c9446df543fa26b0b7e4afcfa,2022-0325-CAN,nat-met-sto-der,"Toronto, Ottawa, Montreal, Ontario, Quebec",CAN,2022,,
+844863f6eac74b0f3074b2dae3276bfc,2022-0325-USA,nat-met-sto-der,"Minnesota, Kentucly, Michigan, Missouri, Illinois, Wisconsin",USA,2022,2500000.0,2602910.0
+18c9369618aca0d33ccbac83572b33e7,2022-0361-USA,nat-hyd-flo-flo,"Yellowstone National Park (Wyoming, Montana and Idaho states)",USA,2022,,
+f590c69b4f726e744cbd6d88c8f881ee,2022-0480-USA,nat-hyd-flo-flo,"Kentucky, Missouri",USA,2022,1500000.0,1561746.0
+e9c6a75300320ecf95d76a8628911750,2022-0486-USA,nat-cli-wil-wil,Siskiyou County (California),USA,2022,151000.0,157216.0
+fa6f4c052ed71f888fb0765e824842e2,2022-0603-CAN,nat-met-sto-tro,"Nova Scotia, Prince Edward Island, Newfoundland, and Quebec",CAN,2022,,
+b922576e6fe72b3de0a7935f65628cce,2022-0614-USA,nat-met-sto-tro,Charlotte and Lee Counties (Florida Peninsula); North Carolina,USA,2022,100000000.0,104116407.0
+00fc984be9fe09eeface3c7cbcbdc6b1,2022-0734-USA,nat-met-sto-tro,"Bahamas, Florida",USA,2022,1000000.0,1041164.0
+46423fe95a76a1052ab70b59276bc9dc,2022-0735-USA,nat-met-sto-sev,"Texas, Arkansas and Oklahoma",USA,2022,375000.0,390437.0
+5500ce9c807d81db8b93888eb222b96b,2022-0808-USA,nat-geo-ear-gro,Humboldt County (California),USA,2022,250000.0,260291.0
+2ce8c35b879cc2d557ed2314b15d6373,2022-0811-USA,nat-met-sto-sto,"Louisiana, Oklahoma, Texas, Alabama, Mississippi, Georgia, Florida states",USA,2022,345000.0,359202.0
+c9b74fc1f7c713a2f24c22caa182968e,2022-0818-CAN,nat-met-sto-bli,British Columbia,CAN,2022,179000.0,186368.0
+5b85f7f38b8b1c9600615c6527efe4c9,2022-0818-USA,nat-met-sto-bli,"South Dakota, Oregon, Washington, Idaho, New York, Oklahoma, Kentucky, Colorado, Connecticut, Kansas, Maryland, Missouri, North Carolina, West Virginia, Wisconsin, Georgia, New Hampshire, Ohio, Tennessee, Vermont states",USA,2022,2700000.0,2811143.0
+dce736ef7c17c704f93da26cbe0372a8,2022-0863-USA,nat-met-sto-sto,"Sacramento City, Santa Cruz, Calaveras, San Mateo, Ventura, Santa Barbara, El Dorado, Monterey, Santa Clara, Alameda, San Benito, Merced, Mono, Stanislaus, Mendocino, Humboldt (California)",USA,2022,1000000.0,1041164.0
+616071764371783e1d476d22929cf70c,2023-0032-USA,nat-met-sto-tor,Alabama and Georgia,USA,2023,770000.0,770000.0
+0f11de0a2f335cfb081f64b8565e38e0,2023-0052-CAN,nat-met-ext-sev,,CAN,2023,165000.0,165000.0
+446c1c4e611d9cc4345a291f0208ccd4,2023-0052-USA,nat-met-ext-sev,"Texas, Arkansas, Louisiana, Oklahoma, Tennessee. Mississippi",USA,2023,385000.0,385000.0
+77724f99162bddc5af04bc834eec7988,2023-0122-USA,nat-met-sto-sto,"Texas, Oklahoma, Mississippi, Kentucky, Arkansas, Alabama, Tennessee, Louisiana, Indiana and Ohio",USA,2023,6000000.0,6000000.0
+113afcd59803bbccaf9a5ff8452ed6d5,2023-0135-USA,nat-met-sto-sev,"Monterey, Merced and Tulare Counties (California); Nevada",USA,2023,255000.0,255000.0
+13c2ff9f471ec26419bea8becbdacd47,2023-0176-USA,nat-met-sto-tor,"Rolling Fork, Silver City, Winona, Sharkey, Smithville, Amory and Montgomery (Mississippi); Alabama, Georgia, Tennessee",USA,2023,2900000.0,2900000.0
+976dfbcb727a08b152ed094744e465e5,2023-0192-USA,nat-met-sto-tor,"Memphis (Tennessee); Owen and Sullivan counties (Indiana); Arkansas, Mississippi, Alabama, Illinois; Sussex county (Delaware); Oklahoma, Iowa, Kentucky, Ohio, Missouri, Kansas; Pennsylvania",USA,2023,5500000.0,5500000.0
+2c7991763ab95dd84d36210eec06a1e9,2023-0206-USA,nat-met-sto-tor,"Bollinger County (Missouri); Illinois, Kentucky, Iowa, Indiana, Ohio, Michigan",USA,2023,2900000.0,2900000.0
+cb9eb3aa6446a9aa3a6634d6c710cdfe,2023-0225-USA,nat-hyd-flo-fla,"Pembroke Pines, Dania Beach and Fort Lauderdale (Broward County, Hollywood, Florida)",USA,2023,1100000.0,1100000.0
+c2c574aa5bf5edbfff81f7e4fd3afe80,2023-0239-USA,nat-met-sto-sto,"Arkansas, Florida, Illinois, Kansas, Louisiana, Missouri, Nebraska,Texas, Oklahoma, Iowa",USA,2023,2950000.0,2950000.0
+f63756d026e6b250edb90b881ba8cd55,2023-0253-USA,nat-met-sto-sto,"Dickens, Comanche, McLennan, Nolan, Swisher, Taylor, Floyd (Texas); St. Lucie, Nassau, Brevard, Hillsborough, Sumter, Broward, and Indian River (Florida); Effingham, Bryan, Wayne, Terrell, Chatham (Georgia); Oklahoma",USA,2023,1300000.0,1300000.0
+192765020da179eeb950ab8eb5e2d20c,2023-0272-CAN,nat-hyd-flo-flo,"Baie-Saint-Paul (Charlevoix Region), Saint-Côme and Sainte-Émélie-de-l'Énergie (Lanaudière Region, south-western Quebec).",CAN,2023,,
+3220cd2abb508f6eca400b7318f6ecea,2023-0288-USA,nat-met-sto-sto,"Texas, Nebraska, Missouri, Kansas, Colorado, Illinois, Iowa, Indiana, Kentucky, Tennessee, South Carolina",USA,2023,2200000.0,2200000.0
+10af6f2d3469907c56f0a03dc54ceca9,2023-0324-USA,nat-met-sto-sto,"Texas, Oklahoma, Kansas, Louisiana, Michigan, Ohio, Mississippi, Nebraska, Wyoming, Colorado and Arkansas",USA,2023,3800000.0,3800000.0
+084ced863bb0c80b9c33cbfb1faa2e38,2023-0332-USA,nat-met-sto-tor,"Dallas, Tarrant, Denton, Ochiltree counties (Texas); Louisiana, Mississippi, Alabama, Georgia, Tennessee, Arkansas, South Carolina and Florida",USA,2023,4100000.0,4100000.0
+532247c67b4207f77e806f2869337939,2023-0370-USA,nat-met-sto-sto,"Montana, Wyoming, South Dakota, Nebraska, Minnesota, Ohio, Tennessee, Oklahoma, Wyoming, Colorado, Indiana, Kentucky, Arkansas",USA,2023,5300000.0,5300000.0
+c3bc11192c038fa1b57e11a51fc9ebff,2023-0426-USA,nat-hyd-flo-flo,"Vermont, New York, Connecticut, Pennsylvania, Massachusetts, New Jersey, New Hampshire, Missouri, Illinois, Kentucky,Tennessee",USA,2023,2200000.0,2200000.0
+e1d9605b73df52d019a0b06a5db581df,2023-0465-CAN,nat-hyd-flo-flo,"East and West Hants Regional Municipality, Halifax Regional Municipality, Lunenburg and Queens counties in southern Nova Scotia",CAN,2023,,
+9b25771c28dd59f161dfc671603ff3d3,2023-0524-USA,nat-cli-wil-wil,Maui and Kula City (Hawai),USA,2023,5500000.0,5500000.0
+a5c0cbb3b6927c1eb1a791df136d582c,2023-0565-USA,nat-met-sto-tro,"Tampa, St. Petersburg, Sarasota, Tarpon Springs, Fort Myers Naples (Florida); Brooks and Lowndes Counties (Georgia); Mt. Pleasant, Edisto Beach, and Folly Beach (South Carolina); Whiteville, Wilmington, Outer Banks (North Carolina)",USA,2023,3500000.0,3500000.0
+57a5401cef8e9a5a19910f5b7641ef9a,2023-0651-USA,nat-hyd-flo-flo,"New York city; New Jersey, Connecticut, Texas, Oklahoma, and Arkansas",USA,2023,,
+0dcbe732ac540388cd5cf957af743b15,2023-0656-USA,nat-met-sto-sev,"Nebraska, Texas, Oklahoma, Missouri, and Kentucky",USA,2023,1600000.0,1600000.0
+862180e1258c91be842efad0a2d510f0,2023-0785-USA,nat-hyd-flo-flo,Portland City area (Oregon State); Snohomish and Wahkiakum Counties (Washington State),USA,2023,,
+63a65b0dcca5ef87a46df95448d5ccd5,2023-0826-USA,nat-met-sto-sev,"Nashville City, Davidson County; Clarksville City, Montgomery County in (Tennesee state); Louisiana; Connecticut",USA,2023,100000.0,100000.0
+7e275a737304906eac2669ed494eed92,2023-0843-USA,nat-met-sto-sev,"Massachusetts, Maine, New Jersey, New York, Pennsylvania and South Carolina",USA,2023,1300000.0,1300000.0
+96aa5735fbf4a226d4a3a40259b21a94,2023-9868-USA,nat-cli-dro-dro,"Texas, Louisiana, Oklahoma, Kansas, Illinois, Missouri, Nebraska, Washington, Oregon, Montana",USA,2023,14500000.0,14500000.0
+fb9fa53a1087df41ec3ba19756bfa00e,2024-0004-USA,nat-met-sto-sev,"New Mexico, Colorado, Kansas, Nebraska, South Dakota, and Iowa; Panama City and Jackson County (Florida), Cottonwood (Alabama), Bamberg (South Carolina), Catawba County (North Craolina).",USA,2024,2850000.0,
+0534ee321c14fdfe73c9b22718191506,2024-0005-USA,nat-met-sto-bli,"Pennsylvania, Massachusetts, New York, Oregon, Maine, Mississippi, Tennessee Arkansas, Illinois, Wisconsin, Washington, Kentucky, New Jersey, Louisiana states.",USA,2024,3800000.0,
+fa5fd58e2595f2cf4dc66d4db0da7ede,2024-0062-USA,nat-met-sto-sev,"Los Angeles, Monterrey, Santa Barbara, Ventura, San Diego, Santa Clara, San Mateo, Santa Cruz, Sutter and Sacramento (California)",USA,2024,1100000.0,
+300ff8d9970f11fe3f62a6c15e70ab19,2024-0079-USA,nat-met-sto-sev,"New Mexico, Colorado, Oklahoma, Lousiana, Texas, Pennsylvania, New Jersey, New York, Connecticut., Mississippi, Wisconsin, Massachusetts, New Hampshire",USA,2024,1300000.0,
+ef710ae48d8091e8a42545c176dddb31,2024-0126-USA,nat-cli-wil-wil,"Texas, Oklahoma",USA,2024,700000.0,
+7d47cc1d04fef9200354f13153afac6c,2024-0173-USA,nat-met-sto-tor,"Ohio, Indiana, Kentucky, Kansas, Oklahoma, Illinois and Arkansas",USA,2024,5900000.0,
+38e3e52c9508bee2b253854fe16b38b7,2024-0193-USA,nat-met-sto-sev,"California, Maine, Great Lakes, New England, Oklahoma, Ohio, West Virginia, Kentucky, Tennessee, Georgia, Pennsylvania, New Hampshire, New York, New Jersey, Massachusetts",USA,2024,2500000.0,
+12babdfa7820da13a5bf601b9bad3d4c,2024-0205-USA,nat-hyd-flo-flo,"Texas, Louisiana, MIssissippi, Florida, Colorado, Nebraska, and Wyoming",USA,2024,2750000.0,
+378a982ca0b3169f7aa739f481fec21f,2024-0266-USA,nat-met-sto-tor,"Oklahoma, Iowa, Nebraska, Texas, Kansas, Missouri, Michigan, Tennessee, North and South Craolinas",USA,2024,,
+d2da589bcc26bf445c38002f62c9510b,2024-0288-CAN,nat-cli-wil-for,"Fort Nelson, Carpenter Lake, Fontas, and Doig River First Nation reserve (British Columbia); Alberta, Manitoba Provinces",CAN,2024,,
+05acdf3b5cb5918136c2bf059663d869,2024-0307-USA,nat-met-sto-sev,"Houston (Texas); Kansas, Oklahoma, Missouri, Iowa, Wisconsin, Illinois, Nebraska",USA,2024,4800000.0,
+c6ef4f62680f9da52ffc9f3ed7e927fb,2024-0314-USA,nat-met-sto-tor,Greenfield (Iowa state),USA,2024,,
+0a6e1b2b208d1cf541debc8677ce4658,2024-0340-USA,nat-met-sto-sev,"Arkansas, northern Texas, eastern Oklahoma, Kentucky, Alabama, Colorado, Missouri, Illinois",USA,2024,2500000.0,
+e95010061042509eb85f206f738c7168,2024-0351-USA,nat-met-sto-sev,"Texas, Colorado",USA,2024,1900000.0,
+a69294584778cfc2af081b9529afa12b,2024-0403-USA,nat-cli-wil-for,"Otero and Lincoln Counties (New Mexico); California, Washington states",USA,2024,1200000.0,
+d25f2ea5a3fe84d23d76a67a3f5dd640,2024-0422-CAN,nat-met-sto-tro,Nouvelle Ecosse,CAN,2024,,
+fc759201f69f5fdda292f31c9f82479c,2024-0422-USA,nat-met-sto-tro,"Texas, Louisiana",USA,2024,6000000.0,
+4952fc712dedc4c3e9076b518b6a5a1d,2024-0463-CAN,nat-cli-wil-wil,Quebec province,CAN,2024,,
+b055f2a63283eb1cabb4ee6144ec4b71,2024-0524-CAN,nat-cli-wil-wil,National park Jasper (Alberta province); Colombie-Britannique,CAN,2024,1000000.0,
+c8fd0cd342ae327d7f1c4c409997b002,2024-0573-CAN,nat-met-sto-tro,Quebec,CAN,2024,2950000.0,
+297e6ef57e21258c14063684d1ff8b4d,2024-0573-USA,nat-met-sto-tro,"Tampa, Manatee, and St. Petersburg (Florida); Georgia; South Carolina, North Carolina, Virginia, New Yprk, Pennsylvania",USA,2024,2250000.0,
+072441b48287a9b92d44031647f54d4a,2024-0669-USA,nat-cli-wil-wil,"Los Angeles, Orange, Riverside, San Bernardino counties (California); Grant, Crook, and Wheeler Counties (Oregon); Nevada",USA,2024,,
+80234918f59f6380f3f88aa0eaa736e5,2024-0693-USA,nat-met-sto-tro,"Florida, Georgia, North Carolina, South Carolina, Tennessee, Kentucky, Indiana and Virginia",USA,2024,56000000.0,
+e93fa5d59a214bbde2de70b1e82901df,2024-0722-USA,nat-met-sto-tro,"Hillsborough, Pinellas, Sarasota Volusia, Saint Petersburg, Tampa, (Florida state)",USA,2024,38000000.0,
+6e26acc38a6baf7d2b9d070a28480ddf,2024-0788-USA,nat-hyd-flo-fla,"Roswell (Chaves county, Eastern New Mexico)",USA,2024,,
+4b2fb0aaabe0142bbc75a4177a6cb4c5,2024-0814-USA,nat-met-sto-sev,"Oklahoma, Missouri, Arkansas states",USA,2024,,
+a773856c77508c4e2f26f0ccf97b1268,2024-0827-USA,nat-cli-wil-wil,Ventura county (California),USA,2024,100000.0,
+59c01404aca16dce496c70b73f650dd1,2024-0897-USA,nat-cli-wil-wil,"Near Malibu city, Santa Monica mountains (Los Angeles County, California)",USA,2024,,

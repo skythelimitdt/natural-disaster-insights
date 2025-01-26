@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 damage as d\
+-\
+ImpactID VARCHAR(255) PK \
+DisNo VARCHAR(255) FK \
+Classification_Key VARCHAR(100) FK >- c.Classification_Key\
+Location VARCHAR(3000) NULL\
+ISO VARCHAR(3)\
+Start_Year INTEGER \
+Total_Damage_USD FLOAT NULL \
+Total_Damage_Adj_USD  FLOAT NULL \
+\
+\
+affected as a\
+-\
+ImpactID VARCHAR(255) PK \
+Classification_Key VARCHAR(100) FK >- c.Classification_Key\
+DisNo VARCHAR(255) FK >- e.DisNo\
+ISO VARCHAR(3)\
+Total_Deaths FLOAT NULL\
+No_Injured FLOAT NULL \
+No_Affected FLOAT NULL \
+No_Homeless FLOAT NULL \
+Total_Affected FLOAT NULL \
+Location VARCHAR(3000) NULL\
+\
+events as e\
+-\
+DisNo VARCHAR(255) PK\
+ImpactID VARCHAR(255) FK - d.ImpactID \
+Historic VARCHAR(250)\
+Classification_Key VARCHAR(100) FK >- c.Classification_Key\
+OFDA_BHA_Response VARCHAR(3)\
+Appeal VARCHAR(3)\
+Declaration VARCHAR(3) \
+Origin VARCHAR(255) NULL\
+Associated_Types VARCHAR(255) NULL\
+Magnitude FLOAT NULL\
+Magnitude_Scale VARCHAR(255) NULL\
+Start_Date DATE\
+End_Date DATE\
+duration INTEGER\
+Location VARCHAR(3000) NULL\
+\
+\
+classification as c\
+-\
+Classification_Key VARCHAR(100) PK\
+Disaster_Group VARCHAR(255)\
+Disaster_Subgroup VARCHAR(255)\
+Disaster_Type VARCHAR(255)\
+Disaster_Subtype VARCHAR(255)\
+\
+tropicalcyclone as tc\
+-\
+DisNo VARCHAR(255) UNIQUE FK >- e.DisNo\
+ImpactID VARCHAR(255) PK \
+Location VARCHAR(3000) NULL\
+Classification_Key VARCHAR(100) \
+Event_Name VARCHAR(255)\
+ISO VARCHAR(3)\
+Total_Deaths FLOAT NULL\
+Total_Affected FLOAT NULL \
+Start_Date DATE\
+Total_Damage_USD FLOAT NULL \
+Total_Damage_Adj_USD  FLOAT NULL \
+duration INTEGER\
+\
+\
+\
+\
+\
+}
