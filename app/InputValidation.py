@@ -1,6 +1,6 @@
 from datetime import datetime
 
-# Constants for date validation range
+# Constants
 START_YEAR = 2000
 END_YEAR = 2025
 
@@ -20,7 +20,7 @@ def is_valid_date(from_date, to_date):
     if not valid_date_range(from_date, to_date):
         return False, "From date must be before or equal to the To date"
     
-    # Check if the dates are within the allowed range (2000-2025)
+    # Check if the dates are within the allowed range
     try:
         from_date_obj = datetime.strptime(from_date, "%m-%d-%Y")
         to_date_obj = datetime.strptime(to_date, "%m-%d-%Y")
@@ -33,13 +33,13 @@ def is_valid_date(from_date, to_date):
     return True, ""
 
 def is_valid_string(input_string):
-    # Check if the string is empty or contains only whitespace
+    # Check if the string is empty
     if not input_string.strip():
         return False, "Input cannot be empty"
     return True, ""
 
 def is_valid_name(name):
-    # Check if name is empty or just whitespace
+    # Check if name is empty
     if not name.strip():
         return False, "Name cannot be empty"
     return True, ""

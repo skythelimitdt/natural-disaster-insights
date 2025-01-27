@@ -47,7 +47,7 @@ class SearchYear:
     def search_year(self):
         year = self.year_entry.get()
 
-        # Validate that the year is a proper integer and within the range
+        # Validate year
         try:
             year_int = int(year)
         except ValueError:

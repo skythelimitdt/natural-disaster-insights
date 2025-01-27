@@ -23,7 +23,7 @@ class DeadlyEvent:
         self.deadly_event_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_type_var)
         self.deadly_event_dropdown.grid(row=1, column=1, padx=10, pady=5)
 
-        # Load disaster types from the database
+        # Load disaster types
         self.load_deadly_event()
 
         # Buttons

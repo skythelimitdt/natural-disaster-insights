@@ -1,5 +1,6 @@
+from PIL import Image, ImageTk
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk
 
 
 class Splash:
@@ -24,20 +25,24 @@ class Splash:
             font=("Arial", 10),
         ).grid(row=1, column=0, columnspan=2, pady=(0, 15))
 
-        # Load and display the image
-        self.image = self.image = tk.PhotoImage(file=r"")
+        # Load and resize the image
+        og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\splash.png")
+        resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)
+        self.image = ImageTk.PhotoImage(resize_image)
+
+        # Display the image
         self.image_label = tk.Label(self.main_frame, image=self.image)
-        self.image_label.grid(row=2, column=0, columnspan=2, pady=(0, 20))
+        self.image_label.grid(row=2, column=0, columnspan=2, padx=15, pady=(0, 10))
 
         # "Main Menu" button
         ttk.Button(
             self.main_frame, text="Learn More", command=self.menu
-        ).grid(row=3, column=0, pady=10)
+        ).grid(row=3, column=0, pady=5)
 
         # "Exit" button
         ttk.Button(
             self.main_frame, text="Exit", command=self.exit
-        ).grid(row=3, column=1, pady=10)
+        ).grid(row=3, column=1, pady=5)
 
     def menu(self):
         # Switch to the main menu

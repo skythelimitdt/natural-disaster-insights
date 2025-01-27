@@ -35,7 +35,7 @@ class LengthEvent:
         event_types = self.db.fetch_all_event_types()
 
         if event_types:
-            # Update the combobox with the fetched event types
+            # Update the combobox
             self.length_event_dropdown['values'] = event_types
         else:
             messagebox.showerror("Error", "No event types found in the database")

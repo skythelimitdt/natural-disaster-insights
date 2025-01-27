@@ -47,7 +47,6 @@ class Menu:
             self.main_frame, text="Generate Random Disaster", variable=self.selected_option, value="random"
         ).grid(row=7, column=0, sticky="w", padx=15, pady=10)
 
-
         # Buttons
         ttk.Button(self.main_frame, text="Go", command=self.go).grid(
             row=8, column=0, sticky="w", padx=0, pady=10

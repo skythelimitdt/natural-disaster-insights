@@ -16,11 +16,11 @@ def storm_image():
 def drought_image():
     pass
 
-def x_image():
+def extreme_temp_image():
     pass
 
-def y_image():
+def epidemic_image():
     pass
 
-def z_image():
+def mass_movement_image():
     pass

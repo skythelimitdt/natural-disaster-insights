@@ -1,4 +1,4 @@
-from tkinter import ttk, messagebox, StringVar
+from tkinter import ttk, messagebox
 from Database import Database
 
 class RandomEvent:
@@ -26,7 +26,6 @@ class RandomEvent:
 
     def load_random_event(self):
         try:
-            # Call fetch_all_event_types without arguments
             self.db.fetch_all_event_types()  
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load disaster types: {e}")

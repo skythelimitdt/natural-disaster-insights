@@ -53,7 +53,6 @@ class AppController:
         self.destroy()
         self.current_app = SearchName(self.master, self)
 
-
     def destroy(self):
         if self.current_app:
             self.current_app.main_frame.destroy()

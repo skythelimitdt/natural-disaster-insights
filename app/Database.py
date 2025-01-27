@@ -10,7 +10,7 @@ class Database:
         self.Session = sessionmaker(bind=self.engine)
         self.session = self.Session()
 
-        # Autoload tables to avoid redefining them each time
+        # Autoload tables to avoid redefining them repeatetively
         self.damage_table = Table("damage", self.metadata, autoload_with=self.engine)
         self.affected_table = Table("affected", self.metadata, autoload_with=self.engine)
         self.locations_table = Table("locations", self.metadata, autoload_with=self.engine)
@@ -42,7 +42,7 @@ class Database:
         if not result:
             raise ValueError("No locations found for the given date range.")
 
-        # Return the locations
+        # Return locations
         return [row[0] for row in result]
     
     def fetch_length_by_event_type(self, event_type):
@@ -89,7 +89,6 @@ class Database:
                 join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key).\
                 order_by(func.random()).limit(1)
             result = conn.execute(query).fetchone()
-            
         return result
     
     def count_events_by_location(self, location_name):
