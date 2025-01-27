@@ -10,14 +10,19 @@ class Database:
         self.Session = sessionmaker(bind=self.engine)
         self.session = self.Session()
 
-        # Define the date range for 2000s filtering
-        self.start_date = "2000-01-01"
-        self.end_date = "2010-12-31"
-
         # Autoload tables to avoid redefining them each time
-        self.locations_table = Table('locations', self.metadata, autoload_with=self.engine)
-        self.tropicalcyclone_table = Table('tropicalcyclone', self.metadata, autoload_with=self.engine)
-        self.events_table = Table('events', self.metadata, autoload_with=self.engine)
+        self.damage_table = Table("damage", self.metadata, autoload_with=self.engine)
+        self.affected_table = Table("affected", self.metadata, autoload_with=self.engine)
+        self.locations_table = Table("locations", self.metadata, autoload_with=self.engine)
+        self.events_table = Table("events", self.metadata, autoload_with=self.engine)
+        self.classification_table = Table("classification", self.metadata, autoload_with=self.engine)
+        self.tropicalcyclone_table = Table("tropicalcyclone", self.metadata, autoload_with=self.engine)
+
+    def fetch_all_event_types(self):
+        with self.engine.connect() as conn:
+            query = select(self.classification_table.c.Disaster_Type.distinct())
+            result = conn.execute(query).fetchall()
+        return [row[0] for row in result]
 
     def fetch_all_locations(self):
         with self.engine.connect() as conn:
@@ -40,6 +45,53 @@ class Database:
         # Return the locations
         return [row[0] for row in result]
     
+    def fetch_length_by_event_type(self, event_type):
+        with self.engine.connect() as conn:
+            query = (
+                select([self.events_table.c.Start_Date, self.events_table.c.End_Date])
+                .join(self.classification_table)
+                .where(self.classification_table.c.Disaster_Type == event_type)
+            )
+            result = conn.execute(query).fetchall()
+
+        total_duration = 0
+        for row in result:
+            start_date = row['Start_Date']
+            end_date = row['End_Date']
+            total_duration += (end_date - start_date).days 
+        return total_duration
+    
+    def fetch_fatalities_by_event_type(self, event_type):
+        with self.engine.connect() as conn:
+            query = (
+                select(func.sum(self.affected_table.c.Total_Deaths).label("total_fatalities"))
+                .join(self.events_table, self.affected_table.c.DisNo == self.events_table.c.DisNo)
+                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
+                .where(self.classification_table.c.Disaster_Type == event_type)
+            )
+            result = conn.execute(query).scalar()
+        return result or 0
+    
+    def fetch_damage_by_event_type(self, event_type):
+        with self.engine.connect() as conn:
+            query = (
+                select(func.sum(self.damage_table.c.Total_Damage_Adj_USD).label("total_damages"))
+                .join(self.events_table, self.damage_table.c.DisNo == self.events_table.c.DisNo)
+                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
+                .where(self.classification_table.c.Disaster_Type == event_type)
+            )
+            result = conn.execute(query).scalar()
+        return result or 0
+    
+    def fetch_random_disaster(self):
+        with self.engine.connect() as conn:
+            query = select(self.events_table.c.DisNo, self.classification_table.c.Disaster_Type).\
+                join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key).\
+                order_by(func.random()).limit(1)
+            result = conn.execute(query).fetchone()
+            
+        return result
+    
     def count_events_by_location(self, location_name):
         with self.engine.connect() as conn:
             query = (
@@ -55,10 +107,47 @@ class Database:
             return result['event_count']
         else:
             raise ValueError(f"No events found for the location: {location_name}")
+        
+    def count_disasters_by_event_type(self, event_type):
+        """Count disasters by a given event type."""
+        with self.engine.connect() as conn:
+            query = (
+                select(func.count().label("event_count"))
+                .select_from(
+                    self.classification_table.join(
+                        self.events_table,
+                        self.classification_table.c.Classification_Key == self.events_table.c.Classification_Key,
+                    )
+                )
+                .where(self.classification_table.c.Disaster_Type == event_type)
+            )
+            result = conn.execute(query).scalar()
+        return result or 0
+    
+    def search_name(self, name):
+        with self.engine.connect() as conn:
+            query = (
+                select(
+                    self.events_table.c.Origin,
+                    self.events_table.c.Magnitude,
+                    self.events_table.c.Start_Date,
+                    self.events_table.c.End_Date,
+                    self.classification_table.c.Disaster_Group,
+                    self.classification_table.c.Disaster_Subgroup,
+                    self.classification_table.c.Disaster_Type,
+                    self.classification_table.c.Disaster_Subtype,
+                )
+                .join(
+                    self.classification_table,
+                    self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key,
+                )
+                .where(self.events_table.c.Origin.ilike(f'%{name}%'))
+            )
+            result = conn.execute(query).fetchall()
+
+        return [dict(row) for row in result]
 
     def search_year(self, events, classification, year):
-        if year < 2000 or year > 2010:
-            raise ValueError("The year must be between 2000 and 2010.")
 
         events_table = Table(events, self.metadata, autoload_with=self.engine)
         classification_table = Table(classification, self.metadata, autoload_with=self.engine)
@@ -81,11 +170,10 @@ class Database:
                 )
                 .where(
                     events_table.c.Start_Date <= f"{year}-12-31",
-                    events_table.c.End_Date >= f"{year}-01-01",
-                    events_table.c.Start_Date >= "2000-01-01",
-                    events_table.c.End_Date <= "2010-12-31",
+                    events_table.c.End_Date >= f"{year}-01-01"
                 )
             )
             result = conn.execute(query).fetchall()
 
         return [dict(row) for row in result]
+
