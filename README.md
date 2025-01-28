@@ -15,9 +15,9 @@ In this project we focused on designing our program using the dataset: The Inter
 
 ### Database Setup
 The database was set up using PostgreSQL. Given the smaller dataset size, PostgreSQL was deemed more suitable than MongoDB for this project. 
-[quickdatabasediagrams.com](quickdatabasediagrams.com) is used to create different tables and define the relationships between them. schema.sql file was downloaded to create the tables in the database in PgAdmin. 
+[quickdatabasediagrams.com](quickdatabasediagrams.com) is used to create different tables and define the relationships between them. schema.sql file was downloaded to create the tables in the database in PgAdmin.5 tables were created:
 
-![ERD]( 
+![ERD](https://github.com/skythelimitdt/natural-disaster-insights/blob/main/resources/ERD/ERD%20image.png)
 
 ### Web Application
 
