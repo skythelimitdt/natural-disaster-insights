@@ -48,7 +48,7 @@ class Database:
     def fetch_length_by_event_type(self, event_type):
         with self.engine.connect() as conn:
             query = (
-                select([self.events_table.c.Start_Date, self.events_table.c.End_Date])
+                select(self.events_table.c.Start_Date, self.events_table.c.End_Date)
                 .join(self.classification_table)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
@@ -56,11 +56,41 @@ class Database:
 
         total_duration = 0
         for row in result:
-            start_date = row['Start_Date']
-            end_date = row['End_Date']
-            total_duration += (end_date - start_date).days 
+            start_date, end_date = row[0], row[1]
+            if start_date and end_date:
+                total_duration += (end_date - start_date).days
         return total_duration
     
+    def fetch_max_duration_by_event_type(self, event_type):
+        with self.engine.connect() as conn:
+            query = (
+                select(func.max(self.events_table.c.End_Date - self.events_table.c.Start_Date).label("max_duration"))
+                .join(self.classification_table)
+                .where(self.classification_table.c.Disaster_Type == event_type)
+            )
+            result = conn.execute(query).scalar()
+        return result or 0
+
+    def fetch_min_duration_by_event_type(self, event_type):
+        with self.engine.connect() as conn:
+            query = (
+                select(func.min(self.events_table.c.End_Date - self.events_table.c.Start_Date).label("min_duration"))
+                .join(self.classification_table)
+                .where(self.classification_table.c.Disaster_Type == event_type)
+            )
+            result = conn.execute(query).scalar()
+        return result or 0
+
+    def fetch_avg_duration_by_event_type(self, event_type):
+        with self.engine.connect() as conn:
+            query = (
+                select(func.avg(self.events_table.c.End_Date - self.events_table.c.Start_Date).label("avg_duration"))
+                .join(self.classification_table)
+                .where(self.classification_table.c.Disaster_Type == event_type)
+            )
+            result = conn.execute(query).scalar()
+        return result or 0
+
     def fetch_fatalities_by_event_type(self, event_type):
         with self.engine.connect() as conn:
             query = (

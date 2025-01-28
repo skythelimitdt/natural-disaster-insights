@@ -3,6 +3,7 @@ from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 from Database import Database
 import EventImage as ei
+import traceback
 
 class LengthEvent:
     def __init__(self, master, controller):
@@ -25,22 +26,22 @@ class LengthEvent:
         self.length_type_var = tk.StringVar(value="")
         self.length_type_dropdown = ttk.Combobox(
             self.main_frame,
-            textvariable=self.length_var,
+            textvariable=self.length_type_var,
             values=["Longest Duration", "Shortest Duration", "Average Duration"],
             state="readonly",
         )
-        self.length_dropdown.grid(row=1, column=1, padx=10, pady=10)
-        self.length_dropdown.bind("<<ComboboxSelected>>", self.update_length_type)
+        self.length_type_dropdown.grid(row=1, column=1, padx=10, pady=10)
+        self.length_type_dropdown.bind("<<ComboboxSelected>>", self.update_length_type)
 
         # Dropdown for disaster type
-        ttk.Label(self.main_frame, text="Select Disaster Type:").grid(row=1, column=0, padx=10, pady=10)
+        ttk.Label(self.main_frame, text="Select Disaster Type:").grid(row=2, column=0, padx=10, pady=10)
         self.event_type_var = tk.StringVar(value="")
         self.event_type_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_type_var, state="readonly")
         self.event_type_dropdown.grid(row=2, column=1, padx=10, pady=10)
         self.event_type_dropdown.bind("<<ComboboxSelected>>", self.load_event_subtypes)
 
         # Dropdown for disaster subtype
-        ttk.Label(self.main_frame, text="Select Disaster SubType:").grid(row=2, column=0, padx=10, pady=10)
+        ttk.Label(self.main_frame, text="Select Disaster SubType:").grid(row=3, column=0, padx=10, pady=10)
         self.event_subtype_var = tk.StringVar(value="")
         self.event_subtype_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_subtype_var, state="readonly")
         self.event_subtype_dropdown.grid(row=3, column=1, padx=10, pady=10)
@@ -69,37 +70,51 @@ class LengthEvent:
 
     def load_event_types(self):
         try:
-            # Fetch all event types from the database
             event_types = self.db.fetch_all_event_types()
-            if event_types:
-                # Update the combobox
-                self.event_type_dropdown['values'] = event_types
-            else:
-                messagebox.showerror("Error", "No event types found in the database")
+            self.event_type_dropdown['values'] = event_types if event_types else []
+            if not event_types:
+                messagebox.showinfo("No Event Types", "No event types found in the database")
         except Exception as e:
+            print(traceback.format_exc())
             messagebox.showerror("Error", f"Failed to load event types: {e}")
 
     def load_event_subtypes(self, event):
-     try:
-         event_type = self.event_type_var.get()
-         if event_type:
-             subtypes = self.db.fetch_subtypes_by_event_type(event_type)
-             if subtypes:
-                 self.event_subtype_dropdown['values'] = subtypes
-             else:
-                 self.event_subtype_dropdown['values'] = []
-                 messagebox.showinfo("No Subtypes", "No subtypes found")
-         else:
-             self.event_subtype_dropdown['values'] = []
-     except Exception as e:
-         messagebox.showerror("Error", f"Failed to load subtypes: {e}")
+        try:
+            event_type = self.event_type_var.get()
+            if event_type:
+                subtypes = self.db.fetch_subtypes_by_event_type(event_type)
+                if subtypes:
+                    self.event_subtype_dropdown['values'] = subtypes
+                else:
+                    self.event_subtype_dropdown['values'] = []
+                    messagebox.showinfo("No Subtypes", "No subtypes found")
+            else:
+                self.event_subtype_dropdown['values'] = []
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to load subtypes: {e}")
+
+    def update_length_type(self, event=None):
+        """Handle updates when the length type is selected."""
+        selected_type = self.length_type_var.get()
+        print(f"Selected length type: {selected_type}")
 
     def length_event(self):
         event_type = self.event_type_var.get()
+        event_subtype = self.event_subtype_var.get()
+        length_type = self.length_type_var.get()
+
         if not event_type:
             messagebox.showerror("Error", "Please select an event type")
             return
-        
+
+        if not event_subtype:
+            messagebox.showerror("Error", "Please select a disaster subtype")
+            return
+
+        if not length_type:
+            messagebox.showerror("Error", "Please select a duration type")
+            return
+
         # Get the corresponding event image
         event_image_path = self.get_event_image(event_type)
         if not event_image_path:
@@ -107,16 +122,24 @@ class LengthEvent:
             return
 
         try:
-            # Fetch the disaster count from the database
-            length = self.db.fetch_length_by_event_type(event_type)
+            # Fetch appropriate duration based on the selected type
+            if length_type == "Longest Duration":
+                length = self.db.fetch_max_duration_by_event_type(event_type)
+            elif length_type == "Shortest Duration":
+                length = self.db.fetch_min_duration_by_event_type(event_type)
+            else:
+                length = self.db.fetch_avg_duration_by_event_type(event_type)
+
             if length is None:
                 messagebox.showerror("Error", "No data available for the selected disaster type")
                 return
 
+            rounded_length = round(length)
+
             # Create a new window to show the image and count
             image_window = tk.Toplevel(self.master)
             image_window.title(f"Disaster Type: {event_type}")
-            
+
             # Load and display the image
             img = Image.open(event_image_path)
             img = img.resize((400, 275), Image.Resampling.LANCZOS)
@@ -126,15 +149,16 @@ class LengthEvent:
             label_image.image = photo
             label_image.pack(padx=10, pady=10)
 
-            # Display the count
+            # Display the duration
             label_text = tk.Label(
                 image_window,
-                text=f"Duration of {event_type}: {length}",
+                text=f"{length_type} for {event_type} ({event_subtype}): {rounded_length} days",
                 font=("Arial", 12)
             )
             label_text.pack(padx=10, pady=5)
 
         except Exception as e:
+            print(traceback.format_exc())
             messagebox.showerror("Error", f"Failed to fetch event duration: {e}")
 
     def back_to_menu(self):
