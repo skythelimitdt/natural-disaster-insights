@@ -3,6 +3,7 @@ from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 from Database import Database
 import EventImage as ei
+import locale
 
 class DestructiveEvent:
     def __init__(self, master, controller):
@@ -78,7 +79,7 @@ class DestructiveEvent:
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load disaster types: {e}")
 
-    def load_event_subtypes(self):
+    def load_event_subtypes(self, event=None):
         try:
             event_type = self.event_type_var.get()
             if event_type:
@@ -88,28 +89,11 @@ class DestructiveEvent:
                 self.event_subtype_dropdown['values'] = []
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load subtypes: {e}")
-
-    def update_destructiveness_type(self):
-        """Handle updates when the deadliness type is selected."""
+            
+    def update_destructiveness_type(self, event=None):
+        """Handle updates when the destructiveness type is selected."""
         selected_type = self.destructiveness_var.get()
-        print(f"Selected deadliness type: {selected_type}")
-
-    def update_subtypes(self):
-        """Update the subtype dropdown based on the selected event type."""
-        event_type = self.event_type_var.get()
-        destructiveness_type = self.destructiveness_var.get()
-        event_subtype = self.subtype_var.get()
-
-        if not event_type or not destructiveness_type or not event_subtype:
-            messagebox.showerror("Error", "Please select disaster type, deadliness type, and subtype.")
-            return
-
-        try:
-            subtypes = self.db.fetch_subtypes_by_event_type(event_type)
-            self.subtype_dropdown["values"] = subtypes
-            self.subtype_var.set("")
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to load subtypes: {e}")
+        print(f"Selected destructiveness type: {selected_type}")
 
     def destructive_event(self):
         event_type = self.event_type_var.get()
@@ -127,19 +111,18 @@ class DestructiveEvent:
             return
 
         try:
-            # Fetch destructiveness based on the destructiveness type selected
             if destructiveness_type == "Most Destructive":
-                fatalities = self.db.fetch_max_damages_by_event_type(event_type)
+                damages = self.db.fetch_max_damages_by_event_type(event_type)
                 damage_description = "most destructive"
             elif destructiveness_type == "Least Destructive":
-                fatalities = self.db.fetch_min_damages_by_event_type(event_type)
+                damages = self.db.fetch_min_damages_by_event_type(event_type)
                 damage_description = "least destructive"
             else:
-                fatalities = self.db.fetch_avg_damages_by_event_type(event_type)
+                damages = self.db.fetch_avg_damages_by_event_type(event_type)
                 damage_description = "average destructiveness"
 
-            # Fetch the disaster damages from the database
-            damages = self.db.fetch_damage_by_event_type(event_type)
+            # Format the damages as currency
+            formatted_damages = "${:,.2f}".format(damages)
 
             # Create a new window to show the image and damages
             image_window = tk.Toplevel(self.master)
@@ -157,7 +140,7 @@ class DestructiveEvent:
             # Display the damages and destructiveness type
             label_text = tk.Label(
                 image_window,
-                text=f"{event_type} ({event_subtype}): {damage_description.capitalize()} with damages totaling {damages} US dollars and {fatalities} fatalities.",
+                text=f"{event_type} ({event_subtype}): {damage_description.capitalize()} with damages totaling {formatted_damages}.",
                 font=("Arial", 12)
             )
             label_text.pack(padx=10, pady=5)

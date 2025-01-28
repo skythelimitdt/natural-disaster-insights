@@ -202,7 +202,7 @@ class Database:
         else:
             raise ValueError(f"No events found for the location: {location_name}")
     
-    def search_name(self, name):
+    def search_location(self, location_name):
         with self.engine.connect() as conn:
             query = (
                 select(
@@ -219,7 +219,15 @@ class Database:
                     self.classification_table,
                     self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key,
                 )
-                .where(self.events_table.c.Origin.ilike(f'%{name}%'))
+                .join(
+                    self.tropicalcyclone_table,
+                    self.events_table.c.DisNo == self.tropicalcyclone_table.c.DisNo,
+                )
+                .join(
+                    self.locations_table,
+                    self.tropicalcyclone_table.c.LocationID == self.locations_table.c.LocationID,
+                )
+                .where(self.locations_table.c.Location.ilike(f'%{location_name}%'))  # Search using the location name with wildcard
             )
             result = conn.execute(query).fetchall()
 

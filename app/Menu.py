@@ -20,7 +20,7 @@ class Menu:
         self.selected_option = tk.StringVar(value="none")
 
         ttk.Radiobutton(
-            self.main_frame, text="Search For Disasters by Name", variable=self.selected_option, value="search_name"
+            self.main_frame, text="Search For Disasters by Location", variable=self.selected_option, value="search_location"
         ).grid(row=1, column=0, sticky="w", padx=15, pady=10)
 
         ttk.Radiobutton(
@@ -58,8 +58,8 @@ class Menu:
     def go(self):
         selected_option = self.selected_option.get()
 
-        if selected_option == "search_name":
-            self.controller.switch_to_search_name()
+        if selected_option == "search_location":
+            self.controller.switch_to_search_location()
         elif selected_option == "search_year":
             self.controller.switch_to_search_year()
         elif selected_option == "count":
@@ -73,7 +73,7 @@ class Menu:
         elif selected_option == "random":
             self.controller.switch_to_random()
         else:
-            messagebox.showerror("Error", "Please select an action")
+            messagebox.showerror("Error", "Please select an action.")
 
     def exit(self):
         self.controller.master.quit()

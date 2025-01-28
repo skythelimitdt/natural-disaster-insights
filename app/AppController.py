@@ -5,7 +5,7 @@ from DeadlyEvent import DeadlyEvent
 from DestructiveEvent import DestructiveEvent
 from LengthEvent import LengthEvent
 from RandomEvent import RandomEvent
-from SearchName import SearchName
+from SearchLocation import SearchLocation
 from Splash import Splash
 
 
@@ -49,9 +49,9 @@ class AppController:
         self.destroy()
         self.current_app = RandomEvent(self.master, self)
 
-    def switch_to_search_name(self):
+    def switch_to_search_location(self):
         self.destroy()
-        self.current_app = SearchName(self.master, self)
+        self.current_app = SearchLocation(self.master, self)
 
     def destroy(self):
         if self.current_app:

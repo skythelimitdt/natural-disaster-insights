@@ -20,18 +20,30 @@ class LengthEvent:
         )
         self.title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
+        # Dropdown for length type
+        ttk.Label(self.main_frame, text="Select Duration Type:").grid(row=1, column=0, padx=10, pady=10)
+        self.length_type_var = tk.StringVar(value="")
+        self.length_type_dropdown = ttk.Combobox(
+            self.main_frame,
+            textvariable=self.length_var,
+            values=["Longest Duration", "Shortest Duration", "Average Duration"],
+            state="readonly",
+        )
+        self.length_dropdown.grid(row=1, column=1, padx=10, pady=10)
+        self.length_dropdown.bind("<<ComboboxSelected>>", self.update_length_type)
+
         # Dropdown for disaster type
-        ttk.Label(self.main_frame, text="Select Disaster Type:").grid(row=1, column=0, padx=10, pady=5)
+        ttk.Label(self.main_frame, text="Select Disaster Type:").grid(row=1, column=0, padx=10, pady=10)
         self.event_type_var = tk.StringVar(value="")
         self.event_type_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_type_var, state="readonly")
-        self.event_type_dropdown.grid(row=1, column=1, padx=10, pady=10)
-        self.event_type_dropdown.bind("<<ComboboxSelected>>", self.load_subtypes)
+        self.event_type_dropdown.grid(row=2, column=1, padx=10, pady=10)
+        self.event_type_dropdown.bind("<<ComboboxSelected>>", self.load_event_subtypes)
 
         # Dropdown for disaster subtype
-        ttk.Label(self.main_frame, text="Select Disaster SubType:").grid(row=2, column=0, padx=10, pady=5)
+        ttk.Label(self.main_frame, text="Select Disaster SubType:").grid(row=2, column=0, padx=10, pady=10)
         self.event_subtype_var = tk.StringVar(value="")
         self.event_subtype_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_subtype_var, state="readonly")
-        self.event_subtype_dropdown.grid(row=2, column=1, padx=10, pady=10)
+        self.event_subtype_dropdown.grid(row=3, column=1, padx=10, pady=10)
 
         # Load event types into the dropdown
         self.load_event_types()

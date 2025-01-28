@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 from Database import Database
 import InputValidation as v
 
-class SearchName:
+class SearchLocation:
     def __init__(self, master, controller):
         self.master = master
         self.controller = controller
@@ -15,14 +15,14 @@ class SearchName:
 
         # Title label
         self.title_label = ttk.Label(
-            self.main_frame, text="Search For Disasters by Name", font=("Arial", 16, "bold")
+            self.main_frame, text="Search For Disasters by Location", font=("Arial", 16, "bold")
         )
         self.title_label.grid(row=0, column=0, columnspan=3, pady=(0, 20))
 
         # Search input
-        ttk.Label(self.main_frame, text="Name:").grid(row=1, column=0, padx=10, pady=5, sticky="e")
-        self.name_entry = ttk.Entry(self.main_frame)
-        self.name_entry.grid(row=1, column=1, padx=10, pady=5, sticky="w")
+        ttk.Label(self.main_frame, text="Location:").grid(row=1, column=0, padx=10, pady=5, sticky="e")
+        self.location_entry = ttk.Entry(self.main_frame)
+        self.location_entry.grid(row=1, column=1, padx=10, pady=5, sticky="w")
 
         # Results display (Scrollable Frame)
         self.results_frame = ttk.Frame(self.main_frame)
@@ -37,31 +37,33 @@ class SearchName:
 
         # Buttons
         ttk.Button(self.main_frame, text="Clear", command=self.clear_ui).grid(row=4, column=0, pady=10)
-        ttk.Button(self.main_frame, text="Search", command=self.search_name).grid(row=4, column=1, pady=10)
+        ttk.Button(self.main_frame, text="Search", command=self.search_location).grid(row=4, column=1, pady=10)
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=4, column=2, pady=10)
 
     def clear_ui(self):
-        self.name_entry.delete(0, tk.END)
+        self.location_entry.delete(0, tk.END)
         self.results_list.delete(1.0, tk.END)
 
-    def search_name(self):
-        name = self.name_entry.get()
-        is_valid, error_message = v.is_valid_name(name)
+    def search_location(self):
+        location_name = self.location_entry.get()
 
-        if not is_valid:
-            messagebox.showerror("Error", error_message)
+        # Validate input
+        if not location_name:
+            messagebox.showerror("Error", "Please enter a location name.")
             return
 
         try:
-            results = self.db.search_name(name)
+            # Clear previous search results before adding new ones
             self.results_list.delete(1.0, tk.END)
+
+            results = self.db.search_location(location_name)
 
             if results:
                 for event in results:
                     event_str = "\n".join([f"{key}: {value}" for key, value in event.items()])
                     self.results_list.insert(tk.END, f"{event_str}\n{'-'*40}\n")
             else:
-                self.results_list.insert(tk.END, "No disasters found for the given name.")
+                self.results_list.insert(tk.END, "No disasters found for the given location.")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to search: {e}")
 
