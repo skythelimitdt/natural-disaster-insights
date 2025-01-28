@@ -10,7 +10,8 @@
 In this project we focused on designing our program using data from the Emergency Events Database created by a joint initiative between The Centre for Research on the Epidemiology of Disasters (CRED) and the World Health Organization (WHO). This dataset contains compiled information on natural disasters in North America from 2000 to 2024. 
 
 ### Data Collection
-Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.be/data
+Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.be/data <br/>
+[Data Column Description](https://doc.emdat.be/docs/data-structure-and-content/emdat-public-table/)
 
 ### ETL Process
 
