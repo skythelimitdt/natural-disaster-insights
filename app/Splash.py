@@ -8,7 +8,7 @@ class Splash:
         self.master = master
         self.controller = controller
 
-        # Create main frame
+        # Create the main frame
         self.main_frame = ttk.Frame(master)
         self.main_frame.pack(expand=True, fill="both", padx=10, pady=10)
 
@@ -19,27 +19,28 @@ class Splash:
             font=("Arial", 14, "bold"),
         ).grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
+        # Subtitle label
         ttk.Label(
             self.main_frame,
-            text="Explore the 600+ natural disasters of the 21st century. Click below to Learn More",
+            text="Explore the 600+ Natural Disasters of the 21st Century. Click Below to Learn More!",
             font=("Arial", 10),
         ).grid(row=1, column=0, columnspan=2, pady=(0, 15))
 
-        # Load and resize the image
+        # Load and resize the splash image
         og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\splash.png")
-        resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)
+        resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)  # Resize to fit the screen
         self.image = ImageTk.PhotoImage(resize_image)
 
-        # Display the image
+        # Display the resized image
         self.image_label = tk.Label(self.main_frame, image=self.image)
         self.image_label.grid(row=2, column=0, columnspan=2, padx=15, pady=(0, 10))
 
-        # "Main Menu" button
+        # Learn More button
         ttk.Button(
             self.main_frame, text="Learn More", command=self.menu
         ).grid(row=3, column=0, pady=5)
 
-        # "Exit" button
+        # Exit button
         ttk.Button(
             self.main_frame, text="Exit", command=self.exit
         ).grid(row=3, column=1, pady=5)

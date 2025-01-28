@@ -21,7 +21,7 @@ class LengthEvent:
         )
         self.title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
-        # Dropdown for length type
+        # Dropdown to select the type of duration
         ttk.Label(self.main_frame, text="Select Duration Type:").grid(row=1, column=0, padx=10, pady=10)
         self.length_type_var = tk.StringVar(value="")
         self.length_type_dropdown = ttk.Combobox(
@@ -33,20 +33,20 @@ class LengthEvent:
         self.length_type_dropdown.grid(row=1, column=1, padx=10, pady=10)
         self.length_type_dropdown.bind("<<ComboboxSelected>>", self.update_length_type)
 
-        # Dropdown for disaster type
+        # Dropdown to select disaster type
         ttk.Label(self.main_frame, text="Select Disaster Type:").grid(row=2, column=0, padx=10, pady=10)
         self.event_type_var = tk.StringVar(value="")
         self.event_type_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_type_var, state="readonly")
         self.event_type_dropdown.grid(row=2, column=1, padx=10, pady=10)
         self.event_type_dropdown.bind("<<ComboboxSelected>>", self.load_event_subtypes)
 
-        # Dropdown for disaster subtype
+        # Dropdown to select disaster subtype
         ttk.Label(self.main_frame, text="Select Disaster SubType:").grid(row=3, column=0, padx=10, pady=10)
         self.event_subtype_var = tk.StringVar(value="")
         self.event_subtype_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_subtype_var, state="readonly")
         self.event_subtype_dropdown.grid(row=3, column=1, padx=10, pady=10)
 
-        # Load event types into the dropdown
+        # Load event types
         self.load_event_types()
 
         # Buttons
@@ -54,7 +54,7 @@ class LengthEvent:
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=4, column=1, pady=10)
 
     def get_event_image(self, event_type):
-        """Returns the appropriate image path for the given event type."""
+        # Returns image path for the given event type
         event_images = {
             "Flood": ei.flood_image(),
             "Wildfire": ei.fire_image(),
@@ -69,6 +69,7 @@ class LengthEvent:
         return event_images.get(event_type, None)
 
     def load_event_types(self):
+        # Fetch and load event types
         try:
             event_types = self.db.fetch_all_event_types()
             self.event_type_dropdown['values'] = event_types if event_types else []
@@ -79,6 +80,7 @@ class LengthEvent:
             messagebox.showerror("Error", f"Failed to load event types: {e}")
 
     def load_event_subtypes(self, event):
+        # Fetch and load event subtypes
         try:
             event_type = self.event_type_var.get()
             if event_type:
@@ -94,15 +96,17 @@ class LengthEvent:
             messagebox.showerror("Error", f"Failed to load subtypes: {e}")
 
     def update_length_type(self, event=None):
-        """Handle updates when the length type is selected."""
+        # Handles updates when the duration type
         selected_type = self.length_type_var.get()
         print(f"Selected length type: {selected_type}")
 
     def length_event(self):
+        # Fetches and displays the event's duration
         event_type = self.event_type_var.get()
         event_subtype = self.event_subtype_var.get()
         length_type = self.length_type_var.get()
 
+        # Validate selections
         if not event_type:
             messagebox.showerror("Error", "Please select an event type")
             return
@@ -115,14 +119,14 @@ class LengthEvent:
             messagebox.showerror("Error", "Please select a duration type")
             return
 
-        # Get the corresponding event image
+        # Get image based on selected disaster type
         event_image_path = self.get_event_image(event_type)
         if not event_image_path:
             messagebox.showerror("Error", "No image available for the selected disaster type")
             return
 
         try:
-            # Fetch appropriate duration based on the selected type
+            # Fetch the event duration
             if length_type == "Longest Duration":
                 length = self.db.fetch_max_duration_by_event_type(event_type)
             elif length_type == "Shortest Duration":
@@ -130,17 +134,19 @@ class LengthEvent:
             else:
                 length = self.db.fetch_avg_duration_by_event_type(event_type)
 
+            # Handle no data
             if length is None:
                 messagebox.showerror("Error", "No data available for the selected disaster type")
                 return
 
+            # Round the duration
             rounded_length = round(length)
 
-            # Create a new window to show the image and count
+            # Create a new window
             image_window = tk.Toplevel(self.master)
             image_window.title(f"Disaster Type: {event_type}")
 
-            # Load and display the image
+            # Load and display the event image
             img = Image.open(event_image_path)
             img = img.resize((400, 275), Image.Resampling.LANCZOS)
             photo = ImageTk.PhotoImage(img)
@@ -162,4 +168,5 @@ class LengthEvent:
             messagebox.showerror("Error", f"Failed to fetch event duration: {e}")
 
     def back_to_menu(self):
+        # Navigate back to the main menu
         self.controller.switch_to_menu()

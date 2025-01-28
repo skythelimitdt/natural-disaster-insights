@@ -2,7 +2,7 @@ from datetime import datetime
 
 # Constants
 START_YEAR = 2000
-END_YEAR = 2025
+END_YEAR = 2024
 
 def valid_date_range(from_date, to_date):
     try:

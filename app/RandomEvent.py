@@ -20,7 +20,7 @@ class RandomEvent:
         )
         self.title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
-        # Load locations from database
+        # Load random event types
         self.load_random_event()
 
         # Buttons
@@ -28,7 +28,7 @@ class RandomEvent:
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=2, column=1, pady=10)
 
     def get_event_image(self, event_type):
-        """Returns the appropriate image path for the given event type."""
+        # Returns image path for the given event type
         event_images = {
             "Flood": ei.flood_image(),
             "Wildfire": ei.fire_image(),
@@ -43,26 +43,29 @@ class RandomEvent:
         return event_images.get(event_type, None)
 
     def load_random_event(self):
+        # Loads available event types
         try:
+            # Fetch event types from the database
             self.db.fetch_all_event_types()  
         except Exception as e:
+            # Error if event types cannot be fetched
             messagebox.showerror("Error", f"Failed to load disaster types: {e}")
 
     def random_event(self):
         try:
-            # Fetch a random disaster from the database
+            # Fetch random disaster from the database
             random_disaster = self.db.fetch_random_disaster()
             if random_disaster and random_disaster[0]:
                 event_type = random_disaster[0]
                 event_subtype = random_disaster[1]
                 
-                # Get the corresponding event image
+                # Get the image for the random disaster
                 event_image_path = self.get_event_image(event_type)
                 if not event_image_path:
                     messagebox.showerror("Error", f"No image available for disaster type: {event_type}")
                     return
                 
-                # Create a new window to show the image and disaster details
+                # Create a new window
                 image_window = tk.Toplevel(self.master)
                 image_window.title(f"Disaster Type: {event_type}")
                 
@@ -71,26 +74,29 @@ class RandomEvent:
                 img = img.resize((400, 275), Image.Resampling.LANCZOS)
                 photo = ImageTk.PhotoImage(img)
 
+                # Display the image
                 label_image = tk.Label(image_window, image=photo)
                 label_image.image = photo
                 label_image.pack(padx=10, pady=10)
 
-                # Display disaster details
+                # Display disaster
                 label_text = tk.Label(
                     image_window,
                     text=f"Random Disaster: {event_type}: {event_subtype}",
                     font=("Arial", 12),
-
                 )
                 label_text.pack(padx=10, pady=5)
 
             else:
+                # Show warning if no valid disaster found
                 messagebox.showwarning("No disasters found", "No valid disaster type found.")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to fetch random disaster: {e}")
 
     def clear_ui(self):
+        # Resets the UI fields
         self.location_var.set("")
 
     def back_to_menu(self):
+        # Handles navigation back to menu
         self.controller.switch_to_menu()
