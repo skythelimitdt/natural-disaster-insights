@@ -1,5 +1,4 @@
-﻿
-DROP TABLE damage CASCADE;
+﻿DROP TABLE damage CASCADE;
 DROP TABLE classification CASCADE;
 DROP TABLE events CASCADE;
 DROP TABLE affected CASCADE;
