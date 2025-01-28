@@ -10,6 +10,7 @@
 In this project we focused on designing our program using the dataset: The International Disaster Database from: The Centre for Research on the Epidemiology of Disasters (CRED). This dataset contains compiled information on natural disasters from 2000 to 2024. 
 
 ### Data Collection
+Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.be/data
 
 ### ETL Process
 
@@ -42,7 +43,7 @@ We used a number of different libraries/tools/resources for this project, includ
 - PIL
 - SQLAlchemy
 
-Natural Disasters Dataset: [https://public.emdat.be/data] (https://public.emdat.be/data)
+
 
 
 ## Data Ethics Considerations
