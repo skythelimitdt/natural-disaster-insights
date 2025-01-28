@@ -28,6 +28,7 @@ Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.
         - Renamed column names to simplify data querying 
         - Removed single quotes from `Event_Name` column 
         - Filtered `Event_Name` to retain only events categorized under the `Disaster_Subtype` of `Tropical Cyclone`, and dropped rows related to other events
+        - Combined year month day columns into single date formatted columns
     -  DataFrames Creation
 
 - Load
