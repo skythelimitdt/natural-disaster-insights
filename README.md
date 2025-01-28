@@ -15,6 +15,9 @@ In this project we focused on designing our program using the dataset: The Inter
 
 ### Database Setup
 The database was set up using PostgreSQL. Given the smaller dataset size, PostgreSQL was deemed more suitable than MongoDB for this project. 
+[quickdatabasediagrams.com](quickdatabasediagrams.com) is used to create different tables and define the relationships between them. schema.sql file was downloaded to create the tables in the database in PgAdmin. 
+
+![ERD]( 
 
 ### Web Application
 
@@ -28,7 +31,8 @@ The database was set up using PostgreSQL. Given the smaller dataset size, Postgr
 - Update database.py file with your login credentials
 - Run the app in the terminal: python main.py
 
-## Technologies/Libraries Used
+## Tech Stack and Data Flow
+We used a number of different libraries/tools/resources for this project, including:
 - Python
 - Jupyter Notebook
 - Pandas
@@ -38,7 +42,7 @@ The database was set up using PostgreSQL. Given the smaller dataset size, Postgr
 - PIL
 - SQLAlchemy
 
-
+Natural Disasters Dataset: [https://public.emdat.be/data] (https://public.emdat.be/data)
 
 
 ## Data Ethics Considerations
