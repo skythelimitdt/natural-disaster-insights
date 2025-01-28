@@ -21,7 +21,7 @@ class Splash:
 
         ttk.Label(
             self.main_frame,
-            text="Maybe lets say something about disasters or climate change here?",
+            text="Explore the 600+ natural disasters of the 21st century. Click below to Learn More",
             font=("Arial", 10),
         ).grid(row=1, column=0, columnspan=2, pady=(0, 15))
 
