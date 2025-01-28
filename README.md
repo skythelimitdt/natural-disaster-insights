@@ -17,7 +17,7 @@ Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.
 - Extract
     - Data was was downloaded as an Excel .xlsx file obtained from [EM-DAT The International Disaster Databse](https://www.emdat.be/)
 
-- Transform: 
+- Transform 
     - Data Transforamtion
         - Calculated event duration in days by adding `Duration` column and calculating the difference between `Start_Date` and `End_Date`
         -  Using `hashlib` library, created column to uniquely identify `ImpactID`
@@ -30,7 +30,8 @@ Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.
         - Filtered `Event_Name` to retain only events categorized under the `Disaster_Subtype` of `Tropical Cyclone`, and dropped rows related to other events
     -  DataFrames Creation
 
-- Load: Exported cleaned and transformed DataFrames as CSV files for use in downstream application, PostgreSQL
+- Load
+  - Exported cleaned and transformed DataFrames as CSV files for use in downstream application, PostgreSQL
 
 
 
