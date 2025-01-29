@@ -44,38 +44,77 @@ Our database was built using PostgreSQL, as it best suited our project’s needs
 
 ![ERD](https://github.com/skythelimitdt/natural-disaster-insights/blob/main/resources/ERD/ERD%20image.png)
 
-### GUI Application
+### Natural Disasters GUI Application
 
-NaturalDisasterApp
+The Natural Disaster App consists of 14 Python modules structured to facilitate searching, analyzing, and visualizing disaster data. The app enables users to explore disaster data dynamically, offering insights into fatalities, damages, event frequency, duration, and randomness.
 
-│
-├── main.py
+## Core Application Modules
+- `main.py` (Main Entry Point)
+  - Launches the Natural Disaster App, creates the main application window, and initializes the Splash screen.
+  - Keeps the app running using mainloop().
 
-├── AppController.py
+- `AppController.py` (Navigation Manager)
+  - Manages app navigation and ensures that only one view is active at a time.
+  - Handles transitions between different screens such as Splash, Menu, Search, and Event Views.
 
-├── Splash.py
+- `Splash.py` (Welcome Screen)
+  - Displays a welcome message and an image.
+  - Provides buttons for `Learn More` (navigates to the Menu) and `Exit` (closes the app).
 
-├── Menu.py
+- `Menu.py` (Main User Options Screen)
+  - Displays the main menu with radio button options to navigate to different disaster analysis screens.
+  - Includes `Go` (to proceed to the selected screen) and `Exit` (to close the app) buttons.
 
-├── Database.py
+## Search Modules (Data Lookup)
+- `SearchLocation.py` (Search by Location)
+  - Allows users to search disaster data by location.
+  - Displays results in a scrollable area or an error message if no data is found.
+  - Includes `Clear` and `Back` buttons.
 
-├── SearchLocation.py
+- `SearchYear.py` (Search by Year)
+  - Allows users to search disasters by year.
+  - Displays results and handles invalid input or missing data with error messages.
+  - Includes `Clear` and `Back` buttons.
 
-├── SearchYear.py
+## Disaster Type-Based Analysis
+- `DeadlyEvent.py` (Analyze Most Fatal Disasters)
+  - Users select a `Disaster Type`, `Disaster Subtype`, and `Deadliness Type` (e.g., highest fatalities).
+  - Displays results with an event image.
+  - Handles errors and provides `Clear` and `Back` buttons.
 
-├── DeadlyEvent.py
+- `DestructiveEvent.py` (Analyze Most Damaging Disasters)
+  - Focuses on disasters with high economic damage (most, least, or average).
+  - Dynamically loads disaster subtypes and displays results with an event image.
+  - Includes error handling, `Clear` and `Back` buttons.
 
-├── DestructiveEvent.py
+- `CountEvent.py` (Disaster Frequency Analysis)
+  - Counts disasters based on selected types and subtypes.
+  - Displays the count with an associated event image.
+  - Users can navigate back to the main menu.
 
-├── CountEvent.py
+- `RandomEvent.py` (Generate a Random Disaster)
+  - Randomly selects and displays a disaster event with its type, subtype, and image.
+  - Allows users to generate another random event or return to the main menu.
+  - Handles errors during data retrieval.
 
-├── RandomEvent.py
+- `LengthEvent.py` (Analyze Disaster Durations)
+  - Displays disasters with the longest, shortest, or average durations by type and subtype.
+  - Shows results with relevant data and an image.
+  - Features error handling and navigation back to the main menu.
 
-├── EventLength.py
+## Supporting Modules
+- `EventImage.py` (Disaster Image Retrieval)
+  - Provides functions for retrieving images related to disaster types (e.g., flood, fire, earthquake, storm).
+  - Some functions accept event subtypes to refine image selection.
 
-├── EventImage.py
+- `InputValidation.py` (User Input Validation)
+  - Ensures valid user input for date ranges, strings, and names.
+  - Prevents invalid search queries or data entry issues.
 
-└── InputValidation.py
+- `Database.py` (Data Management & Queries)
+  - Handles database queries to fetch disaster event data.
+  - Includes functions for retrieving event types, locations, durations, damages, fatalities, and more.
+  - Supports searching by location and year, as well as fetching random disasters.
 
 
 ## To Run the app
