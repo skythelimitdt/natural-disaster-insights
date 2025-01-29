@@ -125,4 +125,6 @@ When developing the Natural Disaster Insights app using the dataset from the EM-
 - Xpert Learning Assistant
 - ChatGPT
     - Asked for assistance in identifying a Python library for generating unique values. ChatGPT suggested the hashlib library, which was used in creating the `ImpactID`. It also assisted in formulating the code logic to concatenate key columns and generate unique, consistent identifiers for each row. This helped ensure data integrity and avoid duplicate entries.
-- The International Disaster Database - Centre for Research on the Epidemiology of Disasters (CRED)
+- OpenAI. (2025). Image generated using DALL·E. Retrieved from https://chat.openai.com
+- EM-DAT: The International Disaster Database. (n.d.). Retrieved January 25, 2025, from https://www.emdat.be
+
