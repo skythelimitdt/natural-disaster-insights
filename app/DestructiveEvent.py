@@ -21,7 +21,7 @@ class DestructiveEvent:
         )
         self.title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
-        # Dropdown for selecting the destructiveness type
+        # Dropdown for selecting destructiveness type
         ttk.Label(self.main_frame, text="Select Destructiveness Type:").grid(row=1, column=0, padx=10, pady=5)
         self.destructiveness_var = tk.StringVar(value="")
         self.destructiveness_dropdown = ttk.Combobox(
@@ -33,13 +33,13 @@ class DestructiveEvent:
         self.destructiveness_dropdown.grid(row=1, column=1, padx=10, pady=10)
         self.destructiveness_dropdown.bind("<<ComboboxSelected>>", self.update_destructiveness_type)
 
-        # Dropdown for selecting the disaster type
+        # Dropdown for selecting disaster type
         ttk.Label(self.main_frame, text="Select Event Type:").grid(row=2, column=0, padx=10, pady=5)
         self.event_type_var = tk.StringVar(value="")
         self.event_type_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_type_var)
         self.event_type_dropdown.grid(row=2, column=1, padx=10, pady=10)
 
-        # Dropdown for selecting the disaster subtype
+        # Dropdown for selecting disaster subtype
         ttk.Label(self.main_frame, text="Select Disaster Subtype:").grid(row=3, column=0, padx=10, pady=5)
         self.event_subtype_var = tk.StringVar(value="")
         self.event_subtype_dropdown = ttk.Combobox(self.main_frame, textvariable=self.event_subtype_var)
@@ -53,104 +53,17 @@ class DestructiveEvent:
         ttk.Button(self.main_frame, text="Generate", command=self.destructive_event).grid(row=4, column=0, pady=10)
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=4, column=1, pady=10)
 
-    def get_event_image(self, event_type):
-        # Returns image path for the given event type
+    def get_event_image(self, event_type, event_subtype=None):
+        """Returns image path for the given event type and subtype"""
         event_images = {
             "Flood": ei.flood_image(),
             "Wildfire": ei.fire_image(),
             "Earthquake": ei.earthquake_image(),
             "Volcanic activity": ei.volcano_image(),
-            "Storm": ei.storm_image(),
+            "Storm": ei.storm_image(event_subtype),
             "Drought": ei.drought_image(),
-            "Extreme temperature": ei.extreme_temp_image(),
+            "Extreme temperature": ei.extreme_temp_image(event_subtype),
             "Epidemic": ei.epidemic_image(),
-            "Mass movement (wet)": ei.mass_movement_image(),
+            "Mass movement (wet)": ei.mass_movement_image(event_subtype),
         }
         return event_images.get(event_type)
-
-    def load_event_types(self):
-        # Populate the event type dropdown
-        try:
-            disaster_types = self.db.fetch_all_event_types()
-            if disaster_types:
-                self.event_type_dropdown['values'] = disaster_types
-            else:
-                messagebox.showwarning("No Data", "No event types found in the database.")
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to load disaster types: {e}")
-
-    def load_event_subtypes(self, event=None):
-        # Update the disaster subtype dropdown
-        try:
-            event_type = self.event_type_var.get()
-            if event_type:
-                subtypes = self.db.fetch_subtypes_by_event_type(event_type)
-                self.event_subtype_dropdown['values'] = subtypes
-            else:
-                self.event_subtype_dropdown['values'] = []
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to load subtypes: {e}")
-
-    def update_destructiveness_type(self, event=None):
-        # Handle update destructiveness type
-        selected_type = self.destructiveness_var.get()
-        print(f"Selected destructiveness type: {selected_type}")
-
-    def destructive_event(self):
-        # Generate and display damages
-        event_type = self.event_type_var.get()
-        destructiveness_type = self.destructiveness_var.get()
-        event_subtype = self.event_subtype_var.get()
-
-        if not event_type:
-            messagebox.showerror("Error", "Please select a disaster type")
-            return
-
-        # Get image for the selected event type
-        event_image_path = self.get_event_image(event_type)
-        if not event_image_path:
-            messagebox.showerror("Error", "No image available for the selected disaster type")
-            return
-
-        try:
-            # Fetch damages information
-            if destructiveness_type == "Most Destructive":
-                damages = self.db.fetch_max_damages_by_event_type(event_type)
-                damage_description = "most destructive"
-            elif destructiveness_type == "Least Destructive":
-                damages = self.db.fetch_min_damages_by_event_type(event_type)
-                damage_description = "least destructive"
-            else:
-                damages = self.db.fetch_avg_damages_by_event_type(event_type)
-                damage_description = "average destructiveness"
-
-            # Format the damages
-            formatted_damages = "${:,.2f}".format(damages)
-
-            # Create a new window
-            image_window = tk.Toplevel(self.master)
-            image_window.title(f"Disaster Type: {event_type}")
-
-            # Display disaster image
-            img = Image.open(event_image_path)
-            img = img.resize((400, 275), Image.Resampling.LANCZOS)
-            photo = ImageTk.PhotoImage(img)
-
-            label_image = tk.Label(image_window, image=photo)
-            label_image.image = photo
-            label_image.pack(padx=10, pady=10)
-
-            # Display description
-            label_text = tk.Label(
-                image_window,
-                text=f"{damage_description.capitalize()} for {event_subtype}: {formatted_damages} in total damages.",
-                font=("Arial", 12)
-            )
-            label_text.pack(padx=10, pady=5)
-
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to fetch damages: {e}")
-
-    def back_to_menu(self):
-        # Switch back to the main menu
-        self.controller.switch_to_menu()

@@ -56,9 +56,9 @@ class CountEvent:
             "Volcanic activity": volcano_image(),
             "Storm": storm_image(event_subtype),
             "Drought": drought_image(),
-            "Extreme temperature": extreme_temp_image(),
+            "Extreme temperature": extreme_temp_image(event_subtype),
             "Epidemic": epidemic_image(),
-            "Mass movement (wet)": mass_movement_image(),
+            "Mass movement (wet)": mass_movement_image(event_subtype),
         }
         return event_images.get(event_type)
 
@@ -88,8 +88,8 @@ class CountEvent:
         event_type = self.event_type_var.get()
         event_subtype = self.event_subtype_var.get()
 
-        if not event_type:
-            messagebox.showerror("Error", "Please select a disaster type")
+        if not event_type or not event_subtype:
+            messagebox.showerror("Error", "Please select a disaster type and subtype")
             return
 
         try:

@@ -27,7 +27,7 @@ def storm_image(event_subtype=None):
             "Blizzard/Winter storm": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\snowstorm2.jpg",
             "Derecho": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\derecho1.jpg",
             "Extra-tropical storm": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\tropicalstorm3.jpg",
-            "Hail": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Hurricane1.jpg",
+            "Hail": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\hail2.jpg",
             "Lightning/Thunderstorms": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Lightning2.jpg",
             "Sand/Dust storm": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\sandstorm1.jpg",
             "Tornado": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Tornado1.jpg",
