@@ -106,8 +106,9 @@ We used a number of different libraries/tools/resources for this project, includ
 
 
 ## Data Ethics Considerations
-- Dataset used is Open Access. Sourced from: The Centre for Research on the Epidemiology of Disasters (CRED)
-
+- Dataset used is sourced from: The Centre for Research on the Epidemiology of Disasters (CRED)
+  
+When developing the Natural Disaster Insights app using the dataset from the EM-DAT International Disaster Database, we prioritized several ethical considerations to ensure responsible use and presentation of the data. We adhered to the principles of data privacy and integrity, ensuring that all information used from the dataset was properly attributed to its source and utilized in alignment with EM-DAT's terms of use. We designed the app with a focus on presenting disaster insights in a manner that avoids misrepresentation and misinterpretation of the data. Additionally, we were mindful of the potential for bias in the dataset, making efforts to interpret and display the data to represent the impacts of natural disasters in a respectful and transparent manner. Our app was mindfully designed to have an easy-to-use interface that provides free and equal access to an open-source compilation of disaster data.
 
 
 
