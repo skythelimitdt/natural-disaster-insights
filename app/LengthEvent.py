@@ -158,7 +158,7 @@ class LengthEvent:
             # Display the duration
             label_text = tk.Label(
                 image_window,
-                text=f"{length_type} for {event_type} ({event_subtype}): {rounded_length} days",
+                text=f"{length_type} for {event_subtype}: {rounded_length} days",
                 font=("Arial", 12)
             )
             label_text.pack(padx=10, pady=5)

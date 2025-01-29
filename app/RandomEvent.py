@@ -82,7 +82,7 @@ class RandomEvent:
                 # Display disaster
                 label_text = tk.Label(
                     image_window,
-                    text=f"Random Disaster: {event_type}: {event_subtype}",
+                    text=f"Random Disaster: {event_subtype}",
                     font=("Arial", 12),
                 )
                 label_text.pack(padx=10, pady=5)

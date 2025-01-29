@@ -143,7 +143,7 @@ class DestructiveEvent:
             # Display description
             label_text = tk.Label(
                 image_window,
-                text=f"{event_type} ({event_subtype}): {damage_description.capitalize()} with damages totaling {formatted_damages}.",
+                text=f"{damage_description.capitalize()} for {event_subtype}: {formatted_damages} in total damages.",
                 font=("Arial", 12)
             )
             label_text.pack(padx=10, pady=5)
