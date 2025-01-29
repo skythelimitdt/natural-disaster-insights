@@ -47,6 +47,7 @@ Our database was built using PostgreSQL, as it best suited our project’s needs
 ### GUI Application
 
 NaturalDisasterApp
+
 │
 ├── main.py
 
@@ -87,7 +88,8 @@ NaturalDisasterApp
 - Update Databse Credentials
     - Edit the `Database.py` file with your pgAdmin login details
 - Run the App
-    - In the terminal, navigate to the folder with `main.py` and run:
+    - Open 'main.py' (located with the app folder) in your python IDE of choice (such as VSCode) OR...
+    - In the terminal, navigate to the app folder within the repo and type `main.py` to run:
 ```python
 python main.py 
 ```
