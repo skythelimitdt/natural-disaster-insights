@@ -89,7 +89,7 @@ NaturalDisasterApp
     - Edit the `Database.py` file with your pgAdmin login details
 - Run the App
     - Method 1: Open 'main.py' (located with the app folder) in your Python IDE of choice (such as VSCode)
-    - Method 2: In the terminal, navigate to the app folder within the repo and type `main.py` to run:
+    - Method 2: In the terminal, navigate to the app folder within the project repo and type `main.py` to run:
 ```python
 python main.py 
 ```
