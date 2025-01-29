@@ -1,4 +1,3 @@
-# Import necessary libraries
 import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
@@ -47,18 +46,18 @@ class CountEvent:
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=3, column=1, pady=10)
 
     # Return the image path for a given disaster type
-    def get_event_image(self, event_type, event_subtype):
+    def get_event_image(self, event_type, event_subtype=None):
         """Returns the appropriate image path for the given event type."""
         event_images = {
             "Flood": flood_image(),
             "Wildfire": fire_image(),
             "Earthquake": earthquake_image(),
             "Volcanic activity": volcano_image(),
-            "Storm": storm_image(event_subtype),
+            "Storm": storm_image(event_subtype) if event_subtype else storm_image(),
             "Drought": drought_image(),
-            "Extreme temperature": extreme_temp_image(event_subtype),
+            "Extreme temperature": extreme_temp_image(event_subtype) if event_subtype else extreme_temp_image(),
             "Epidemic": epidemic_image(),
-            "Mass movement (wet)": mass_movement_image(event_subtype),
+            "Mass movement (wet)": mass_movement_image(event_subtype) if event_subtype else mass_movement_image(),
         }
         return event_images.get(event_type)
 
@@ -71,25 +70,31 @@ class CountEvent:
             messagebox.showerror("Error", f"Failed to load disaster types: {e}")
 
     # Load disaster subtypes based on the selected type
-    def load_disaster_subtypes(self, event):
+    def load_disaster_subtypes(self, event=None):
         event_type = self.event_type_var.get()
         if not event_type:
             self.event_subtype_dropdown["values"] = []
+            self.event_subtype_var.set("")  # Clear the selection
             return
 
         try:
             subtypes = self.db.fetch_subtypes_by_event_type(event_type)
-            self.event_subtype_dropdown["values"] = subtypes
+            if subtypes:
+                self.event_subtype_dropdown["values"] = subtypes
+                self.event_subtype_var.set("")  # Reset selection
+            else:
+                self.event_subtype_dropdown["values"] = []
+                self.event_subtype_var.set("")  # Reset if no subtypes exist
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load disaster subtypes: {e}")
 
     # Generate the count of disasters
     def count_events(self):
         event_type = self.event_type_var.get()
-        event_subtype = self.event_subtype_var.get()
+        event_subtype = self.event_subtype_var.get() or None  # Allow None if subtype is not selected
 
-        if not event_type or not event_subtype:
-            messagebox.showerror("Error", "Please select a disaster type and subtype")
+        if not event_type:
+            messagebox.showerror("Error", "Please select a disaster type.")
             return
 
         try:
@@ -101,10 +106,10 @@ class CountEvent:
             image_window = tk.Toplevel(self.master)
             image_window.title(f"Disaster Type: {event_type}")
 
-            # Load and display the image
+            # Load and display the image if available
             if event_image_path:
                 img = Image.open(event_image_path)
-                img = img.resize((400, 275), Image.Resampling.LANCZOS)
+                img = img.resize((400, 275), Image.LANCZOS)  # Fixed PIL Resampling Issue
                 photo = ImageTk.PhotoImage(img)
 
                 label_image = tk.Label(image_window, image=photo)
@@ -114,7 +119,7 @@ class CountEvent:
             # Display the disaster count
             label_text = tk.Label(
                 image_window,
-                text=f"{event_subtype}: Number of disasters is {count}",
+                text=f"{event_subtype or 'Overall'}: Number of disasters is {count}",
                 font=("Arial", 12),
             )
             label_text.pack(padx=10, pady=5)
@@ -125,3 +130,9 @@ class CountEvent:
     # Method to navigate back to the main menu
     def back_to_menu(self):
         self.controller.switch_to_menu()
+
+    def clear_ui(self):
+        # Clear all input fields
+        self.event_type_var.set("")
+        self.event_subtype_var.set("")
+        self.event_subtype_dropdown["values"] = []
