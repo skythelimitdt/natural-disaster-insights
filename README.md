@@ -38,7 +38,8 @@ Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.
 
 
 ### Database Setup
-The database was set up using PostgreSQL. Given the smaller dataset size, PostgreSQL was deemed more suitable than MongoDB for this project. 
+Our database was built using PostgreSQL, as it best suited our project’s needs. The dataset is relatively small and structured, with clearly defined schema and relationships managed through primary and foreign keys. PostgreSQL enforces strict data integrity and validation rules, ensuring consistency through data types and constraints. Given these characteristics, PostgreSQL was the optimal choice over MongoDB for this project.
+
 [quickdatabasediagrams.com](quickdatabasediagrams.com) is used to create different tables and define the relationships between them. schema.sql file was downloaded to create the tables in the database in PgAdmin.5 tables were created:
 
 ![ERD](https://github.com/skythelimitdt/natural-disaster-insights/blob/main/resources/ERD/ERD%20image.png)
