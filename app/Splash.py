@@ -1,7 +1,7 @@
 from PIL import Image, ImageTk
 import tkinter as tk
 from tkinter import ttk
-
+from tkinter import messagebox
 
 class Splash:
     def __init__(self, master, controller):
@@ -26,14 +26,23 @@ class Splash:
             font=("Arial", 10),
         ).grid(row=1, column=0, columnspan=2, pady=(0, 15))
 
-        # Load and resize the splash image
-        og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\images\splash.png")
-        resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)  # Resize to fit the screen
-        self.image = ImageTk.PhotoImage(resize_image)
-
-        # Display the resized image
-        self.image_label = tk.Label(self.main_frame, image=self.image)
-        self.image_label.grid(row=2, column=0, columnspan=2, padx=15, pady=(0, 10))
+        # Try to load and resize the splash image
+        try:
+            # Attempt to load the image
+            og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\images\xxx.png")
+            resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)  # Resize to fit the screen
+            self.image = ImageTk.PhotoImage(resize_image)
+            
+            # Display the resized image
+            self.image_label = tk.Label(self.main_frame, image=self.image)
+            self.image_label.grid(row=2, column=0, columnspan=2, padx=15, pady=(0, 10))
+        except Exception as e:
+            # Handle the error if the image cannot be loaded
+            messagebox.showwarning("Image Error", f"Failed to load splash image: {e}")
+            
+            # Provide a fallback (you can use a placeholder image or skip the image display)
+            self.image_label = ttk.Label(self.main_frame, text="Image failed to load.")
+            self.image_label.grid(row=2, column=0, columnspan=2, padx=15, pady=(0, 10))
 
         # Learn More button
         ttk.Button(

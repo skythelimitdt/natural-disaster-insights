@@ -146,14 +146,23 @@ class LengthEvent:
             image_window = tk.Toplevel(self.master)
             image_window.title(f"Disaster Type: {event_type}")
 
-            # Load and display the event image
-            img = Image.open(event_image_path)
-            img = img.resize((400, 275), Image.Resampling.LANCZOS)
-            photo = ImageTk.PhotoImage(img)
+            # Display the image
+            try:
+                img = Image.open(event_image_path)
+                img = img.resize((400, 275), Image.LANCZOS)
+                photo = ImageTk.PhotoImage(img)
+                label_image = tk.Label(image_window, image=photo)
+                label_image.image = photo
+                label_image.pack(padx=10, pady=10)
+            except Exception as e:
+                messagebox.showwarning("Image Error", f"Failed to load image: {e}")
+                # Create a blank image as fallback
+                fallback_image = Image.new("RGB", (400, 275), (200, 200, 200))
+                fallback_photo = ImageTk.PhotoImage(fallback_image)
 
-            label_image = tk.Label(image_window, image=photo)
-            label_image.image = photo
-            label_image.pack(padx=10, pady=10)
+                label_fallback = tk.Label(image_window, image=fallback_photo, text="Image Not Available", font=("Arial", 12))
+                label_fallback.image = fallback_photo
+                label_fallback.pack(padx=10, pady=10)
 
             # Display the duration
             label_text = tk.Label(

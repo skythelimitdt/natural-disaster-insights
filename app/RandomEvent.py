@@ -55,31 +55,40 @@ class RandomEvent:
         try:
             # Fetch random disaster from the database
             random_disaster = self.db.fetch_random_disaster()
+            
             if random_disaster and random_disaster[0]:
                 event_type = random_disaster[0]
-                event_subtype = random_disaster[1]
-                
+                event_subtype = random_disaster[1] if len(random_disaster) > 1 else "Unknown"
+
                 # Get the image for the random disaster
                 event_image_path = self.get_event_image(event_type)
                 if not event_image_path:
                     messagebox.showerror("Error", f"No image available for disaster type: {event_type}")
                     return
-                
+
                 # Create a new window
                 image_window = tk.Toplevel(self.master)
                 image_window.title(f"Disaster Type: {event_type}")
                 
-                # Load and display the image
-                img = Image.open(event_image_path)
-                img = img.resize((400, 275), Image.Resampling.LANCZOS)
-                photo = ImageTk.PhotoImage(img)
+                try:
+                    # Load and display the image
+                    img = Image.open(event_image_path)
+                    img = img.resize((400, 275), Image.Resampling.LANCZOS)
+                    photo = ImageTk.PhotoImage(img)
+                    label_image = tk.Label(image_window, image=photo)
+                    label_image.image = photo
+                    label_image.pack(padx=10, pady=10)
+                except Exception as e:
+                    messagebox.showwarning("Image Error", f"Failed to load image: {e}")
+                    # Create a blank image as fallback
+                    fallback_image = Image.new("RGB", (400, 275), (200, 200, 200))  # Grey fallback image
+                    fallback_photo = ImageTk.PhotoImage(fallback_image)
 
-                # Display the image
-                label_image = tk.Label(image_window, image=photo)
-                label_image.image = photo
-                label_image.pack(padx=10, pady=10)
+                    label_fallback = tk.Label(image_window, image=fallback_photo, text="Image Not Available", font=("Arial", 12))
+                    label_fallback.image = fallback_photo
+                    label_fallback.pack(padx=10, pady=10)
 
-                # Display disaster
+                # Display disaster type and subtype
                 label_text = tk.Label(
                     image_window,
                     text=f"Random Disaster: {event_subtype}",
@@ -90,6 +99,7 @@ class RandomEvent:
             else:
                 # Show warning if no valid disaster found
                 messagebox.showwarning("No disasters found", "No valid disaster type found.")
+                
         except Exception as e:
             messagebox.showerror("Error", f"Failed to fetch random disaster: {e}")
 

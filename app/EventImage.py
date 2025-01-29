@@ -1,5 +1,5 @@
 def flood_image():
-    return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Flood2.jpg"
+    return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Flood2x.jpg"
 
 def fire_image():
     return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Fire3.jpg"
@@ -15,6 +15,28 @@ def drought_image():
 
 def epidemic_image():
     return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\pandemic.jpg"
+
+def any_image(event_type=None):
+    valid_diaster_types = [
+        "Wildfire", "Storm", "Drought", "Volcanic activity", 
+        "Epidemic", "Extreme temperature", "Earthquake", "Flood", "Mass movement (wet)"
+    ]
+    
+    if event_type in valid_diaster_types:
+        any_images = {
+            "Wildfire": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Fire3.jpg",
+            "Storm": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\derecho3.jpg",
+            "Drought": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\tropicalstorm3.jpg",
+            "Volcanic activity": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\\Volcano1.jpg",
+            "Epidemic": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\pandemic.jpg",
+            "Extreme temperature": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Heatwave1.jpg",
+            "Earthquake": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\earthquake2.jpg",
+            "Flood": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Flood2x.jpg",
+            "Mass movement (wet)": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\mudslide1.jpg",
+        }
+        return any_images.get(event_type)
+    else:
+        return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\derecho3.jpg"
 
 def storm_image(event_subtype=None):
     valid_storm_subtypes = [

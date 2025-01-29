@@ -211,21 +211,19 @@ class Database:
             result = conn.execute(query).fetchall()
         return [row[0] for row in result]
 
-    def count_disasters_by_event_type_and_subtype(self, event_type, event_subtype):
+    def count_disasters_by_event_type_and_subtype(self, event_type=None, event_subtype=None):
         with self.engine.connect() as conn:
-            query = (
-                select(func.count().label("event_count"))
-                .select_from(
-                    self.classification_table.join(
-                        self.events_table,
-                        self.classification_table.c.Classification_Key == self.events_table.c.Classification_Key,
-                    )
-                )
-                .where(self.classification_table.c.Disaster_Type == event_type)
-            )
+            query = select(func.count()).select_from(self.events_table)
+
+            if event_type:
+                query = query.join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
+                query = query.where(self.classification_table.c.Disaster_Type == event_type)
+
             if event_subtype:
                 query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
+        
         return result or 0
 
     def search_location(self, location_name):
