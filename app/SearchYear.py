@@ -63,8 +63,8 @@ class SearchYear:
 
         try:
             # Fetch disaster data
-            results = self.db.search_year("events", "classification", year_int)
-            self.results_list.delete(1.0, tk.END)  # Clear previous search results
+            results = self.db.search_year(year_int)
+            self.results_list.delete(1.0, tk.END) 
 
             # Display the results
             if results:

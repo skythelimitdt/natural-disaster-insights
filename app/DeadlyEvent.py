@@ -147,7 +147,7 @@ class DeadlyEvent:
             # Display the fatalities count
             label_text = tk.Label(
                 image_window,
-                text=f"{event_type} ({event_subtype}): {death_description.capitalize()} is {fatalities} fatalities.",
+                text=f"{event_subtype}: {death_description.capitalize()} is {fatalities} fatalities.",
                 font=("Arial", 12)
             )
             label_text.pack(padx=10, pady=5)

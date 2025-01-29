@@ -14,7 +14,6 @@ class Database:
         # Autoload tables to avoid redefining them repeatedly
         self.damage_table = Table("damage", self.metadata, autoload_with=self.engine)
         self.affected_table = Table("affected", self.metadata, autoload_with=self.engine)
-        self.locations_table = Table("locations", self.metadata, autoload_with=self.engine)
         self.events_table = Table("events", self.metadata, autoload_with=self.engine)
         self.classification_table = Table("classification", self.metadata, autoload_with=self.engine)
         self.tropicalcyclone_table = Table("tropicalcyclone", self.metadata, autoload_with=self.engine)
@@ -27,17 +26,12 @@ class Database:
         return [row[0] for row in result]
 
     def fetch_all_locations(self):
-        # Fetch all locations within a specified date range
+        # Fetch all locations
         with self.engine.connect() as conn:
             query = (
-                select(self.locations_table.c.Location)
-                .distinct()
-                .join(self.tropicalcyclone_table, self.locations_table.c.LocationID == self.tropicalcyclone_table.c.LocationID)
-                .join(self.events_table, self.tropicalcyclone_table.c.DisNo == self.events_table.c.DisNo)
-                .where(
-                    self.events_table.c.Start_Date >= self.start_date,
-                    self.events_table.c.End_Date <= self.end_date
-                )
+                select(self.events_table.c.Location.distinct())
+                .where(self.events_table.c.Start_Date >= self.start_date,
+                       self.events_table.c.End_Date <= self.end_date)
             )
             result = conn.execute(query).fetchall()
 
@@ -45,15 +39,14 @@ class Database:
         if not result:
             raise ValueError("No locations found for the given date range.")
 
-        # Return a list of locations
         return [row[0] for row in result]
-
+    
     def fetch_length_by_event_type(self, event_type):
         # Calculate the total duration of all events
         with self.engine.connect() as conn:
             query = (
                 select(self.events_table.c.Start_Date, self.events_table.c.End_Date)
-                .join(self.classification_table)
+                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
             result = conn.execute(query).fetchall()
@@ -69,9 +62,10 @@ class Database:
         # Fetch the maximum duration of events
         with self.engine.connect() as conn:
             query = (
-                select(func.max(self.events_table.c.End_Date - self.events_table.c.Start_Date).label("max_duration"))
-                .join(self.classification_table)
+                select(func.max(self.events_table.c.duration).label("max_duration"))
+                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
+                .where(self.events_table.c.duration.isnot(None))
             )
             result = conn.execute(query).scalar()
         return result or 0
@@ -80,9 +74,10 @@ class Database:
         # Fetch the minimum duration of events
         with self.engine.connect() as conn:
             query = (
-                select(func.min(self.events_table.c.End_Date - self.events_table.c.Start_Date).label("min_duration"))
-                .join(self.classification_table)
+                select(func.min(self.events_table.c.duration).label("min_duration"))
+                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
+                .where(self.events_table.c.duration.isnot(None))
             )
             result = conn.execute(query).scalar()
         return result or 0
@@ -91,9 +86,10 @@ class Database:
         # Fetch the average duration of events
         with self.engine.connect() as conn:
             query = (
-                select(func.avg(self.events_table.c.End_Date - self.events_table.c.Start_Date).label("avg_duration"))
-                .join(self.classification_table)
+                select(func.avg(self.events_table.c.duration).label("avg_duration"))
+                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
+                .where(self.events_table.c.duration.isnot(None))
             )
             result = conn.execute(query).scalar()
         return result or 0
@@ -231,25 +227,9 @@ class Database:
                 query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
             result = conn.execute(query).scalar()
         return result or 0
-    
-    def count_events_by_location(self, location_name):
-        with self.engine.connect() as conn:
-            query = (
-                select([self.locations_table.c.Location, func.count(self.events_table.c.DisNo).label('event_count')])
-                .join(self.tropicalcyclone_table, self.locations_table.c.LocationID == self.tropicalcyclone_table.c.LocationID)
-                .join(self.events_table, self.tropicalcyclone_table.c.DisNo == self.events_table.c.DisNo)
-                .where(self.locations_table.c.Location == location_name)
-                .group_by(self.locations_table.c.Location)
-            )
-            result = conn.execute(query).fetchone()
-
-        if result:
-            return result['event_count']
-        else:
-            raise ValueError(f"No events found for the location: {location_name}")
 
     def search_location(self, location_name):
-        # Search for disasters by location name
+    # Search for disasters by location name
         with self.engine.connect() as conn:
             query = (
                 select(
@@ -266,21 +246,28 @@ class Database:
                     self.classification_table,
                     self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key,
                 )
-                .join(
+                .outerjoin(
+                    self.damage_table,
+                    self.events_table.c.DisNo == self.damage_table.c.DisNo,
+                )
+                .outerjoin(
+                    self.affected_table,
+                    self.events_table.c.DisNo == self.affected_table.c.DisNo,
+                )
+                .outerjoin(
                     self.tropicalcyclone_table,
                     self.events_table.c.DisNo == self.tropicalcyclone_table.c.DisNo,
                 )
-                .join(
-                    self.locations_table,
-                    self.tropicalcyclone_table.c.LocationID == self.locations_table.c.LocationID,
+                .where(
+                    (self.events_table.c.Location.ilike(f'%{location_name}%')) |
+                    (self.affected_table.c.Location.ilike(f'%{location_name}%')) |
+                    (self.tropicalcyclone_table.c.Location.ilike(f'%{location_name}%'))
                 )
-                .where(self.locations_table.c.Location.ilike(f'%{location_name}%'))
             )
             result = conn.execute(query).fetchall()
+            return result
 
-        return [dict(row) for row in result]
-
-    def search_year(self, events, classification, year):
+    def search_year(self, year):
         # Search for disasters by year
         with self.engine.connect() as conn:
             query = (

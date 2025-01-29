@@ -114,7 +114,7 @@ class CountEvent:
             # Display the disaster count
             label_text = tk.Label(
                 image_window,
-                text=f"{event_type} {event_subtype}: Number of disasters is {count}",
+                text=f"{event_subtype}: Number of disasters is {count}",
                 font=("Arial", 12),
             )
             label_text.pack(padx=10, pady=5)
