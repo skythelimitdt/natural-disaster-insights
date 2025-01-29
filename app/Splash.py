@@ -27,7 +27,7 @@ class Splash:
         ).grid(row=1, column=0, columnspan=2, pady=(0, 15))
 
         # Load and resize the splash image
-        og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\splash.png")
+        og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\images\splash.png")
         resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)  # Resize to fit the screen
         self.image = ImageTk.PhotoImage(resize_image)
 

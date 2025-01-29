@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 from Database import Database
-import EventImage as ei
+from EventImage import *
 
 class CountEvent:
     def __init__(self, master, controller):
@@ -47,18 +47,18 @@ class CountEvent:
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=3, column=1, pady=10)
 
     # Return the image path for a given disaster type
-    def get_event_image(self, event_type):
+    def get_event_image(self, event_type, event_subtype):
         """Returns the appropriate image path for the given event type."""
         event_images = {
-            "Flood": ei.flood_image(),
-            "Wildfire": ei.fire_image(),
-            "Earthquake": ei.earthquake_image(),
-            "Volcanic activity": ei.volcano_image(),
-            "Storm": ei.storm_image(),
-            "Drought": ei.drought_image(),
-            "Extreme temperature": ei.extreme_temp_image(),
-            "Epidemic": ei.epidemic_image(),
-            "Mass movement (wet)": ei.mass_movement_image(),
+            "Flood": flood_image(),
+            "Wildfire": fire_image(),
+            "Earthquake": earthquake_image(),
+            "Volcanic activity": volcano_image(),
+            "Storm": storm_image(event_subtype),
+            "Drought": drought_image(),
+            "Extreme temperature": extreme_temp_image(),
+            "Epidemic": epidemic_image(),
+            "Mass movement (wet)": mass_movement_image(),
         }
         return event_images.get(event_type)
 
@@ -95,7 +95,7 @@ class CountEvent:
         try:
             # Fetch disaster count from the database
             count = self.db.count_disasters_by_event_type_and_subtype(event_type, event_subtype)
-            event_image_path = self.get_event_image(event_type)
+            event_image_path = self.get_event_image(event_type, event_subtype)
 
             # Display the disaster count and image
             image_window = tk.Toplevel(self.master)

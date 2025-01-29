@@ -229,18 +229,17 @@ class Database:
         return result or 0
 
     def search_location(self, location_name):
-    # Search for disasters by location name
+        # Search for disasters by location name, and only return the matching part of the location
         with self.engine.connect() as conn:
             query = (
                 select(
-                    self.events_table.c.Origin,
-                    self.events_table.c.Magnitude,
+                    self.events_table.c.Location,
                     self.events_table.c.Start_Date,
                     self.events_table.c.End_Date,
                     self.classification_table.c.Disaster_Group,
                     self.classification_table.c.Disaster_Subgroup,
                     self.classification_table.c.Disaster_Type,
-                    self.classification_table.c.Disaster_Subtype,
+                    self.classification_table.c.Disaster_Subtype
                 )
                 .join(
                     self.classification_table,
@@ -259,9 +258,9 @@ class Database:
                     self.events_table.c.DisNo == self.tropicalcyclone_table.c.DisNo,
                 )
                 .where(
-                    (self.events_table.c.Location.ilike(f'%{location_name}%')) |
-                    (self.affected_table.c.Location.ilike(f'%{location_name}%')) |
-                    (self.tropicalcyclone_table.c.Location.ilike(f'%{location_name}%'))
+                    self.events_table.c.Location.ilike(f'%{location_name}%') |
+                    self.affected_table.c.Location.ilike(f'%{location_name}%') |
+                    self.tropicalcyclone_table.c.Location.ilike(f'%{location_name}%')
                 )
             )
             result = conn.execute(query).fetchall()
@@ -272,14 +271,13 @@ class Database:
         with self.engine.connect() as conn:
             query = (
                 select(
-                    self.events_table.c.Origin,
-                    self.events_table.c.Magnitude,
+                    self.events_table.c.Location,
                     self.events_table.c.Start_Date,
                     self.events_table.c.End_Date,
                     self.classification_table.c.Disaster_Group,
                     self.classification_table.c.Disaster_Subgroup,
                     self.classification_table.c.Disaster_Type,
-                    self.classification_table.c.Disaster_Subtype,
+                    self.classification_table.c.Disaster_Subtype
                 )
                 .join(
                     self.classification_table,
