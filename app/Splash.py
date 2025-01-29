@@ -29,8 +29,8 @@ class Splash:
         # Try to load and resize the splash image
         try:
             # Attempt to load the image
-            og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\images\xxx.png")
-            resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)  # Resize to fit the screen
+            og_image = Image.open(r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\images\splash.png")
+            resize_image = og_image.resize((550, 325), Image.Resampling.LANCZOS)
             self.image = ImageTk.PhotoImage(resize_image)
             
             # Display the resized image
@@ -40,7 +40,7 @@ class Splash:
             # Handle the error if the image cannot be loaded
             messagebox.showwarning("Image Error", f"Failed to load splash image: {e}")
             
-            # Provide a fallback (you can use a placeholder image or skip the image display)
+            # Provide a fallback if image cant be loaded
             self.image_label = ttk.Label(self.main_frame, text="Image failed to load.")
             self.image_label.grid(row=2, column=0, columnspan=2, padx=15, pady=(0, 10))
 

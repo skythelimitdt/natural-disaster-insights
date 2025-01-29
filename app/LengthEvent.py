@@ -22,7 +22,7 @@ class LengthEvent:
         self.title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
         # Dropdown to select the type of duration
-        ttk.Label(self.main_frame, text="Select Duration Type:").grid(row=1, column=0, padx=10, pady=10)
+        ttk.Label(self.main_frame, text="Select Duration:").grid(row=1, column=0, padx=10, pady=10)
         self.length_type_var = tk.StringVar(value="")
         self.length_type_dropdown = ttk.Combobox(
             self.main_frame,

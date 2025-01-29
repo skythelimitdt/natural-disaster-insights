@@ -22,7 +22,7 @@ class DeadlyEvent:
         self.title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
         # Deadliness type dropdown
-        ttk.Label(self.main_frame, text="Select Deadliness Type:").grid(row=1, column=0, padx=10, pady=5)
+        ttk.Label(self.main_frame, text="Select Death Toll:").grid(row=1, column=0, padx=10, pady=5)
         self.deadliness_var = tk.StringVar()
         self.deadliness_dropdown = ttk.Combobox(
             self.main_frame,
