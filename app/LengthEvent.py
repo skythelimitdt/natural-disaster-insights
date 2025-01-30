@@ -48,25 +48,26 @@ class LengthEvent:
 
         # Load event types
         self.load_event_types()
+        self.event_type_dropdown.bind("<<ComboboxSelected>>", self.load_event_subtypes)
 
         # Buttons
         ttk.Button(self.main_frame, text="Generate", command=self.length_event).grid(row=4, column=0, pady=10)
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=4, column=1, pady=10)
 
-    def get_event_image(self, event_type):
+    def get_event_image(self, event_type, event_subtype=None):
         # Returns image path for the given event type
         event_images = {
             "Flood": ei.flood_image(),
             "Wildfire": ei.fire_image(),
             "Earthquake": ei.earthquake_image(),
             "Volcanic activity": ei.volcano_image(),
-            "Storm": ei.storm_image(),
+            "Storm": ei.storm_image(event_subtype) if event_subtype else ei.storm_image(),
             "Drought": ei.drought_image(),
-            "Extreme temperature": ei.extreme_temp_image(),
+            "Extreme temperature": ei.extreme_temp_image(event_subtype),
             "Epidemic": ei.epidemic_image(),
-            "Mass movement (wet)": ei.mass_movement_image(),
+            "Mass movement (wet)": ei.mass_movement_image(event_subtype),
         }
-        return event_images.get(event_type, None)
+        return event_images.get(event_type)
 
     def load_event_types(self):
         # Fetch and load event types
@@ -79,19 +80,15 @@ class LengthEvent:
             print(traceback.format_exc())
             messagebox.showerror("Error", f"Failed to load event types: {e}")
 
-    def load_event_subtypes(self, event):
+    def load_event_subtypes(self, event=None):
         # Fetch and load event subtypes
+        self.event_subtype_var.set("")
+        self.event_subtype_dropdown["values"] = []
         try:
             event_type = self.event_type_var.get()
             if event_type:
                 subtypes = self.db.fetch_subtypes_by_event_type(event_type)
-                if subtypes:
-                    self.event_subtype_dropdown['values'] = subtypes
-                else:
-                    self.event_subtype_dropdown['values'] = []
-                    messagebox.showinfo("No Subtypes", "No subtypes found")
-            else:
-                self.event_subtype_dropdown['values'] = []
+                self.event_subtype_dropdown['values'] = subtypes if subtypes else ["No subtypes available"]
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load subtypes: {e}")
 
@@ -120,7 +117,7 @@ class LengthEvent:
             return
 
         # Get image based on selected disaster type
-        event_image_path = self.get_event_image(event_type)
+        event_image_path = self.get_event_image(event_type, event_subtype)
         if not event_image_path:
             messagebox.showerror("Error", "No image available for the selected disaster type")
             return
@@ -175,6 +172,12 @@ class LengthEvent:
         except Exception as e:
             print(traceback.format_exc())
             messagebox.showerror("Error", f"Failed to fetch event duration: {e}")
+
+    def clear_ui(self):
+        # Clear all input fields
+        self.event_type_var.set("")
+        self.subtype_var.set("")
+        self.subtype_dropdown["values"] = []
 
     def back_to_menu(self):
         # Navigate back to the main menu

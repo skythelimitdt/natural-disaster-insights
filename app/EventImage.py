@@ -60,23 +60,23 @@ def storm_image(event_subtype=None):
         return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\derecho3.jpg"
 
 def extreme_temp_image(event_subtype=None):
-    valid_temp_subtypes = ["Cold Wave", "Heat Wave"]
+    valid_temp_subtypes = ["Cold wave", "Heat wave"]
     
     if event_subtype in valid_temp_subtypes:
         extreme_temp_images = {
-            "Cold Wave": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\coldwave2.jpg",
-            "Heat Wave": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Heatwave1.jpg",
+            "Cold wave": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\coldwave2.jpg",
+            "Heat wave": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Heatwave1.jpg",
         }
         return extreme_temp_images.get(event_subtype)
     else:
         return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Heatwave1.jpg"
 
 def mass_movement_image(event_subtype=None):
-    valid_mass_movement_subtypes = ["Landslide", "Mudslide"]
+    valid_mass_movement_subtypes = ["Landslide (wet)", "Mudslide"]
     
     if event_subtype in valid_mass_movement_subtypes:
         mass_movement_images = {
-            "Landslide": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\landslide2.jpg",
+            "Landslide (wet)": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\landslide2.jpg",
             "Mudslide": r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\mudslide1.jpg",
         }
         return mass_movement_images.get(event_subtype)

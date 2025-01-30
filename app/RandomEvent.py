@@ -27,20 +27,20 @@ class RandomEvent:
         ttk.Button(self.main_frame, text="Generate", command=self.random_event).grid(row=2, column=0, pady=10)
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=2, column=1, pady=10)
 
-    def get_event_image(self, event_type):
+    def get_event_image(self, event_type, event_subtype=None):
         # Returns image path for the given event type
         event_images = {
             "Flood": ei.flood_image(),
             "Wildfire": ei.fire_image(),
             "Earthquake": ei.earthquake_image(),
             "Volcanic activity": ei.volcano_image(),
-            "Storm": ei.storm_image(),
+            "Storm": ei.storm_image(event_subtype),
             "Drought": ei.drought_image(),
-            "Extreme temperature": ei.extreme_temp_image(),
+            "Extreme temperature": ei.extreme_temp_image(event_subtype),
             "Epidemic": ei.epidemic_image(),
-            "Mass movement (wet)": ei.mass_movement_image(),
+            "Mass movement (wet)": ei.mass_movement_image(event_subtype),
         }
-        return event_images.get(event_type, None)
+        return event_images.get(event_type)
 
     def load_random_event(self):
         # Loads available event types
@@ -61,7 +61,7 @@ class RandomEvent:
                 event_subtype = random_disaster[1] if len(random_disaster) > 1 else "Unknown"
 
                 # Get the image for the random disaster
-                event_image_path = self.get_event_image(event_type)
+                event_image_path = self.get_event_image(event_type, event_subtype)
                 if not event_image_path:
                     messagebox.showerror("Error", f"No image available for disaster type: {event_type}")
                     return

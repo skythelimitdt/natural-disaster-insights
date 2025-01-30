@@ -31,6 +31,7 @@ class DeadlyEvent:
             state="readonly",
         )
         self.deadliness_dropdown.grid(row=1, column=1, padx=10, pady=10)
+        self.deadliness_dropdown.bind("<<ComboboxSelected>>", self.update_deadliness_type)
 
         # Disaster type dropdown
         ttk.Label(self.main_frame, text="Select Disaster Type:").grid(row=2, column=0, padx=10, pady=5)
@@ -53,11 +54,11 @@ class DeadlyEvent:
         ttk.Button(self.main_frame, text="Generate", command=self.deadly_event).grid(row=4, column=0, pady=10)
         ttk.Button(self.main_frame, text="Back", command=self.back_to_menu).grid(row=4, column=1, pady=10)
 
-        # Populate event types dynamically
+        # Populate event types
         self.populate_event_types()
 
     def populate_event_types(self):
-        """Fetch and populate disaster types dynamically from the database."""
+        # Fetch and populate disaster types
         try:
             event_types = self.db.fetch_all_event_types()
             if event_types:
@@ -68,7 +69,7 @@ class DeadlyEvent:
             messagebox.showerror("Database Error", f"Failed to load disaster types: {e}")
 
     def update_subtypes(self, event=None):
-        """Update subtypes based on the selected disaster type."""
+        # Update subtypes based on the selected disaster type
         event_type = self.event_type_var.get()
         if not event_type:
             self.subtype_dropdown["values"] = []
@@ -82,23 +83,28 @@ class DeadlyEvent:
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load subtypes: {e}")
 
+    def update_deadliness_type(self, event=None):
+        # Handles selection change for deadliness dropdown
+        selected_value = self.deadliness_var.get()
+        print(f"Selected Deadliness Type: {selected_value}")
+
     def get_event_image(self, event_type, event_subtype=None):
-        """Returns the image path for the given disaster type and subtype."""
+        # Returns the image path for the given disaster type and subtype
         event_images = {
             "Flood": ei.flood_image(),
             "Wildfire": ei.fire_image(),
             "Earthquake": ei.earthquake_image(),
             "Volcanic activity": ei.volcano_image(),
-            "Storm": ei.storm_image(event_subtype) if event_subtype else ei.storm_image("default"),
+            "Storm": ei.storm_image(event_subtype),
             "Drought": ei.drought_image(),
-            "Extreme temperature": ei.extreme_temp_image(event_subtype) if event_subtype else ei.extreme_temp_image("default"),
+            "Extreme temperature": ei.extreme_temp_image(event_subtype),
             "Epidemic": ei.epidemic_image(),
-            "Mass movement (wet)": ei.mass_movement_image(event_subtype) if event_subtype else ei.mass_movement_image("default"),
+            "Mass movement (wet)": ei.mass_movement_image(event_subtype),
         }
         return event_images.get(event_type)
 
     def deadly_event(self):
-        """Generate a report on disaster fatalities."""
+        # Generate a report on disaster fatalities
         event_type = self.event_type_var.get()
         deadliness_type = self.deadliness_var.get()
         event_subtype = self.subtype_var.get() or None  # Use None if empty
@@ -162,11 +168,11 @@ class DeadlyEvent:
             messagebox.showerror("Error", f"Failed to fetch fatalities: {e}")
 
     def clear_ui(self):
-        """Clear all input fields."""
+        # Clear all input fields
         self.event_type_var.set("")
         self.subtype_var.set("")
         self.subtype_dropdown["values"] = []
 
     def back_to_menu(self):
-        """Navigate back to the main menu."""
+        # Navigate back to the main menu
         self.controller.switch_to_menu()
