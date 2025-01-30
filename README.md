@@ -46,7 +46,7 @@ Our database was built using PostgreSQL, as it best suited our project’s needs
 
 ### Natural Disasters GUI Application
 
-The Natural Disaster App consists of 14 Python modules structured to facilitate searching, analyzing, and visualizing disaster data. The app enables users to explore disaster data dynamically, offering insights into fatalities, damages, event frequency, duration, and randomness.
+The Natural Disaster App consists of 13 Python modules structured to facilitate searching, analyzing, and visualizing disaster data. The app enables users to explore disaster data dynamically, offering insights into fatalities, damages, event frequency, duration, and randomness.
 
 ## Core Application Modules
 - `main.py` (Main Entry Point)
@@ -91,11 +91,6 @@ The Natural Disaster App consists of 14 Python modules structured to facilitate 
   - Counts disasters based on selected types and subtypes.
   - Displays the count with an associated event image.
   - Users can navigate back to the main menu.
-
-- `RandomEvent.py` (Generate a Random Disaster)
-  - Randomly selects and displays a disaster event with its subtype and image.
-  - Allows users to generate another random event or return to the main menu.
-  - Handles errors during data retrieval.
 
 - `LengthEvent.py` (Analyze Disaster Durations)
   - Displays disasters with the longest, shortest, or average durations by type and subtype.
