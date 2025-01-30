@@ -163,7 +163,7 @@ When developing the Natural Disaster Insights app using the dataset from the EM-
 
 
 ## Resources and Support
-- ASU/OSU Bootcamp class activities
+- ASU/UofO Bootcamp class activities
 - Xpert Learning Assistant
 - ChatGPT
     - Asked for assistance in identifying a Python library for generating unique values. ChatGPT suggested the hashlib library, which was used in creating the `ImpactID`. It also assisted in formulating the code logic to concatenate key columns and generate unique, consistent identifiers for each row. This helped ensure data integrity and avoid duplicate entries.
