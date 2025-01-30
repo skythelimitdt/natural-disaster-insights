@@ -9,6 +9,8 @@
 ## Project Overview
 In this project we focused on designing our program using data from the Emergency Events Database created by a joint initiative between The Centre for Research on the Epidemiology of Disasters (CRED) and the World Health Organization (WHO). This dataset contains compiled information on natural disasters in North America from 2000 to 2024. 
 
+Our objective was to develop an app capable of executing queries based on Location, Year, Event Outcomes, and other relevant factors.
+
 ### Data Collection
 Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.be/data <br/>
 [Data Column Description](https://doc.emdat.be/docs/data-structure-and-content/emdat-public-table/)
@@ -118,8 +120,8 @@ The Natural Disaster App consists of 13 Python modules structured to facilitate 
     - Open pgAdmin and create a database named `NaturalDisaster`
     - Run `schema.sql` in the database to create the tables
 - Import Data
-    Import the provided CSV files in the `resources` folder
-- Update Databse Credentials
+    - Import the provided CSV files in the `resources` folder
+- Update Database Credentials
     - Edit the `Database.py` file with your pgAdmin login details
 - Run the App
     - Method 1: Open 'main.py' (located with the app folder) in your Python IDE of choice (such as VSCode)
