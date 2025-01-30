@@ -96,6 +96,12 @@ class DestructiveEvent:
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load subtypes: {e}")
 
+    def update_subtypes(self, event=None):
+        # This method will handle updating the subtypes based on the selected event type
+        selected_event_type = self.event_type_var.get()
+        if selected_event_type:
+            self.load_event_subtypes()
+
     def update_destructiveness_type(self, event=None):
         # Handle update destructiveness type
         selected_type = self.destructiveness_var.get()

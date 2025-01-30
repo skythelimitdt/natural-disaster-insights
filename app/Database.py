@@ -42,27 +42,9 @@ class Database:
         return [row[0] for row in result]
     
     def fetch_length_by_event_type(self, event_type):
-        # Calculate the total duration of all events
         with self.engine.connect() as conn:
             query = (
-                select(self.events_table.c.Start_Date, self.events_table.c.End_Date)
-                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
-                .where(self.classification_table.c.Disaster_Type == event_type)
-            )
-            result = conn.execute(query).fetchall()
-
-        total_duration = 0
-        for row in result:
-            start_date, end_date = row[0], row[1]
-            if start_date and end_date:
-                total_duration += (end_date - start_date).days
-        return total_duration
-
-    def fetch_max_duration_by_event_type(self, event_type):
-        # Fetch the maximum duration of events
-        with self.engine.connect() as conn:
-            query = (
-                select(func.max(self.events_table.c.duration).label("max_duration"))
+                select(func.sum(self.events_table.c.duration))
                 .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
                 .where(self.events_table.c.duration.isnot(None))
@@ -70,7 +52,25 @@ class Database:
             result = conn.execute(query).scalar()
         return result or 0
 
-    def fetch_min_duration_by_event_type(self, event_type):
+    def fetch_max_duration_by_event_type(self, event_type, event_subtype=None):
+        with self.engine.connect() as conn:
+            query = (
+                select(func.max(self.events_table.c.duration).label("max_duration"))
+                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
+                .where(self.classification_table.c.Disaster_Type == event_type)
+                .where(self.events_table.c.duration.isnot(None))
+            )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
+            result = conn.execute(query).scalar()
+            
+            # Ensure that the returned value is a valid number
+            if result is not None and isinstance(result, (int, float)):
+                return result
+            return 0
+
+    def fetch_min_duration_by_event_type(self, event_type, event_subtype=None):
         # Fetch the minimum duration of events
         with self.engine.connect() as conn:
             query = (
@@ -79,11 +79,17 @@ class Database:
                 .where(self.classification_table.c.Disaster_Type == event_type)
                 .where(self.events_table.c.duration.isnot(None))
             )
-            result = conn.execute(query).scalar()
-        return result or 0
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
 
-    def fetch_avg_duration_by_event_type(self, event_type):
-        # Fetch the average duration of events
+            result = conn.execute(query).scalar()
+            
+            # Ensure that the returned value is a valid number
+            if result is not None and isinstance(result, (int, float)):
+                return result
+            return 0
+
+    def fetch_avg_duration_by_event_type(self, event_type, event_subtype=None):
         with self.engine.connect() as conn:
             query = (
                 select(func.avg(self.events_table.c.duration).label("avg_duration"))
@@ -91,10 +97,14 @@ class Database:
                 .where(self.classification_table.c.Disaster_Type == event_type)
                 .where(self.events_table.c.duration.isnot(None))
             )
-            result = conn.execute(query).scalar()
-        return result or 0
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
 
-    def fetch_fatalities_by_event_type(self, event_type):
+            result = conn.execute(query).scalar()
+            
+            return result if result is not None else 0
+
+    def fetch_fatalities_by_event_type(self, event_type, event_subtype=None):
         # Calculate the total fatalities
         with self.engine.connect() as conn:
             query = (
@@ -103,10 +113,13 @@ class Database:
                 .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
         return result or 0
     
-    def fetch_max_fatalities_by_event_type(self, event_type):
+    def fetch_max_fatalities_by_event_type(self, event_type, event_subtype=None):
         # Fetch the max of fatalities
         with self.engine.connect() as conn:
             query = (
@@ -115,10 +128,13 @@ class Database:
                 .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
         return result or 0
 
-    def fetch_min_fatalities_by_event_type(self, event_type):
+    def fetch_min_fatalities_by_event_type(self, event_type, event_subtype=None):
         # Fetch the min of fatalities
         with self.engine.connect() as conn:
             query = (
@@ -127,22 +143,13 @@ class Database:
                 .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
         return result or 0
 
-    def fetch_avg_fatalities_by_event_type(self, event_type):
-        # Fetch the avg of fatalities
-        with self.engine.connect() as conn:
-            query = (
-                select(func.avg(self.affected_table.c.Total_Deaths).label("avg_fatalities"))
-                .join(self.events_table, self.affected_table.c.DisNo == self.events_table.c.DisNo)
-                .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
-                .where(self.classification_table.c.Disaster_Type == event_type)
-            )
-            result = conn.execute(query).scalar()
-        return result or 0
-
-    def fetch_max_damages_by_event_type(self, event_type):
+    def fetch_max_damages_by_event_type(self, event_type, event_subtype=None):
         # Fetch the maximum damages
         with self.engine.connect() as conn:
             query = (
@@ -151,10 +158,13 @@ class Database:
                 .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
         return result or 0
     
-    def fetch_min_damages_by_event_type(self, event_type):
+    def fetch_min_damages_by_event_type(self, event_type, event_subtype=None):
         # Fetch the minimum damages
         with self.engine.connect() as conn:
             query = (
@@ -163,10 +173,13 @@ class Database:
                 .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
         return result or 0
 
-    def fetch_avg_damages_by_event_type(self, event_type):
+    def fetch_avg_damages_by_event_type(self, event_type, event_subtype=None):
         # Fetch the average damages
         with self.engine.connect() as conn:
             query = (
@@ -175,6 +188,9 @@ class Database:
                 .join(self.classification_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
                 .where(self.classification_table.c.Disaster_Type == event_type)
             )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
         return result or 0
     
@@ -189,18 +205,6 @@ class Database:
             )
             result = conn.execute(query).scalar()
         return result or 0
-
-    def fetch_random_disaster(self):
-        # Fetch a random disaster
-        with self.engine.connect() as conn:
-            query = (
-                select(self.classification_table.c.Disaster_Type, self.classification_table.c.Disaster_Subtype)
-                .join(self.events_table, self.events_table.c.Classification_Key == self.classification_table.c.Classification_Key)
-                .order_by(func.random())
-                .limit(1)
-            )
-            result = conn.execute(query).fetchone()
-        return result
     
     def fetch_subtypes_by_event_type(self, event_type):
         with self.engine.connect() as conn:
@@ -227,7 +231,7 @@ class Database:
         return result or 0
 
     def search_location(self, location_name):
-        # Search for disasters by location name, and only return the matching part of the location
+        # Search for disasters by location
         with self.engine.connect() as conn:
             query = (
                 select(

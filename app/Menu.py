@@ -49,17 +49,12 @@ class Menu:
             self.main_frame, text="Generate Disaster Count", variable=self.selected_option, value="count"
         ).grid(row=6, column=0, sticky="w", padx=15, pady=10)
 
-        # Radio button for Generate Random Disaster
-        ttk.Radiobutton(
-            self.main_frame, text="Generate Random Disaster", variable=self.selected_option, value="random"
-        ).grid(row=7, column=0, sticky="w", padx=15, pady=10)
-
         # Buttons to confirm the selection and exit
         ttk.Button(self.main_frame, text="Go", command=self.go).grid(
-            row=8, column=0, sticky="w", padx=0, pady=10
+            row=7, column=0, sticky="w", padx=0, pady=10
         )
         ttk.Button(self.main_frame, text="Exit", command=self.exit).grid(
-            row=8, column=1, sticky="e", padx=0, pady=10
+            row=7, column=1, sticky="e", padx=0, pady=10
         )
 
     def go(self):
@@ -79,8 +74,6 @@ class Menu:
             self.controller.switch_to_destructive()
         elif selected_option == "length":
             self.controller.switch_to_length()
-        elif selected_option == "random":
-            self.controller.switch_to_random()
         else:
             # Display an error if no option is selected
             messagebox.showerror("Error", "Please select an action.")

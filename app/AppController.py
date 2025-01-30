@@ -5,7 +5,6 @@ from CountEvent import CountEvent
 from DeadlyEvent import DeadlyEvent
 from DestructiveEvent import DestructiveEvent
 from LengthEvent import LengthEvent
-from RandomEvent import RandomEvent
 from SearchLocation import SearchLocation
 from Splash import Splash
 
@@ -53,11 +52,6 @@ class AppController:
     def switch_to_length(self):
         self.destroy()
         self.current_app = LengthEvent(self.master, self)
-
-    # Switch to a random event view
-    def switch_to_random(self):
-        self.destroy()
-        self.current_app = RandomEvent(self.master, self)
 
     # Switch to the search-by-location view
     def switch_to_search_location(self):

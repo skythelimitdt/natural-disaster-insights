@@ -1,5 +1,5 @@
 def flood_image():
-    return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Flood2x.jpg"
+    return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Flood2.jpg"
 
 def fire_image():
     return r"C:\Users\Ian O'Connor\Github\natural-disaster-insights\resources\Images\EventPhotos\Fire3.jpg"
