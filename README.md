@@ -73,16 +73,16 @@ The Natural Disaster App consists of 14 Python modules structured to facilitate 
 
 - `SearchYear.py` (Search by Year)
   - Allows users to search disasters by year.
-  - Displays results and handles invalid input or missing data with error messages.
+  - Displays results in a scrollable area or an error message if no data is found.
   - Includes `Clear` and `Back` buttons.
 
 ## Disaster Type-Based Analysis
-- `DeadlyEvent.py` (Analyze Most Fatal Disasters)
-  - Users select a `Disaster Type`, `Disaster Subtype`, and `Deadliness Type` (e.g., highest fatalities).
+- `DeadlyEvent.py` (Analyze Fatal Disasters)
+  - Users select a `Disaster Type`, `Disaster Subtype`, and `Death Toll`.
   - Displays results with an event image.
   - Handles errors and provides `Clear` and `Back` buttons.
 
-- `DestructiveEvent.py` (Analyze Most Damaging Disasters)
+- `DestructiveEvent.py` (Analyze Disaster Damages)
   - Focuses on disasters with high economic damage (most, least, or average).
   - Dynamically loads disaster subtypes and displays results with an event image.
   - Includes error handling, `Clear` and `Back` buttons.
@@ -93,7 +93,7 @@ The Natural Disaster App consists of 14 Python modules structured to facilitate 
   - Users can navigate back to the main menu.
 
 - `RandomEvent.py` (Generate a Random Disaster)
-  - Randomly selects and displays a disaster event with its type, subtype, and image.
+  - Randomly selects and displays a disaster event with its subtype and image.
   - Allows users to generate another random event or return to the main menu.
   - Handles errors during data retrieval.
 
