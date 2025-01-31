@@ -129,7 +129,7 @@ The Natural Disaster App consists of 13 Python modules structured to facilitate 
 ```python
 python main.py 
 ```
-*IMPORTANT NOTE: App UI may not display properly in Dark Mode. Mac users may need to adjust Dark Mode settings accordingly.
+*IMPORTANT NOTE: App UI may not display properly in Dark Mode. Mac users may need to adjust Dark Mode settings accordingly. Additionally image paths will not load properly without changing the files paths. This shouldn't effect the underlying functionality of the app.
 
 ## Tech Stack and Data Flow
 We used a number of different libraries/tools/resources for this project, including:
