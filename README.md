@@ -9,6 +9,8 @@
 ## Project Overview
 In this project we focused on designing our program using data from the Emergency Events Database created by a joint initiative between The Centre for Research on the Epidemiology of Disasters (CRED) and the World Health Organization (WHO). This dataset contains compiled information on natural disasters in North America from 2000 to 2024. 
 
+Our objective was to develop an app capable of executing queries based on Location, Year, Event Outcomes, and other relevant factors.
+
 ### Data Collection
 Data was collected from EM-DAT Data for Natural Disasters: https://public.emdat.be/data <br/>
 [Data Column Description](https://doc.emdat.be/docs/data-structure-and-content/emdat-public-table/)
@@ -46,7 +48,7 @@ Our database was built using PostgreSQL, as it best suited our project’s needs
 
 ### Natural Disasters GUI Application
 
-The Natural Disaster App consists of 14 Python modules structured to facilitate searching, analyzing, and visualizing disaster data. The app enables users to explore disaster data dynamically, offering insights into fatalities, damages, event frequency, duration, and randomness.
+The Natural Disaster App consists of 13 Python modules structured to facilitate searching, analyzing, and visualizing disaster data. The app enables users to explore disaster data dynamically, offering insights into fatalities, damages, event frequency, duration, and randomness.
 
 ## Core Application Modules
 - `main.py` (Main Entry Point)
@@ -92,11 +94,6 @@ The Natural Disaster App consists of 14 Python modules structured to facilitate 
   - Displays the count with an associated event image.
   - Users can navigate back to the main menu.
 
-- `RandomEvent.py` (Generate a Random Disaster)
-  - Randomly selects and displays a disaster event with its subtype and image.
-  - Allows users to generate another random event or return to the main menu.
-  - Handles errors during data retrieval.
-
 - `LengthEvent.py` (Analyze Disaster Durations)
   - Displays disasters with the longest, shortest, or average durations by type and subtype.
   - Shows results with relevant data and an image.
@@ -123,8 +120,8 @@ The Natural Disaster App consists of 14 Python modules structured to facilitate 
     - Open pgAdmin and create a database named `NaturalDisaster`
     - Run `schema.sql` in the database to create the tables
 - Import Data
-    Import the provided CSV files in the `resources` folder
-- Update Databse Credentials
+    - Import the provided CSV files in the `resources` folder
+- Update Database Credentials
     - Edit the `Database.py` file with your pgAdmin login details
 - Run the App
     - Method 1: Open 'main.py' (located with the app folder) in your Python IDE of choice (such as VSCode)
