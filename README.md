@@ -116,7 +116,6 @@ The Natural Disaster App consists of 13 Python modules structured to facilitate 
 
 ## To Run the app
 - Clone the [repository](https://github.com/skythelimitdt/natural-disaster-insights) from GitHub to your local machine
-- Important Note: App UI may not display properly in Dark Mode. Mac users may need to adjust Dark Mode settings accordingly.
 - Set up the Database
     - Open pgAdmin and create a database named `NaturalDisaster`
     - Run `schema.sql` in the database to create the tables
@@ -130,6 +129,7 @@ The Natural Disaster App consists of 13 Python modules structured to facilitate 
 ```python
 python main.py 
 ```
+*IMPORTANT NOTE: App UI may not display properly in Dark Mode. Mac users may need to adjust Dark Mode settings accordingly.
 
 ## Tech Stack and Data Flow
 We used a number of different libraries/tools/resources for this project, including:
