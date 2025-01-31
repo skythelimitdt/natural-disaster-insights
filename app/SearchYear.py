@@ -53,28 +53,33 @@ class SearchYear:
         try:
             year_int = int(year)
         except ValueError:
-            messagebox.showerror("Error", "Please enter a valid year.")  # Show error if the year is not an integer
+            messagebox.showerror("Error", "Please enter a valid year.")
             return
-        
+
         # Validate entered year
         if year_int < v.START_YEAR or year_int > v.END_YEAR:
-            messagebox.showerror("Error", f"Year must be between {v.START_YEAR} and {v.END_YEAR}.")  # Show error for out-of-range year
+            messagebox.showerror("Error", f"Year must be between {v.START_YEAR} and {v.END_YEAR}.")
             return
 
         try:
+            # Clear previous search
+            self.results_list.delete(1.0, tk.END)
+
             # Fetch disaster data
             results = self.db.search_year(year_int)
-            self.results_list.delete(1.0, tk.END) 
 
-            # Display the results
+            # Count the number of disasters found
+            num_results = len(results)
+
             if results:
-                for event in results:
-                    event_str = "\n".join([f"{key}: {value}" for key, value in event.items()])  # Format each event as a string
-                    self.results_list.insert(tk.END, f"{event_str}\n{'-'*40}\n")
+                self.results_list.insert(tk.END, f"Total disasters found: {num_results}\n{'='*40}\n")
+                for idx, event in enumerate(results, start=1):
+                    # Format each disaster event
+                    event_str = "\n".join([f"{key}: {value}" for key, value in event.items()])
+                    self.results_list.insert(tk.END, f"{idx}. {event_str}\n{'-'*40}\n")
             else:
-                self.results_list.insert(tk.END, "No disasters found for the given year")
+                self.results_list.insert(tk.END, "No disasters found for the given year.")
         except Exception as e:
-            # Handle error if search fails
             messagebox.showerror("Error", f"Failed to search: {e}")
 
     def back_to_menu(self):

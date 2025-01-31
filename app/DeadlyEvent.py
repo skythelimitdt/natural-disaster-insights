@@ -107,10 +107,15 @@ class DeadlyEvent:
         # Generate a report on disaster fatalities
         event_type = self.event_type_var.get()
         deadliness_type = self.deadliness_var.get()
-        event_subtype = self.subtype_var.get() or None  # Use None if empty
+        event_subtype = self.subtype_var.get() or None
 
-        if not event_type or not deadliness_type:
-            messagebox.showerror("Error", "Please select disaster type and deadliness type.")
+        # Validate selections
+        if not event_type:
+            messagebox.showerror("Error", "Please select disaster type.")
+            return
+        
+        if not event_subtype:
+            messagebox.showerror("Error", "Please select a disaster subtype")
             return
 
         # Get event image
@@ -122,13 +127,13 @@ class DeadlyEvent:
         try:
             # Fetch fatalities from the database
             if deadliness_type == "Highest Death Toll":
-                fatalities = self.db.fetch_max_fatalities_by_event_type(event_type)
+                fatalities = self.db.fetch_max_fatalities_by_event_type(event_type, event_subtype)
                 description = "highest death toll"
             elif deadliness_type == "Lowest Death Toll":
-                fatalities = self.db.fetch_min_fatalities_by_event_type(event_type)
+                fatalities = self.db.fetch_min_fatalities_by_event_type(event_type, event_subtype)
                 description = "lowest death toll"
             else:
-                fatalities = self.db.fetch_avg_fatalities_by_event_type(event_type)
+                fatalities = self.db.fetch_avg_fatalities_by_event_type(event_type, event_subtype)
                 description = "average death toll"
 
             # Round fatalities for better readability

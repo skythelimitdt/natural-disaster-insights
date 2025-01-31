@@ -61,11 +61,15 @@ class SearchLocation:
             # Search for disasters
             results = self.db.search_location(location_name)
 
+            # Count the number of disasters found
+            num_results = len(results)
+
             if results:
-                for event in results:
+                self.results_list.insert(tk.END, f"Total disasters found: {num_results}\n{'='*40}\n")
+                for idx, event in enumerate(results, start=1):
                     # Format each disaster event
                     event_str = "\n".join([f"{key}: {value}" for key, value in event.items()])
-                    self.results_list.insert(tk.END, f"{event_str}\n{'-'*40}\n")
+                    self.results_list.insert(tk.END, f"{idx}. {event_str}\n{'-'*40}\n")
             else:
                 # If no results found, inform the user
                 self.results_list.insert(tk.END, "No disasters found for the given location.")
@@ -74,5 +78,5 @@ class SearchLocation:
             messagebox.showerror("Error", f"Failed to search: {e}")
 
     def back_to_menu(self):
-        """Handles navigation back to the main menu."""
+        # Handles navigation back to the main menu
         self.controller.switch_to_menu()

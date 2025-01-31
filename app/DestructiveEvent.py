@@ -131,13 +131,13 @@ class DestructiveEvent:
         try:
             # Fetch damages information
             if destructiveness_type == "Most Destructive":
-                damages = self.db.fetch_max_damages_by_event_type(event_type)
+                damages = self.db.fetch_max_damages_by_event_type(event_type, event_subtype)
                 damage_description = "highest damages"
             elif destructiveness_type == "Least Destructive":
-                damages = self.db.fetch_min_damages_by_event_type(event_type)
+                damages = self.db.fetch_min_damages_by_event_type(event_type, event_subtype)
                 damage_description = "lowest damages"
             else:
-                damages = self.db.fetch_avg_damages_by_event_type(event_type)
+                damages = self.db.fetch_avg_damages_by_event_type(event_type, event_subtype)
                 damage_description = "average damages"
 
             # Format the damages
