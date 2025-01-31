@@ -125,11 +125,11 @@ class LengthEvent:
         try:
             # Fetch the event duration
             if length_type == "Longest Duration":
-                length = self.db.fetch_max_duration_by_event_type(event_type)
+                length = self.db.fetch_max_duration_by_event_type(event_type, event_subtype)
             elif length_type == "Shortest Duration":
-                length = self.db.fetch_min_duration_by_event_type(event_type)
+                length = self.db.fetch_min_duration_by_event_type(event_type, event_subtype)
             else:
-                length = self.db.fetch_avg_duration_by_event_type(event_type)
+                length = self.db.fetch_avg_duration_by_event_type(event_type, event_subtype)
 
             # Handle no data
             if length is None:
@@ -138,6 +138,8 @@ class LengthEvent:
 
             # Round the duration
             rounded_length = round(length)
+            if rounded_length is None:
+                return 0
 
             # Create a new window
             image_window = tk.Toplevel(self.master)

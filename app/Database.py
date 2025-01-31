@@ -41,7 +41,7 @@ class Database:
 
         return [row[0] for row in result]
     
-    def fetch_length_by_event_type(self, event_type):
+    def fetch_length_by_event_type(self, event_type, event_subtype=None):
         with self.engine.connect() as conn:
             query = (
                 select(func.sum(self.events_table.c.duration))
@@ -49,8 +49,11 @@ class Database:
                 .where(self.classification_table.c.Disaster_Type == event_type)
                 .where(self.events_table.c.duration.isnot(None))
             )
+            if event_subtype:
+                query = query.where(self.classification_table.c.Disaster_Subtype == event_subtype)
+
             result = conn.execute(query).scalar()
-        return result or 0
+        return result if result else 0
 
     def fetch_max_duration_by_event_type(self, event_type, event_subtype=None):
         with self.engine.connect() as conn:
